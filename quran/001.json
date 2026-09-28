@@ -1,1 +1,17 @@
-
+{
+  "type": "sura",
+  "surah_number": 1,
+  "name": "Al-Faatihah",
+  "arabic_name": "الْفَاتِحَة",
+  "revelation": "Makkah",
+  "ayah_count": 7,
+  "content": [
+    {"number": 1, "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", "translation": "Kwa Jina la Allaah Ar-Rahmaan, Ar-Rahiym."},
+    {"number": 2, "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ", "translation": "AlhamduliLlaah, Rabb wa walimwengu."},
+    {"number": 3, "arabic": "الرَّحْمَنِ الرَّحِيمِ", "translation": "Mwingi wa Rehma, Mwenye Kurehemu."},
+    {"number": 4, "arabic": "مَالِكِ يَوْمِ الدِّينِ", "translation": "Mfalme wa Siku ya Malipo."},
+    {"number": 5, "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ", "translation": "Wewe Pekee tunakuabudu na Wewe Pekee tunakuomba msaada."},
+    {"number": 6, "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ", "translation": "Tuongoze njia iliyonyooka."},
+    {"number": 7, "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ", "translation": "Njia ya wale Uliowaneemesha, si ya walioghadhibikiwa wala waliopotea."}
+  ]
+}
