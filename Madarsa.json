@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "category": "Qur-aan",
+    "type": "sura",
+    "title": "Al-Faatihah",
+    "subtitle": "Suurat Al-Faatihah | Aayah 7 | Makkah",
+    "image": "https://placehold.co/600x300?text=Al-Faatihah",
+    "file": "quran/001-Al-Faatihah.json"
+  },
+  {
+    "id": 2,
+    "category": "Qur-aan",
+    "type": "sura",
+    "title": "Al-Baqarah",
+    "subtitle": "Suurat Al-Baqarah | Aayah 286 | Madiynah",
+    "image": "https://placehold.co/600x300?text=Al-Baqarah",
+    "file": "quran/002-Al-Baqarah.json"
+  },
+  {
+    "id": 3,
+    "category": "Jihaad",
+    "type": "lesson",
+    "title": "Utangulizi",
+    "subtitle": "JIHAAD ni nini",
+    "image": "https://placehold.co/600x300?text=Biolojia",
+    "file": "Juhudi/Jihaad.json"
+  },
+  {
+    "id": 4,
+    "category": "Biolojia",
+    "type": "lesson",
+    "title": "Seli - Kiini cha Uhai",
+    "subtitle": "Aina za seli na kazi zake",
+    "image": "https://placehold.co/600x300?text=Seli",
+    "file": "biolojia/Seli.json"
+  },
+  {
+    "id": 5,
+    "category": "Biolojia",
+    "type": "lesson",
+    "title": "Mfumo wa Damu",
+    "subtitle": "Jinsi moyo na damu vinavyofanya kazi",
+    "image": "https://placehold.co/600x300?text=Damu",
+    "file": "biolojia/Damu.json"
+  },
+  {
+    "id": 6,
+    "category": "Historia",
+    "type": "lesson",
+    "title": "Afrika",
+    "subtitle": "Historia ya Afrika",
+    "image": "https://placehold.co/600x300?text=Afrika",
+    "file": "historia/Africa.json"
+  },
+  {
+    "id": 7,
+    "category": "Historia",
+    "type": "lesson",
+    "title": "Lumumba",
+    "subtitle": "Historia ya Patrice Lumumba",
+    "image": "https://placehold.co/600x300?text=Lumumba",
+    "file": "historia/Lumumba.json"
+  },
+  {
+    "id": 8,
+    "category": "Historia",
+    "type": "lesson",
+    "title": "Mbuga",
+    "subtitle": "Mbuga za Afrika",
+    "image": "https://placehold.co/600x300?text=Mbuga",
+    "file": "historia/Mbuga.json"
+  },
+  {
+    "id": 9,
+    "category": "Historia",
+    "type": "lesson",
+    "title": "Utumwa",
+    "subtitle": "Historia ya utumwa",
+    "image": "https://placehold.co/600x300?text=Utumwa",
+    "file": "historia/Utumwa.json"
+  }
+]
