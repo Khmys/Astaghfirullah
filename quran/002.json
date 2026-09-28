@@ -1,0 +1,14 @@
+{
+  "type": "sura",
+  "surah_number": 2,
+  "name": "Al-Baqarah",
+  "arabic_name": "الْبَقَرَة",
+  "revelation": "Madiynah",
+  "ayah_count": 286,
+  "source": "Alhidaaya.com",
+  "source_url": "https://www.alhidaaya.com/sw/002-al-baqarah",
+  "verses": [
+    {"number": 1, "arabic": "الم", "translation": "Alif Laam Miym."},
+    {"number": 2, "arabic": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ", "translation": "Hiki ni Kitabu kisicho na shaka ndani yake, ni mwongozo kwa wenye taqwa."}
+  ]
+}
