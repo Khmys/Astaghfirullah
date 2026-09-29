@@ -1,7 +1,8 @@
 [
   {
     "category": "Qur-aan",
-    "title": "Sura hii inaitwa Al-Faatihah, kwa kuwa Qur’ani tukufu inaanzia nayo. Pia inaitwa Al-Mathaani, kwa kuwa inasomwa katika kila rakaa. Na ina majina mengine.",
+    "title": "Al-Faatihah",
+    "subtitle": "Sura hii inaitwa Al-Faatihah, kwa kuwa Qur’ani tukufu inaanzia nayo. Pia inaitwa Al-Mathaani, kwa kuwa inasomwa katika kila rakaa. Na ina majina mengine.",
     "file": "quran/001.json",
     "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/images-3.jpeg"
   },
