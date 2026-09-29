@@ -6,7 +6,7 @@
     "title": "Al-Faatihah",
     "subtitle": "Suurat Al-Faatihah | Aayah 7 | Makkah",
     "image": "https://placehold.co/600x300?text=Al-Faatihah",
-    "file": "quran/001-Al-Faatihah.json"
+    "file": "quran/001.json"
   },
   {
     "id": 2,
@@ -15,16 +15,16 @@
     "title": "Al-Baqarah",
     "subtitle": "Suurat Al-Baqarah | Aayah 286 | Madiynah",
     "image": "https://placehold.co/600x300?text=Al-Baqarah",
-    "file": "quran/002-Al-Baqarah.json"
+    "file": "quran/002.json"
   },
   {
     "id": 3,
-    "category": "Jihaad",
-    "type": "lesson",
+    "category": "Qur-aan",
+    "type": "sura",
     "title": "Utangulizi",
     "subtitle": "JIHAAD ni nini",
-    "image": "https://placehold.co/600x300?text=Biolojia",
-    "file": "Juhudi/Jihaad.json"
+    "image": "https://placehold.co/600x300?text=jihaad",
+    "file": "Juhudi/jihaad.json"
   },
   {
     "id": 4,
