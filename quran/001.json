@@ -2,16 +2,53 @@
   "type": "sura",
   "surah_number": 1,
   "name": "Al-Faatihah",
-  "arabic_name": "الْفَاتِحَة",
+  "arabic_name": "سُورَةُ الْفَاتِحَةِ",
   "revelation": "Makkah",
   "ayah_count": 7,
+  "juz": 1,
+  "intro": "Sura hii inaitwa Al-Faatihah, kwa kuwa Qur’ani tukufu inaanzia nayo. Pia inaitwa Al-Mathaani, kwa kuwa inasomwa katika kila rakaa. Na ina majina mengine.",
   "content": [
-    {"number": 1, "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ", "translation": "Kwa Jina la Allaah Ar-Rahmaan, Ar-Rahiym."},
-    {"number": 2, "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ", "translation": "AlhamduliLlaah, Rabb wa walimwengu."},
-    {"number": 3, "arabic": "الرَّحْمَنِ الرَّحِيمِ", "translation": "Mwingi wa Rehma, Mwenye Kurehemu."},
-    {"number": 4, "arabic": "مَالِكِ يَوْمِ الدِّينِ", "translation": "Mfalme wa Siku ya Malipo."},
-    {"number": 5, "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ", "translation": "Wewe Pekee tunakuabudu na Wewe Pekee tunakuomba msaada."},
-    {"number": 6, "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ", "translation": "Tuongoze njia iliyonyooka."},
-    {"number": 7, "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ", "translation": "Njia ya wale Uliowaneemesha, si ya walioghadhibikiwa wala waliopotea."}
+    {
+      "number": 1,
+      "page": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation": "Naanza kusoma Qur’ani kwa jina la Allah Mtukufu nikiomba msaada Wake. «Allah» ni jina la Allah Mtukufu, Mwingi wa baraka Mwenye kutukuka, Anayestahiki kuabudiwa na si mwingine. Nalo ni jina mahsusi zaidi miongoni mwa majina ya Allah Mtukufu, na haitwi kwa jina hili yoyote isipokuwa Yeye Aliyetakasika na sifa za upungufu. «Ar-Rahmaan» Mwenye rehema nyingi Ambaye rehema Zake zimeenea viumbe vyote. «Ar-Rahiym» Mwenye kuwarehemu Waumini. Na majina mawili haya, kati ya majina ya Allah Mtukufu, yanakusanya uthibitishaji wa sifa ya rehema kwa Allah Mtukufu kama inavyonasibiana na haiba Yake."
+    },
+    {
+      "number": 2,
+      "page": 1,
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "translation": "Kila jinsi ya sifa njema ni ya Allah Mtukufu, Mwenye sifa ambazo zote ni za ukamilifu, Mwenye neema za nje na za ndani, za kidini na za kidunia. Na ndani yake kuna amri ya Allah Mtukufu kwa waja Wake wamsifu Yeye kwa kuwa Yeye Ndiye Mtahiki wa kusifiwa Pekee Yake."
+    },
+    {
+      "number": 3,
+      "page": 1,
+      "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "translation": "Mwingi wa rehema Ambaye rehema Zake zimewaenea viumbe vyote. Mwenye kuwarehemu Waumini. Na majina mawili haya ni miongoni mwa majina ya Allah Mtukufu."
+    },
+    {
+      "number": 4,
+      "page": 2,
+      "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+      "translation": "Na Yeye, tukasikia ni Kwake Peke Yake Ndiye Mwenye mamlaka ya Siku ya Qiyaama, nayo ni Siku ya Malipo kwa matendo yaliyofanywa na waja. Muislamu anaposoma aya hii katika kila rakaa, inamkumbusha siku ya Akhera na inamhimiza ajitayarishe kufanya matendo mema na kujiepusha na maasi na mabaya."
+    },
+    {
+      "number": 5,
+      "page": 2,
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "translation": "Sisi tunakuabudu wewe peke yako, na tunataka msaada kwako peke yako katika mambo yetu yote. Mambo yote yako mikononi mwako, hakuna asiyekuwa wewe anayemiliki chochote katika hayo hata kadiri ya uzito wa chungu mdogo. Katika aya hii kuna dalili ya kuwa mja hafai kuelekeza kitu chochote miongoni mwa aina za ibada, kama kuomba, kutaka kunusuriwa, kuchinja na kutufu, isipokuwa kwa Allah Mtukufu Peke Yake. Pia ndani yake kuna ponya ya moyo kutokana na ugonjwa wa kufungamana na asiyekuwa Allah Mtukufu, na kutokana na ugonjwa wa ria, kujiona na kiburi."
+    },
+    {
+      "number": 6,
+      "page": 2,
+      "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "translation": "Tuonyeshe, tuongoze na tupe tawfiki ya kuielekea njia iliyonyoka na ututhibitishe juu yake mpaka tukutane na wewe, nayo ni Uislamu ambao ndio njia iliyo wazi yenye kufikisha kwenye radhi za Allah Mtukufu na kwenye Pepo yake, njia tuliyoonyeshwa na aliyekuwa mwisho wa Mitume wa Allah Mtukufu na Manabii Wake, Muhammad, rehema za Allah Mtukufu na amani zimshukie, kwani hakuna kufaulu kwa njia isipokuwa kwa kusimama imara juu yake."
+    },
+    {
+      "number": 7,
+      "page": 3,
+      "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+      "translation": "Njia ya wale uliowaneemesha miongoni mwa Manabii, wakweli wa imani, mashahidi na wema. Wao ndio watu wa uongofu na kusimama imara. Na usitufanye kuwa miongoni mwa wale waliofutaa njia ya waliokasirika, wale walioijua haki na wasifuate kivitendo, nao ni Mayahudi na wale waliofanana na wao; wala usitufanye ni miongoni mwa wapotevu, nao ni wale ambao hawakuongoka kwa uinga waliokuwa nao, wakapotea njia, nao ni Wanaswara na waliofuata mwenendo wao. Katika dua hii kuna ponya ya moyo wa Muislamu ya ugonjwa wa ukanushaji, uinga na upotovu, na ni dalili kwamba neema kubwa zaidi kuliko zote ni neema ya Uislamu. Basi mwenye kuwa mjuzi zaidi wa haki na akawa mfuataji zaidi wa hiyo haki, basi huwa ni aula zaidi wa njia iliyonyoka. Na hapana shaka kwamba Mawswaha wa Mtume wa Allah Mtukufu, rehema za Allah Mtukufu na amani zimshukie, ndio watu aula zaidi wa hilo baada ya Manabii, amani iwashukie. Basi aya hii yaonyesha utukufu wao na ukubwa wa daraja yao, Allah Mtukufu Awe radhi nao. Ni sunna kwa msomaji aseme katika Swala baada ya kusoma Fatiha «Aamiyn», na maana yake ni: Ewe Mola! Takabali. Nayo si aya katika sura ya Fatiha kwa manafikiano ya wanavyuoni. Na kwa hiyo wamekubaliana kwa umoja wao kutoiandika kwenye Misahafu."
+    }
   ]
 }
