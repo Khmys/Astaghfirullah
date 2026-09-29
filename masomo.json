@@ -1,29 +1,20 @@
 [
   {
-    "id": 1,
     "category": "Qur-aan",
-    "type": "sura",
     "title": "Al-Faatihah",
-    "subtitle": "Suurat Al-Faatihah | Aayah 7 | Makkah",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/images-3.jpeg",
-    "file": "quran/001.json"
+    "file": "quran/001.json",
+    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/images-3.jpeg"
   },
   {
-    "id": 2,
     "category": "Qur-aan",
-    "type": "sura",
     "title": "Al-Baqarah",
-    "subtitle": "Suurat Al-Baqarah | Aayah 286 | Madiynah",
-    "image": "https://placehold.co/600x300.png?text=Al-Baqarah",
-    "file": "quran/002.json"
+    "file": "quran/002.json",
+    "image": "https://placehold.co/600x300.png?text=Al-Baqarah"
   },
   {
-    "id": 3,
     "category": "jihaad",
-    "type": "sura",
     "title": "Utangulizi",
-    "subtitle": "JIHAAD ni nini",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg",
-    "file": "Juhudi/jihaad.json"
+    "file": "Juhudi/jihaad.json",
+    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg"
   }
 ]
