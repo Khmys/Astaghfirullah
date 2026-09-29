@@ -90,8 +90,7 @@
   let masomo = [];
   let categoryActive = "Zote";
 
-  fetch("masomo.json
-")
+  fetch("masomo.json")
     .then(r => { if (!r.ok) throw new Error("Imeshindwa kupakia masomo.json"); return r.json(); })
     .then(data => {
       masomo = Array.isArray(data) ? data : [];
