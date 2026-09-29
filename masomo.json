@@ -79,5 +79,14 @@
     "subtitle": "Historia ya utumwa",
     "image": "https://placehold.co/600x300?text=Utumwa",
     "file": "historia/Utumwa.json"
+  },
+  {
+    "id": 10,
+    "category": "Jihaad",
+    "type": "lesson",
+    "title": "Utawala",
+    "subtitle": "Utawara wa Kiislam",
+    "image": "https://placehold.co/600x300?text=utawala",
+    "file": "Juhudi/jihaad.json"
   }
 ]
