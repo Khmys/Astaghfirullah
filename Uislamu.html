@@ -183,11 +183,11 @@
         return;
       }
     }
-    document.getElementById("lessonImage").classList.toggle("hidden", !!(content && content.type === "sura"));
+    document.getElementById("lessonImage").classList.toggle("hidden", !somo.image || !!(content && content.type === "sura"));
     document.getElementById("lessonView").classList.toggle("quran-reader", !!(content && content.type === "sura"));
     document.getElementById("lessonContent").innerHTML = content && content.type === "sura"
       ? pangaSura(content)
-      : (Array.isArray(content) ? pangaAya(content) : pangaRangiYaContent(content));
+      : (Array.isArray(content) ? pangaAya(content) : (content && typeof content === "object" ? pangaKitu(content) : pangaRangiYaContent(String(content || ""))));
   }
 
   function pangaSura(sura) {
@@ -236,6 +236,28 @@
       const niHeading = s === s.toUpperCase() && /[A-Z]/.test(s);
       return niHeading ? `<p class="content-heading">${escapeHtml(s)}</p>` : `<p class="content-body">${escapeHtml(s)}</p>`;
     }).join("");
+  }
+
+  // Huonyesha maudhui yoyote yaliyo object/list/string (mfano fadhila.json)
+  function pangaKitu(v, key = "") {
+    if (v == null) return "";
+    if (typeof v === "string") {
+      if (key === "kwaarabu") return `<p class="ayah-arabic">${escapeHtml(v)}</p>`;
+      if (key === "hadiyth" || key === "tafsiri" || key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
+      return pangaRangiYaContent(v);
+    }
+    if (Array.isArray(v)) return v.map(x => pangaKitu(x, key)).join("");
+    if (typeof v === "object") {
+      let html = "";
+      if (v.kichwa) html += `<p class="content-heading">${escapeHtml(v.kichwa)}</p>`;
+      if (v.sura && v.kwaarabu) html += `<div class="ayah-number">${escapeHtml(v.sura)}</div>`;
+      for (const [k, val] of Object.entries(v)) {
+        if (k === "kichwa" || k === "sura") continue;
+        html += pangaKitu(val, k);
+      }
+      return html;
+    }
+    return `<p class="content-body">${escapeHtml(v)}</p>`;
   }
 
   function escapeHtml(value) {
