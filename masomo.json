@@ -17,5 +17,9 @@
     "title": "Utangulizi",
     "file": "Juhudi/jihaad.json",
     "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg"
+  },
+  {"category": "jihaad",
+    "title": "Fadhira ya Jihaad",
+    "file": "Juhudi/fadhila.json"
   }
 ]
