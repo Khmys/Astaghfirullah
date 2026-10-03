@@ -71,6 +71,8 @@
   .quran-arabic-number { display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px; margin-left:4px; border:1px solid var(--tg-theme-button-color,#77c8dc); border-radius:50%; color:var(--tg-theme-link-color,#2498b9); font-family:serif; font-size:10px; vertical-align:middle; }
   @media (min-width:600px) { .quran-page { padding:24px 26px 28px; } .quran-translation { font-size:15px; line-height:1.58; } .quran-arabic-text { font-size:22px; } }
   .hidden { display:none !important; }
+  .ayah-arabic { color:#d32f2f !important; }
+  .content-quote.hadith { color:#1565c0; border-left-color:#1565c0; font-style:normal; }
 </style>
 </head>
 <body>
@@ -243,7 +245,8 @@
     if (v == null) return "";
     if (typeof v === "string") {
       if (key === "kwaarabu") return `<p class="ayah-arabic">${escapeHtml(v)}</p>`;
-      if (key === "hadiyth" || key === "tafsiri" || key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
+      if (key === "hadiyth") return `<p class="content-quote hadith">${escapeHtml(v)}</p>`;
+      if (key === "tafsiri" || key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
       return pangaRangiYaContent(v);
     }
     if (Array.isArray(v)) return v.map(x => pangaKitu(x, key)).join("");
