@@ -73,8 +73,20 @@
   .hidden { display:none !important; }
   button, input, textarea { font-family: inherit; }
   .ayah-arabic { color:#d32f2f !important; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
-  .tafsiri { color:#2e7d32; font-size:15px; line-height:1.7; margin:0 0 12px; }
   .content-quote.hadith { color:#1565c0; border-left-color:#1565c0; font-style:normal; }
+  .hadiyth-reader { background:#c6cdb8; border-radius:10px; padding:12px; color:#222; }
+  .hadiyth-reader .reader-head h2, .hadiyth-reader .reader-meta { color:#222; }
+  .hd-head { text-align:center; margin:6px 0 18px; font-weight:700; }
+  .hd-head .ar { direction:rtl; font-size:26px; color:#0000ee; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  .hd-head .sw { font-size:18px; color:#222; margin-bottom:8px; }
+  .hd-item { margin:0 0 34px; }
+  .hd-ar { direction:rtl; text-align:right; color:#0000ee; font-size:22px; line-height:2; margin:0 0 14px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  .hd-sw { color:#222; font-size:16px; line-height:1.7; margin:0 0 14px; }
+  .hd-sw .msimulizi { color:#0000ee; }
+  .hd-sw .chanzo { font-style:italic; }
+  .aya-red { color:#e00000; font-weight:700; }
+  .hd-ufa-title { text-align:center; text-decoration:underline; font-weight:700; margin:16px 0 8px; }
+  .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
 </style>
 </head>
 <body>
@@ -180,7 +192,7 @@
         const res = await fetch(somo.file);
         if (!res.ok) throw new Error("Imeshindwa kupakia " + somo.file);
         const data = await res.json();
-        content = data.type === "sura" ? data : (data.content || "");
+        content = (data.type === "sura" || data.type === "hadiyth") ? data : (data.content || "");
       } catch (error) {
         console.error(error);
         document.getElementById("lessonContent").innerHTML = "<p class=\"content-body\">Samahani, imeshindwa kupakia somo hili.</p>";
@@ -188,8 +200,11 @@
       }
     }
     document.getElementById("lessonImage").classList.toggle("hidden", !somo.image || !!(content && content.type === "sura"));
+    document.getElementById("lessonView").classList.toggle("hadiyth-reader", !!(content && content.type === "hadiyth"));
     document.getElementById("lessonView").classList.toggle("quran-reader", !!(content && content.type === "sura"));
-    document.getElementById("lessonContent").innerHTML = content && content.type === "sura"
+    document.getElementById("lessonContent").innerHTML = content && content.type === "hadiyth"
+      ? pangaHadiyth(content)
+      : content && content.type === "sura"
       ? pangaSura(content)
       : (Array.isArray(content) ? pangaAya(content) : (content && typeof content === "object" ? pangaKitu(content) : pangaRangiYaContent(String(content || ""))));
   }
@@ -248,9 +263,7 @@
     if (typeof v === "string") {
       if (key === "kwaarabu") return `<p class="ayah-arabic">${escapeHtml(v)}</p>`;
       if (key === "hadiyth") return `<p class="content-quote hadith">${escapeHtml(v)}</p>`;
-      if (key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
-      if (key === "tafsiri") return `<p class="tafsiri">${escapeHtml(v)}</p>`;
-      
+      if (key === "tafsiri" || key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
       return pangaRangiYaContent(v);
     }
     if (Array.isArray(v)) return v.map(x => pangaKitu(x, key)).join("");
@@ -265,6 +278,25 @@
       return html;
     }
     return `<p class="content-body">${escapeHtml(v)}</p>`;
+  }
+
+  // [[maandishi]] = nyekundu (aya), {{maandishi}} = italiki
+  function alama(t) {
+    return escapeHtml(t || "")
+      .replace(/\[\[(.+?)\]\]/g, '<span class="aya-red">$1</span>')
+      .replace(/\{\{(.+?)\}\}/g, '<i>$1</i>');
+  }
+
+  function pangaHadiyth(d) {
+    const head = `<div class="hd-head">
+      <div class="ar">${escapeHtml(d.kitabu_ar || "")}</div><div class="sw">${escapeHtml(d.kitabu || "")}</div>
+      <div class="ar">${escapeHtml(d.sura_ar || "")}</div><div class="sw">${escapeHtml(d.sura || "")}</div></div>`;
+    const items = (d.hadiyth || []).map(h => `<div class="hd-item">
+      <p class="hd-ar">${alama(h.kwaarabu)}</p>
+      <p class="hd-sw"><span class="msimulizi">${escapeHtml(h.msimulizi || "")}</span> ${alama(h.tafsiri)}${h.chanzo ? ` <span class="chanzo">[${escapeHtml(h.chanzo)}]</span>` : ""}</p>
+      ${(h.ufafanuzi && h.ufafanuzi.length) ? `<p class="hd-ufa-title">UFAFANUZI</p>` + [].concat(h.ufafanuzi).map(u => `<p class="hd-ufa">${alama(u)}</p>`).join("") : ""}
+    </div>`).join("");
+    return head + items;
   }
 
   function escapeHtml(value) {
