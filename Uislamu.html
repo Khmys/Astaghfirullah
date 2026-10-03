@@ -88,6 +88,12 @@
   .aya-red { color:#e00000; font-weight:700; }
   .hd-ufa-title { text-align:center; text-decoration:underline; font-weight:700; margin:16px 0 8px; }
   .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
+  mark { background:#ffe066; color:#000; border-radius:3px; padding:0 1px; }
+  mark.cur { background:#ff9f1c; }
+  .snippet { font-size:12.5px; line-height:1.5; color:var(--tg-theme-hint-color,#777); margin-top:6px; unicode-bidi:plaintext; overflow-wrap:anywhere; }
+  #matchBar { position:fixed; left:50%; transform:translateX(-50%); bottom:calc(16px + env(safe-area-inset-bottom)); z-index:20; display:flex; align-items:center; gap:6px; background:var(--tg-theme-button-color,#2481cc); color:#fff; border-radius:999px; padding:6px 12px; box-shadow:0 3px 12px rgba(0,0,0,.3); font-size:14px; }
+  #matchBar button { border:0; background:transparent; color:inherit; font-size:18px; padding:4px 10px; }
+  #searchInput::-webkit-search-cancel-button, #searchInput::-webkit-search-decoration { -webkit-appearance:none; display:none; }
 </style>
 </head>
 <body>
@@ -109,6 +115,8 @@
   <div id="lessonMeta" class="reader-meta"></div>
   <div id="lessonContent"></div>
 </div>
+
+<div id="matchBar" class="hidden"><button id="prevM" aria-label="Iliyotangulia">▲</button><span id="matchInfo"></span><button id="nextM" aria-label="Inayofuata">▼</button></div>
 
 <script>
   const tg = window.Telegram.WebApp;
@@ -133,6 +141,7 @@
       loadingMsg.classList.add("hidden");
       tengenezaCategories();
       choraOrodha();
+      jengaIndex();
     })
     .catch(error => {
       loadingMsg.textContent = "Samahani, imeshindwa kupakia masomo. Jaribu tena baadaye.";
@@ -149,17 +158,101 @@
     }));
   }
 
+  // ===== Utafutaji wa kila kitu (kichwa, maelezo, Kiswahili, Kiarabu, ndani ya masomo yote) =====
+  const MARKS = /[\u0300-\u036f\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g;
+  const AR_FIX = { "ٱ":"ا", "ى":"ي", "ة":"ه" };
+  function normChar(c) {
+    return c.normalize("NFD").replace(MARKS, "").toLowerCase()
+      .replace(/[’‘'`\-–—]/g, "").replace(/[ٱىة]/g, m => AR_FIX[m]);
+  }
+  // Inarudisha maandishi yaliyosafishwa + ramani ya nafasi kurudi kwenye maandishi halisi.
+  // Pia: aa=a, ee=e, uu=u (Allaah=Allah, Jihaad=Jihad, Qur-aan=Quran).
+  function normMap(t) {
+    t = String(t == null ? "" : t); let out = ""; const map = [];
+    for (let i = 0; i < t.length; i++) {
+      for (const ch of normChar(t[i])) {
+        if ("aeiou".includes(ch) && out.endsWith(ch)) continue;
+        out += ch; for (let k = 0; k < ch.length; k++) map.push(i);
+      }
+    }
+    return { out, map };
+  }
+  const norm = t => normMap(t).out;
+  function queryWords() { return norm(searchInput.value).split(/\s+/).filter(Boolean); }
+
+  function maandishiYote(v, acc = []) {
+    if (typeof v === "string") { if (v.trim()) acc.push(v); }
+    else if (Array.isArray(v)) v.forEach(x => maandishiYote(x, acc));
+    else if (v && typeof v === "object") Object.values(v).forEach(x => maandishiYote(x, acc));
+    return acc;
+  }
+
+  // Pakia maudhui ya kila somo nyuma ya pazia ili utafutaji uyaone
+  let indexPending = 0;
+  function jengaIndex() {
+    masomo.forEach(somo => {
+      if (!somo.file || somo._index) return;
+      indexPending++;
+      fetch(somo.file).then(r => r.ok ? r.json() : null).then(data => {
+        if (!data) return;
+        somo._segs = maandishiYote(data).map(t => ({ t, n: norm(t) }));
+        somo._index = somo._segs.map(x => x.n).join(" \n ");
+      }).catch(() => {}).finally(() => { indexPending--; if (searchInput.value.trim()) choraOrodha(); });
+    });
+  }
+
+  // Weka alama ya njano kwenye maneno yaliyotafutwa ndani ya kipengele (root)
+  function highlightIn(root, words) {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      const text = node.nodeValue; const { out, map } = normMap(text);
+      let ranges = [];
+      words.forEach(w => {
+        let i = out.indexOf(w);
+        while (i !== -1) {
+          let end = map[i + w.length - 1] + 1;
+          while (end < text.length && normChar(text[end]) === "") end++;   // harakat za Kiarabu
+          ranges.push([map[i], end]); i = out.indexOf(w, i + w.length);
+        }
+      });
+      if (!ranges.length) return;
+      ranges.sort((a, b) => a[0] - b[0]);
+      const merged = [ranges[0].slice()];
+      for (const r of ranges.slice(1)) { const l = merged[merged.length - 1]; if (r[0] <= l[1]) l[1] = Math.max(l[1], r[1]); else merged.push(r.slice()); }
+      const frag = document.createDocumentFragment(); let pos = 0;
+      merged.forEach(([s0, e0]) => {
+        if (s0 > pos) frag.appendChild(document.createTextNode(text.slice(pos, s0)));
+        const m = document.createElement("mark"); m.textContent = text.slice(s0, e0); frag.appendChild(m); pos = e0;
+      });
+      if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.replaceWith(frag);
+    });
+  }
+
+  // Kipande cha maandishi kinachoonyesha neno lilipopatikana
+  function snippetFor(somo, words) {
+    const segs = somo._segs || [];
+    const seg = segs.find(x => words.every(w => x.n.includes(w))) || segs.find(x => words.some(w => x.n.includes(w)));
+    if (!seg) return "";
+    const { out, map } = normMap(seg.t);
+    const w = words.find(w => out.includes(w)); const p = out.indexOf(w);
+    const st = map[Math.max(0, p - 45)], en = map[Math.min(map.length - 1, p + 110)] + 1;
+    return (st > 0 ? "… " : "") + seg.t.slice(st, en).trim() + (en < seg.t.length ? " …" : "");
+  }
+
   function choraOrodha() {
-    const query = searchInput.value.trim().toLowerCase();
+    const words = queryWords();
     const filtered = masomo.filter(somo => {
       const category = somo.category || "Mengineyo";
       const matchesCategory = categoryActive === "Zote" || category === categoryActive;
-      const haystack = `${somo.title || ""} ${somo.subtitle || ""} ${somo.content || ""} ${category}`.toLowerCase();
-      return matchesCategory && haystack.includes(query);
+      const haystack = norm(`${somo.title || ""} ${somo.subtitle || ""} ${typeof somo.content === "string" ? somo.content : ""} ${category}`) + " " + (somo._index || "");
+      return matchesCategory && words.every(w => haystack.includes(w));
     });
 
     listContainer.innerHTML = "";
     count.textContent = `${filtered.length}/${masomo.length}`;
+    emptyMsg.textContent = (words.length && indexPending > 0) ? "Inatafuta ndani ya masomo..." : "Hakuna somo lililopatikana.";
     emptyMsg.classList.toggle("hidden", filtered.length !== 0);
 
     filtered.forEach(somo => {
@@ -172,9 +265,31 @@
           <div class="subtitle">${escapeHtml(somo.subtitle || "")}</div>
           <span class="category-label">${escapeHtml(somo.category || "Mengineyo")}</span>
         </div><span class="arrow">›</span>`;
+      if (words.length) {
+        const sn = snippetFor(somo, words);
+        if (sn) { const d = document.createElement("div"); d.className = "snippet"; d.dir = "auto"; d.textContent = sn; highlightIn(d, words); item.querySelector(".info").appendChild(d); }
+      }
       item.addEventListener("click", () => funguaSomo(somo));
       listContainer.appendChild(item);
     });
+  }
+
+  // Upau wa kuruka kati ya maneno yaliyopatikana ndani ya somo
+  let marks = [], curMark = -1;
+  function onyeshaMatches() {
+    const words = queryWords(); const bar = document.getElementById("matchBar");
+    marks = []; curMark = -1;
+    if (words.length) { highlightIn(document.getElementById("lessonContent"), words); marks = [...document.querySelectorAll("#lessonContent mark")]; }
+    bar.classList.toggle("hidden", marks.length === 0);
+    if (marks.length) ruka(0);
+  }
+  function ruka(i) {
+    if (!marks.length) return;
+    if (marks[curMark]) marks[curMark].classList.remove("cur");
+    curMark = (i + marks.length) % marks.length;
+    marks[curMark].classList.add("cur");
+    marks[curMark].scrollIntoView({ block: "center", behavior: "smooth" });
+    document.getElementById("matchInfo").textContent = `${curMark + 1}/${marks.length}`;
   }
 
   async function funguaSomo(somo) {
@@ -208,6 +323,7 @@
       : content && content.type === "sura"
       ? pangaSura(content)
       : (Array.isArray(content) ? pangaAya(content) : (content && typeof content === "object" ? pangaKitu(content) : pangaRangiYaContent(String(content || ""))));
+    onyeshaMatches();
   }
 
   function pangaSura(sura) {
@@ -243,6 +359,7 @@
 
   function rudiOrodhani() {
     document.getElementById("lessonView").style.display = "none";
+    document.getElementById("matchBar").classList.add("hidden");
     document.getElementById("lessonList").classList.remove("hidden");
     tg.BackButton.hide();
     window.scrollTo(0, 0);
@@ -312,6 +429,8 @@
     choraOrodha();
   });
   clearSearch.addEventListener("click", () => { searchInput.value = ""; clearSearch.style.display = "none"; choraOrodha(); searchInput.focus(); });
+  document.getElementById("prevM").addEventListener("click", () => ruka(curMark - 1));
+  document.getElementById("nextM").addEventListener("click", () => ruka(curMark + 1));
   tg.BackButton.onClick(rudiOrodhani);
 </script>
 </body>
