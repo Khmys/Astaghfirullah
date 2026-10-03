@@ -73,6 +73,7 @@
   .hidden { display:none !important; }
   button, input, textarea { font-family: inherit; }
   .ayah-arabic { color:#d32f2f !important; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  .tafsiri { color:#2e7d32; font-size:15px; line-height:1.7; margin:0 0 12px; }
   .content-quote.hadith { color:#1565c0; border-left-color:#1565c0; font-style:normal; }
   .hadiyth-reader { background:#c6cdb8; border-radius:10px; padding:12px; color:#222; }
   .hadiyth-reader .reader-head h2, .hadiyth-reader .reader-meta { color:#222; }
@@ -263,7 +264,8 @@
     if (typeof v === "string") {
       if (key === "kwaarabu") return `<p class="ayah-arabic">${escapeHtml(v)}</p>`;
       if (key === "hadiyth") return `<p class="content-quote hadith">${escapeHtml(v)}</p>`;
-      if (key === "tafsiri" || key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
+      if (key === "maelezo_ya_wanachuoni") return `<p class="content-quote">${escapeHtml(v)}</p>`;
+      if (key === "tafsiri") return `<p class="tafsiri">${escapeHtml(v)}</p>`;
       return pangaRangiYaContent(v);
     }
     if (Array.isArray(v)) return v.map(x => pangaKitu(x, key)).join("");
