@@ -292,8 +292,9 @@
       <div class="ar">${escapeHtml(d.kitabu_ar || "")}</div><div class="sw">${escapeHtml(d.kitabu || "")}</div>
       <div class="ar">${escapeHtml(d.sura_ar || "")}</div><div class="sw">${escapeHtml(d.sura || "")}</div></div>`;
     const items = (d.hadiyth || []).map(h => `<div class="hd-item">
-      <p class="hd-ar">${alama(h.kwaarabu)}</p>
+      ${[].concat(h.kwaarabu || []).map(a => `<p class="hd-ar">${alama(a)}</p>`).join("")}
       <p class="hd-sw"><span class="msimulizi">${escapeHtml(h.msimulizi || "")}</span> ${alama(h.tafsiri)}${h.chanzo ? ` <span class="chanzo">[${escapeHtml(h.chanzo)}]</span>` : ""}</p>
+      ${[].concat(h.zaidi || []).map(z => `<p class="hd-sw">${alama(z)}</p>`).join("")}
       ${(h.ufafanuzi && h.ufafanuzi.length) ? `<p class="hd-ufa-title">UFAFANUZI</p>` + [].concat(h.ufafanuzi).map(u => `<p class="hd-ufa">${alama(u)}</p>`).join("") : ""}
     </div>`).join("");
     return head + items;
