@@ -18,8 +18,15 @@
     "file": "Juhudi/jihaad.json",
     "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg"
   },
-  {"category": "jihaad",
+  {
+    "category": "jihaad",
     "title": "Fadhila za Jihaad",
     "file": "Juhudi/fadhila.json"
+  },
+  {
+    "category": "jihaad",
+    "title": "Buluwgh Al-Maraam: Kitabu cha Jihaad",
+    "subtitle": "Hadiyth pamoja na ufafanuzi",
+    "file": "Juhudi/buluwgh.json"
   }
 ]
