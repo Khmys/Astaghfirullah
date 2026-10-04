@@ -88,6 +88,14 @@
   .aya-red { color:#e00000; font-weight:700; }
   .hd-ufa-title { text-align:center; text-decoration:underline; font-weight:700; margin:16px 0 8px; }
   .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
+  /* Vipengele vya somo la jumla (blocks) */
+  .content-note { background:var(--tg-theme-secondary-bg-color,#fff8e1); border-left:4px solid #f9a825; padding:11px 14px; margin:12px 0; border-radius:8px; font-size:15px; line-height:1.7; }
+  .content-green-quote { background:#fff; border:2.5px solid #4caf50; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
+  .content-src { display:block; margin-top:6px; font-size:12.5px; font-style:italic; opacity:.75; }
+  .content-list { margin:0 0 12px; padding-left:1.4em; font-size:15px; line-height:1.72; }
+  .content-list li { margin-bottom:5px; }
+  .content-hr { border:0; border-top:1px solid var(--tg-theme-hint-color,#aaa); opacity:.4; margin:18px 0; }
+  .content-img { width:100%; max-height:260px; object-fit:cover; border-radius:var(--radius); margin:10px 0; }
   mark { background:#ffe066; color:#000; border-radius:3px; padding:0 1px; }
   mark.cur { background:#ff9f1c; }
   .snippet { font-size:12.5px; line-height:1.5; color:var(--tg-theme-hint-color,#777); margin-top:6px; unicode-bidi:plaintext; overflow-wrap:anywhere; }
@@ -308,22 +316,72 @@
         const res = await fetch(somo.file);
         if (!res.ok) throw new Error("Imeshindwa kupakia " + somo.file);
         const data = await res.json();
-        content = (data.type === "sura" || data.type === "hadiyth") ? data : (data.content || "");
+        content = (RENDERERS[data.type] || Array.isArray(data.blocks)) ? data : (data.content || "");
       } catch (error) {
         console.error(error);
         document.getElementById("lessonContent").innerHTML = "<p class=\"content-body\">Samahani, imeshindwa kupakia somo hili.</p>";
         return;
       }
     }
-    document.getElementById("lessonImage").classList.toggle("hidden", !somo.image || !!(content && content.type === "sura"));
-    document.getElementById("lessonView").classList.toggle("hadiyth-reader", !!(content && content.type === "hadiyth"));
-    document.getElementById("lessonView").classList.toggle("quran-reader", !!(content && content.type === "sura"));
-    document.getElementById("lessonContent").innerHTML = content && content.type === "hadiyth"
-      ? pangaHadiyth(content)
-      : content && content.type === "sura"
-      ? pangaSura(content)
+    const R = (content && typeof content === "object" && !Array.isArray(content))
+      ? (RENDERERS[content.type] || (Array.isArray(content.blocks) ? RENDERERS.somo : null)) : null;
+    document.getElementById("lessonImage").classList.toggle("hidden", !somo.image || !!(R && R.hideImage));
+    document.getElementById("lessonView").className = (R && R.cls) || "";
+    document.getElementById("lessonContent").innerHTML = R
+      ? R.render(content)
       : (Array.isArray(content) ? pangaAya(content) : (content && typeof content === "object" ? pangaKitu(content) : pangaRangiYaContent(String(content || ""))));
     onyeshaMatches();
+  }
+
+  // ===== REJISTA YA WACHORAJI =====
+  // Kila JSON ina "type". Aina mpya ukitaka: ongeza mstari mmoja hapa.
+  //   render   = function inayopokea JSON na kurudisha HTML
+  //   cls      = class ya ukurasa (hiari)
+  //   hideImage= ficha picha ya juu (hiari)
+  const RENDERERS = {
+    sura:    { render: d => pangaSura(d),    cls: "quran-reader",   hideImage: true },  // Qur'ani (haibadiliki)
+    hadiyth: { render: d => pangaHadiyth(d), cls: "hadiyth-reader" },
+    somo:    { render: d => pangaBlocks(d) }                                            // somo la jumla
+  };
+
+  // Somo la jumla: { "type":"somo", "blocks":[ {...}, {...} ] }
+  // Vipengele (t): h, p, quote, arabic, ayah, hadith, list, note, hr, img
+  // Ndani ya maandishi: [[nyekundu]]  {{italiki}}  **nzito**
+  function pangaBlocks(d) {
+    const txt = b => b.text != null ? b.text : (b.maandishi != null ? b.maandishi : "");
+    const src = b => (b.source || b.chanzo) ? `<span class="content-src">${escapeHtml(b.source || b.chanzo)}</span>` : "";
+    const blocks = (d.blocks || []).map(b => {
+      if (typeof b === "string") return `<p class="content-body">${alama(b)}</p>`;
+      switch ((b.t || b.type || "p").toLowerCase()) {
+        case "h": case "heading": case "kichwa":
+          return `<p class="content-heading">${alama(txt(b))}</p>`;
+        case "quote": case "nukuu":
+          return `<p class="content-quote">${alama(txt(b))}${src(b)}</p>`;
+        case "arabic": case "kiarabu":
+          return `<p class="ayah-arabic">${escapeHtml(b.arabic || txt(b))}</p>`;
+        case "ayah": case "aya":
+          return `<div class="ayah-block">${b.sura ? `<div class="ayah-number">${escapeHtml(b.sura)}</div>` : ""}`
+            + (b.arabic ? `<p class="ayah-arabic">${escapeHtml(b.arabic)}</p>` : "")
+            + (txt(b) ? `<p class="tafsiri">${alama(txt(b))}</p>` : "") + `</div>`;
+        case "hadith": case "hadiyth":
+          return (b.arabic ? `<p class="ayah-arabic">${escapeHtml(b.arabic)}</p>` : "")
+            + `<p class="content-quote hadith">${alama(txt(b))}${src(b)}</p>`;
+        case "list": case "orodha": {
+          const tag = b.ordered ? "ol" : "ul";
+          return `<${tag} class="content-list">${(b.items || []).map(i => `<li>${alama(i)}</li>`).join("")}</${tag}>`;
+        }
+        case "green_quote": case "nukuu_kijani":
+          return `<div class="content-green-quote">${alama(txt(b))}</div>`;
+        case "note": case "dokezo":
+          return `<div class="content-note">${alama(txt(b))}</div>`;
+        case "hr": return `<hr class="content-hr">`;
+        case "img": case "picha":
+          return `<img class="content-img" src="${escapeAttr(b.src || "")}" alt="">`;
+        default: // aina isiyojulikana: onyesha maandishi kama aya ya kawaida
+          return txt(b) ? `<p class="content-body">${alama(txt(b))}</p>` : "";
+      }
+    }).join("");
+    return blocks;
   }
 
   function pangaSura(sura) {
@@ -403,7 +461,8 @@
   function alama(t) {
     return escapeHtml(t || "")
       .replace(/\[\[(.+?)\]\]/g, '<span class="aya-red">$1</span>')
-      .replace(/\{\{(.+?)\}\}/g, '<i>$1</i>');
+      .replace(/\{\{(.+?)\}\}/g, '<i>$1</i>')
+      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
   }
 
   function pangaHadiyth(d) {
