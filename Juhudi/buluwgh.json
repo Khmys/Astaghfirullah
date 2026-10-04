@@ -1,432 +1,1110 @@
 {
- "type": "hadiyth",
- "kitabu_ar": "بُلُوغُ الْمَرام",
- "kitabu": "Buluwgh Al-Maraam",
- "sura_ar": "كِتَابُ اَلْجِهَادِ",
- "sura": "Kitabu cha Jihaad",
- "hadiyth": [
-  {
-   "kwaarabu": "عَنْ أَبِي هُرَيْرَةَ رَ ضِيَ اَللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" مَنْ مَاتَ وَلَمْ يَغْزُ، وَلَمْ يُحَدِّثْ نَفْسَهُ بِهِ، مَاتَ عَلَى شُعْبَةٍ مِنْ نِفَاقٍ\"} رَوَاهُ مُسْلِمٌ",
-   "msimulizi": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Anayekufa na hakupigana Jihaad, wala asiizungumzise nafsi yake hilo, amekufa akiwa na sehemu ya unafiki.”",
-   "chanzo": "Imetolewa na Muslim",
-   "ufafanuzi": [
-    "Jihaad kilugha ina maana ya juhudi na jitihada kuendea jambo fulani. Katika Istwilaah ya kishariy’ah neno hili hutumika kwa maana ya vita dhidi ya makafiri. Wakati mwingine hutumika kwa maana ya jitihada dhidi ya shaytwaan au dhidi ya uadui unaoelekezwa kwa Uislamu na Waislam.",
-    "Jihaad linatumika kila wakati, wakati mwingine ni kwa panga, wakati mwingine kwa kutumia fedha na wakati mwingine kwa maneno na maandishi. Muislam akipata wasaa huo basi na aweke niyyah kuhusiana nayo. Mtu ambaye hakufikiria kabisa na hakulipa uzito jambo hili ni mnafiki."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ أَنَسٍ رضى الله عنه أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ: {\" جَاهِدُوا اَلْمُشْرِكِينَ بِأَمْوَالِكُمْ، وَأَنْفُسِكُمْ، وَأَلْسِنَتِكُمْ\"} رَوَاهُ أَحْمَدُ، وَالنَّسَائِيُّ، وَصَحَّحَهُ اَلْحَاكِمُ",
-   "msimulizi": "Kutoka kwa Anas (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Piganeni na washirikina kwa mali yenu, nafsi zenu na ndimi zenu.”",
-   "chanzo": "Imetolewa na Ahmad na An-Nasaaiy na akaisahihisha Al-Haakim",
-   "ufafanuzi": [
-    "Hadiyth hii inazungumzia kulingana na mahitaji ya wakati uliopo, Jihaad ni faradhi kwa kila Muumin, hiyo ni katika kila zama. Ikiwa mtu huyo hajali wala haoni umuhimu wake, basi hakuna tofauti yake kuwa kwake Muumin na wengine kuwa kwao makafiri. Jihaad ya ulimi inahusisha kutumia hoja na hekima katika kuwalingania watu katika ukweli na kwa Allaah."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عَائِشَةَ رَضِيَ اَللَّهُ عَنْهَا قَالَتْ: {قُلْتُ: يَا رَسُولَ اَللَّهِ ! عَلَى اَلنِّسَاءِ جِهَادٌ؟ قَالَ: \"نَعَمْ. جِهَادٌ لَا قِتَالَ فِيهِ، اَلْحَجُّ وَالْعُمْرَةُ\"}. رَوَاهُ اِبْنُ مَاجَه وَأَصْلُهُ فِي اَلْبُخَارِيِّ",
-   "msimulizi": "Kutoka kwa ‘Aaishah (رَضِيَ اللَّهُ عَنْهَا)",
-   "tafsiri": "amesema: “Nilisema Ee Rasuli wa Allaah! Je ni juu ya wanawake Jihaad? Akasema ndio jihaad isiyokuwa na mapambano ndani yake, nayo ni Hajj na ‘Umrah.”",
-   "chanzo": "Imetolewa na Ibn Maajah na asili ya Hadiyth imo katika Swahiyh Al-Bukhaariy",
-   "ufafanuzi": [
-    "Katika hali hii ni kuwa Jihaad ya silaha, mapigano na vita si wajibu kwa mwanamke. Kwa kufanya kwake Hijjah na ‘Umrah mwanamke anapata malipo kama ya mwanamme aliyeshiriki vita vya Jihaad."
-   ]
-  },
-  {
-   "kwaarabu": [
-    "وَعَنْ عَبْدِ اَللَّهِ بْنِ عَمْرِوٍ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {جَاءَ رَجُلٌ إِلَى اَلنَّبِيِّ صلى الله عليه وسلم يَسْتَأْذِنُهُ فِي اَلْجِهَادِ. فَقَالَ: \" أَ حَيٌّ وَالِدَاكَ؟\" ، قَالَ: نَعَمْ: قَالَ: \" فَفِيهِمَا فَجَاهِدْ\"} مُتَّفَقٌ عَلَيْهِ",
-    "وَلِأَحْمَدَ، وَأَبِي دَاوُدَ: مِنْ حَدِيثِ أَبِي سَعِيدٍ نَحْوُهُ، وَزَادَ: {\"اِرْجِعْ فَاسْتَأْذِنْهُمَا، فَإِنْ أَذِنَا لَكَ، وَإِلَّا فَبِرَّهُمَا\"}"
-   ],
-   "msimulizi": "Kutoka kwa ‘Abdullaah bin ‘Amr (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema: “Mtu mmoja alikuja kwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anaomba idhini aende katika Jihaad. Akasema: ‘Je wazazi wako wako hai?’ Akasema: ‘Ndio’ Akasema: ‘kwao wao pigana Jihaad.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "zaidi": [
-    "Na Ahmad na Abuu Daawuwd wameipokea Hadiyth kama hii kutoka kwa Abuu Sa’iyd na wakaongezea: “Rudi kawaombe idhini, wakikupa idhini sawa, vinginevyo watendee wema.”"
-   ],
-   "ufafanuzi": [
-    "Hadiyth hii ni dalili kuwa kabla ya kuenda vitani ni vizuri mtu kuomba ruhsa ya wazazi wawili maadamu ni Waislam. Hairuhusiwi kwa yeyote kuenda kwenye uwanja wa vita kama wazazi wake hawataki, kwa kuwa katika kuwahudumia wao kadhalika ni katika wajibu wake binafsi. Hata hivyo, ruhsa yao haitakiwi katika Jihaad ya wajibu, pindi mtu atakapoitwa na kiongozi wa Kiislam."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ جَرِيرٍ الْبَجَلِيِّ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"أَنَا بَرِئٌ مِنْ كُلِّ مُسْلِمٍ يُقِيمُ بَيْنَ اَلْمُشْرِكِينَ\"} رَوَاهُ اَلثَّلَاثَةُ وَإِسْنَادُهُ صَحِيحٌ، وَرَجَّحَ اَلْبُخَارِيُّ إِرْسَالَهُ",
-   "msimulizi": "Kutoka kwa Jariyr Al-Bajaliyy (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mimi niko mbali na kila Muislam anayeishi miongoni mwa washirikina.”",
-   "chanzo": "Imetolewa na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na isnaad yake ni sahihi. Na Al-Bukhaariy ameitilia nguvu kuwa ni Mursal",
-   "ufafanuzi": [
-    "Huyu ni Abuu ‘Amr Jariyr bin ‘Abdillaah bin Jaabir Al-Bajaliyy ambaye alisilimu mwaka wa 10 Hijriyyah. Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimtandikia kitambaa akalie na akamtuma kwa watu wa Dhil Khalasa na kuwaangamiza. Alikaa Yaman akiitumikia Dola ya Kiislam wakati wa Nabiy. Anaelezea hali yake kwa kusema: “Tokea niliposilimu kila mara Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anaponiona hutabasamu.” Alishiriki katika kuifungua Al-Madayn na alikuwa katika kamandi ya kuume katika jeshi la Waislam katika vita vya Al-Qadisiya. Alikuwa akijulikana kama Yuwsuf wa Ummat huu. Alikufa mwaka 52 au 54 Hijriyyah.",
-    "Wakati huo Waislam walikuwa ni wachache sana na ilikuwa ni muhimu sana kwao kuimarisha ngome yao Madiynah. Uislam usingewezekana bila ya kuhama. Kuhama ilikuwa ni wajibu kwa waliyoweza. Hadiyth hii iliyopokewa na Jariyr ilizungumzwa wakati huo. Hata hivyo, pindi ufunguzi wa Makkah ulipofanikiwa na makabila mbalimbali ya kiarabu kuanza kuingia katika Uislam kwa makundi makundi kila siku, na hivyo kuifanya dola ya Kiislam ipanuke, wakati huo tena suala la kuhamia kuenda Madiynah halikuwa la lazima. Tunasoma katika Hadiyth ifuatayo iliyoripotiwa na Ibn ‘Abbaas inahusu jambo hili hili. Hadi leo hii, ikiwa mtu kachoshwa na ni mwenye dhiki kubwa katika Daarul-kufr (Miji na chi za makafiri), ni wajibu kwake kuhamia katika Daarul-Islaam (nchi za Kiislam)."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ اِبْنِ عَبَّاسٍ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" لَا هِجْرَةَ بَعْدَ اَلْفَتْحِ، وَلَكِنْ جِهَادٌ وَنِيَّةٌ\"} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Ibn ‘Abbaas (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Hakuna Hijrah baada ya Fat-h kilichobakia ni Jihaad na niyyah.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Makkah kuelekea Madiynah.",
-    "Ufunguzi wa mji wa Makkah."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ أَبِي مُوسَى اَلْأَشْعَرِيِّ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اَللَّهِ هِيَ اَلْعُلْيَا، فَهُوَ فِي سَبِيلِ اَللَّهِ\"} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Abuu Muwsaa Al-Ash’ariyy (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Anayepigana ili neno la Allaah liwe juu basi huyo yuko katika Njia ya Allaah.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Hii ina maana ya kuwa vita vyote kwa malengo ya, (i) Kuthibitisha ujasiri au ushujaa wa watu, (ii) Kulinda heshima, (iii) Utekaji nyara, (iv) Unafiki na utekaji wa ardhi n.k si katika vita vya Kiislam pamoja na kuwa vinaweza kuwa vinapiganwa na jeshi la Waislam. Lengo la vita vya Kiislamu ni kupigana kwa ajili ya nia ya kuutangaza Uislam (Da’wah). Katika hali hiyo inaweza kutokea kukapatikana kwa maslahi mengine kwa wapiganaji wa Kiislam na Uislam hauwakatazi kunufaika na maslahi hayo."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عَبْدِ اَللَّهِ بْنِ اَلسَّعْدِيِّ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" لَا تَنْقَطِعُ اَلْهِجْرَةُ مَا قُوتِلَ اَلْعَدُوُّ\"} رَوَاهُ النَّسَائِيُّ، وَصَحَّحَهُ اِبْنُ حِبَّانَ",
-   "msimulizi": "Kutoka kwa ‘Abdullaah bin As-Sa’diyy (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Hijrah haikatiki maadamu adui keshapigwa vita.”",
-   "chanzo": "Imetolewa na An-Nasaaiy, na akaisahihisha Ibn Hibbaan",
-   "ufafanuzi": [
-    "Alikuwa ni Swahaba kutoka katika ukoo wa ‘Aamir wa Kikureshi. Al-Waqiyd amesema: “Alifariki mwaka 57 Hijriyyah”. Jina lake lilikuwa ‘Amr au Qudaamah au ‘Abdullaah bin Waqdaan.",
-    "Yaani kutoka katika ardhi zilizokamatwa na makafiri kuelekea katika ardhi za Waislam."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ نَافِعٍ قَالَ: {أَغَارُ رَسُولُ اَللَّهِ صلى الله عليه وسلم عَلَى بَنِيَّ اَلْمُصْطَلِقِ، وَهُمْ غَارُّونَ، فَقَتَلَ مُقَاتِلَتَهُمْ، وَسَبَى ذَرَارِيَّهُمْ. حَدَّثَنِي بِذَلِكَ عَبْدُ اَللَّهِ بْنُ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Naafi’",
-   "tafsiri": "amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliwavamia Baniy Muswtwaliq nao wakiwa wameghafilika akawauwa wapiganao nae na akiteka wanawake na watoto wao. Alimhadithia hivyo ‘Abdullaah bin ‘Umar (رَضِيَ اللهُ عَنْهُمَا).”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alipojulishwa kuwa Banu Mustwaliq walikuwa wamejitayarisha kumvamia na kumpiga, yeye akawahi kuwavamia, akawauwa watu kumi miongoni mwao na kuteka mateka waliobakia. Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alipowaachia huru na kumuoa Juwayriyya, Maswahaba nao wakawaachia mateka wote waliobakia na kisha wote wakasilimu.",
-    "Hii inaelezea kuwa ikiwa watu wameshalinganiwa, na wakakataa ulingano huo, sio wajibu tena kuwatumia lingano la vita kabla ya kupigana nao. Hadiyth hii inaelezea vile vile kumshambulia adui katika mipaka yao ni jambo linaloruhusiwa na mwisho inaonesha kuwa hata waarabu wakichukuliwa mateka."
-   ]
-  },
-  {
-   "kwaarabu": [
-    "وَعَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ قَالَ: {كَانَ رَسُولُ اَللَّهِ صلى الله عليه وسلم إِذَا أَمَّرَ أَمِيرًا عَلَى جَيْشٍ أَوْصَاهُ بِتَقْوَى اَللَّهِ، وَبِمَنْ مَعَهُ مِنْ اَلْمُسْلِمِينَ خَيْراً، ثُمَّ قَالَ: \"اُغْزُوا بِسْمِ اَللَّهِ، فِي سَبِيلِ اَللَّهِ، قَاتِلُوا مِنْ كَفَرَ بِاَللَّهِ، اُغْزُوا، وَلَا تَغُلُّوا، وَلَا تَغْدُرُوا، وَلَا تُمَثِّلُوا، وَلَا تَقْتُلُوا وَلِيداً، وَإِذَا لَقِيتَ عَدُوَّكَ مِنْ اَلْمُشْرِكِينَ فَادْعُهُمْ إِلَى ثَلَاثِ خِصَالٍ، فَأَيَّتُهُنَّ أَجَابُوكَ إِلَيْهَا، فَاقْبَلْ مِنْهُمْ، وَكُفَّ عَنْهُمْ: اُدْعُهُمْ إِلَى اَلْإِسْلَامِ فَإِنْ أَجَابُوكَ فَاقْبَلْ مِنْهُمْ.",
-    "ثُمَّ اُدْعُهُمْ إِلَى اَلتَّحَوُّلِ مِنْ دَارِهِمْ إِلَى دَارِ اَلْمُهَاجِرِينَ، فَإِنْ أَبَوْا فَأَخْبَرْهُمْ أَنَّهُمْ يَكُونُونَ كَأَعْرَابِ اَلْمُسْلِمِينَ، وَلَا يَكُونُ لَهُمْ . فِي اَلْغَنِيمَةِ وَالْفَيْءِ شَيْءٌ إِلَّا أَنْ يُجَاهِدُوا مَعَ اَلْمُسْلِمِينَ. فَإِنْ هُمْ أَبَوْا فَاسْأَلْهُمْ اَلْجِزْيَةَ، فَإِنْ هُمْ أَجَابُوكَ فَاقْبَلْ مِنْهُمْ، فَإِنْ أَبَوْا فَاسْتَعِنْ بِاَللَّهِ وَقَاتِلْهُمْ. وَإِذَا حَاصَرْتَ أَهْلَ حِصْنٍ فَأَرَادُوكَ أَنْ تَجْعَلَ لَهُمْ ذِمَّةَ اَللَّهِ وَذِمَّةَ نَبِيِّهِ، فَلَا تَفْعَلْ، وَلَكِنْ اِجْعَلْ لَهُمْ ذِمَّتَكَ، فَإِنَّكُمْ إِنْ تُخْفِرُوا ذِمَمَكُمْ. أَهْوَنُ مِنْ أَنَّ تُخْفِرُوا ذِمَّةَ اَللَّهِ، وَإِذَا أَرَادُوكَ أَنْ تُنْزِلَهُمْ عَلَى حُكْمِ اَللَّهِ، فَلَا تَفْعَلْ، بَلْ عَلَى حُكْمِكَ، فَإِنَّكَ لَا تَدْرِي أَتُصِيبُ فِيهِمْ حُكْمَ اَللَّهِ أَمْ لَا\"} أَخْرَجَهُ مُسْلِمٌ"
-   ],
-   "msimulizi": "Kutoka kwa Sulaymaan bin Buraydah naye kutoka kwa baba yake kutoka kwa ‘Aaishah (رَضِيَ اللَّهُ عَنْهَا)",
-   "tafsiri": "amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alikuwa anapomueka Amiri katika jeshi au kikosi humuusia kheri na kuwa na Taqwa na huwausia Waislam walio pamoja nae kheri pia. Kisha anasema: ‘Piganeni kwa Jina la Allaah, katika Njia ya Allaah, piganeni na anayemkufuru Allaah, piganeni na wala msifanye udanganyifu, wala msivunje ahadi, wala msitese, wala msiue mtoto mdogo. Utakapokutana na adui yako miongoni mwa washirikana walinganie katika mambo matatu, lolote kati ya hayo watakapokujibu wakubalie na ujizuwie; walinganie katika Uislam, wakikujibu wakubalie, kisha walinganie wahame kutoka katika mji wao wahamie mji wa Muhaajiriyna (Madiynah), wakikataa waambie kuwa wao watakuwa kama wale mabedui Waislam, hawatapata kitu katika ngawira wala katika fai isipokuwa watakapopigana Jihaad pamoja na Waislam. Wakikataa waombe watoe Jizya, wakikujibu wakubalie, wakikataa basi omba msaada kwa Allaah dhidi yao na upigane nao. Utakapowazingira watu katika ngome, wakakuomba uwajaalie dhima ya Allaah na dhima ya Nabiy wake usifanye, lakini wajalie dhima yako, kwani nyinyi kutangua dhima zenu ni rahisi kuliko kutangua dhima ya Allaah. Na akikuomba uwaweke katika hukumu ya Allaah usifanye, bali katika hukumu yako, kwani wewe hujui utapata usawa Hukumu ya Allaah miongoni mwao au la.”",
-   "chanzo": "Imetolewa na Muslim",
-   "ufafanuzi": [
-    "Sariya ni kikosi maalumu cha uchunguzi kinachofanya kazi yake usiku.",
-    "Katika kuchukuwa ngawira kabla ya mgao.",
-    "Katika lugha ya kiarabu Muthla ni kukata kiungo kimoja kimoja. Kama vile kukata pua, sikio, na viungo vingine mwilini.",
-    "Hii ina maana kuwa suala la kuhama ni jambo la kuendelea daima, kwa kua kuendelea kukaa katika nchi za makafiri kunazuiwa kutekelezwa kwa shariy’ah za Kiislaam.",
-    "Katika lugha ya kiarabu ni Ghaniyma kwa maana ya mabaki yanayoachwa au yanayotekwa kutoka kwa adui vitani. Moja ya tano inachukuliwa na kuhifadhiwa katika hazina na zilizobaki zinagawiwa kwa wapiganajii. Askari wa miguu hupata hisa moja na yule wa farasi hupata hisa tatu.",
-    "Fai ni istwilaah inayotumiwa kwa maana ya ngawira inayopatikana kutoka kwa makafiri bila ya mapigano. Moja ya tano inayopatikana haigawiwi bali inapelekwa kwa yatima, maskini, wasafiri, wanaohama, na fiy sabiliLLaah kwa amri ya Khalifa.",
-    "Jizya ni malipo ya kodi ya kichwa ambayo inachukuliwa na serikali ya Kiislam kutoka kwa wakazi wake wasio kuwa Waislaam."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ كَعْبِ بْنِ مَالِكٍ رضى الله عنه {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا أَرَادَ غَزْوَةً وَرَّى بِغَيْرِهَا} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Ka’b bin Maalik (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anapotaka kuenda vitani huficha (kusudio lake) kwa jambo jingine.”",
-   "chanzo": "Al-Bukhaariy, Muslim"
-  },
-  {
-   "kwaarabu": "وَعَنْ مَعْقِلٍ، أَنَّ اَلنُّعْمَانَ بْنَ مُقَرِّنٍ قَالَ: {شَهِدْتُ رَسُولَ اَللَّهِ صلى الله عليه وسلم إِذَا لَمْ يُقَاتِلْ أَوَّلَ اَلنَّهَارِ أَخَّرَ اَلْقِتَالِ حَتَّى تَزُولَ اَلشَّمْسُ، وَتَهُبَّ اَلرِّيَاحُ، وَيَنْزِلَ اَلنَّصْرُ} رَوَاهُ أَحْمَدُ وَالثَّلَاثَةُ، وَصَحَّحَهُ اَلْحَاكِمُ . وَأَصْلُهُ فِي اَلْبُخَارِيِّ",
-   "msimulizi": "Kutoka kwa Ma’qil",
-   "tafsiri": "amesema kuwa An-Nu’maan bin Muqarrin amesema: “Nilishuhudia vita pamoja na Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alikuwa asipopigana mwanzo wa mchana huakhirisha vita mpaka jua lipinduke upepo uvume na nusura iteremke.”",
-   "chanzo": "Imetolewa na Ahmad na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na akaisahihisha Al-Haakim, na asili yake iko katika Al-Bukaariy",
-   "ufafanuzi": [
-    "Huyu alikua ni Swahaba kutoka katika kabila la Muzaynah na alikuwa ni mmoja katika makamanda wa Waislam wakati wa Khalifa Abuu Bakr na ‘Umar bin Al-Khatwaab. Alihama pamoja na ndugu zake wengine saba. Alifungua Asbahan na aliuwawa katka vita vya Nahawand katika mwaka wa 21 Hijriyyah.",
-    "Muda mzuri wa kushambulia ni asubuhi, wakati muda mzuri wa kupigana ni mchana, wakati huo nusra za Allaah hushuka kwa Waumini wakati wa Swalaah. Du’aa zinazosomwa muda huu ni mustajaabu."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ اَلصَّعْبِ بْنِ جَثَّامَةَ رضى الله عنه قَالَ: {سُئِلَ رَسُولُ اَللَّهِ صلى الله عليه وسلم عَنْ اَلدَّارِ مِنْ اَلْمُشْرِكِينَ. يُبَيِّتُونَ، فَيُصِيبُونَ مِنْ نِسَائِهِمْ وَذَرَارِيهِمْ، فَقَالَ: \"هُمْ مِنْهُمْ\"} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Asw-Swa’b bin Jathaamah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliulizwa kuhusu wanawake na watoto miongoni mwa washirikina wanaovamiwa ghafla wakauwawa au wakadhuriwa wanawake na watoto wao. Akasema wao ni miongoni mwao.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Wanawake na watoto wa kikafiri hawatakiwi kuuwawa katika vita. Hata hivyo, ikiwa imetokezea mashambulizi yakifanyika usiku na bahati mbaya wakauwawa hakuna lawama katika hilo."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عَائِشَةَ رَضِيَ اَللَّهُ عَنْهَا، {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ لِرَجُلٍ تَبِعَهُ يَوْمَ بَدْرٍ: \" اِرْجِعْ. فَلَنْ أَسْتَعِينَ بِمُشْرِكٍ\"} رَوَاهُ مُسْلِمٌ",
-   "msimulizi": "Kutoka kwa ‘Aaishah (رَضِيَ اللَّهُ عَنْهَا)",
-   "tafsiri": "amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimuambia mtu aliyemfuata katika vita vya Badr: ‘Rudi kwani sitaomba msaada kwa mshirikina’.”",
-   "chanzo": "Imetolewa na Muslim",
-   "ufafanuzi": [
-    "Mwanzoni, ilikatazwa kuchukua msaada kutoka kwa makafiri wakati wa vita. Katazo hili lilikuja kuondoshwa huko mbele. Kuna Hadiyth inayoeleza kuwa: “Mtafanya mkataba wa amani na Warumi, Waislaam na Warumi wataungana kupigana na adui.”"
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا، {أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم رَأَى اِمْرَأَةً مَقْتُولَةً فِي بَعْضِ مَغَازِيهِ، فَأَنْكَرَ قَتْلَ اَلنِّسَاءِ وَالصِّبْيَانِ} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema kuwa: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimuona mwanamke ameuwawa katika baadhi ya vita alivyopigana, akakataa kuua wanawake na watoto.”",
-   "chanzo": "Al-Bukhaariy, Muslim"
-  },
-  {
-   "kwaarabu": "وَعَنْ سَمُرَةَ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" اُقْتُلُوا شُيُوخَ اَلْمُشْرِكِينَ، وَاسْتَبْقُوا شَرْخَهُمْ\"} رَوَاهُ أَبُو دَاوُدَ، وَصَحَّحَهُ اَلتِّرْمِذِيُّ",
-   "msimulizi": "Kutoka kwa Samurah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Wauweni wazee wa mushirikina na waacheni watoto wao.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na akaisahihisha At-Tirmidhiy",
-   "ufafanuzi": [
-    "Ni haraam kabisa kuuwa watoto. Ni ruhusa kuuwa wanawake kama wanawake hao watashambulia, vinginevyo ni haraam kuwauwa. Wazee miongoni mwa washirikina (kama wana nguvu na wanaweza kupigana) na wanaoweza kusaidia adui katika hali yoyote hata kama watatoa ushauri inaruhusiwa kuwauwa. Vinginevyo wazee wasioingia vitani haifai kuuwawa."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عَلِيٍّ رضى الله عنه {أَنَّهُمْ تَبَارَزُوا يَوْمَ بَدْرٍ} رَوَاهُ اَلْبُخَارِيُّ وَأَخْرَجَهُ أَبُو دَاوُدَ مُطَوَّلاً",
-   "msimulizi": "Kutoka kwa ‘Aliy (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa: “Wao walibariziana siku ya Badri.”",
-   "chanzo": "Imetolewa na Al-Bukhaariy na Abuu Daawuwd ameipokea kwa urefu",
-   "ufafanuzi": [
-    "Mubaaraza ni mapigano ya mtu kwa mtu (kwa wenye uwezo wa kupigana). Mara nyingi hufanyika wito wa kupigana wa mtu na mtu kwa sauti za majigambo. Pamoja na kuwa jambo hili linaonekana la kujigamba na kujiamini kupita kiasi na kuonesha ujasiri wa hali ya juu, ni jambo ambalo hukubaliwa tu kwa lengo la kumtisha adui."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ أَبِي أَيُّوبَ رضى الله عنه قَالَ: إِنَّمَا أُنْزِلَتْ هَذِهِ اَلْآيَةُ فِينَا مَعْشَرَ اَلْأَنْصَارِ، يَعْنِي: [[﴿ وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى اَلتَّهْلُكَةِ ﴾]] قَالَهُ رَدًّا عَلَى مَنْ أَنْكَرَ عَلَى مَنْ حَمَلَ عَلَى صَفِ اَلرُّومِ حَتَّى دَخَلَ فِيهِمْ . رَوَاهُ اَلثَّلَاثَةُ، وَصَحَّحَهُ اَلتِّرْمِذِيُّ، وَابْنُ حِبَّانَ، وَالْحَاكِمُ",
-   "msimulizi": "Kutoka kwa Abuu Ayyuwb (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema: “Aayah hii iliteremka kwetu kongamano la Answaar: [[{…wala msijitupe katika maangamizi kwa (kuzuia) mikono yenu (isitoe)…}]] {{[Qur-aan 2: 195]}} alisema hivyo akamrudi aliyejiingiza ndani ya safu ya Warumi akaingia katikati yao.”",
-   "chanzo": "Imetolewa na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na akaisahihisha At-Tirmidhiy, Ibn Hibbaan na Al-Haakim",
-   "ufafanuzi": [
-    "Hadiyth hii ina maelezo kuwa wakati wapiganaji wanataka kushambulia, ifikiriwe pia idadi ya adui kwa kulinganisha. Ikiwa wapiganaji wa kikafiri ni mara mbili ya wale Waumini, Waislam wanaamrishwa kupigana nao. Hata hivyo, ikiwa idadi ni zaidi ya hapo ni wajibu wa Waislam kupigana nao. Hadiyth hii inathibitisha dalili ya ruhusa ya mpiganaji mmoja kushambulia kundi la adui, akiwa anajua kuwa anaweza kufanya hivyo."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {حَرَقَ رَسُولُ اَللَّهِ صلى الله عليه وسلم نَخْلَ بَنِي اَلنَّضِيرِ، وَقَطَعَ} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliichoma mitende ya Baniy An-Nadhwiyr na akaikata.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Hadiyth hii inaelezea kuwa ikiwa kuna kitu kinacholeta kikwazo vitani hata ikiwa kina manufaa na watu na kitu hicho kikatumika kama ngome ya adui ni ruhusa kukiangamiza."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عُبَادَةَ بْنِ اَلصَّامِتِ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"لَا تَغُلُّوا، فَإِنَّ اَلْغُلُولَ نَارٌ وَعَارٌ عَلَى أَصْحَابِهِ فِي اَلدُّنْيَا وَالْآخِرَةِ\"} رَوَاهُ أَحْمَدُ، وَالنَّسَائِيُّ، وَصَحَّحَهُ ابْنُ حِبَّانَ",
-   "msimulizi": "Kutoka kwa ‘Ubaadah bin Asw-Swaamit (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Msifanye khiyana katika ghanima (kabla ya kugawiwa), kwa hakika khiyana ni moto na ni aibu kwa wanaoifanya duniani na Aakhirah.”",
-   "chanzo": "Imetolewa na Ahmad na An-Nasaaiy na akaisahihisha Ibn Hibbaan"
-  },
-  {
-   "kwaarabu": "وَعَنْ عَوْفِ بْنِ مَالِكٍ رضى الله عنه {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَضَى بِالسَّلَبِ لِلْقَاتِلِ} رَوَاهُ أَبُو دَاوُدَ وَأَصْلُهُ عِنْدَ مُسْلِمٍ",
-   "msimulizi": "Kutoka kwa ‘Awf bin Maalik (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alihukumu kilichoachwa na aliyeuwawa ni cha aliyeuwa.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na asili yake iko katika Muslim",
-   "ufafanuzi": [
-    "Katika lugha ya kiarabu Salb ni kitu kilichohusishwa na mwili wa aliyeuwawa, kama nguo, silaha na kipando. ‘Ulamaa wengi ni wenye rai kuwa hivyo ni haki kwa aliyeuwa."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عَبْدِ اَلرَّحْمَنِ بْنِ عَوْفٍ رضى الله عنه فِي قِصَّةِ قَتْلِ أَبِي جَهْلٍ قَالَ: {فَابْتَدَرَاهُ بِسَيْفَيْهِمَا حَتَّى قَتَلَاهُ، ثُمَّ انْصَرَفَا إِلَى رَسُولِ اَللَّهِ صلى الله عليه وسلم فَأَخْبَرَاهُ، فَقَالَ: \"أَيُّكُمَا قَتَلَهُ؟ هَلْ مَسَحْتُمَا سَيْفَيْكُمَا ؟\" قَالَا: لَا. قَالَ: فَنَظَرَ فِيهِمَا، فَقَالَ: \"كِلَاكُمَا قَتَلَهُ، سَلْبُهُ لِمُعَاذِ بْنِ عَمْرِوِ بْنِ اَلْجَمُوحِ\"} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa ‘Abdur-Rahmaan bin ‘Awf (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema katika kisa cha Abuu Jahl akasema: “Wakamkimbilia kwa panga zao wakamuuwa, kisha wakaenda kwa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) wakamueleza. Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akawauliza: ‘Ni nani kati yenu aliyemuua? Je mumezipangusa panga zenu? Wakasema bado. Nabiy akazitazama panga zao akawaambia: ‘Nyote mumemuua’. Nabiy akahukumu salab yake kwa Mu’aadh bin ‘Amr bin Al-Jamuwh.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Huyu alikuwa katika Answaar wa Khazraj wa ukoo wa Sulami. Alihudhuria Al-‘Aqaba na Badr. Alikuwa ni mmoja aliyemkata mguu Abuu Jahl na kumuangusha kutoka katika farasi wake kisha Ikrimah mtoto wa Abuu Jahl akamkata Mu’aadh mkono wake, lakini hilo halikumzuia kupigana hadi vita vilivyokwisha. Alifariki wakati wa Ukhalifa wa ‘Uthmaan."
-   ]
-  },
-  {
-   "kwaarabu": [
-    "وَعَنْ مَكْحُولٍ، {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم نَصَبَ اَلْمَنْجَنِيقَ عَلَى أَهْلِ اَلطَّائِفِ} أَخْرَجَهُ أَبُو دَاوُدَ فِي \"اَلْمَرَاسِيلِ\" وَرِجَالُهُ ثِقَاتٌ",
-    "وَوَصَلَهُ الْعُقَيْلِيُّ بِإِسْنَادٍ ضَعِيفٍ عَنْ عَلِيٍّ رضى الله عنه"
-   ],
-   "msimulizi": "Kutoka kwa Makhuwl",
-   "tafsiri": "amesema: “kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliwashambulia watu wa Atw-Twaaif kwa Manjaniyq.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd katika kitabu chake cha Al-Maraasiyl na wapokezi wake ni madhubuti",
-   "zaidi": [
-    "Al-‘Uqayliyy ameipokea ikiwa ni mawsuwl dhaifu kutoka kwa ‘Aliy (رَضِيَ اللهُ عَنْهُ)"
-   ],
-   "ufafanuzi": [
-    "Makhuwl Ad-Dimashqi alikuwa ‘Aalim (Mwanazuoni) wa Fiqhi huko Sham na katika watu mashuhuri. Abuu Haatim anamuelezea: “Simjui mwenye ufahamu wa Fiqhi kumzidi.” Alifariki katika mwaka 113 Hujriyyah.",
-    "Manjaniyq ni mtambo wa kutupa mawe vitani katika ngome ya adui. Lengo la kutaja Hadiyth hii ni kuwa kuna uwezekano wa kuuwawa watoto, wanawake na watu wazima katika vita vya namna hii ambapo adui anajificha katika ngome na hakuna njia nyingine ila kuwasha Manjaniyq ili kuwashinda."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ أَنَسٍ رضى الله عنه {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم دَخَلَ مَكَّةَ وَعَلَى رَأْسِهِ اَلْمِغْفَرُ، فَلَمَّا نَزَعَهُ جَاءَهُ رَجُلٌ، فَقَالَ: ابْنُ خَطَلٍ مُتَعَلِّقٌ بِأَسْتَارِ اَلْكَعْبَةِ، فَقَالَ: \"اُقْتُلُوهُ\"} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Anas (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliingia Makkah na juu ya kichwa chake ana kofia ya chuma, alipoivua mtu mmoja alimjia akasema: ‘Ibn Khatwal ameikumbatia nguzo ya Al-Ka’bah’ Nabiy akasema: Muuweni.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Jina la Ibn Khatal lilikuwa ni ‘Abdullaah. Mtu huyu dhaifu alisilimu mwanzoni. Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimtuma akakusanye Zakaah pamoja na mtu mwingine katika Ansaar ndipo aliporitadi na kumuuwa jamaa wa kianswaar. Aliiba fedha za Zakaah na kukimbilia Makkah. Baada tu ya Waislamu kuifungua Makkah, Ibn Khatal alijificha maeneo ya Ka’bah. Rasuli alituma Maswahaba zake wakamuuwe. Hii inathibitisha kuwa msaliti na muuwaji hapati msamaha hata akiwa Ka’bah."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ سَعِيدِ بْنِ جُبَيْرٍ، {أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم قَتَلَ يَوْمَ بَدْرٍ ثَلَاثَةً صَبْراً} أَخْرَجَهُ أَبُو دَاوُدَ فِي \"اَلْمَرَاسِيلِ\" وَرِجَالُهُ ثِقَاتٌ",
-   "msimulizi": "Kutoka kwa Sa’iyd bin Jubayr",
-   "tafsiri": "amesema kuwa: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliua watu watatu katika vita vya Badr.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd katika kitabu chake cha Al-Maraasil na wapokezi wake ni madhubuti",
-   "ufafanuzi": [
-    "Alikuwa katika ukoo wa Al-Walibi na akiishi mji wa Kufa ‘Iraaq. Alikuwa ‘Aalim (Mwanazuoni) mkubwa wa Fiqhi na Imaam mwenye mamlaka katika tafsiri ya Qur-aan na Hadiyth. Alikuwa ni mtu wa mwisho kuuwawa na Hajjaaj bin Yusuf. Maimun bin Mahraan anasema: “Sa’iyd bin Jubayr alikufa wakati kila mmoja wakati ule akihitajia elimu yake.” Aliuwawa mwaka 95 Hijriyyah. Akiwa ni mzee sana.",
-    "Watu hawa watatu walikuwa ni: Tua’ma bin ‘Adl, Nadr bin Harith na ‘Uqbat bin Abi Mu’ait. Hili linaelezea kuwa ni ruhusa kuwauwa watu wa aina hii (wanaokaribia kufa kwa njaa au kiu)"
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عِمْرَانَ بْنِ حُصَيْنٍ رضى الله عنه {أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم فَدَى رَجُلَيْنِ مِنْ اَلْمُسْلِمِينَ بِرَجُلٍ مِنْ اَلْمُشْرِكِينَ} أَخْرَجَهُ اَلتِّرْمِذِيُّ وَصَحَّحَهُ . وَأَصْلُهُ عِنْدَ مُسْلِمٍ",
-   "msimulizi": "Kutoka kwa ‘Imraan bin Huswayn (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliwatolea fidia watu wawili Waislamu kwa mtu mmoja mshirikina.”",
-   "chanzo": "Imetolewa na At-Tirmidhiy na akaisahihisha, na asili yake iko katika Muslim",
-   "ufafanuzi": [
-    "Maelezo ya Hadiyth hii ni kuonesha kuwa kubadilishana wafungwa ni ruhsa. Watu wa Banu Thaqiyf waliwateka Maswahaba wawili wa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ). Kwa kuwa Banu ‘Aql walikuwa ni washirika wa Banu Thaqiyf Maswahaba wakamteka mtu mmoja wa Banu ‘Aql. Makafiri walipowaachia nae Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akamuachia huru waliyemteka."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ صَخْرِ بْنِ اَلْعَيْلَةِ رضى الله عنه أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ: {\"إِنَّ اَلْقَوْمَ إِذَا أَسْلَمُوا ؛ أَحْرَزُوا دِمَاءَهُمْ وَأَمْوَالَهُمْ\"} أَخْرَجَهُ أَبُو دَاوُدَ، وَرِجَالُهُ مُوَثَّقُونَ",
-   "msimulizi": "Kutoka kwa Swakhr bin Al-‘Aylah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Watu wanaosilimu, wamehifadhi damu zao na mali yao.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na wapokezi wake ni madhubuti",
-   "ufafanuzi": [
-    "Huyu ni Swakhr bin Al-‘Aylah Al-Ahmas Abuu Haazim alikuwa ni Swahaba aliyepokea Hadiyth.",
-    "Itakapokuwa Al-Harbi (mtu kutoka katika ardhi ya makafiri) atakaposilimu kwa khiyari yake, utajiri wake unabaki kwake. Ama akisilimu kwa nguvu ya kushindwa vita, maisha yake yatabakizwa lakini mali yake itagawiwa kama ni ngawira kwa wapiganaji."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ جُبَيْرِ بْنِ مُطْعَمٍ رضى الله عنه أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ فِي أُسَارَى بَدْرٍ: {\" لَوْ كَانَ اَلْمُطْعَمُ بْنُ عَدِيٍّ حَيًّا، ثُمَّ كَلَّمَنِي فِي هَؤُلَاءِ اَلنَّتْنَى لَتَرَكْتُهُمْ لَهُ\"} رَوَاهُ اَلْبُخَارِيُّ",
-   "msimulizi": "Kutoka kwa Khubayr bin Mutw’am (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema kuhusiana na mateka wa vita vya Badr: “Lau Al-Mutw’am bin ‘Adiyy angekuwa hai, kisha akazungumza nami ili niwaache hawa wanaonuka, ningalimwachia.”",
-   "chanzo": "Imetolewa na Al-Bukhaariy",
-   "ufafanuzi": [
-    "Ni pale Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alipokua akirejea kutoka Twaaif baada ya kujeruhiwa huko, Al-Mutw’am bin ‘Adiyy alimuhifadhi na akawa anamhudumia. Hapa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anakumbuka fadhila zake."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ أَبِي سَعِيدٍ اَلْخُدْرِيِّ رضى الله عنه قَالَ: {أَصَبْنَا سَبَايَا يَوْمَ أَوْطَاسٍ لَهُنَّ أَزْوَاجٌ، فَتَحَرَّجُوا، فَأَنْزَلَ اَللَّهُ تَعَالَى: [[﴿ وَالْمُحْصَنَاتُ مِنَ اَلنِّسَاءِ إِلَّا مَا مَلَكَتْ أَيْمَانُكُمْ ﴾]] } أَخْرَجَهُ مُسْلِمٌ",
-   "msimulizi": "Kutoka kwa Abuu Sa’iyd Al-Khudriyy (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema: “Tulipata mateka waliokuwa na waume zao katika vita vya Awtwaas wakaona uzito juu ya hali hili, Allaah Akateremsha Aayah hii: [[{Na (Mmeharamishiwa pia) wanawake walio katika ndoa isipokuwa iliyowamiliki mikono yenu ya kuume…}]] .” Mpaka mwisho wa Aayah hii {{[Qur-aan 4: 24]}}",
-   "chanzo": "Imetolewa na Muslim",
-   "ufafanuzi": [
-    "Ndoa zilizotanguliwa za wanawake wanaotekwa vitani, zimetanguka. Ikiwa mwanamke huyo ana mimba, inaruhusiwa kumuingilia baada ya kujifungua. Kama hana mimba inafaa kumjamii baada ya kupita twahaarah moja. Hii bila ya kujali kuwa kasilimu au hajasilimu."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {بَعَثَ رَسُولُ اَللَّهِ صلى الله عليه وسلم سَرِيَّةٍ وَأَنَا فِيهِمْ، قِبَلَ نَجْدٍ، فَغَنِمُوا إِبِلاً كَثِيرَةً، فَكَانَتْ سُهْمَانُهُمْ اِثْنَيْ عَشَرَ بَعِيراً، وَنُفِّلُوا بَعِيراً بَعِيراً} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alituma kikosi nami nikiwa ndani yake upande wa Najd, wakapata ngamia wengi, mafungu yao yakafikia ngamia kumi na mbili kila mmoja.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Askari wa kuenda kwa miguu ana haki ya hisa moja katika mgawo wa ngawira, wakati askari wa farasi ana hisa tatu. Kamanda amepewa haki ya kumpa mpiganaji yeyote kutokana na uwezo alioonesha vitani."
-   ]
-  },
-  {
-   "kwaarabu": [
-    "وَعَنْهُ قَالَ: {قَسَمَ رَسُولُ اَللَّهِ صلى الله عليه وسلم يَوْمَ خَيْبَرَ لِلْفَرَسِ سَهْمَيْنِ، وَلِلرَّاجِلِ سَهْمًا} مُتَّفَقٌ عَلَيْهِ. وَاللَّفْظُ لِلْبُخَارِيِّ",
-    "وَلِأَبِي دَاوُدَ: {أَسْهَمَ لِرَجُلٍ وَلِفَرَسِهِ ثَلَاثَةَ أَسْهُمٍ: سَهْمَيْنِ لِفَرَسِهِ، وَسَهْماً لَهُ}"
-   ],
-   "msimulizi": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aligawa (ngawira) katika vita vya Khaybar, mpanda farasi mafungu mawili na wa miguu ana fungu moja.”",
-   "chanzo": "Al-Bukhaariy, Muslim na tamshi hili ni la Bukhaariy",
-   "zaidi": [
-    "Katika riwaayah ya Abuu Daawuwd imesema: “Rasuli wa Allaah alimgawia mpiganaji na farasi wake mafungu matatu, mafungu mawili ni ya farasi wake na fungu moja ni lake.”"
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ مَعْنِ بْنِ يَزِيدَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {سَمِعْتَ رَسُولَ اَللَّهِ صلى الله عليه وسلم يَقُولُ: \"لَا نَفْلَ إِلَّا بَعْدَ اَلْخُمُسِ\"} رَوَاهُ أَحْمَدُ ، وَأَبُو دَاوُدَ، وَصَحَّحَهُ اَلطَّحَاوِيُّ",
-   "msimulizi": "Kutoka kwa Ma’n bin Yaziyd (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema: “Hakuna ziada isipokuwa baada ya khumus.”",
-   "chanzo": "Imetolewa na Ahmad na Abuu Daawuwd na akaisahihisha Atw-Twahaawiy",
-   "ufafanuzi": [
-    "Kutoka kwa Ma’n bin Yaziyd bin Al-Akhnas As-Sulami alikuwa ni Swahaba na mtoto wa Swahaba. Alihudhuria ufunguzi wa Damascus na alikuwa akiishi katika mji wa Kufa uliopo ‘Iraaq. Alikuenda Misri na kuenda kuishi Damascus. Alishiriki katika vita vya Marj Rahit akiwa na Adh-Dhahaq bin Qays mwaka 64 Hijriyyah. Aliuwawa katika vita hivyo. Inasemekana kuwa alikuwa akipenda kuwa na Mu’aawiyah katika vita alivyokuwa akipigana.",
-    "Khumus ni moja ya tano ya mapato ya vita ambayo Allaah Amemuwekea Nabiy wake Muhammad (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) pamoja na familia yake na kwa ajili ya Waislam wenye shida na fiy sabili LLaah"
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ حَبِيبِ بْنِ مَسْلَمَةٍ رضى الله عنه قَالَ: {شَهِدْتُ رَسُولُ اَللَّهِ صلى الله عليه وسلم نَفَّلَ اَلرُّبْعَ فِي اَلْبَدْأَةِ، وَالثُّلُثَ فِي اَلرَّجْعَةِ} رَوَاهُ أَبُو دَاوُدَ، وَصَحَّحَهُ ابْنُ اَلْجَارُودِ، وَابْنُ حِبَّانَ، وَالْحَاكِمُ",
-   "msimulizi": "Kutoka kwa Habiyb bin Maslamah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema: “Nilimshuhudia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akiongeza ngawira robo katika kuanza safari na thuluthi katika kurejea.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na akaisahihisha Ibn Al-Jaaruwd, Ibn Hibbaan na Al-Haakim",
-   "ufafanuzi": [
-    "Huyu ni Abuu ‘Abdir-Rahmaan Al-Fihri Al-Makki alikuwa ni Swahaba akijulikana kama Habiyb wa Roma kutokana na vita vingi alivyopigana huko. Alifariki Armenia katika mwaka 41 au 42 Hijriyyah akiwa kama gavana wa huko.",
-    "Kiasi kikubwa walichopewa ilikuwa ni kwa sababu ya hatari kubwa iliyowakabili walipokuwa wakipigana na adui kwa mara ya pili, walipokuwa wakirejea katika ardhi za Waislam."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {كَانَ رَسُولُ اَللَّهِ صلى الله عليه وسلم يُنَفِّلُ بَعْضَ مَنْ يَبْعَثُ مِنْ اَلسَّرَايَا لِأَنْفُسِهِمْ خَاصَّةً، سِوَى قَسْمِ عَامَّةِ اَلْجَيْشِ} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema kuwa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) : “Alikuwa akiongeza baadhi ya aliowatuma katika vikosi kwa ajili yao makhsusi usiokuwa mgao wa jeshi lote.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Hadiyth hii inaonesha kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alikuwa akigawa zawadi kwa baadhi ya watu."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْهُ قَالَ: {كُنَّا نُصِيبُ فِي مَغَازِينَا اَلْعَسَلَ وَالْعِنَبَ ، فَنَأْكُلُهُ وَلَا نَرْفَعُهُ} رَوَاهُ اَلْبُخَارِيُّ وَلِأَبِي دَاوُدَ: {فَلَمْ يُؤْخَذْ مِنْهُمْ اَلْخُمُسُ} وَصَحَّحَهُ ابْنُ حِبَّانَ",
-   "msimulizi": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema: “Katika vita vyetu tulikuwa tunapata asali na zabibu tukizila wala hatuzichukui.”",
-   "chanzo": "Imetolewa na Al-Bukhaariy",
-   "zaidi": [
-    "Katika riwaayah ya Abuu Daawuwd: “…wala humo haikuchukuliwa khumus.” {{[Na akaisahihisha Ibn Hibbaan]}}"
-   ],
-   "ufafanuzi": [
-    "Moja ya tano (khumus) haichukuliwi kutoka katika chakula, hukusudiwa kuliwa na sio kuhifadhiwa. Kila mpiganaji anaweza na ana ruhusa kuchukuwa kabla hata ya mgawo wenyewe."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عَبْدِ اَللَّهِ بْنِ أَبِي أَوْفَى رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {أَصَبْنَا طَعَاماً يَوْمَ خَيْبَرَ، فَكَانَ اَلرَّجُلُ يَجِيءُ، فَيَأْخُذُ مِنْهُ مِقْدَارَ مَا يَكْفِيهِ، ثُمَّ يَنْصَرِفُ} أَخْرَجَهُ أَبُو دَاوُدَ، وَصَحَّحَهُ ابْنُ اَلْجَارُودِ، وَالْحَاكِمُ",
-   "msimulizi": "Kutoka kwa ‘Abdillaah bin Abiy Awfa (رَضِيَ اللهُ عَنْهُمَا)",
-   "tafsiri": "amesema: “Katika vita vya Khaybar tulipata chakula ikawa mtu anachukua kiasi kinachomtosha na kisha anaondoka.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na akaisahihisha Ibn Al-Jaaruwd na Al-Haakim"
-  },
-  {
-   "kwaarabu": "وَعَنْ رُوَيْفِعِ بْنِ ثَابِتٍ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"مَنْ كَانَ يُؤْمِنُ بِاَللَّهِ وَالْيَوْمِ اَلْآخِرِ فَلَا يَرْكَبُ دَابَّةً مِنْ فَيْءِ اَلْمُسْلِمِينَ، حَتَّى إِذَا أَعْجَفَهَا رَدَّهَا فِيهِ، وَلَا يَلْبَسُ ثَوْباً مِنْ فَيْءِ اَلْمُسْلِمِينَ حَتَّى إِذَا أَخْلَقَهُ رَدَّهُ فِيهِ\"} أَخْرَجَهُ أَبُو دَاوُدَ، وَالدَّارِمِيُّ، وَرِجَالُهُ لَا بَأْسَ بِهِمْ",
-   "msimulizi": "Kutoka kwa Ruwayfi’ bin Thaabit (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mwenye kumuamini Allaah na Siku ya mwisho, asipande myama katika ghanima ya Waislamu mpaka akamdhoofisha na kumrudisha humo, wala asivae nguo katika ngawira ya Waislam mpaka akaichakaza na kuirudisha.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na Ad-Daarimiyy na wapokezi wake hawana ubaya",
-   "ufafanuzi": [
-    "Farasi na silaha zinazokamatwa zinaweza kutumika kisha zikarejeshwa kama ngawira. Vinginevyo, ni haraam kuvitumia. Baadhi ya ‘Ulamaa wana rai kuwa vitu hivi havifai kutumiwa hata kwa muda tu, ila kwa masharti ya kupata ruhusa maalum kutoka kwa Amiri jeshi."
-   ]
-  },
-  {
-   "kwaarabu": [
-    "وَعَنْ أَبِي عُبَيْدَةَ بْنِ اَلْجَرَّاحِ رضى الله عنه قَالَ: سَمِعْتُ رَسُولَ اَللَّهِ صلى الله عليه وسلم يَقُولُ: {\" يُجِيرُ عَلَى اَلْمُسْلِمِينَ بَعْضُهُمْ\"} أَخْرَجَهُ ابْنُ أَبِي شَيْبَةَ، وَأَحْمَدُ، وَفِي إِسْنَادِهِ ضَعْفٌ",
-    "وَلِلْطَيَالِسِيِّ: مِنْ حَدِيثِ عَمْرِوِ بْنِ الْعَاصِ: {\" يُجِيرُ عَلَى اَلْمُسْلِمِينَ أَدْنَاهُمْ\"}",
-    "وَفِي \"اَلصَّحِيحَيْنِ\" : عَنْ عَلِيٍّ رَضِيَ اَللَّهُ عَنْهُ قَالَ: {\"ذِمَّةُ اَلْمُسْلِمِينَ وَاحِدَةٌ يَسْعَى بهَا أَدْنَاهُمْ\"}",
-    "زَادَ اِبْنُ مَاجَه مِنْ وَجْهٍ آخَرَ: {\" يُجِيرُ عَلَيْهِمْ أَقْصَاهُمْ\"}",
-    "وَفِي \"اَلصَّحِيحَيْنِ\" مِنْ حَدِيثٍ أَمِ هَانِئٍ: {قَدْ أَجَرْنَا مَنْ أَجَرْتِ\"}"
-   ],
-   "msimulizi": "Kutoka kwa Abiy ‘Ubaydah bin Al-Jarraah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema: “Waislam wanawakinga baadhi yao.”",
-   "chanzo": "Imetolewa na Ibn Abiy Shaybah na Ahmad na katika isnaad yake kuna udhaifu",
-   "zaidi": [
-    "Na amepokea Atwayaalisiy kutoka katika Hadiyth ya ‘Amr bin Al-’Aasw: “Waislam wanawakinga walio karibu nao.”",
-    "Na katika Swahiyh Al-Bukhaariy na Swahiyh Muslim imepokewa kutoka kwa ‘Aliy (رَضِيَ اللهُ عَنْهُ) amesema: “Dhima ya Waislam ni mmoja anaenda katika dhima yao aliye karibu nao.”",
-    "Ibn Maajah ameongezea kwa njia nyingine: “Anaenda katika dhima yao aliye mbali nao.”",
-    "Na katika Swahiyh Al-Bukhaariy na Swahiyh Muslim kutoka katika Hadiyth ya Ummu Haaniy: “Kwa hakika tumemhami uliyemhami.”"
-   ],
-   "ufafanuzi": [
-    "Hadiyth hii inaonesha sio tu Imaam mwenye uwezo wa kutoa haki ya amani. Muislam yoyote ana haki hiyo, iwe ni mwanamke au mwanamme, kijana kwa mtu mzima, tajiri kwa maskini, mpiganaji wa kawaida, kamanda wana haki ya kutoa haki hiyo ya kuwalinda na kuwapa amani wasio kuwa Waislam, ni heshima waliyopewa wote na shariy’ah. Hata Imaam hana haki ya kutengua haki ya kumlinda na kumpa amani mtu.",
-    "Huyu alikuwa ni binti wa Abuu Twaalib Al-Hashimiy na dada wa ‘Aliy bin Abiy Twaalib. Jina lake lilikuwa ni Fakhita au Hind na alisilimu wakati wa Fat-h Makkah."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ عُمَرَ رضى الله عنه أَنَّهُ سَمِعَ رَسُولَ اَللَّهِ صلى الله عليه وسلم يَقُولُ: {\" لَأَخْرِجَنَّ اَلْيَهُودَ وَالنَّصَارَى مِنْ جَزِيرَةِ اَلْعَرَبِ، حَتَّى لَا أَدَعَ إِلَّا مُسْلِماً\"} رَوَاهُ مُسْلِمٌ",
-   "msimulizi": "Kutoka kwa ‘Umar (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa alimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema: “Nitawatoa Mayahudi na Manaswara katika rasi ya Arabuni hadi nisibakishe isipokuwa Muislam.”",
-   "chanzo": "Imetolewa na Muslim",
-   "ufafanuzi": [
-    "Bara Arabuni ile sehemu ya ardhi iliyozunguka bahari ya Hindi, bahari ya kati na mito ya Tigri na Furati. Kwa urefu wake inaelekea hadi ‘Aden hadi Syria. Kwa upana wake, kutoka Jeddah hadi ‘Iraaq. Watu wengine wanadhani kuwa Bara Arabu lina maana ya Hijazi iliyokusanya Makkah, Madiynah na Yamama, Taif na pembezoni mwake tu. Hili ndilo haswa maana ya eneo la Hijaaz lilivyokuwa likitumika huko nyuma. Kwa hivyo ilikuwa kujulikana kuwa kuwafukuza Mayahudi katika bara lote na haswa zaidi katika eneo la Hijaaz."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْهُ قَالَ: {كَانَتْ أَمْوَالُ بَنِي اَلنَّضِيرِ مِمَّا أَفَاءَ اَللَّهُ عَلَى رَسُولِهِ، مِمَّا لَمْ يُوجِفْ عَلَيْهِ اَلْمُسْلِمُونَ بِخَيْلٍ وَلَا رِكَابٍ، فَكَانَتْ لِلنَّبِيِّ صلى الله عليه وسلم خَاصَّةً، فَكَانَ يُنْفِقُ عَلَى أَهْلِهِ نَفَقَةَ سَنَةٍ، وَمَا بَقِيَ يَجْعَلُهُ فِي اَلْكُرَاعِ وَالسِّلَاحِ، عُدَّةً فِي سَبِيلِ اَللَّهِ\"} مُتَّفَقٌ عَلَيْهِ",
-   "msimulizi": "Kutoka kwa ‘Umar (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema: “Mali ya baniy An-Nadhwiyr miongoni mwa mali ambayo Allaah Alimrudishia Rasuli wake, ambayo Waislamu hawakuendea kwa farasi wala ngamia, ilikuwa ni ya Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) pekee: Nabiy alikuwa anatenga chakula cha ahli zake mwaka mzima, kinachobaki anakifanya kwenye farasi na silaha, maandalizi njia ya Allaah.”",
-   "chanzo": "Al-Bukhaariy, Muslim",
-   "ufafanuzi": [
-    "Wapiganaji hawana hisia katika Fai - mali iliyotekwa na Waislaam bila ya kupigana. Wakati wa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) hadi wakati wa Makhalifa kufuatana na maelekezo ya Shariy’ah, walikuwa wakigawa mali hii katika matumizi ya nyumba ya Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) na jamaa wa karibu na Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ). Kadhalika mayatima, maskini, wasafiri na katika njia ya Allaah. Mali inayobaki hutumika kununulia silaha pamoja na farasi kwa ajili ya maandalizi ya vita."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ مُعَاذٍ رضى الله عنه قَالَ: {غَزَوْنَا مَعَ رَسُولِ اَللَّهِ صلى الله عليه وسلم خَيْبَرَ، فَأَصَبْنَا فِيهَا غَنَمًا ، فَقَسَمَ فِينَا رَسُولُ اَللَّهِ صلى الله عليه وسلم طَائِفَةً، وَجَعَلَ بَقِيَّتَهَا فِي اَلْمَغْنَمِ\"} رَوَاهُ أَبُو دَاوُدَ، وَرِجَالُهُ لَا بَأْسَ بِهِمْ",
-   "msimulizi": "Kutoka kwa Mu’aadh (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema: “Tulipigana Jihaad pamoja na Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) Khaybar tukapata ndani yake mbuzi, Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akatugawia fungu, na kilichobaki alikigawa katika ghanima.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na wapokezi wake hawana ubaya"
-  },
-  {
-   "kwaarabu": "وَعَنْ أَبِي رَافِعٍ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"إِنِّي لَا أَخِيسُ بِالْعَهْدِ، وَلَا أَحْبِسُ اَلرُّسُلَ \"} رَوَاهُ أَبُو دَاوُدَ، وَالنَّسَائِيُّ، وَصَحَّحَهُ ابْنُ حِبَّانَ",
-   "msimulizi": "Kutoka kwa Abuu Raafi’ (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Kwa hakika mimi sivunji ahadi wala sifungi wajumbe.”",
-   "chanzo": "Imetolewa na Abuu Daawuwd na An-Nasaaiy na akaisahihisha Ibn Hibbaan",
-   "ufafanuzi": [
-    "Hadiyth hii inaashiria kuwa kuvunja mkataba uliowekwa wa kivita kisha kuwakamata makafiri hairuhusiwi. Kisa cha suala hili linarudi kwa Abuu Raafi’ (muachwa huru wa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ)) alikuenda kwa Nabiy kabla hajasilimu, kama ni mjumbe aliyetumwa na makafiri. Mara tu alipomuona Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasilimu. Kisha akamtaka Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) kumkataza asirudi kule na kubaki, kwani hakutaka kurudi kwa makafiri tena. Baada ya Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) kusikia haya ndipo aliposema Hadiyth hii."
-   ]
-  },
-  {
-   "kwaarabu": "وَعَنْ أَبِي هُرَيْرَةَ رضى الله عنه أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم قَالَ: {\"أَيُّمَا قَرْيَةٍ أَتَيْتُمُوهَا، فَأَقَمْتُمْ فِيهَا، فَسَهْمُكُمْ فِيهَا، وَأَيُّمَا قَرْيَةٍ عَصَتْ اَللَّهَ وَرَسُولَهُ، فَإِنْ خُمُسَهَا لِلَّهِ وَرَسُولِهِ ، ثُمَّ هِيَ لَكُمْ\"} رَوَاهُ مُسْلِمٌ.",
-   "msimulizi": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ)",
-   "tafsiri": "amesema kuwa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mji wowote mliouendea mkakaa humo fungu lenu limo humo. Na mji wowote uliomuasi Allaah na Rasuli wake, kwa hakika khumus yake ni ya Allaah na Rasuli wake, kitakachobaki ni chenu.”",
-   "chanzo": "Imetolewa na Muslim",
-   "ufafanuzi": [
-    "Mji wa kwanza ambao haukupiganwa vita. Hisa za wapiganaji wanazopata katika mji huo ni sawa na za Waislam wengine. Mji wa pili ni ule ambao mapigano yalifanyika. Moja ya tano ya ngawira inayopatikana inabidi itolewe kwanza, kisha baada ya hapo igawiwe kwa wapiganaji."
-   ]
-  }
- ]
+  "type": "somo",
+  "blocks": [
+    {
+      "t": "h",
+      "text": "Buluwgh Al-Maraam - Kitabu cha Jihaad"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "عَنْ أَبِي هُرَيْرَةَ رَ ضِيَ اَللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" مَنْ مَاتَ وَلَمْ يَغْزُ، وَلَمْ يُحَدِّثْ نَفْسَهُ بِهِ، مَاتَ عَلَى شُعْبَةٍ مِنْ نِفَاقٍ\"} رَوَاهُ مُسْلِمٌ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Anayekufa na hakupigana Jihaad, wala asiizungumzise nafsi yake hilo, amekufa akiwa na sehemu ya unafiki.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Jihaad kilugha ina maana ya juhudi na jitihada kuendea jambo fulani. Katika Istwilaah ya kishariy’ah neno hili hutumika kwa maana ya vita dhidi ya makafiri. Wakati mwingine hutumika kwa maana ya jitihada dhidi ya shaytwaan au dhidi ya uadui unaoelekezwa kwa Uislamu na Waislam."
+    },
+    {
+      "t": "green_quote",
+      "text": "Jihaad linatumika kila wakati, wakati mwingine ni kwa panga, wakati mwingine kwa kutumia fedha na wakati mwingine kwa maneno na maandishi. Muislam akipata wasaa huo basi na aweke niyyah kuhusiana nayo. Mtu ambaye hakufikiria kabisa na hakulipa uzito jambo hili ni mnafiki."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Anas (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَنَسٍ رضى الله عنه أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ: {\" جَاهِدُوا اَلْمُشْرِكِينَ بِأَمْوَالِكُمْ، وَأَنْفُسِكُمْ، وَأَلْسِنَتِكُمْ\"} رَوَاهُ أَحْمَدُ، وَالنَّسَائِيُّ، وَصَحَّحَهُ اَلْحَاكِمُ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Piganeni na washirikina kwa mali yenu, nafsi zenu na ndimi zenu.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ahmad na An-Nasaaiy na akaisahihisha Al-Haakim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii inazungumzia kulingana na mahitaji ya wakati uliopo, Jihaad ni faradhi kwa kila Muumin, hiyo ni katika kila zama. Ikiwa mtu huyo hajali wala haoni umuhimu wake, basi hakuna tofauti yake kuwa kwake Muumin na wengine kuwa kwao makafiri. Jihaad ya ulimi inahusisha kutumia hoja na hekima katika kuwalingania watu katika ukweli na kwa Allaah."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Aaishah (رَضِيَ اللَّهُ عَنْهَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَائِشَةَ رَضِيَ اَللَّهُ عَنْهَا قَالَتْ: {قُلْتُ: يَا رَسُولَ اَللَّهِ ! عَلَى اَلنِّسَاءِ جِهَادٌ؟ قَالَ: \"نَعَمْ. جِهَادٌ لَا قِتَالَ فِيهِ، اَلْحَجُّ وَالْعُمْرَةُ\"}. رَوَاهُ اِبْنُ مَاجَه وَأَصْلُهُ فِي اَلْبُخَارِيِّ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Nilisema Ee Rasuli wa Allaah! Je ni juu ya wanawake Jihaad? Akasema ndio jihaad isiyokuwa na mapambano ndani yake, nayo ni Hajj na ‘Umrah.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ibn Maajah na asili ya Hadiyth imo katika Swahiyh Al-Bukhaariy]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Katika hali hii ni kuwa Jihaad ya silaha, mapigano na vita si wajibu kwa mwanamke. Kwa kufanya kwake Hijjah na ‘Umrah mwanamke anapata malipo kama ya mwanamme aliyeshiriki vita vya Jihaad."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Abdullaah bin ‘Amr (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَبْدِ اَللَّهِ بْنِ عَمْرِوٍ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {جَاءَ رَجُلٌ إِلَى اَلنَّبِيِّ صلى الله عليه وسلم يَسْتَأْذِنُهُ فِي اَلْجِهَادِ. فَقَالَ: \" أَ حَيٌّ وَالِدَاكَ؟\" ، قَالَ: نَعَمْ: قَالَ: \" فَفِيهِمَا فَجَاهِدْ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَلِأَحْمَدَ، وَأَبِي دَاوُدَ: مِنْ حَدِيثِ أَبِي سَعِيدٍ نَحْوُهُ، وَزَادَ: {\"اِرْجِعْ فَاسْتَأْذِنْهُمَا، فَإِنْ أَذِنَا لَكَ، وَإِلَّا فَبِرَّهُمَا\"}"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Mtu mmoja alikuja kwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anaomba idhini aende katika Jihaad. Akasema: ‘Je wazazi wako wako hai?’ Akasema: ‘Ndio’ Akasema: ‘kwao wao pigana Jihaad.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "quote",
+      "text": "Na Ahmad na Abuu Daawuwd wameipokea Hadiyth kama hii kutoka kwa Abuu Sa’iyd na wakaongezea: “Rudi kawaombe idhini, wakikupa idhini sawa, vinginevyo watendee wema.”"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii ni dalili kuwa kabla ya kuenda vitani ni vizuri mtu kuomba ruhsa ya wazazi wawili maadamu ni Waislam. Hairuhusiwi kwa yeyote kuenda kwenye uwanja wa vita kama wazazi wake hawataki, kwa kuwa katika kuwahudumia wao kadhalika ni katika wajibu wake binafsi. Hata hivyo, ruhsa yao haitakiwi katika Jihaad ya wajibu, pindi mtu atakapoitwa na kiongozi wa Kiislam."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Jariyr Al-Bajaliyy (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ جَرِيرٍ الْبَجَلِيِّ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"أَنَا بَرِئٌ مِنْ كُلِّ مُسْلِمٍ يُقِيمُ بَيْنَ اَلْمُشْرِكِينَ\"} رَوَاهُ اَلثَّلَاثَةُ وَإِسْنَادُهُ صَحِيحٌ، وَرَجَّحَ اَلْبُخَارِيُّ إِرْسَالَهُ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mimi niko mbali na kila Muislam anayeishi miongoni mwa washirikina.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na isnaad yake ni sahihi. Na Al-Bukhaariy ameitilia nguvu kuwa ni Mursal]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Huyu ni Abuu ‘Amr Jariyr bin ‘Abdillaah bin Jaabir Al-Bajaliyy ambaye alisilimu mwaka wa 10 Hijriyyah. Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimtandikia kitambaa akalie na akamtuma kwa watu wa Dhil Khalasa na kuwaangamiza. Alikaa Yaman akiitumikia Dola ya Kiislam wakati wa Nabiy. Anaelezea hali yake kwa kusema: “Tokea niliposilimu kila mara Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anaponiona hutabasamu.” Alishiriki katika kuifungua Al-Madayn na alikuwa katika kamandi ya kuume katika jeshi la Waislam katika vita vya Al-Qadisiya. Alikuwa akijulikana kama Yuwsuf wa Ummat huu. Alikufa mwaka 52 au 54 Hijriyyah."
+    },
+    {
+      "t": "green_quote",
+      "text": "Wakati huo Waislam walikuwa ni wachache sana na ilikuwa ni muhimu sana kwao kuimarisha ngome yao Madiynah. Uislam usingewezekana bila ya kuhama. Kuhama ilikuwa ni wajibu kwa waliyoweza. Hadiyth hii iliyopokewa na Jariyr ilizungumzwa wakati huo. Hata hivyo, pindi ufunguzi wa Makkah ulipofanikiwa na makabila mbalimbali ya kiarabu kuanza kuingia katika Uislam kwa makundi makundi kila siku, na hivyo kuifanya dola ya Kiislam ipanuke, wakati huo tena suala la kuhamia kuenda Madiynah halikuwa la lazima. Tunasoma katika Hadiyth ifuatayo iliyoripotiwa na Ibn ‘Abbaas inahusu jambo hili hili. Hadi leo hii, ikiwa mtu kachoshwa na ni mwenye dhiki kubwa katika Daarul-kufr (Miji na chi za makafiri), ni wajibu kwake kuhamia katika Daarul-Islaam (nchi za Kiislam)."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Abbaas (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ اِبْنِ عَبَّاسٍ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" لَا هِجْرَةَ بَعْدَ اَلْفَتْحِ، وَلَكِنْ جِهَادٌ وَنِيَّةٌ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Hakuna Hijrah baada ya Fat-h kilichobakia ni Jihaad na niyyah.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Makkah kuelekea Madiynah."
+    },
+    {
+      "t": "green_quote",
+      "text": "Ufunguzi wa mji wa Makkah."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abuu Muwsaa Al-Ash’ariyy (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَبِي مُوسَى اَلْأَشْعَرِيِّ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اَللَّهِ هِيَ اَلْعُلْيَا، فَهُوَ فِي سَبِيلِ اَللَّهِ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Anayepigana ili neno la Allaah liwe juu basi huyo yuko katika Njia ya Allaah.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hii ina maana ya kuwa vita vyote kwa malengo ya, (i) Kuthibitisha ujasiri au ushujaa wa watu, (ii) Kulinda heshima, (iii) Utekaji nyara, (iv) Unafiki na utekaji wa ardhi n.k si katika vita vya Kiislam pamoja na kuwa vinaweza kuwa vinapiganwa na jeshi la Waislam. Lengo la vita vya Kiislamu ni kupigana kwa ajili ya nia ya kuutangaza Uislam (Da’wah). Katika hali hiyo inaweza kutokea kukapatikana kwa maslahi mengine kwa wapiganaji wa Kiislam na Uislam hauwakatazi kunufaika na maslahi hayo."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Abdullaah bin As-Sa’diyy (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَبْدِ اَللَّهِ بْنِ اَلسَّعْدِيِّ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" لَا تَنْقَطِعُ اَلْهِجْرَةُ مَا قُوتِلَ اَلْعَدُوُّ\"} رَوَاهُ النَّسَائِيُّ، وَصَحَّحَهُ اِبْنُ حِبَّانَ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Hijrah haikatiki maadamu adui keshapigwa vita.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na An-Nasaaiy, na akaisahihisha Ibn Hibbaan]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Alikuwa ni Swahaba kutoka katika ukoo wa ‘Aamir wa Kikureshi. Al-Waqiyd amesema: “Alifariki mwaka 57 Hijriyyah”. Jina lake lilikuwa ‘Amr au Qudaamah au ‘Abdullaah bin Waqdaan."
+    },
+    {
+      "t": "green_quote",
+      "text": "Yaani kutoka katika ardhi zilizokamatwa na makafiri kuelekea katika ardhi za Waislam."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Naafi’**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ نَافِعٍ قَالَ: {أَغَارُ رَسُولُ اَللَّهِ صلى الله عليه وسلم عَلَى بَنِيَّ اَلْمُصْطَلِقِ، وَهُمْ غَارُّونَ، فَقَتَلَ مُقَاتِلَتَهُمْ، وَسَبَى ذَرَارِيَّهُمْ. حَدَّثَنِي بِذَلِكَ عَبْدُ اَللَّهِ بْنُ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliwavamia Baniy Muswtwaliq nao wakiwa wameghafilika akawauwa wapiganao nae na akiteka wanawake na watoto wao. Alimhadithia hivyo ‘Abdullaah bin ‘Umar (رَضِيَ اللهُ عَنْهُمَا).”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alipojulishwa kuwa Banu Mustwaliq walikuwa wamejitayarisha kumvamia na kumpiga, yeye akawahi kuwavamia, akawauwa watu kumi miongoni mwao na kuteka mateka waliobakia. Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alipowaachia huru na kumuoa Juwayriyya, Maswahaba nao wakawaachia mateka wote waliobakia na kisha wote wakasilimu."
+    },
+    {
+      "t": "green_quote",
+      "text": "Hii inaelezea kuwa ikiwa watu wameshalinganiwa, na wakakataa ulingano huo, sio wajibu tena kuwatumia lingano la vita kabla ya kupigana nao. Hadiyth hii inaelezea vile vile kumshambulia adui katika mipaka yao ni jambo linaloruhusiwa na mwisho inaonesha kuwa hata waarabu wakichukuliwa mateka."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Sulaymaan bin Buraydah naye kutoka kwa baba yake kutoka kwa ‘Aaishah (رَضِيَ اللَّهُ عَنْهَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ قَالَ: {كَانَ رَسُولُ اَللَّهِ صلى الله عليه وسلم إِذَا أَمَّرَ أَمِيرًا عَلَى جَيْشٍ أَوْصَاهُ بِتَقْوَى اَللَّهِ، وَبِمَنْ مَعَهُ مِنْ اَلْمُسْلِمِينَ خَيْراً، ثُمَّ قَالَ: \"اُغْزُوا بِسْمِ اَللَّهِ، فِي سَبِيلِ اَللَّهِ، قَاتِلُوا مِنْ كَفَرَ بِاَللَّهِ، اُغْزُوا، وَلَا تَغُلُّوا، وَلَا تَغْدُرُوا، وَلَا تُمَثِّلُوا، وَلَا تَقْتُلُوا وَلِيداً، وَإِذَا لَقِيتَ عَدُوَّكَ مِنْ اَلْمُشْرِكِينَ فَادْعُهُمْ إِلَى ثَلَاثِ خِصَالٍ، فَأَيَّتُهُنَّ أَجَابُوكَ إِلَيْهَا، فَاقْبَلْ مِنْهُمْ، وَكُفَّ عَنْهُمْ: اُدْعُهُمْ إِلَى اَلْإِسْلَامِ فَإِنْ أَجَابُوكَ فَاقْبَلْ مِنْهُمْ."
+    },
+    {
+      "t": "marabic",
+      "arabic": "ثُمَّ اُدْعُهُمْ إِلَى اَلتَّحَوُّلِ مِنْ دَارِهِمْ إِلَى دَارِ اَلْمُهَاجِرِينَ، فَإِنْ أَبَوْا فَأَخْبَرْهُمْ أَنَّهُمْ يَكُونُونَ كَأَعْرَابِ اَلْمُسْلِمِينَ، وَلَا يَكُونُ لَهُمْ . فِي اَلْغَنِيمَةِ وَالْفَيْءِ شَيْءٌ إِلَّا أَنْ يُجَاهِدُوا مَعَ اَلْمُسْلِمِينَ. فَإِنْ هُمْ أَبَوْا فَاسْأَلْهُمْ اَلْجِزْيَةَ، فَإِنْ هُمْ أَجَابُوكَ فَاقْبَلْ مِنْهُمْ، فَإِنْ أَبَوْا فَاسْتَعِنْ بِاَللَّهِ وَقَاتِلْهُمْ. وَإِذَا حَاصَرْتَ أَهْلَ حِصْنٍ فَأَرَادُوكَ أَنْ تَجْعَلَ لَهُمْ ذِمَّةَ اَللَّهِ وَذِمَّةَ نَبِيِّهِ، فَلَا تَفْعَلْ، وَلَكِنْ اِجْعَلْ لَهُمْ ذِمَّتَكَ، فَإِنَّكُمْ إِنْ تُخْفِرُوا ذِمَمَكُمْ. أَهْوَنُ مِنْ أَنَّ تُخْفِرُوا ذِمَّةَ اَللَّهِ، وَإِذَا أَرَادُوكَ أَنْ تُنْزِلَهُمْ عَلَى حُكْمِ اَللَّهِ، فَلَا تَفْعَلْ، بَلْ عَلَى حُكْمِكَ، فَإِنَّكَ لَا تَدْرِي أَتُصِيبُ فِيهِمْ حُكْمَ اَللَّهِ أَمْ لَا\"} أَخْرَجَهُ مُسْلِمٌ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alikuwa anapomueka Amiri katika jeshi au kikosi humuusia kheri na kuwa na Taqwa na huwausia Waislam walio pamoja nae kheri pia. Kisha anasema: ‘Piganeni kwa Jina la Allaah, katika Njia ya Allaah, piganeni na anayemkufuru Allaah, piganeni na wala msifanye udanganyifu, wala msivunje ahadi, wala msitese, wala msiue mtoto mdogo. Utakapokutana na adui yako miongoni mwa washirikana walinganie katika mambo matatu, lolote kati ya hayo watakapokujibu wakubalie na ujizuwie; walinganie katika Uislam, wakikujibu wakubalie, kisha walinganie wahame kutoka katika mji wao wahamie mji wa Muhaajiriyna (Madiynah), wakikataa waambie kuwa wao watakuwa kama wale mabedui Waislam, hawatapata kitu katika ngawira wala katika fai isipokuwa watakapopigana Jihaad pamoja na Waislam. Wakikataa waombe watoe Jizya, wakikujibu wakubalie, wakikataa basi omba msaada kwa Allaah dhidi yao na upigane nao. Utakapowazingira watu katika ngome, wakakuomba uwajaalie dhima ya Allaah na dhima ya Nabiy wake usifanye, lakini wajalie dhima yako, kwani nyinyi kutangua dhima zenu ni rahisi kuliko kutangua dhima ya Allaah. Na akikuomba uwaweke katika hukumu ya Allaah usifanye, bali katika hukumu yako, kwani wewe hujui utapata usawa Hukumu ya Allaah miongoni mwao au la.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Sariya ni kikosi maalumu cha uchunguzi kinachofanya kazi yake usiku."
+    },
+    {
+      "t": "green_quote",
+      "text": "Katika kuchukuwa ngawira kabla ya mgao."
+    },
+    {
+      "t": "green_quote",
+      "text": "Katika lugha ya kiarabu Muthla ni kukata kiungo kimoja kimoja. Kama vile kukata pua, sikio, na viungo vingine mwilini."
+    },
+    {
+      "t": "green_quote",
+      "text": "Hii ina maana kuwa suala la kuhama ni jambo la kuendelea daima, kwa kua kuendelea kukaa katika nchi za makafiri kunazuiwa kutekelezwa kwa shariy’ah za Kiislaam."
+    },
+    {
+      "t": "green_quote",
+      "text": "Katika lugha ya kiarabu ni Ghaniyma kwa maana ya mabaki yanayoachwa au yanayotekwa kutoka kwa adui vitani. Moja ya tano inachukuliwa na kuhifadhiwa katika hazina na zilizobaki zinagawiwa kwa wapiganajii. Askari wa miguu hupata hisa moja na yule wa farasi hupata hisa tatu."
+    },
+    {
+      "t": "green_quote",
+      "text": "Fai ni istwilaah inayotumiwa kwa maana ya ngawira inayopatikana kutoka kwa makafiri bila ya mapigano. Moja ya tano inayopatikana haigawiwi bali inapelekwa kwa yatima, maskini, wasafiri, wanaohama, na fiy sabiliLLaah kwa amri ya Khalifa."
+    },
+    {
+      "t": "green_quote",
+      "text": "Jizya ni malipo ya kodi ya kichwa ambayo inachukuliwa na serikali ya Kiislam kutoka kwa wakazi wake wasio kuwa Waislaam."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ka’b bin Maalik (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ كَعْبِ بْنِ مَالِكٍ رضى الله عنه {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا أَرَادَ غَزْوَةً وَرَّى بِغَيْرِهَا} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anapotaka kuenda vitani huficha (kusudio lake) kwa jambo jingine.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ma’qil**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ مَعْقِلٍ، أَنَّ اَلنُّعْمَانَ بْنَ مُقَرِّنٍ قَالَ: {شَهِدْتُ رَسُولَ اَللَّهِ صلى الله عليه وسلم إِذَا لَمْ يُقَاتِلْ أَوَّلَ اَلنَّهَارِ أَخَّرَ اَلْقِتَالِ حَتَّى تَزُولَ اَلشَّمْسُ، وَتَهُبَّ اَلرِّيَاحُ، وَيَنْزِلَ اَلنَّصْرُ} رَوَاهُ أَحْمَدُ وَالثَّلَاثَةُ، وَصَحَّحَهُ اَلْحَاكِمُ . وَأَصْلُهُ فِي اَلْبُخَارِيِّ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa An-Nu’maan bin Muqarrin amesema: “Nilishuhudia vita pamoja na Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alikuwa asipopigana mwanzo wa mchana huakhirisha vita mpaka jua lipinduke upepo uvume na nusura iteremke.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ahmad na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na akaisahihisha Al-Haakim, na asili yake iko katika Al-Bukaariy]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Huyu alikua ni Swahaba kutoka katika kabila la Muzaynah na alikuwa ni mmoja katika makamanda wa Waislam wakati wa Khalifa Abuu Bakr na ‘Umar bin Al-Khatwaab. Alihama pamoja na ndugu zake wengine saba. Alifungua Asbahan na aliuwawa katka vita vya Nahawand katika mwaka wa 21 Hijriyyah."
+    },
+    {
+      "t": "green_quote",
+      "text": "Muda mzuri wa kushambulia ni asubuhi, wakati muda mzuri wa kupigana ni mchana, wakati huo nusra za Allaah hushuka kwa Waumini wakati wa Swalaah. Du’aa zinazosomwa muda huu ni mustajaabu."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Asw-Swa’b bin Jathaamah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ اَلصَّعْبِ بْنِ جَثَّامَةَ رضى الله عنه قَالَ: {سُئِلَ رَسُولُ اَللَّهِ صلى الله عليه وسلم عَنْ اَلدَّارِ مِنْ اَلْمُشْرِكِينَ. يُبَيِّتُونَ، فَيُصِيبُونَ مِنْ نِسَائِهِمْ وَذَرَارِيهِمْ، فَقَالَ: \"هُمْ مِنْهُمْ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliulizwa kuhusu wanawake na watoto miongoni mwa washirikina wanaovamiwa ghafla wakauwawa au wakadhuriwa wanawake na watoto wao. Akasema wao ni miongoni mwao.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Wanawake na watoto wa kikafiri hawatakiwi kuuwawa katika vita. Hata hivyo, ikiwa imetokezea mashambulizi yakifanyika usiku na bahati mbaya wakauwawa hakuna lawama katika hilo."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Aaishah (رَضِيَ اللَّهُ عَنْهَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَائِشَةَ رَضِيَ اَللَّهُ عَنْهَا، {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ لِرَجُلٍ تَبِعَهُ يَوْمَ بَدْرٍ: \" اِرْجِعْ. فَلَنْ أَسْتَعِينَ بِمُشْرِكٍ\"} رَوَاهُ مُسْلِمٌ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimuambia mtu aliyemfuata katika vita vya Badr: ‘Rudi kwani sitaomba msaada kwa mshirikina’.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Mwanzoni, ilikatazwa kuchukua msaada kutoka kwa makafiri wakati wa vita. Katazo hili lilikuja kuondoshwa huko mbele. Kuna Hadiyth inayoeleza kuwa: “Mtafanya mkataba wa amani na Warumi, Waislaam na Warumi wataungana kupigana na adui.”"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا، {أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم رَأَى اِمْرَأَةً مَقْتُولَةً فِي بَعْضِ مَغَازِيهِ، فَأَنْكَرَ قَتْلَ اَلنِّسَاءِ وَالصِّبْيَانِ} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimuona mwanamke ameuwawa katika baadhi ya vita alivyopigana, akakataa kuua wanawake na watoto.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Samurah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ سَمُرَةَ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\" اُقْتُلُوا شُيُوخَ اَلْمُشْرِكِينَ، وَاسْتَبْقُوا شَرْخَهُمْ\"} رَوَاهُ أَبُو دَاوُدَ، وَصَحَّحَهُ اَلتِّرْمِذِيُّ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Wauweni wazee wa mushirikina na waacheni watoto wao.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na akaisahihisha At-Tirmidhiy]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Ni haraam kabisa kuuwa watoto. Ni ruhusa kuuwa wanawake kama wanawake hao watashambulia, vinginevyo ni haraam kuwauwa. Wazee miongoni mwa washirikina (kama wana nguvu na wanaweza kupigana) na wanaoweza kusaidia adui katika hali yoyote hata kama watatoa ushauri inaruhusiwa kuwauwa. Vinginevyo wazee wasioingia vitani haifai kuuwawa."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Aliy (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَلِيٍّ رضى الله عنه {أَنَّهُمْ تَبَارَزُوا يَوْمَ بَدْرٍ} رَوَاهُ اَلْبُخَارِيُّ وَأَخْرَجَهُ أَبُو دَاوُدَ مُطَوَّلاً"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Wao walibariziana siku ya Badri.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Al-Bukhaariy na Abuu Daawuwd ameipokea kwa urefu]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Mubaaraza ni mapigano ya mtu kwa mtu (kwa wenye uwezo wa kupigana). Mara nyingi hufanyika wito wa kupigana wa mtu na mtu kwa sauti za majigambo. Pamoja na kuwa jambo hili linaonekana la kujigamba na kujiamini kupita kiasi na kuonesha ujasiri wa hali ya juu, ni jambo ambalo hukubaliwa tu kwa lengo la kumtisha adui."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abuu Ayyuwb (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَبِي أَيُّوبَ رضى الله عنه قَالَ: إِنَّمَا أُنْزِلَتْ هَذِهِ اَلْآيَةُ فِينَا مَعْشَرَ اَلْأَنْصَارِ، يَعْنِي: [[﴿ وَلَا تُلْقُوا بِأَيْدِيكُمْ إِلَى اَلتَّهْلُكَةِ ﴾]] قَالَهُ رَدًّا عَلَى مَنْ أَنْكَرَ عَلَى مَنْ حَمَلَ عَلَى صَفِ اَلرُّومِ حَتَّى دَخَلَ فِيهِمْ . رَوَاهُ اَلثَّلَاثَةُ، وَصَحَّحَهُ اَلتِّرْمِذِيُّ، وَابْنُ حِبَّانَ، وَالْحَاكِمُ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Aayah hii iliteremka kwetu kongamano la Answaar: [[{…wala msijitupe katika maangamizi kwa (kuzuia) mikono yenu (isitoe)…}]] {{[Qur-aan 2: 195]}} alisema hivyo akamrudi aliyejiingiza ndani ya safu ya Warumi akaingia katikati yao.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na akaisahihisha At-Tirmidhiy, Ibn Hibbaan na Al-Haakim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii ina maelezo kuwa wakati wapiganaji wanataka kushambulia, ifikiriwe pia idadi ya adui kwa kulinganisha. Ikiwa wapiganaji wa kikafiri ni mara mbili ya wale Waumini, Waislam wanaamrishwa kupigana nao. Hata hivyo, ikiwa idadi ni zaidi ya hapo ni wajibu wa Waislam kupigana nao. Hadiyth hii inathibitisha dalili ya ruhusa ya mpiganaji mmoja kushambulia kundi la adui, akiwa anajua kuwa anaweza kufanya hivyo."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {حَرَقَ رَسُولُ اَللَّهِ صلى الله عليه وسلم نَخْلَ بَنِي اَلنَّضِيرِ، وَقَطَعَ} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliichoma mitende ya Baniy An-Nadhwiyr na akaikata.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii inaelezea kuwa ikiwa kuna kitu kinacholeta kikwazo vitani hata ikiwa kina manufaa na watu na kitu hicho kikatumika kama ngome ya adui ni ruhusa kukiangamiza."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Ubaadah bin Asw-Swaamit (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عُبَادَةَ بْنِ اَلصَّامِتِ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"لَا تَغُلُّوا، فَإِنَّ اَلْغُلُولَ نَارٌ وَعَارٌ عَلَى أَصْحَابِهِ فِي اَلدُّنْيَا وَالْآخِرَةِ\"} رَوَاهُ أَحْمَدُ، وَالنَّسَائِيُّ، وَصَحَّحَهُ ابْنُ حِبَّانَ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Msifanye khiyana katika ghanima (kabla ya kugawiwa), kwa hakika khiyana ni moto na ni aibu kwa wanaoifanya duniani na Aakhirah.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ahmad na An-Nasaaiy na akaisahihisha Ibn Hibbaan]*"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Awf bin Maalik (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَوْفِ بْنِ مَالِكٍ رضى الله عنه {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَضَى بِالسَّلَبِ لِلْقَاتِلِ} رَوَاهُ أَبُو دَاوُدَ وَأَصْلُهُ عِنْدَ مُسْلِمٍ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alihukumu kilichoachwa na aliyeuwawa ni cha aliyeuwa.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na asili yake iko katika Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Katika lugha ya kiarabu Salb ni kitu kilichohusishwa na mwili wa aliyeuwawa, kama nguo, silaha na kipando. ‘Ulamaa wengi ni wenye rai kuwa hivyo ni haki kwa aliyeuwa."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Abdur-Rahmaan bin ‘Awf (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَبْدِ اَلرَّحْمَنِ بْنِ عَوْفٍ رضى الله عنه فِي قِصَّةِ قَتْلِ أَبِي جَهْلٍ قَالَ: {فَابْتَدَرَاهُ بِسَيْفَيْهِمَا حَتَّى قَتَلَاهُ، ثُمَّ انْصَرَفَا إِلَى رَسُولِ اَللَّهِ صلى الله عليه وسلم فَأَخْبَرَاهُ، فَقَالَ: \"أَيُّكُمَا قَتَلَهُ؟ هَلْ مَسَحْتُمَا سَيْفَيْكُمَا ؟\" قَالَا: لَا. قَالَ: فَنَظَرَ فِيهِمَا، فَقَالَ: \"كِلَاكُمَا قَتَلَهُ، سَلْبُهُ لِمُعَاذِ بْنِ عَمْرِوِ بْنِ اَلْجَمُوحِ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema katika kisa cha Abuu Jahl akasema: “Wakamkimbilia kwa panga zao wakamuuwa, kisha wakaenda kwa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) wakamueleza. Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akawauliza: ‘Ni nani kati yenu aliyemuua? Je mumezipangusa panga zenu? Wakasema bado. Nabiy akazitazama panga zao akawaambia: ‘Nyote mumemuua’. Nabiy akahukumu salab yake kwa Mu’aadh bin ‘Amr bin Al-Jamuwh.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Huyu alikuwa katika Answaar wa Khazraj wa ukoo wa Sulami. Alihudhuria Al-‘Aqaba na Badr. Alikuwa ni mmoja aliyemkata mguu Abuu Jahl na kumuangusha kutoka katika farasi wake kisha Ikrimah mtoto wa Abuu Jahl akamkata Mu’aadh mkono wake, lakini hilo halikumzuia kupigana hadi vita vilivyokwisha. Alifariki wakati wa Ukhalifa wa ‘Uthmaan."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Makhuwl**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ مَكْحُولٍ، {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم نَصَبَ اَلْمَنْجَنِيقَ عَلَى أَهْلِ اَلطَّائِفِ} أَخْرَجَهُ أَبُو دَاوُدَ فِي \"اَلْمَرَاسِيلِ\" وَرِجَالُهُ ثِقَاتٌ"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَوَصَلَهُ الْعُقَيْلِيُّ بِإِسْنَادٍ ضَعِيفٍ عَنْ عَلِيٍّ رضى الله عنه"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliwashambulia watu wa Atw-Twaaif kwa Manjaniyq.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd katika kitabu chake cha Al-Maraasiyl na wapokezi wake ni madhubuti]*"
+    },
+    {
+      "t": "quote",
+      "text": "Al-‘Uqayliyy ameipokea ikiwa ni mawsuwl dhaifu kutoka kwa ‘Aliy (رَضِيَ اللهُ عَنْهُ)"
+    },
+    {
+      "t": "green_quote",
+      "text": "Makhuwl Ad-Dimashqi alikuwa ‘Aalim (Mwanazuoni) wa Fiqhi huko Sham na katika watu mashuhuri. Abuu Haatim anamuelezea: “Simjui mwenye ufahamu wa Fiqhi kumzidi.” Alifariki katika mwaka 113 Hujriyyah."
+    },
+    {
+      "t": "green_quote",
+      "text": "Manjaniyq ni mtambo wa kutupa mawe vitani katika ngome ya adui. Lengo la kutaja Hadiyth hii ni kuwa kuna uwezekano wa kuuwawa watoto, wanawake na watu wazima katika vita vya namna hii ambapo adui anajificha katika ngome na hakuna njia nyingine ila kuwasha Manjaniyq ili kuwashinda."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Anas (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَنَسٍ رضى الله عنه {أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم دَخَلَ مَكَّةَ وَعَلَى رَأْسِهِ اَلْمِغْفَرُ، فَلَمَّا نَزَعَهُ جَاءَهُ رَجُلٌ، فَقَالَ: ابْنُ خَطَلٍ مُتَعَلِّقٌ بِأَسْتَارِ اَلْكَعْبَةِ، فَقَالَ: \"اُقْتُلُوهُ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliingia Makkah na juu ya kichwa chake ana kofia ya chuma, alipoivua mtu mmoja alimjia akasema: ‘Ibn Khatwal ameikumbatia nguzo ya Al-Ka’bah’ Nabiy akasema: Muuweni.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Jina la Ibn Khatal lilikuwa ni ‘Abdullaah. Mtu huyu dhaifu alisilimu mwanzoni. Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alimtuma akakusanye Zakaah pamoja na mtu mwingine katika Ansaar ndipo aliporitadi na kumuuwa jamaa wa kianswaar. Aliiba fedha za Zakaah na kukimbilia Makkah. Baada tu ya Waislamu kuifungua Makkah, Ibn Khatal alijificha maeneo ya Ka’bah. Rasuli alituma Maswahaba zake wakamuuwe. Hii inathibitisha kuwa msaliti na muuwaji hapati msamaha hata akiwa Ka’bah."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Sa’iyd bin Jubayr**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ سَعِيدِ بْنِ جُبَيْرٍ، {أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم قَتَلَ يَوْمَ بَدْرٍ ثَلَاثَةً صَبْراً} أَخْرَجَهُ أَبُو دَاوُدَ فِي \"اَلْمَرَاسِيلِ\" وَرِجَالُهُ ثِقَاتٌ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliua watu watatu katika vita vya Badr.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd katika kitabu chake cha Al-Maraasil na wapokezi wake ni madhubuti]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Alikuwa katika ukoo wa Al-Walibi na akiishi mji wa Kufa ‘Iraaq. Alikuwa ‘Aalim (Mwanazuoni) mkubwa wa Fiqhi na Imaam mwenye mamlaka katika tafsiri ya Qur-aan na Hadiyth. Alikuwa ni mtu wa mwisho kuuwawa na Hajjaaj bin Yusuf. Maimun bin Mahraan anasema: “Sa’iyd bin Jubayr alikufa wakati kila mmoja wakati ule akihitajia elimu yake.” Aliuwawa mwaka 95 Hijriyyah. Akiwa ni mzee sana."
+    },
+    {
+      "t": "green_quote",
+      "text": "Watu hawa watatu walikuwa ni: Tua’ma bin ‘Adl, Nadr bin Harith na ‘Uqbat bin Abi Mu’ait. Hili linaelezea kuwa ni ruhusa kuwauwa watu wa aina hii (wanaokaribia kufa kwa njaa au kiu)"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Imraan bin Huswayn (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عِمْرَانَ بْنِ حُصَيْنٍ رضى الله عنه {أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم فَدَى رَجُلَيْنِ مِنْ اَلْمُسْلِمِينَ بِرَجُلٍ مِنْ اَلْمُشْرِكِينَ} أَخْرَجَهُ اَلتِّرْمِذِيُّ وَصَحَّحَهُ . وَأَصْلُهُ عِنْدَ مُسْلِمٍ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aliwatolea fidia watu wawili Waislamu kwa mtu mmoja mshirikina.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na At-Tirmidhiy na akaisahihisha, na asili yake iko katika Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Maelezo ya Hadiyth hii ni kuonesha kuwa kubadilishana wafungwa ni ruhsa. Watu wa Banu Thaqiyf waliwateka Maswahaba wawili wa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ). Kwa kuwa Banu ‘Aql walikuwa ni washirika wa Banu Thaqiyf Maswahaba wakamteka mtu mmoja wa Banu ‘Aql. Makafiri walipowaachia nae Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akamuachia huru waliyemteka."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Swakhr bin Al-‘Aylah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ صَخْرِ بْنِ اَلْعَيْلَةِ رضى الله عنه أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ: {\"إِنَّ اَلْقَوْمَ إِذَا أَسْلَمُوا ؛ أَحْرَزُوا دِمَاءَهُمْ وَأَمْوَالَهُمْ\"} أَخْرَجَهُ أَبُو دَاوُدَ، وَرِجَالُهُ مُوَثَّقُونَ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Watu wanaosilimu, wamehifadhi damu zao na mali yao.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na wapokezi wake ni madhubuti]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Huyu ni Swakhr bin Al-‘Aylah Al-Ahmas Abuu Haazim alikuwa ni Swahaba aliyepokea Hadiyth."
+    },
+    {
+      "t": "green_quote",
+      "text": "Itakapokuwa Al-Harbi (mtu kutoka katika ardhi ya makafiri) atakaposilimu kwa khiyari yake, utajiri wake unabaki kwake. Ama akisilimu kwa nguvu ya kushindwa vita, maisha yake yatabakizwa lakini mali yake itagawiwa kama ni ngawira kwa wapiganaji."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Khubayr bin Mutw’am (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ جُبَيْرِ بْنِ مُطْعَمٍ رضى الله عنه أَنَّ اَلنَّبِيَّ صلى الله عليه وسلم قَالَ فِي أُسَارَى بَدْرٍ: {\" لَوْ كَانَ اَلْمُطْعَمُ بْنُ عَدِيٍّ حَيًّا، ثُمَّ كَلَّمَنِي فِي هَؤُلَاءِ اَلنَّتْنَى لَتَرَكْتُهُمْ لَهُ\"} رَوَاهُ اَلْبُخَارِيُّ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema kuhusiana na mateka wa vita vya Badr: “Lau Al-Mutw’am bin ‘Adiyy angekuwa hai, kisha akazungumza nami ili niwaache hawa wanaonuka, ningalimwachia.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Al-Bukhaariy]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Ni pale Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alipokua akirejea kutoka Twaaif baada ya kujeruhiwa huko, Al-Mutw’am bin ‘Adiyy alimuhifadhi na akawa anamhudumia. Hapa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) anakumbuka fadhila zake."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abuu Sa’iyd Al-Khudriyy (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَبِي سَعِيدٍ اَلْخُدْرِيِّ رضى الله عنه قَالَ: {أَصَبْنَا سَبَايَا يَوْمَ أَوْطَاسٍ لَهُنَّ أَزْوَاجٌ، فَتَحَرَّجُوا، فَأَنْزَلَ اَللَّهُ تَعَالَى: [[﴿ وَالْمُحْصَنَاتُ مِنَ اَلنِّسَاءِ إِلَّا مَا مَلَكَتْ أَيْمَانُكُمْ ﴾]] } أَخْرَجَهُ مُسْلِمٌ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Tulipata mateka waliokuwa na waume zao katika vita vya Awtwaas wakaona uzito juu ya hali hili, Allaah Akateremsha Aayah hii: [[{Na (Mmeharamishiwa pia) wanawake walio katika ndoa isipokuwa iliyowamiliki mikono yenu ya kuume…}]] .” Mpaka mwisho wa Aayah hii {{[Qur-aan 4: 24]}}\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Ndoa zilizotanguliwa za wanawake wanaotekwa vitani, zimetanguka. Ikiwa mwanamke huyo ana mimba, inaruhusiwa kumuingilia baada ya kujifungua. Kama hana mimba inafaa kumjamii baada ya kupita twahaarah moja. Hii bila ya kujali kuwa kasilimu au hajasilimu."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {بَعَثَ رَسُولُ اَللَّهِ صلى الله عليه وسلم سَرِيَّةٍ وَأَنَا فِيهِمْ، قِبَلَ نَجْدٍ، فَغَنِمُوا إِبِلاً كَثِيرَةً، فَكَانَتْ سُهْمَانُهُمْ اِثْنَيْ عَشَرَ بَعِيراً، وَنُفِّلُوا بَعِيراً بَعِيراً} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alituma kikosi nami nikiwa ndani yake upande wa Najd, wakapata ngamia wengi, mafungu yao yakafikia ngamia kumi na mbili kila mmoja.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Askari wa kuenda kwa miguu ana haki ya hisa moja katika mgawo wa ngawira, wakati askari wa farasi ana hisa tatu. Kamanda amepewa haki ya kumpa mpiganaji yeyote kutokana na uwezo alioonesha vitani."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْهُ قَالَ: {قَسَمَ رَسُولُ اَللَّهِ صلى الله عليه وسلم يَوْمَ خَيْبَرَ لِلْفَرَسِ سَهْمَيْنِ، وَلِلرَّاجِلِ سَهْمًا} مُتَّفَقٌ عَلَيْهِ. وَاللَّفْظُ لِلْبُخَارِيِّ"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَلِأَبِي دَاوُدَ: {أَسْهَمَ لِرَجُلٍ وَلِفَرَسِهِ ثَلَاثَةَ أَسْهُمٍ: سَهْمَيْنِ لِفَرَسِهِ، وَسَهْماً لَهُ}"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) aligawa (ngawira) katika vita vya Khaybar, mpanda farasi mafungu mawili na wa miguu ana fungu moja.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim na tamshi hili ni la Bukhaariy]*"
+    },
+    {
+      "t": "quote",
+      "text": "Katika riwaayah ya Abuu Daawuwd imesema: “Rasuli wa Allaah alimgawia mpiganaji na farasi wake mafungu matatu, mafungu mawili ni ya farasi wake na fungu moja ni lake.”"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ma’n bin Yaziyd (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ مَعْنِ بْنِ يَزِيدَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {سَمِعْتَ رَسُولَ اَللَّهِ صلى الله عليه وسلم يَقُولُ: \"لَا نَفْلَ إِلَّا بَعْدَ اَلْخُمُسِ\"} رَوَاهُ أَحْمَدُ ، وَأَبُو دَاوُدَ، وَصَحَّحَهُ اَلطَّحَاوِيُّ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema: “Hakuna ziada isipokuwa baada ya khumus.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ahmad na Abuu Daawuwd na akaisahihisha Atw-Twahaawiy]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Kutoka kwa Ma’n bin Yaziyd bin Al-Akhnas As-Sulami alikuwa ni Swahaba na mtoto wa Swahaba. Alihudhuria ufunguzi wa Damascus na alikuwa akiishi katika mji wa Kufa uliopo ‘Iraaq. Alikuenda Misri na kuenda kuishi Damascus. Alishiriki katika vita vya Marj Rahit akiwa na Adh-Dhahaq bin Qays mwaka 64 Hijriyyah. Aliuwawa katika vita hivyo. Inasemekana kuwa alikuwa akipenda kuwa na Mu’aawiyah katika vita alivyokuwa akipigana."
+    },
+    {
+      "t": "green_quote",
+      "text": "Khumus ni moja ya tano ya mapato ya vita ambayo Allaah Amemuwekea Nabiy wake Muhammad (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) pamoja na familia yake na kwa ajili ya Waislam wenye shida na fiy sabili LLaah"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Habiyb bin Maslamah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ حَبِيبِ بْنِ مَسْلَمَةٍ رضى الله عنه قَالَ: {شَهِدْتُ رَسُولُ اَللَّهِ صلى الله عليه وسلم نَفَّلَ اَلرُّبْعَ فِي اَلْبَدْأَةِ، وَالثُّلُثَ فِي اَلرَّجْعَةِ} رَوَاهُ أَبُو دَاوُدَ، وَصَحَّحَهُ ابْنُ اَلْجَارُودِ، وَابْنُ حِبَّانَ، وَالْحَاكِمُ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Nilimshuhudia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akiongeza ngawira robo katika kuanza safari na thuluthi katika kurejea.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na akaisahihisha Ibn Al-Jaaruwd, Ibn Hibbaan na Al-Haakim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Huyu ni Abuu ‘Abdir-Rahmaan Al-Fihri Al-Makki alikuwa ni Swahaba akijulikana kama Habiyb wa Roma kutokana na vita vingi alivyopigana huko. Alifariki Armenia katika mwaka 41 au 42 Hijriyyah akiwa kama gavana wa huko."
+    },
+    {
+      "t": "green_quote",
+      "text": "Kiasi kikubwa walichopewa ilikuwa ni kwa sababu ya hatari kubwa iliyowakabili walipokuwa wakipigana na adui kwa mara ya pili, walipokuwa wakirejea katika ardhi za Waislam."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {كَانَ رَسُولُ اَللَّهِ صلى الله عليه وسلم يُنَفِّلُ بَعْضَ مَنْ يَبْعَثُ مِنْ اَلسَّرَايَا لِأَنْفُسِهِمْ خَاصَّةً، سِوَى قَسْمِ عَامَّةِ اَلْجَيْشِ} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) : “Alikuwa akiongeza baadhi ya aliowatuma katika vikosi kwa ajili yao makhsusi usiokuwa mgao wa jeshi lote.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii inaonesha kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alikuwa akigawa zawadi kwa baadhi ya watu."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْهُ قَالَ: {كُنَّا نُصِيبُ فِي مَغَازِينَا اَلْعَسَلَ وَالْعِنَبَ ، فَنَأْكُلُهُ وَلَا نَرْفَعُهُ} رَوَاهُ اَلْبُخَارِيُّ وَلِأَبِي دَاوُدَ: {فَلَمْ يُؤْخَذْ مِنْهُمْ اَلْخُمُسُ} وَصَحَّحَهُ ابْنُ حِبَّانَ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Katika vita vyetu tulikuwa tunapata asali na zabibu tukizila wala hatuzichukui.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Al-Bukhaariy]*"
+    },
+    {
+      "t": "quote",
+      "text": "Katika riwaayah ya Abuu Daawuwd: “…wala humo haikuchukuliwa khumus.” {{[Na akaisahihisha Ibn Hibbaan]}}"
+    },
+    {
+      "t": "green_quote",
+      "text": "Moja ya tano (khumus) haichukuliwi kutoka katika chakula, hukusudiwa kuliwa na sio kuhifadhiwa. Kila mpiganaji anaweza na ana ruhusa kuchukuwa kabla hata ya mgawo wenyewe."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Abdillaah bin Abiy Awfa (رَضِيَ اللهُ عَنْهُمَا)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عَبْدِ اَللَّهِ بْنِ أَبِي أَوْفَى رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {أَصَبْنَا طَعَاماً يَوْمَ خَيْبَرَ، فَكَانَ اَلرَّجُلُ يَجِيءُ، فَيَأْخُذُ مِنْهُ مِقْدَارَ مَا يَكْفِيهِ، ثُمَّ يَنْصَرِفُ} أَخْرَجَهُ أَبُو دَاوُدَ، وَصَحَّحَهُ ابْنُ اَلْجَارُودِ، وَالْحَاكِمُ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Katika vita vya Khaybar tulipata chakula ikawa mtu anachukua kiasi kinachomtosha na kisha anaondoka.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na akaisahihisha Ibn Al-Jaaruwd na Al-Haakim]*"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Ruwayfi’ bin Thaabit (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ رُوَيْفِعِ بْنِ ثَابِتٍ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"مَنْ كَانَ يُؤْمِنُ بِاَللَّهِ وَالْيَوْمِ اَلْآخِرِ فَلَا يَرْكَبُ دَابَّةً مِنْ فَيْءِ اَلْمُسْلِمِينَ، حَتَّى إِذَا أَعْجَفَهَا رَدَّهَا فِيهِ، وَلَا يَلْبَسُ ثَوْباً مِنْ فَيْءِ اَلْمُسْلِمِينَ حَتَّى إِذَا أَخْلَقَهُ رَدَّهُ فِيهِ\"} أَخْرَجَهُ أَبُو دَاوُدَ، وَالدَّارِمِيُّ، وَرِجَالُهُ لَا بَأْسَ بِهِمْ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mwenye kumuamini Allaah na Siku ya mwisho, asipande myama katika ghanima ya Waislamu mpaka akamdhoofisha na kumrudisha humo, wala asivae nguo katika ngawira ya Waislam mpaka akaichakaza na kuirudisha.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na Ad-Daarimiyy na wapokezi wake hawana ubaya]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Farasi na silaha zinazokamatwa zinaweza kutumika kisha zikarejeshwa kama ngawira. Vinginevyo, ni haraam kuvitumia. Baadhi ya ‘Ulamaa wana rai kuwa vitu hivi havifai kutumiwa hata kwa muda tu, ila kwa masharti ya kupata ruhusa maalum kutoka kwa Amiri jeshi."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abiy ‘Ubaydah bin Al-Jarraah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَبِي عُبَيْدَةَ بْنِ اَلْجَرَّاحِ رضى الله عنه قَالَ: سَمِعْتُ رَسُولَ اَللَّهِ صلى الله عليه وسلم يَقُولُ: {\" يُجِيرُ عَلَى اَلْمُسْلِمِينَ بَعْضُهُمْ\"} أَخْرَجَهُ ابْنُ أَبِي شَيْبَةَ، وَأَحْمَدُ، وَفِي إِسْنَادِهِ ضَعْفٌ"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَلِلْطَيَالِسِيِّ: مِنْ حَدِيثِ عَمْرِوِ بْنِ الْعَاصِ: {\" يُجِيرُ عَلَى اَلْمُسْلِمِينَ أَدْنَاهُمْ\"}"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَفِي \"اَلصَّحِيحَيْنِ\" : عَنْ عَلِيٍّ رَضِيَ اَللَّهُ عَنْهُ قَالَ: {\"ذِمَّةُ اَلْمُسْلِمِينَ وَاحِدَةٌ يَسْعَى بهَا أَدْنَاهُمْ\"}"
+    },
+    {
+      "t": "marabic",
+      "arabic": "زَادَ اِبْنُ مَاجَه مِنْ وَجْهٍ آخَرَ: {\" يُجِيرُ عَلَيْهِمْ أَقْصَاهُمْ\"}"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَفِي \"اَلصَّحِيحَيْنِ\" مِنْ حَدِيثٍ أَمِ هَانِئٍ: {قَدْ أَجَرْنَا مَنْ أَجَرْتِ\"}"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema: “Waislam wanawakinga baadhi yao.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Ibn Abiy Shaybah na Ahmad na katika isnaad yake kuna udhaifu]*"
+    },
+    {
+      "t": "quote",
+      "text": "Na amepokea Atwayaalisiy kutoka katika Hadiyth ya ‘Amr bin Al-’Aasw: “Waislam wanawakinga walio karibu nao.”"
+    },
+    {
+      "t": "quote",
+      "text": "Na katika Swahiyh Al-Bukhaariy na Swahiyh Muslim imepokewa kutoka kwa ‘Aliy (رَضِيَ اللهُ عَنْهُ) amesema: “Dhima ya Waislam ni mmoja anaenda katika dhima yao aliye karibu nao.”"
+    },
+    {
+      "t": "quote",
+      "text": "Ibn Maajah ameongezea kwa njia nyingine: “Anaenda katika dhima yao aliye mbali nao.”"
+    },
+    {
+      "t": "quote",
+      "text": "Na katika Swahiyh Al-Bukhaariy na Swahiyh Muslim kutoka katika Hadiyth ya Ummu Haaniy: “Kwa hakika tumemhami uliyemhami.”"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii inaonesha sio tu Imaam mwenye uwezo wa kutoa haki ya amani. Muislam yoyote ana haki hiyo, iwe ni mwanamke au mwanamme, kijana kwa mtu mzima, tajiri kwa maskini, mpiganaji wa kawaida, kamanda wana haki ya kutoa haki hiyo ya kuwalinda na kuwapa amani wasio kuwa Waislam, ni heshima waliyopewa wote na shariy’ah. Hata Imaam hana haki ya kutengua haki ya kumlinda na kumpa amani mtu."
+    },
+    {
+      "t": "green_quote",
+      "text": "Huyu alikuwa ni binti wa Abuu Twaalib Al-Hashimiy na dada wa ‘Aliy bin Abiy Twaalib. Jina lake lilikuwa ni Fakhita au Hind na alisilimu wakati wa Fat-h Makkah."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Umar (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ عُمَرَ رضى الله عنه أَنَّهُ سَمِعَ رَسُولَ اَللَّهِ صلى الله عليه وسلم يَقُولُ: {\" لَأَخْرِجَنَّ اَلْيَهُودَ وَالنَّصَارَى مِنْ جَزِيرَةِ اَلْعَرَبِ، حَتَّى لَا أَدَعَ إِلَّا مُسْلِماً\"} رَوَاهُ مُسْلِمٌ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa alimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema: “Nitawatoa Mayahudi na Manaswara katika rasi ya Arabuni hadi nisibakishe isipokuwa Muislam.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Bara Arabuni ile sehemu ya ardhi iliyozunguka bahari ya Hindi, bahari ya kati na mito ya Tigri na Furati. Kwa urefu wake inaelekea hadi ‘Aden hadi Syria. Kwa upana wake, kutoka Jeddah hadi ‘Iraaq. Watu wengine wanadhani kuwa Bara Arabu lina maana ya Hijazi iliyokusanya Makkah, Madiynah na Yamama, Taif na pembezoni mwake tu. Hili ndilo haswa maana ya eneo la Hijaaz lilivyokuwa likitumika huko nyuma. Kwa hivyo ilikuwa kujulikana kuwa kuwafukuza Mayahudi katika bara lote na haswa zaidi katika eneo la Hijaaz."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa ‘Umar (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْهُ قَالَ: {كَانَتْ أَمْوَالُ بَنِي اَلنَّضِيرِ مِمَّا أَفَاءَ اَللَّهُ عَلَى رَسُولِهِ، مِمَّا لَمْ يُوجِفْ عَلَيْهِ اَلْمُسْلِمُونَ بِخَيْلٍ وَلَا رِكَابٍ، فَكَانَتْ لِلنَّبِيِّ صلى الله عليه وسلم خَاصَّةً، فَكَانَ يُنْفِقُ عَلَى أَهْلِهِ نَفَقَةَ سَنَةٍ، وَمَا بَقِيَ يَجْعَلُهُ فِي اَلْكُرَاعِ وَالسِّلَاحِ، عُدَّةً فِي سَبِيلِ اَللَّهِ\"} مُتَّفَقٌ عَلَيْهِ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Mali ya baniy An-Nadhwiyr miongoni mwa mali ambayo Allaah Alimrudishia Rasuli wake, ambayo Waislamu hawakuendea kwa farasi wala ngamia, ilikuwa ni ya Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) pekee: Nabiy alikuwa anatenga chakula cha ahli zake mwaka mzima, kinachobaki anakifanya kwenye farasi na silaha, maandalizi njia ya Allaah.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Al-Bukhaariy, Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Wapiganaji hawana hisia katika Fai - mali iliyotekwa na Waislaam bila ya kupigana. Wakati wa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) hadi wakati wa Makhalifa kufuatana na maelekezo ya Shariy’ah, walikuwa wakigawa mali hii katika matumizi ya nyumba ya Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) na jamaa wa karibu na Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ). Kadhalika mayatima, maskini, wasafiri na katika njia ya Allaah. Mali inayobaki hutumika kununulia silaha pamoja na farasi kwa ajili ya maandalizi ya vita."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Mu’aadh (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ مُعَاذٍ رضى الله عنه قَالَ: {غَزَوْنَا مَعَ رَسُولِ اَللَّهِ صلى الله عليه وسلم خَيْبَرَ، فَأَصَبْنَا فِيهَا غَنَمًا ، فَقَسَمَ فِينَا رَسُولُ اَللَّهِ صلى الله عليه وسلم طَائِفَةً، وَجَعَلَ بَقِيَّتَهَا فِي اَلْمَغْنَمِ\"} رَوَاهُ أَبُو دَاوُدَ، وَرِجَالُهُ لَا بَأْسَ بِهِمْ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema: “Tulipigana Jihaad pamoja na Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) Khaybar tukapata ndani yake mbuzi, Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akatugawia fungu, na kilichobaki alikigawa katika ghanima.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na wapokezi wake hawana ubaya]*"
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abuu Raafi’ (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَبِي رَافِعٍ رضى الله عنه قَالَ: قَالَ رَسُولُ اَللَّهِ صلى الله عليه وسلم {\"إِنِّي لَا أَخِيسُ بِالْعَهْدِ، وَلَا أَحْبِسُ اَلرُّسُلَ \"} رَوَاهُ أَبُو دَاوُدَ، وَالنَّسَائِيُّ، وَصَحَّحَهُ ابْنُ حِبَّانَ"
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Kwa hakika mimi sivunji ahadi wala sifungi wajumbe.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Abuu Daawuwd na An-Nasaaiy na akaisahihisha Ibn Hibbaan]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Hadiyth hii inaashiria kuwa kuvunja mkataba uliowekwa wa kivita kisha kuwakamata makafiri hairuhusiwi. Kisa cha suala hili linarudi kwa Abuu Raafi’ (muachwa huru wa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ)) alikuenda kwa Nabiy kabla hajasilimu, kama ni mjumbe aliyetumwa na makafiri. Mara tu alipomuona Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasilimu. Kisha akamtaka Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) kumkataza asirudi kule na kubaki, kwani hakutaka kurudi kwa makafiri tena. Baada ya Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) kusikia haya ndipo aliposema Hadiyth hii."
+    },
+    {
+      "t": "hr"
+    },
+    {
+      "t": "p",
+      "text": "**Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ)**"
+    },
+    {
+      "t": "marabic",
+      "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رضى الله عنه أَنَّ رَسُولَ اَللَّهِ صلى الله عليه وسلم قَالَ: {\"أَيُّمَا قَرْيَةٍ أَتَيْتُمُوهَا، فَأَقَمْتُمْ فِيهَا، فَسَهْمُكُمْ فِيهَا، وَأَيُّمَا قَرْيَةٍ عَصَتْ اَللَّهَ وَرَسُولَهُ، فَإِنْ خُمُسَهَا لِلَّهِ وَرَسُولِهِ ، ثُمَّ هِيَ لَكُمْ\"} رَوَاهُ مُسْلِمٌ."
+    },
+    {
+      "t": "blue_quote",
+      "text": "Maana: \"amesema kuwa Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mji wowote mliouendea mkakaa humo fungu lenu limo humo. Na mji wowote uliomuasi Allaah na Rasuli wake, kwa hakika khumus yake ni ya Allaah na Rasuli wake, kitakachobaki ni chenu.”\""
+    },
+    {
+      "t": "p",
+      "text": "*[Imetolewa na Muslim]*"
+    },
+    {
+      "t": "green_quote",
+      "text": "Mji wa kwanza ambao haukupiganwa vita. Hisa za wapiganaji wanazopata katika mji huo ni sawa na za Waislam wengine. Mji wa pili ni ule ambao mapigano yalifanyika. Moja ya tano ya ngawira inayopatikana inabidi itolewe kwanza, kisha baada ya hapo igawiwe kwa wapiganaji."
+    },
+    {
+      "t": "hr"
+    }
+  ]
 }
