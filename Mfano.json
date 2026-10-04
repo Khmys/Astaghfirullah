@@ -1,0 +1,10 @@
+{
+  "type": "somo",
+  "blocks": [
+    { "t": "h", "text": "MUME WA MWALIKO" },
+    { "t": "arabic", "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا" },
+    { "t": "green_quote", "text": "Maana:\n\"Muumin kwa Muumin ni kama jengo, sehemu zake zinaimarisha nyingine.\"\nSahih Al-Bukhari, 481; Sahih Muslim, 2585." },
+    { "t": "p", "text": "Hadith hii inaonyesha {{nguvu}} ya umoja. Wamuumini wanafanya kazi {{kama}} kiasi kimoja." },
+    { "t": "quote", "text": "Umoja ni nguvu.", "source": "Methali" }
+  ]
+}
