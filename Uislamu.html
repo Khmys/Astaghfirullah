@@ -90,6 +90,15 @@
   .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
   /* Vipengele vya somo la jumla (blocks) */
   .content-note { background:var(--tg-theme-secondary-bg-color,#fff8e1); border-left:4px solid #f9a825; padding:11px 14px; margin:12px 0; border-radius:8px; font-size:15px; line-height:1.7; }
+  /* Blocks na backgrounds: Qarabic, Marabic, etc */
+  .block-qarabic { background:#e8f5e9; padding:14px 14px; margin:12px 0; border-radius:12px; }
+  .qarabic-text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#d32f2f; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  
+  .block-marabic { background:#e3f2fd; padding:14px 14px; margin:12px 0; border-radius:12px; }
+  .marabic-text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#1565c0; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  
+  .content-blue-quote { background:#fff; border:2.5px solid #1565c0; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
+
   .content-green-quote { background:#fff; border:2.5px solid #4caf50; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
   .content-src { display:block; margin-top:6px; font-size:12.5px; font-style:italic; opacity:.75; }
   .content-list { margin:0 0 12px; padding-left:1.4em; font-size:15px; line-height:1.72; }
@@ -370,8 +379,14 @@
           const tag = b.ordered ? "ol" : "ul";
           return `<${tag} class="content-list">${(b.items || []).map(i => `<li>${alama(i)}</li>`).join("")}</${tag}>`;
         }
+        case "qarabic":
+          return `<div class="block-qarabic"><p class="qarabic-text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
+        case "marabic":
+          return `<div class="block-marabic"><p class="marabic-text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
         case "green_quote": case "nukuu_kijani":
           return `<div class="content-green-quote">${alama(txt(b))}</div>`;
+        case "blue_quote": case "nukuu_buluu":
+          return `<div class="content-blue-quote">${alama(txt(b))}</div>`;
         case "note": case "dokezo":
           return `<div class="content-note">${alama(txt(b))}</div>`;
         case "hr": return `<hr class="content-hr">`;
