@@ -1,158 +1,141 @@
 {
-  "type": "lesson",
-  "id": "umojainguvu",
-  "title": "Umoja ni Nguvu",
-  "subtitle": "Uislamu na Mfumo wa Kujenga Utajiri wa Familia",
-  "category": "Uislamu",
-  "source": "Qur'ani Tukufu, Hadith na vitabu vya wanazuoni",
-  "content": [
+  "type": "somo",
+  "blocks": [
     {
-      "type": "heading",
-      "text": "UTANGULIZI"
-    },
-    {
-      "type": "paragraph",
+      "t": "h",
       "text": "Kuna mafundisho mengi katika Uislamu yanayohusiana na umoja wa familia, kusaidiana, kuhifadhi mali, kufanya biashara halali, kuunga undugu na kuandaa vizazi vijavyo. Uislamu unahimiza ushirikiano, lakini haumfundishi mtu kuacha umiliki wake binafsi au kuifanya familia yote imtegemee mtu mmoja. Kila mtu ana haki zake, wajibu wake na mali yake."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "1. KUSHIRIKIANA KATIKA KHERI NA MAMBO YENYE MANUFAA"
     },
     {
-      "type": "quran",
-      "reference": "Surat Al-Maa'idah, 5:2",
-      "arabic": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ ۚ وَاتَّقُوا اللَّهَ ۖ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
+      "source": "Surat Al-Maa'idah, 5:2",
+      "arabic": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ ۚ وَاتَّقُوا اللَّهَ ۖ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
       "translation": "Na saidianeni katika wema na uchamungu, wala msisaidiane katika dhambi na uadui. Na mcheni Allah. Hakika Allah ni Mkali wa kuadhibu."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Aya hii ni miongoni mwa misingi mikubwa ya ushirikiano katika Uislamu. Allah Subhaanahu wa Ta'aalaa ametuelekeza tushirikiane katika mambo yenye kheri. Katika familia, ndugu wanaweza kushirikiana kuanzisha biashara halali, kuweka akiba kwa ajili ya nyumba au ardhi, kusaidiana kupata elimu na kutumia taaluma zao kutatua changamoto."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Ushirikiano una mipaka ya Sharia. Haupaswi kujengwa juu ya dhuluma, udanganyifu, kula mali za watu bila haki au kulazimishana. Familia inayotaka kujenga maendeleo inapaswa kuzingatia uadilifu na kumcha Allah."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "2. UMUHIMU WA UMOJA NA KUEPUKA MIGAWANYIKO"
     },
     {
-      "type": "quran",
-      "reference": "Surat Aal-Imraan, 3:103",
-      "arabic": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ",
+      "source": "Surat Aal-Imraan, 3:103",
+      "arabic": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ",
       "translation": "Na shikamaneni kwa kamba ya Allah nyote, wala msifarikiane."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Aya hii inawaamrisha Waumini kushikamana na dini ya Allah na kuepuka migawanyiko. Katika familia, migogoro ya mali, wivu, kutokuaminiana na kutoheshimu nafasi za wengine inaweza kuvunja umoja. Upendo, mashauriano na kusaidiana huwezesha familia kutumia vizuri uwezo wa wanachama wake."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Umoja haumaanishi kwamba kila mtu lazima awe na biashara moja au akaunti moja. Familia inahitaji kwanza kujenga mahusiano ya upendo, haki na kuheshimiana."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "3. KUWASAIDIA NDUGU NI IBADA YENYE MALIPO"
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Imepokewa kutoka kwa Salman bin Aamir kwamba Mtume Swalla Allaahu Alayhi wa Sallam amesema: “Sadaka kwa maskini ni sadaka moja, na kwa ndugu ni sadaka mbili: sadaka na kuunga undugu.” Imepokewa na At-Tirmidhiy na An-Nasaa'iy, na imepokelewa kuwa ni Hadith ya Hasan."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Mtu anapomsaidia ndugu yake mwenye uhitaji kwa ajili ya Allah, anapata fursa ya kutoa sadaka na kuunga undugu. Msaada unaweza kuwa fedha, elimu, ushauri au kumwezesha ndugu kujifunza ujuzi. Msaada huo uzingatie uwezo wa mtoaji na mahitaji ya wanaomtegemea."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "4. FAMILIA KAMA MFUMO WA KUSAIDIANA"
     },
     {
-      "type": "quran",
-      "reference": "Surat Al-Anfaal, 8:75",
-      "arabic": "وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِي كِتَابِ اللَّهِ",
+      "source": "Surat Al-Anfaal, 8:75",
+      "arabic": "وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِي كِتَابِ اللَّهِ",
       "translation": "Na ndugu wa damu, baadhi yao wana haki zaidi kwa baadhi yao katika Kitabu cha Allah."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Aya hii inahusiana na haki za undugu na urithi. Uislamu umeweka sheria zinazohusu haki za wazazi, watoto, wanandoa na ndugu. Familia inaweza kupanga kusaidiana katika elimu, matibabu, shughuli za kipato, kuwahudumia wazazi na uwekezaji wa muda mrefu. Ni muhimu kutofautisha wajibu uliowekwa na Sharia na msaada wa hiari."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "5. WAUMINI NI KAMA JENGO IMARA"
     },
     {
-      "type": "hadith",
-      "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا",
+      "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا",
       "translation": "Muumin kwa Muumin ni kama jengo, sehemu zake zinaiimarisha nyingine.",
-      "reference": "Sahih Al-Bukhari, 481; Sahih Muslim, 2585"
+      "source": "Sahih Al-Bukhari, 481; Sahih Muslim, 2585"
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Mtume ﷺ alifafanua kwa kuingiza vidole vya mikono yake katika vingine, kuonyesha jinsi sehemu za jengo zinavyoshikamana. Katika familia, watu wenye vipaji tofauti wanaweza kusaidiana na kuimarishana. Mmoja anaweza kuwa na maarifa ya biashara, mwingine elimu, mwingine uhasibu na mwingine uzoefu wa uzalishaji."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "6. KUSAIDIANA BILA KUONDOA HAKI ZA MTU BINAFSI"
     },
     {
-      "type": "quran",
-      "reference": "Surat An-Nisaa, 4:29",
-      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ إِلَّا أَن تَكُونَ تِجَارَةً عَن تَرَاضٍ مِّنكُمْ",
+      "source": "Surat An-Nisaa, 4:29",
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ إِلَّا أَن تَكُونَ تِجَارَةً عَن تَرَاضٍ مِّنكُمْ",
       "translation": "Enyi mlioamini! Msiliane mali zenu kwa batili, isipokuwa iwe biashara kwa kuridhiana baina yenu."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Hata familia inapoanzisha biashara ya pamoja, lazima kuwe na makubaliano yanayoeleweka. Wanapaswa kukubaliana kuhusu umiliki, mtaji, majukumu, faida, hasara na namna ya kutatua migogoro. Hakuna anayepaswa kunyang'anywa haki yake kwa kisingizio cha umoja."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "7. KUHIFADHI MALI NA KUITUMIA VIZURI"
     },
     {
-      "type": "quran",
-      "reference": "Surat Al-Qasas, 28:77",
-      "arabic": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا",
+      "source": "Surat Al-Qasas, 28:77",
+      "arabic": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا",
       "translation": "Na utafute kwa yale aliyokupa Allah makazi ya Akhera, wala usisahau sehemu yako katika dunia."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Mali si lengo la mwisho la maisha ya Muislamu, lakini inaweza kuwa nyenzo ya kufanya ibada, kusaidia familia, kutoa sadaka na kuendeleza jamii. Kufanya kazi, kuanzisha biashara, kununua ardhi, kujenga nyumba na kuwekeza katika miradi halali si jambo linalopingana na dini, mradi haki za watu na wajibu kwa Allah vihifadhiwe."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "8. KUANDAA KIZAZI KINACHOFUATA"
     },
     {
-      "type": "quran",
-      "reference": "Surat An-Nisaa, 4:9",
-      "arabic": "وَلْيَخْشَ الَّذِينَ لَوْ تَرَكُوا مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَافًا خَافُوا عَلَيْهِمْ فَلْيَتَّقُوا اللَّهَ وَلْيَقُولُوا قَوْلًا سَدِيدًا",
+      "source": "Surat An-Nisaa, 4:9",
+      "arabic": "وَلْيَخْشَ الَّذِينَ لَوْ تَرَكُوا مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَافًا خَافُوا عَلَيْهِمْ فَلْيَتَّقُوا اللَّهَ وَلْيَقُولُوا قَوْلًا سَدِيدًا",
       "translation": "Na wawahofie wale ambao lau wangeacha nyuma yao watoto dhaifu, wangewahofia. Basi wamche Allah na waseme maneno yaliyo sawa."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Aya hii inatukumbusha kuzingatia hali ya watoto na vizazi vinavyoachwa nyuma. Wazazi wanapaswa kuzingatia malezi, haki, elimu na mustakabali wa watoto. Maarifa, maadili, ujuzi wa kazi na nidhamu ya kusimamia mali ni urithi muhimu. Mali ya marehemu lazima igawanywe kwa mujibu wa sheria za mirathi za Kiislamu."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "9. UADILIFU WA KIUCHUMI"
     },
     {
-      "type": "quran",
-      "reference": "Surat Al-Hashr, 59:7",
+      "source": "Surat Al-Hashr, 59:7",
       "arabic": "كَيْ لَا يَكُونَ دُولَةً بَيْنَ الْأَغْنِيَاءِ مِنكُمْ",
       "translation": "Ili isiwe inazunguka baina ya matajiri miongoni mwenu tu."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Aya hii imo katika muktadha wa mgawanyo wa mali ya fay'i. Inatufundisha kutafakari kuhusu uadilifu wa kiuchumi na namna mali inavyosimamiwa katika jamii. Haipigi marufuku utajiri au umiliki binafsi, bali inatukumbusha umuhimu wa kuzingatia haki na manufaa ya jamii."
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "10. MAMBO YA KUTEKELEZA KATIKA FAMILIA"
     },
     {
-      "type": "list",
-      "items": [
+      "t": "p",
+      "text": [
         "Kuimarisha undugu, kuondoa chuki na kujenga mawasiliano yenye heshima.",
         "Kusaidia kila mwanafamilia kupata elimu, ujuzi na fursa za kutumia vipaji vyake.",
         "Kuweka utaratibu wa kusaidiana katika mahitaji na changamoto.",
@@ -163,11 +146,11 @@
       ]
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "VITABU VYA KUJIFUNZA ZAIDI"
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Vitabu vifuatavyo vinaweza kusaidia kujenga uelewa wa undugu, tabia, mali na uchumi katika Uislamu."
     },
     {
@@ -212,15 +195,15 @@
       ]
     },
     {
-      "type": "heading",
+      "t": "h",
       "text": "HITIMISHO"
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Kujitegemea kwa kweli kunaweza kuambatana na kusaidiana, kushirikiana na kujenga mifumo inayowezesha kila mmoja kukua. Familia yenye mafanikio si lazima iwe na biashara moja au mali inayomilikiwa na wote kwa pamoja. Inaweza kuwa na watu wanaomiliki mali zao binafsi, lakini wakashirikiana katika elimu, uwekezaji, kusaidiana na kuandaa vizazi vijavyo."
     },
     {
-      "type": "paragraph",
+      "t": "p",
       "text": "Ukombozi wa kiuchumi haujengwi kwa bidii pekee, bali pia kwa maarifa, mipango, nidhamu, ushirikiano na mifumo inayoweza kuendeleza mafanikio kutoka kizazi kimoja hadi kingine."
     }
   ]
