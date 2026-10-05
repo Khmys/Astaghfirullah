@@ -89,17 +89,19 @@
   .hd-ufa-title { text-align:center; text-decoration:underline; font-weight:700; margin:16px 0 8px; }
   .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
   /* Vipengele vya somo la jumla (blocks) */
-  .content-note { background:var(--tg-theme-secondary-bg-color,#fff8e1); border-left:4px solid #f9a825; padding:11px 14px; margin:12px 0; border-radius:8px; font-size:15px; line-height:1.7; }
+  .note_orange { background:var(--tg-theme-secondary-bg-color,#fff8e1); border-left:4px solid #f9a825; padding:11px 14px; margin:12px 0; border-radius:8px; font-size:15px; line-height:1.7; }
   /* Blocks na backgrounds: Qarabic, Marabic, etc */
-  .block-qarabic { padding:14px 14px; margin:12px 0; }
-  .qarabic-text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#d32f2f; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  .dark_green_arabic { padding:14px 14px; margin:12px 0; }
+  .dark_green_arabic_text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#d32f2f; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
   
-  .block-marabic { padding:14px 14px; margin:12px 0; }
-  .marabic-text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#1565c0; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  .red_arabic { padding:14px 14px; margin:12px 0; }
+  .red_arabic_text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#e53935; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
+  .blue_arabic { padding:14px 14px; margin:12px 0; }
+  .blue_arabic_text { direction:rtl; text-align:right; font-size:22px; line-height:2; color:#1565c0; margin:0 0 10px; font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; }
   
-  .content-blue-quote { background:#fff; border:2.5px solid #1565c0; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
+  .content-blue-quote { background:#fff; border:1.5px solid #1565c0; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
 
-  .content-green-quote { background:#fff; border:2.5px solid #4caf50; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
+  .content-green-quote { background:#fff; border:1.5px solid #4caf50; border-radius:18px; padding:14px 16px; margin:12px 0; font-size:15px; line-height:1.75; }
   .content-src { display:block; margin-top:6px; font-size:12.5px; font-style:italic; opacity:.75; }
   .content-list { margin:0 0 12px; padding-left:1.4em; font-size:15px; line-height:1.72; }
   .content-list li { margin-bottom:5px; }
@@ -379,16 +381,18 @@
           const tag = b.ordered ? "ol" : "ul";
           return `<${tag} class="content-list">${(b.items || []).map(i => `<li>${alama(i)}</li>`).join("")}</${tag}>`;
         }
-        case "qarabic":
-          return `<div class="block-qarabic"><p class="qarabic-text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
-        case "marabic":
-          return `<div class="block-marabic"><p class="marabic-text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
+        case "dark_green_arabic":
+          return `<div class="dark_green_arabic"><p class="dark_green_arabic_text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
+        case "red_arabic":
+          return `<div class="red_arabic"><p class="red_arabic_text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
+        case "blue_arabic":
+          return `<div class="blue_arabic"><p class="blue_arabic_text">${escapeHtml(b.arabic || txt(b))}</p></div>`;
         case "green_quote": case "nukuu_kijani":
           return `<div class="content-green-quote">${alama(txt(b))}</div>`;
         case "blue_quote": case "nukuu_buluu":
           return `<div class="content-blue-quote">${alama(txt(b))}</div>`;
-        case "note": case "dokezo":
-          return `<div class="content-note">${alama(txt(b))}</div>`;
+        case "note_orange": case "dokezo":
+          return `<div class="note_orange">${alama(txt(b))}</div>`;
         case "hr": return `<hr class="content-hr">`;
         case "img": case "picha":
           return `<img class="content-img" src="${escapeAttr(b.src || "")}" alt="">`;
