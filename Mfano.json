@@ -1,19 +1,12 @@
 {
   "type": "somo",
   "blocks": [
-    { "t": "h", "text": "KICHWA KIKUBWA" },
-    { "t": "p", "text": "Maelezo madogo ya somo..." },
-    
-    { "t": "h", "text": "SEHEMU YA KWANZA" },
-    { "t": "arabic", "arabic": "النص العربي هنا" },
-    { "t": "green_quote", "text": "Maana: \"...\"\nChanzo, kitabu." },
-    { "t": "p", "text": "Maandishi na {{italiki}} na **nzito** bila tatizo." },
-    
-    { "t": "quote", "text": "Nukuu na {{italiki}}.", "source": "Chanzo" },
-    
-    { "t": "h", "text": "SEHEMU YA PILI" },
-    { "t": "list", "ordered": true, "items": ["Namba 1", "Namba 2", "Namba 3"] },
-    
-    { "t": "note", "text": "Dokezo muhimu sana." }
+    { "t": "h", "text": "KICHWA" },
+    { "t": "dark_green_arabic", "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ..." },
+    { "t": "green_quote", "text": "Maana: \"...\"" },
+    { "t": "blue_arabic", "arabic": "رَسُول اللَّهِ..." },
+    { "t": "blue_quote", "text": "Kutoka kwa...\"" },
+    { "t": "note_orange", "text": "Dokezo muhimu!" },
+    { "t": "p", "text": "Maandishi na [[nyekundu]] na {{italiki}} na **nzito**" }
   ]
 }
