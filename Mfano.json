@@ -7,6 +7,7 @@
     { "t": "blue_arabic", "arabic": "رَسُول اللَّهِ..." },
     { "t": "blue_quote", "text": "Kutoka kwa...\"" },
     { "t": "note_orange", "text": "Dokezo muhimu!" },
-    { "t": "p", "text": "Maandishi na [[nyekundu]] na {{italiki}} na **nzito**" }
+    { "t": "p", "text": "Maandishi na [[nyekundu]] na {{italiki}} na **nzito**" },
+    { "t": "quote", "text": "Umoja ni nguvu.", "source": "Methali" }
   ]
 }
