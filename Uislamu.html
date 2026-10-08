@@ -45,7 +45,7 @@
   .reader-meta { color:var(--tg-theme-hint-color,#777); font-size:13px; margin:-5px 0 15px; }
   .content-heading { color:var(--tg-theme-link-color,#2481cc); font-weight:750; font-size:16px; margin:20px 0 7px; }
   .content-body { color:var(--tg-theme-text-color,#000); font-size:15px; line-height:1.72; margin:0 0 10px; }
-  .content-quote { background:var(--tg-theme-secondary-bg-color,#f0f4f8); border-left:4px solid var(--tg-theme-button-color,#2481cc); padding:12px 14px; margin:12px 0; border-radius:8px; font-style:italic; font-size:15px; line-height:1.75; color:var(--tg-theme-text-color,#000); unicode-bidi:plaintext; }
+  .content-quote { background:var(--tg-theme-secondary-bg-color,#f0f4f8); border-left:4px solid var(--tg-theme-button-color,#2481cc); padding:12px 14px; margin:12px 0; border-radius:8px; font-style:italic; }
   #emptyMsg, #loadingMsg { text-align:center; color:var(--tg-theme-hint-color,#777); padding:28px 10px; }
   .ayah-block { margin:0 0 22px; padding-bottom:16px; border-bottom:1px solid var(--tg-theme-secondary-bg-color,#eee); }
   .ayah-number { font-size:12px; color:var(--tg-theme-link-color,#2481cc); font-weight:650; margin-bottom:8px; }
@@ -54,21 +54,21 @@
   /* Muonekano wa kurasa za Qur'ani: tafsiri kushoto, maandishi ya Kiarabu kulia. */
   .quran-pages { display:flex; flex-direction:column; gap:18px; }
   .quran-reader .reader-head,.quran-reader .reader-meta { display:none; }
-  .quran-page { width:100%; max-width:900px; margin:0 auto; padding:18px 16px 22px; background:var(--tg-theme-bg-color,#fff); border:1px solid var(--tg-theme-secondary-bg-color,#d8d8d8); box-shadow:0 2px 8px rgba(0,0,0,.06); }
-  .quran-page-header { display:grid; grid-template-columns:minmax(0,1fr) auto auto auto minmax(0,1fr); align-items:center; gap:8px; padding:0 2px 7px; margin-bottom:12px; border-bottom:1px solid var(--tg-theme-hint-color,#888); font-size:11px; font-weight:650; }
-  .quran-page-header span:last-child { text-align:right; direction:rtl; }
+  .quran-page { width:100%; max-width:900px; margin:0 auto; padding:18px 16px 22px; background:var(--tg-theme-bg-color,#fff); border:1px solid var(--tg-theme-secondary-bg-color,#d8d8d8); box-shadow:0 2px 10px rgba(0,0,0,.04); border-radius:18px; }
+  .quran-page-header { display:grid; grid-template-columns:minmax(0,1fr) auto auto auto minmax(0,1fr); align-items:center; gap:8px; padding:0 2px 7px; margin-bottom:12px; border-bottom:1px solid var(--tg-theme-secondary-bg-color,#d8d8d8); font-size:12px; color:var(--tg-theme-hint-color,#666); }
   .quran-page-header span:last-child { text-align:right; direction:rtl; }
   .quran-page-number { min-width:34px; padding:2px 10px; text-align:center; border:1px solid var(--tg-theme-hint-color,#999); border-radius:0 0 12px 12px; }
   .quran-title-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:10px 0 12px; }
-  .quran-title-sw,.quran-title-ar { min-height:46px; display:flex; justify-content:center; align-items:center; padding:8px; text-align:center; background:var(--tg-theme-secondary-bg-color,#e8f6fb); border:1px solid var(--tg-theme-button-color,#74bfd3); font-size:14px; font-weight:750; }
+  .quran-title-sw,.quran-title-ar { min-height:46px; display:flex; justify-content:center; align-items:center; padding:8px; text-align:center; background:var(--tg-theme-secondary-bg-color,#e8f6fb); border-radius:12px; }
+  .quran-title-sw { font-size:14px; font-weight:700; }
   .quran-title-ar { direction:rtl; font-size:18px; }
   .quran-intro { margin:12px 0 18px; text-align:center; font-size:13px; line-height:1.55; }
   .quran-ayah-row { display:grid; grid-template-columns:minmax(0, 62%) minmax(0, 38%); align-items:stretch; margin:0; }
-  .quran-translation { position:relative; padding:2px 10px 15px 2.9em; font-size:13px; line-height:1.48; white-space:pre-wrap; overflow-wrap:anywhere; }
-  .quran-translation:before { content:attr(data-number) "."; position:absolute; top:1px; left:2px; white-space:nowrap; color:var(--tg-theme-link-color,#2498b9); font-weight:700; }
+  .quran-translation { position:relative; padding:2px 10px 15px 1.4em; font-size:13px; line-height:1.48; white-space:pre-wrap; overflow-wrap:anywhere; }
+  .quran-translation:before { content:attr(data-number) "."; position:absolute; top:1px; left:0.2em; white-space:nowrap; color:var(--tg-theme-link-color,#2498b9); font-weight:700; }
   .quran-arabic-cell { min-width:0; padding:2px 3px 15px 9px; border-left:1px solid var(--tg-theme-hint-color,#aaa); text-align:right; direction:rtl; }
   .quran-arabic-text { font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif; font-size:17px; line-height:2.1; overflow-wrap:anywhere; }
-  .quran-arabic-number { display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px; margin-left:4px; border:1px solid var(--tg-theme-button-color,#77c8dc); border-radius:50%; color:var(--tg-theme-link-color,#2498b9); font-family:serif; font-size:10px; vertical-align:middle; }
+  .quran-arabic-number { display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px; margin-left:4px; border:1px solid var(--tg-theme-button-color,#77c8dc); border-radius:999px; font-size:11px; font-weight:700; color:var(--tg-theme-button-color,#77c8dc); background:rgba(119,200,220,.08); }
   @media (min-width:600px) { .quran-page { padding:24px 26px 28px; } .quran-translation { font-size:15px; line-height:1.58; } .quran-arabic-text { font-size:22px; } }
   .hidden { display:none !important; }
   button, input, textarea { font-family: inherit; }
@@ -111,7 +111,7 @@
   mark { background:#ffe066; color:#000; border-radius:3px; padding:0 1px; }
   mark.cur { background:#ff9f1c; }
   .snippet { font-size:12.5px; line-height:1.5; color:var(--tg-theme-hint-color,#777); margin-top:6px; unicode-bidi:plaintext; overflow-wrap:anywhere; }
-  #matchBar { position:fixed; left:50%; transform:translateX(-50%); bottom:calc(16px + env(safe-area-inset-bottom)); z-index:20; display:flex; align-items:center; gap:6px; background:var(--tg-theme-button-color,#2481cc); color:#fff; border-radius:999px; padding:6px 12px; box-shadow:0 3px 12px rgba(0,0,0,.3); font-size:14px; }
+  #matchBar { position:fixed; left:50%; transform:translateX(-50%); bottom:calc(16px + env(safe-area-inset-bottom)); z-index:20; display:flex; align-items:center; gap:6px; background:var(--tg-theme-button-color,#2481cc); color:var(--tg-theme-button-text-color,#fff); border-radius:999px; padding:8px 12px; box-shadow:0 4px 16px rgba(0,0,0,.18); }
   #matchBar button { border:0; background:transparent; color:inherit; font-size:18px; padding:4px 10px; }
   #searchInput::-webkit-search-cancel-button, #searchInput::-webkit-search-decoration { -webkit-appearance:none; display:none; }
 </style>
@@ -415,7 +415,7 @@
         </div>
         ${sura.intro ? `<p class="quran-intro">${escapeHtml(sura.intro)}</p>` : ""}` : "";
       return `<section class="quran-page">
-        <div class="quran-page-header"><span>${escapeHtml(sura.surah_number || "")} - ${escapeHtml(sura.name || "")}</span><span>Juzuu ${escapeHtml(sura.juz || 1)}</span><span class="quran-page-number">${page}</span><span dir="rtl">الجزء ${escapeHtml(sura.juz || 1)}</span><span>${escapeHtml(sura.arabic_name || "")}</span></div>
+        <div class="quran-page-header"><span>${escapeHtml(sura.surah_number || "")} - ${escapeHtml(sura.name || "")}</span><span>Juzuu ${escapeHtml(sura.juz || 1)}</span><span class="quran-page-number">${escapeHtml(page)}</span><span>${escapeHtml(sura.name || "")}</span><span>${escapeHtml(sura.arabic_name || "")}</span></div>
         ${title}
         ${ayat.map(ayah => `<div class="quran-ayah-row">
           <div class="quran-translation" data-number="${escapeAttr(ayah.number ?? "")}">${escapeHtml(ayah.translation || "")}</div>
@@ -499,7 +499,7 @@
   }
 
   function escapeHtml(value) {
-    return String(value).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[c]));
+    return String(value).replace(/[&<>\'\"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[c]));
   }
   function escapeAttr(value) { return escapeHtml(value); }
 
