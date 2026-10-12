@@ -7,19 +7,28 @@
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
   /* ============================================================
-     1. MUUNDO WA MSINGI
+     1. MSINGI WA APP
+     - Variables zote za rangi ziko hapa
+     - Badilisha hapa moja, inabadilika kila mahali
      ============================================================ */
   :root {
     --radius: 14px;
     --font-ar: "Noto Naskh Arabic", "Amiri", "Scheherazade New", serif;
 
-    /* Rangi moja kwa kila kitu (light mode) */
+    /* --- Rangi 6 za msingi (za maandishi ya kawaida) --- */
     --c-red:    #d32f2f;
     --c-blue:   #1565c0;
     --c-green:  #2e7d32;
     --c-orange: #e65100;
     --c-purple: #6a1b9a;
     --c-gold:   #b8860b;
+
+    /* --- Rangi 5 za BOX (mistari inayozunguka) --- */
+    --c-forest: #228B22;   /* Forest Green */
+    --c-navy:   #000080;   /* Navy Blue */
+    --c-ruby:   #9B111E;   /* Ruby Red */
+    --c-copper: #B87333;   /* Copper */
+    --c-mauve:  #8B5FBF;   /* Mauve */
 
     /* Background laini kwa kila rangi */
     --bg-red:    rgba(211,47,47,0.07);
@@ -28,6 +37,11 @@
     --bg-orange: rgba(230,81,0,0.07);
     --bg-purple: rgba(106,27,154,0.07);
     --bg-gold:   rgba(184,134,11,0.07);
+    --bg-forest: rgba(34,139,34,0.07);
+    --bg-navy:   rgba(0,0,128,0.07);
+    --bg-ruby:   rgba(155,17,30,0.07);
+    --bg-copper: rgba(184,115,51,0.07);
+    --bg-mauve:  rgba(139,95,191,0.07);
   }
 
   /* Dark mode: rangi zinakuwa angavu zaidi ili zisomeke */
@@ -39,6 +53,11 @@
       --c-orange: #ffb74d;
       --c-purple: #ce93d8;
       --c-gold:   #ffd54f;
+      --c-forest: #66bb6a;
+      --c-navy:   #7986cb;
+      --c-ruby:   #ef5350;
+      --c-copper: #ffb74d;
+      --c-mauve:  #ba68c8;
 
       --bg-red:    rgba(255,107,107,0.12);
       --bg-blue:   rgba(100,181,246,0.12);
@@ -46,6 +65,11 @@
       --bg-orange: rgba(255,183,77,0.12);
       --bg-purple: rgba(206,147,216,0.12);
       --bg-gold:   rgba(255,213,79,0.12);
+      --bg-forest: rgba(102,187,106,0.12);
+      --bg-navy:   rgba(121,134,203,0.12);
+      --bg-ruby:   rgba(239,83,80,0.12);
+      --bg-copper: rgba(255,183,77,0.12);
+      --bg-mauve:  rgba(186,104,200,0.12);
     }
   }
 
@@ -61,11 +85,13 @@
 
   /* ============================================================
      2. TOPBAR + UTAFUTAJI + CATEGORIES
+     - Hii ni sehemu ya juu ya orodha ya masomo
      ============================================================ */
   .topbar { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:14px; }
   h1 { font-size:22px; margin:0; }
   .count { font-size:12px; opacity:.65; }
 
+  /* Sanduku la utafutaji */
   .search-wrap { position:relative; margin-bottom:12px; }
   #searchInput {
     width:100%; padding:13px 42px 13px 14px; border:0; outline:0;
@@ -79,6 +105,7 @@
     color:var(--tg-theme-hint-color,#777); font-size:22px; display:none;
   }
 
+  /* Categories (vitufe vya kuchagua aina ya masomo) */
   .categories { display:flex; gap:8px; overflow-x:auto; padding:2px 0 12px; scrollbar-width:none; }
   .categories::-webkit-scrollbar { display:none; }
   .cat-btn {
@@ -93,6 +120,7 @@
 
   /* ============================================================
      3. ORODHA YA MASOMO
+     - Kila somo lina picha, title, subtitle, category
      ============================================================ */
   .lesson-item {
     background:var(--tg-theme-secondary-bg-color,#f0f0f0);
@@ -113,6 +141,7 @@
 
   /* ============================================================
      4. VIEW YA SOMO
+     - Inaonekana somo linapofunguliwa
      ============================================================ */
   #lessonView { display:none; }
   .reader-head { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
@@ -121,32 +150,102 @@
   .reader-meta { color:var(--tg-theme-hint-color,#777); font-size:13px; margin:-5px 0 15px; }
 
   /* ============================================================
-     5. BLOCKS ZA MAANDISHI (zote zimeunganishwa hapa)
+     5. BLOCKS ZA MAANDISHI
+     - Hapa ndipo rangi zote zinaonekana
      ============================================================ */
 
-  /* Kichwa cha habari */
+  /* Kichwa cha habari (heading) */
   .content-heading {
     color: var(--tg-theme-link-color,#2481cc);
     font-weight: 750; font-size: 16px; margin: 20px 0 7px;
   }
 
-  /* Aya ya kawaida */
+  /* Aya ya kawaida (plain text) */
   .content-body {
     color: var(--tg-theme-text-color,#000);
     font-size: 15px; line-height: 1.72; margin: 0 0 10px;
   }
 
-  /* Orodha */
+  /* Orodha (list) */
   .content-list { margin:0 0 12px; padding-left:1.4em; font-size:15px; line-height:1.72; }
   .content-list li { margin-bottom:5px; }
 
-  /* Mstari wa kugawanya */
+  /* Mstari wa kugawanya (horizontal rule) */
   .content-hr { border:0; border-top:1px solid var(--tg-theme-hint-color,#aaa); opacity:.4; margin:18px 0; }
 
   /* Picha */
   .content-img { width:100%; max-height:260px; object-fit:cover; border-radius:var(--radius); margin:10px 0; }
 
-  /* --- QUOTE MOJA yenye aina (variant) --- */
+  /* ============================================================
+     6. RANGI ZA BOX (mistari inayozunguka maandishi)
+     - Inatumika kwa TEXT, QUOTE, au ARABIC
+     - Kila box ina rangi yake maalum
+     ============================================================ */
+
+  /* Box ya msingi — ina border inayozunguka */
+  .box {
+    padding: 14px 16px;
+    margin: 12px 0;
+    border-radius: 14px;
+    border: 1.5px solid currentColor;   /* ← mstari unaozunguka */
+    background: color-mix(in srgb, currentColor 7%, transparent);
+  }
+
+  /* Maandishi ya Kiarabu ndani ya box */
+  .box .ar {
+    direction: rtl; text-align: right;
+    font-family: var(--font-ar);
+    font-size: 22px; line-height: 2;
+    margin: 0 0 10px;
+    color: inherit;
+  }
+
+  /* Maandishi ya Kiswahili ndani ya box */
+  .box .sw {
+    font-size: 15px; line-height: 1.7;
+    margin: 0;
+    font-weight: 500;
+    color: inherit;
+  }
+
+  /* --- Rangi 5 za BOX (zilizoombwa) --- */
+  .box[data-color="forest"] { color: var(--c-forest); background: var(--bg-forest); }
+  .box[data-color="navy"]   { color: var(--c-navy);   background: var(--bg-navy); }
+  .box[data-color="ruby"]   { color: var(--c-ruby);   background: var(--bg-ruby); }
+  .box[data-color="copper"] { color: var(--c-copper); background: var(--bg-copper); }
+  .box[data-color="mauve"]  { color: var(--c-mauve);  background: var(--bg-mauve); }
+
+  /* ============================================================
+     7. RANGI ZA TEXT (bila box)
+     - Kwa maandishi ya kawaida yenye rangi tu
+     ============================================================ */
+  .text-color { padding: 2px 0; margin: 10px 0; }
+  .text-color .ar {
+    direction: rtl; text-align: right;
+    font-family: var(--font-ar);
+    font-size: 22px; line-height: 2;
+    margin: 0 0 8px;
+    color: inherit;
+  }
+  .text-color .sw {
+    font-size: 15px; line-height: 1.7;
+    margin: 0;
+    font-weight: 500;
+    color: inherit;
+  }
+
+  /* Rangi 6 za maandishi (bila box) */
+  .text-color[data-color="red"]    { color: var(--c-red); }
+  .text-color[data-color="blue"]   { color: var(--c-blue); }
+  .text-color[data-color="green"]  { color: var(--c-green); }
+  .text-color[data-color="orange"] { color: var(--c-orange); }
+  .text-color[data-color="purple"] { color: var(--c-purple); }
+  .text-color[data-color="gold"]   { color: var(--c-gold); }
+
+  /* ============================================================
+     8. QUOTES (nukuu)
+     - Aina 4: default, hadith, green, note
+     ============================================================ */
   .content-quote {
     background: var(--tg-theme-secondary-bg-color,#f0f4f8);
     border-left: 4px solid var(--tg-theme-button-color,#2481cc);
@@ -159,17 +258,15 @@
     font-style:italic; opacity:.75;
     color: var(--tg-theme-hint-color,#666);
   }
-  /* Variant: hadith (bluu) */
   .content-quote[data-variant="hadith"] { border-left-color: var(--c-blue); color: var(--c-blue); font-style: normal; }
-  /* Variant: green */
-  .content-quote[data-variant="green"] { border-left-color: var(--c-green); background: var(--bg-green); }
-  /* Variant: note (njano) */
-  .content-quote[data-variant="note"] {
-    border-left-color: var(--c-gold); background: var(--bg-gold);
-    font-style: normal;
-  }
+  .content-quote[data-variant="green"]  { border-left-color: var(--c-green); background: var(--bg-green); }
+  .content-quote[data-variant="note"]   { border-left-color: var(--c-gold); background: var(--bg-gold); font-style: normal; }
 
-  /* --- Kiarabu (rangi nyekundu ya default) --- */
+  /* ============================================================
+     9. KIARABU + TAFSIRI
+     - Maandishi ya Kiarabu yanaonekana kwa rangi nyekundu
+     - Tafsiri inaonekana kwa kijani
+     ============================================================ */
   .ayah-arabic {
     direction: rtl; text-align: right;
     font-family: var(--font-ar);
@@ -178,11 +275,9 @@
     margin: 0 0 10px;
     unicode-bidi: plaintext;
   }
-
-  /* --- Tafsiri (kijani) --- */
   .tafsiri { color: var(--c-green); font-size:15px; line-height:1.7; margin:0 0 12px; }
 
-  /* --- Aya yenye number + Kiarabu + tafsiri --- */
+  /* Aya yenye number + Kiarabu + tafsiri */
   .ayah-block {
     margin: 0 0 22px; padding-bottom: 16px;
     border-bottom: 1px solid var(--tg-theme-secondary-bg-color,#eee);
@@ -196,36 +291,10 @@
     color: var(--tg-theme-hint-color,#666); margin: 0;
   }
 
-  /* --- COLOR BLOCK: block moja inayotumika kwa rangi ZOTE 6 --- */
-  .color-block {
-    padding: 14px; margin: 12px 0;
-    border-left: 4px solid currentColor;
-    border-radius: 8px;
-    background: color-mix(in srgb, currentColor 7%, transparent);
-  }
-  .color-block .ar {
-    direction: rtl; text-align: right;
-    font-family: var(--font-ar);
-    font-size: 22px; line-height: 2;
-    margin: 0 0 10px;
-    color: inherit;
-  }
-  .color-block .sw {
-    font-size: 15px; line-height: 1.7;
-    margin: 0;
-    font-weight: 500;
-    color: inherit;
-  }
-  /* Rangi 6 tu */
-  .color-block[data-color="red"]    { color: var(--c-red);    background: var(--bg-red); }
-  .color-block[data-color="blue"]   { color: var(--c-blue);   background: var(--bg-blue); }
-  .color-block[data-color="green"]  { color: var(--c-green);  background: var(--bg-green); }
-  .color-block[data-color="orange"] { color: var(--c-orange); background: var(--bg-orange); }
-  .color-block[data-color="purple"] { color: var(--c-purple); background: var(--bg-purple); }
-  .color-block[data-color="gold"]   { color: var(--c-gold);   background: var(--bg-gold); }
-
   /* ============================================================
-     6. MUONEKANO WA QUR'ANI
+     10. MUONEKANO WA QUR'ANI
+     - Sura inaonekana kama kurasa za Qur'ani
+     - Kila ukurasa una header, title, na ayat
      ============================================================ */
   .quran-pages { display:flex; flex-direction:column; gap:18px; }
   .quran-reader .reader-head, .quran-reader .reader-meta { display:none; }
@@ -299,7 +368,8 @@
   }
 
   /* ============================================================
-     7. HADITH READER
+     11. HADITH READER
+     - Muonekano maalum wa hadith
      ============================================================ */
   .hadiyth-reader { background:#c6cdb8; border-radius:10px; padding:12px; color:#222; }
   .hadiyth-reader .reader-head h2,
@@ -320,14 +390,17 @@
   .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
 
   /* ============================================================
-     8. ALAMA ZA NDANI (inline markup)
+     12. ALAMA ZA NDANI (inline)
+     [[nyekundu]] {{italiki}} **nzito**
      ============================================================ */
   .aya-red { color: var(--c-red); font-weight:700; }
   mark { background:#ffe066; color:#000; border-radius:3px; padding:0 1px; }
   mark.cur { background:#ff9f1c; }
 
   /* ============================================================
-     9. MATCH BAR (utafutaji ndani ya somo)
+     13. MATCH BAR
+     - Inaonekana unapotafuta ndani ya somo
+     - Inaonyesha "1/5" na vitufe vya juu/chini
      ============================================================ */
   #matchBar {
     position:fixed; left:50%; transform:translateX(-50%);
@@ -343,6 +416,9 @@
 </head>
 <body>
 
+<!-- ============================================================
+     HTML: ORODHA YA MASOMO
+     ============================================================ -->
 <div id="lessonList">
   <div class="topbar"><h1>📚 Masomo</h1><span id="count" class="count"></span></div>
   <div class="search-wrap">
@@ -355,6 +431,9 @@
   <div id="emptyMsg" class="hidden">Hakuna somo lililopatikana.</div>
 </div>
 
+<!-- ============================================================
+     HTML: VIEW YA SOMO
+     ============================================================ -->
 <div id="lessonView">
   <div class="reader-head"><h2 id="lessonTitle"></h2></div>
   <img id="lessonImage" src="" alt="Picha ya somo" />
@@ -362,6 +441,9 @@
   <div id="lessonContent"></div>
 </div>
 
+<!-- ============================================================
+     HTML: MATCH BAR (utafutaji ndani ya somo)
+     ============================================================ -->
 <div id="matchBar" class="hidden">
   <button id="prevM" aria-label="Iliyotangulia">▲</button>
   <span id="matchInfo"></span>
@@ -377,6 +459,9 @@
   tg.expand();
   tg.enableClosingConfirmation();
 
+  /* ============================================================
+     ELEMENTS
+     ============================================================ */
   const listContainer = document.getElementById("listContainer");
   const loadingMsg    = document.getElementById("loadingMsg");
   const emptyMsg      = document.getElementById("emptyMsg");
@@ -388,14 +473,21 @@
   const lessonList    = document.getElementById("lessonList");
   const lessonContent = document.getElementById("lessonContent");
 
+  /* ============================================================
+     DATA
+     ============================================================ */
   let masomo = [];
   let categoryActive = "Zote";
 
-  /* Rangi 6 tu — zinazolingana na CSS */
-  const COLOR_LIST = ["red", "blue", "green", "orange", "purple", "gold"];
+  /* Rangi 6 za maandishi (bila box) */
+  const TEXT_COLORS = ["red", "blue", "green", "orange", "purple", "gold"];
+
+  /* Rangi 5 za box (na mistari inayozunguka) */
+  const BOX_COLORS = ["forest", "navy", "ruby", "copper", "mauve"];
 
   /* ============================================================
      KUPATA DATA
+     - Inasoma masomo.json
      ============================================================ */
   fetch("masomo.json")
     .then(r => { if (!r.ok) throw new Error("Imeshindwa kupakia masomo.json"); return r.json(); })
@@ -413,6 +505,7 @@
 
   /* ============================================================
      CATEGORIES
+     - Inatengeneza vitufe vya kuchagua aina ya masomo
      ============================================================ */
   function tengenezaCategories() {
     const categories = ["Zote", ...new Set(masomo.map(s => s.category || "Mengineyo"))];
@@ -430,6 +523,7 @@
 
   /* ============================================================
      UTAFUTAJI (normalization)
+     - Inaondoa alama za Kiarabu, inalinganisha herufi
      ============================================================ */
   const MARKS = /[\u0300-\u036f\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g;
   const AR_FIX = { "ٱ":"ا", "ى":"ي", "ة":"ه" };
@@ -455,6 +549,7 @@
 
   /* ============================================================
      INDEX YA NDANI YA MASOMO
+     - Inasoma kila faili la somo na kutengeneza index ya kutafuta
      ============================================================ */
   function maandishiYote(v, acc = []) {
     if (typeof v === "string") { if (v.trim()) acc.push(v); }
@@ -485,6 +580,7 @@
 
   /* ============================================================
      HIGHLIGHT YA MANENO
+     - Inaonyesha maneno yaliyotafutwa kwa rangi ya njano
      ============================================================ */
   function highlightIn(root, words) {
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
@@ -524,6 +620,10 @@
     });
   }
 
+  /* ============================================================
+     SNIPPET
+     - Inaonyesha kipande cha maandishi kwenye orodha
+     ============================================================ */
   function snippetFor(somo, words) {
     const segs = somo._segs || [];
     const seg = segs.find(x => words.every(w => x.n.includes(w)))
@@ -539,6 +639,7 @@
 
   /* ============================================================
      KURASA YA ORODHA
+     - Inaonyesha masomo yote yaliyochujwa
      ============================================================ */
   function choraOrodha() {
     const words = queryWords();
@@ -580,6 +681,7 @@
 
   /* ============================================================
      MATCH BAR
+     - Kuruka kati ya maneno yaliyopatikana
      ============================================================ */
   let marks = [], curMark = -1;
   function onyeshaMatches() {
@@ -604,6 +706,7 @@
 
   /* ============================================================
      KUFUNGUA SOMO
+     - Inapakia faili la somo na kuonyesha
      ============================================================ */
   async function funguaSomo(somo) {
     document.getElementById("lessonImage").src = somo.image || "";
@@ -645,6 +748,7 @@
 
   /* ============================================================
      RENDERERS
+     - Kila aina ya somo ina renderer yake
      ============================================================ */
   const RENDERERS = {
     sura:    { render: d => pangaSura(d),    cls: "quran-reader",   hideImage: true },
@@ -652,7 +756,12 @@
     somo:    { render: d => pangaBlocks(d) }
   };
 
-  /* ---------- BLOCKS ---------- */
+  /* ============================================================
+     BLOCKS
+     - Hapa ndipo rangi zote zinaamuliwa
+     - BOX_COLORS → box yenye mstari unaozunguka
+     - TEXT_COLORS → maandishi yenye rangi tu
+     ============================================================ */
   function pangaBlocks(d) {
     const txt = b => b.text != null ? b.text : (b.maandishi != null ? b.maandishi : "");
     const src = b => (b.source || b.chanzo)
@@ -662,15 +771,23 @@
       if (typeof b === "string") return `<p class="content-body">${alama(b)}</p>`;
       const t = (b.t || b.type || "p").toLowerCase();
 
-      /* COLOR BLOCK: red, blue, green, orange, purple, gold */
-      if (COLOR_LIST.includes(t)) {
+      /* --- BOX: forest, navy, ruby, copper, mauve --- */
+      if (BOX_COLORS.includes(t)) {
         const ar = b.arabic ? `<div class="ar">${escapeHtml(b.arabic)}</div>` : "";
         const sw = b.swahili ? `<div class="sw">${alama(b.swahili)}</div>` : "";
         const tx = (!b.arabic && !b.swahili && txt(b)) ? `<div class="sw">${alama(txt(b))}</div>` : "";
-        return `<div class="color-block" data-color="${t}">${ar}${sw}${tx}</div>`;
+        return `<div class="box" data-color="${t}">${ar}${sw}${tx}</div>`;
       }
 
-      /* Aina nyingine */
+      /* --- TEXT: red, blue, green, orange, purple, gold --- */
+      if (TEXT_COLORS.includes(t)) {
+        const ar = b.arabic ? `<div class="ar">${escapeHtml(b.arabic)}</div>` : "";
+        const sw = b.swahili ? `<div class="sw">${alama(b.swahili)}</div>` : "";
+        const tx = (!b.arabic && !b.swahili && txt(b)) ? `<div class="sw">${alama(txt(b))}</div>` : "";
+        return `<div class="text-color" data-color="${t}">${ar}${sw}${tx}</div>`;
+      }
+
+      /* --- Aina nyingine --- */
       switch (t) {
         case "h": case "heading": case "kichwa":
           return `<p class="content-heading">${alama(txt(b))}</p>`;
@@ -713,7 +830,10 @@
     return blocks;
   }
 
-  /* ---------- SURA (QUR'ANI) ---------- */
+  /* ============================================================
+     SURA (QUR'ANI)
+     - Inaonyesha kurasa za Qur'ani kama vile kitabu
+     ============================================================ */
   function pangaSura(sura) {
     const pages = [...new Set((sura.content || []).map(a => a.page || 1))].sort((a, b) => a - b);
     const pageHtml = pages.map(page => {
@@ -745,7 +865,10 @@
     return `<div class="quran-pages">${pageHtml}</div>`;
   }
 
-  /* ---------- AYA (plain list) ---------- */
+  /* ============================================================
+     AYA (plain list)
+     - Orodha ya aya bila muonekano wa kurasa
+     ============================================================ */
   function pangaAya(ayahList) {
     return ayahList.map(ayah => `
       <div class="ayah-block">
@@ -755,7 +878,10 @@
       </div>`).join("");
   }
 
-  /* ---------- HADITH ---------- */
+  /* ============================================================
+     HADITH
+     - Inaonyesha hadith na ufafanuzi wake
+     ============================================================ */
   function pangaHadiyth(d) {
     const head = `<div class="hd-head">
       <div class="ar">${escapeHtml(d.kitabu_ar || "")}</div>
@@ -779,6 +905,7 @@
 
   /* ============================================================
      KURUDI ORODHANI
+     - Inafunga somo na kurudi kwenye orodha
      ============================================================ */
   function rudiOrodhani() {
     lessonView.style.display = "none";
@@ -790,6 +917,7 @@
 
   /* ============================================================
      FALLBACK RENDERERS
+     - Zinatumika kama JSON haina muundo maalum
      ============================================================ */
   function pangaRangiYaContent(text) {
     return text.split("\n").map(mstari => {
@@ -827,8 +955,10 @@
   }
 
   /* ============================================================
-     ALAMA ZA NDANI
-     [[nyekundu]] {{italiki}} **nzito**
+     ALAMA ZA NDANI (inline)
+     [[nyekundu]] → nyekundu
+     {{italiki}} → italiki
+     **nzito**   → nzito
      ============================================================ */
   function alama(t) {
     return escapeHtml(t || "")
@@ -839,6 +969,7 @@
 
   /* ============================================================
      ESCAPE
+     - Inazuia code kuingizwa kwenye HTML
      ============================================================ */
   function escapeHtml(value) {
     return String(value).replace(/[&<>'"]/g, c => ({
@@ -849,6 +980,7 @@
 
   /* ============================================================
      EVENTS
+     - Vitufe na vitendo vya mtumiaji
      ============================================================ */
   searchInput.addEventListener("input", () => {
     clearSearch.style.display = searchInput.value ? "block" : "none";
