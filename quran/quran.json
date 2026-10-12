@@ -1,0 +1,17 @@
+[
+  {
+    "id": "quran-001",
+    "category": "Qur-aan",
+    "title": "Al-Faatihah",
+    "subtitle": "Sura hii inaitwa Al-Faatihah...",
+    "file": "quran/001.json",
+    "image": "https://placehold.co/600x300.png?text=Al-Faatihah"
+  },
+  {
+    "id": "quran-002",
+    "category": "Qur-aan",
+    "title": "Al-Baqarah",
+    "file": "quran/002.json",
+    "image": "https://placehold.co/600x300.png?text=Al-Baqarah"
+  }
+]
