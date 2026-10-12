@@ -8,31 +8,21 @@
 <style>
   /* ============================================================
      1. MSINGI WA APP
-     - Variables zote za rangi ziko hapa
-     - Badilisha hapa moja, inabadilika kila mahali
      ============================================================ */
   :root {
     --radius: 14px;
     --font-ar: "Noto Naskh Arabic", "Amiri", "Scheherazade New", serif;
 
-    /* --- RANGI ZA KIARABU (2 tu) --- */
-    --c-red:    #d32f2f;   /* Qur'ani */
-    --c-blue:   #1565c0;   /* Hadith */
-
-    /* --- RANGI ZA TEXT (3 tu) --- */
+    --c-red:    #d32f2f;
+    --c-blue:   #1565c0;
     --c-green:  #2e7d32;
+    --c-forest: #228B22;
+    --c-navy:   #000080;
+    --c-ruby:   #9B111E;
+    --c-mauve:  #8B5FBF;
+    --c-gold:   #b8860b;
+    --c-teal:   #00695c;
 
-    /* --- RANGI ZA BOX (4 tu) --- */
-    --c-forest: #228B22;   /* Forest Green */
-    --c-navy:   #000080;   /* Navy Blue */
-    --c-ruby:   #9B111E;   /* Ruby Red */
-    --c-mauve:  #8B5FBF;   /* Mauve */
-
-    /* --- RANGI ZA QUOTE --- */
-    --c-gold:   #b8860b;   /* Note */
-    --c-teal:   #00695c;   /* Teal */
-
-    /* Background laini kwa kila rangi */
     --bg-red:    rgba(211,47,47,0.07);
     --bg-blue:   rgba(21,101,192,0.07);
     --bg-green:  rgba(46,125,50,0.07);
@@ -44,7 +34,6 @@
     --bg-teal:   rgba(0,105,92,0.07);
   }
 
-  /* Dark mode: rangi zinakuwa angavu zaidi ili zisomeke */
   @media (prefers-color-scheme: dark) {
     :root {
       --c-red:    #ff6b6b;
@@ -110,6 +99,13 @@
     background:var(--tg-theme-button-color,#2481cc);
     color:var(--tg-theme-button-text-color,#fff);
   }
+  .back-cat {
+    display:inline-flex; align-items:center; gap:6px;
+    background:transparent; border:0; padding:6px 0;
+    color:var(--tg-theme-link-color,#2481cc);
+    font-size:14px; margin-bottom:10px; cursor:pointer;
+  }
+  .back-cat:active { opacity:.6; }
 
   /* ============================================================
      3. ORODHA YA MASOMO
@@ -157,8 +153,7 @@
   .content-img { width:100%; max-height:260px; object-fit:cover; border-radius:var(--radius); margin:10px 0; }
 
   /* ============================================================
-     6. RANGI ZA BOX (mistari inayozunguka maandishi) — 4 TU
-     forest, navy, ruby, mauve
+     6. RANGI ZA BOX — 4 TU
      ============================================================ */
   .box {
     padding: 14px 16px;
@@ -186,8 +181,7 @@
   .box[data-color="mauve"]  { color: var(--c-mauve);  background: var(--bg-mauve); }
 
   /* ============================================================
-     7. RANGI ZA TEXT (bila box) — 3 TU
-     red, blue, green
+     7. RANGI ZA TEXT — 3 TU
      ============================================================ */
   .text-color { padding: 2px 0; margin: 10px 0; }
   .text-color .ar {
@@ -209,7 +203,6 @@
 
   /* ============================================================
      8. QUOTES — 5 TU
-     default, note, white, black, teal
      ============================================================ */
   .content-quote {
     background: var(--tg-theme-secondary-bg-color,#f0f4f8);
@@ -223,25 +216,21 @@
     font-style:italic; opacity:.75;
     color: var(--tg-theme-hint-color,#666);
   }
-  /* Note — dhahabu/njano */
   .content-quote[data-variant="note"] {
     border-left-color: var(--c-gold);
     background: var(--bg-gold);
     font-style: normal;
   }
-  /* White — nyeupe */
   .content-quote[data-variant="white"] {
     background: #ffffff;
     border-left-color: #999999;
     color: #222222;
   }
-  /* Black — nyeusi */
   .content-quote[data-variant="black"] {
     background: #1a1a1a;
     border-left-color: #000000;
     color: #f0f0f0;
   }
-  /* Teal — kijani-bluu */
   .content-quote[data-variant="teal"] {
     background: var(--bg-teal);
     border-left-color: var(--c-teal);
@@ -250,19 +239,17 @@
 
   /* ============================================================
      9. KIARABU — RANGI 2 TU
-     - Red: Qur'ani
-     - Blue: Hadith
      ============================================================ */
   .ayah-arabic {
     direction: rtl; text-align: right;
     font-family: var(--font-ar);
     font-size: 24px; line-height: 2;
-    color: var(--c-red);          /* ← NYEKUNDU (Qur'ani) */
+    color: var(--c-red);
     margin: 0 0 10px;
     unicode-bidi: plaintext;
   }
   .ayah-arabic.hadith {
-    color: var(--c-blue);         /* ← BLUU (Hadith) */
+    color: var(--c-blue);
     font-size: 22px;
   }
   .tafsiri { color: var(--c-green); font-size:15px; line-height:1.7; margin:0 0 12px; }
@@ -403,12 +390,13 @@
      HTML: ORODHA YA MASOMO
      ============================================================ -->
 <div id="lessonList">
-  <div class="topbar"><h1>📚 Masomo</h1><span id="count" class="count"></span></div>
+  <div class="topbar"><h1 id="pageTitle">📚 Masomo</h1><span id="count" class="count"></span></div>
   <div class="search-wrap">
     <input id="searchInput" type="search" placeholder="🔎 Tafuta somo..." autocomplete="off" />
     <button id="clearSearch" aria-label="Futa utafutaji">×</button>
   </div>
   <div id="categories" class="categories"></div>
+  <div id="backCatBox"></div>
   <div id="loadingMsg">Inapakia masomo...</div>
   <div id="listContainer"></div>
   <div id="emptyMsg" class="hidden">Hakuna somo lililopatikana.</div>
@@ -451,7 +439,9 @@
   const searchInput   = document.getElementById("searchInput");
   const clearSearch   = document.getElementById("clearSearch");
   const categoriesBox = document.getElementById("categories");
+  const backCatBox    = document.getElementById("backCatBox");
   const count         = document.getElementById("count");
+  const pageTitle     = document.getElementById("pageTitle");
   const lessonView    = document.getElementById("lessonView");
   const lessonList    = document.getElementById("lessonList");
   const lessonContent = document.getElementById("lessonContent");
@@ -459,47 +449,99 @@
   /* ============================================================
      DATA
      ============================================================ */
-  let masomo = [];
-  let categoryActive = "Zote";
+  let kategoria = [];         // Orodha ya kategoria (kutoka index.json)
+  let kategoriaActive = null; // Kategoria iliyochaguliwa
+  let masomo = [];            // Masomo ya kategoria iliyochaguliwa
+  let filterActive = "Zote";  // Filter ya ndani ya kategoria
 
-  /* ============================================================
-     RANGI
-     ============================================================ */
-
-  /* Text — 3 tu */
   const TEXT_COLORS = ["red", "blue", "green"];
-
-  /* Box — 4 tu */
   const BOX_COLORS = ["forest", "navy", "ruby", "mauve"];
 
   /* ============================================================
-     KUPATA DATA
+     KUPATA DATA — index.json
      ============================================================ */
-  fetch("masomo.json")
-    .then(r => { if (!r.ok) throw new Error("Imeshindwa kupakia masomo.json"); return r.json(); })
+  fetch("index.json")
+    .then(r => { if (!r.ok) throw new Error("Imeshindwa kupakia index.json"); return r.json(); })
     .then(data => {
-      masomo = Array.isArray(data) ? data : [];
+      kategoria = Array.isArray(data) ? data : [];
       loadingMsg.classList.add("hidden");
-      tengenezaCategories();
-      choraOrodha();
-      jengaIndex();
+      onyeshaKategoria();
     })
     .catch(error => {
-      loadingMsg.textContent = "Samahani, imeshindwa kupakia masomo. Jaribu tena baadaye.";
+      loadingMsg.textContent = "Samahani, imeshindwa kupakia orodha. Jaribu tena baadaye.";
       console.error(error);
     });
 
   /* ============================================================
-     CATEGORIES
+     ONYESHA KATEGORIA (hatua ya kwanza)
+     ============================================================ */
+  function onyeshaKategoria() {
+    kategoriaActive = null;
+    masomo = [];
+    filterActive = "Zote";
+    pageTitle.textContent = "📚 Masomo";
+    categoriesBox.innerHTML = "";
+    backCatBox.innerHTML = "";
+    searchInput.value = "";
+    clearSearch.style.display = "none";
+    count.textContent = `${kategoria.length}`;
+    emptyMsg.classList.add("hidden");
+
+    listContainer.innerHTML = "";
+    kategoria.forEach(k => {
+      const item = document.createElement("div");
+      item.className = "lesson-item";
+      item.innerHTML = `
+        <img src="${escapeAttr(k.image || "")}" alt="" loading="lazy" />
+        <div class="info">
+          <div class="title">${escapeHtml(k.title || "Bila jina")}</div>
+          <div class="subtitle">${escapeHtml(k.subtitle || "")}</div>
+        </div><span class="arrow">›</span>`;
+      item.addEventListener("click", () => funguaKategoria(k));
+      listContainer.appendChild(item);
+    });
+  }
+
+  /* ============================================================
+     FUNGUA KATEGORIA (hatua ya pili)
+     ============================================================ */
+  async function funguaKategoria(k) {
+    kategoriaActive = k;
+    pageTitle.textContent = `📚 ${k.title || "Masomo"}`;
+    categoriesBox.innerHTML = "";
+    searchInput.value = "";
+    clearSearch.style.display = "none";
+    listContainer.innerHTML = '<div id="loadingMsg">Inapakia masomo...</div>';
+
+    // Kitufe cha kurudi kwenye kategoria
+    backCatBox.innerHTML = `<button class="back-cat">‹ Rudi kwenye kategoria</button>`;
+    backCatBox.querySelector(".back-cat").addEventListener("click", onyeshaKategoria);
+
+    try {
+      const res = await fetch(k.file);
+      if (!res.ok) throw new Error("Imeshindwa kupakia " + k.file);
+      const data = await res.json();
+      masomo = Array.isArray(data) ? data : [];
+      tengenezaCategories();
+      choraOrodha();
+      jengaIndex();
+    } catch (error) {
+      console.error(error);
+      listContainer.innerHTML = '<p style="text-align:center;color:#777;padding:20px">Samahani, imeshindwa kupakia masomo ya kategoria hii.</p>';
+    }
+  }
+
+  /* ============================================================
+     CATEGORIES ZA NDANI YA KATEGORIA
      ============================================================ */
   function tengenezaCategories() {
     const categories = ["Zote", ...new Set(masomo.map(s => s.category || "Mengineyo"))];
     categoriesBox.innerHTML = categories
-      .map(cat => `<button class="cat-btn ${cat === categoryActive ? "active" : ""}" data-category="${escapeHtml(cat)}">${escapeHtml(cat)}</button>`)
+      .map(cat => `<button class="cat-btn ${cat === filterActive ? "active" : ""}" data-category="${escapeHtml(cat)}">${escapeHtml(cat)}</button>`)
       .join("");
     categoriesBox.querySelectorAll(".cat-btn").forEach(btn => {
       btn.addEventListener("click", () => {
-        categoryActive = btn.dataset.category;
+        filterActive = btn.dataset.category;
         tengenezaCategories();
         choraOrodha();
       });
@@ -619,13 +661,13 @@
   }
 
   /* ============================================================
-     KURASA YA ORODHA
+     KURASA YA ORODHA (ya kategoria iliyochaguliwa)
      ============================================================ */
   function choraOrodha() {
     const words = queryWords();
     const filtered = masomo.filter(somo => {
       const category = somo.category || "Mengineyo";
-      const matchesCategory = categoryActive === "Zote" || category === categoryActive;
+      const matchesCategory = filterActive === "Zote" || category === filterActive;
       const haystack = norm(`${somo.title || ""} ${somo.subtitle || ""} ${typeof somo.content === "string" ? somo.content : ""} ${category}`) + " " + (somo._index || "");
       return matchesCategory && words.every(w => haystack.includes(w));
     });
@@ -643,7 +685,6 @@
         <div class="info">
           <div class="title">${escapeHtml(somo.title || "Bila jina")}</div>
           <div class="subtitle">${escapeHtml(somo.subtitle || "")}</div>
-          <span class="category-label">${escapeHtml(somo.category || "Mengineyo")}</span>
         </div><span class="arrow">›</span>`;
       if (words.length) {
         const sn = snippetFor(somo, words);
@@ -745,11 +786,7 @@
       if (typeof b === "string") return `<p class="content-body">${alama(b)}</p>`;
       const t = (b.t || b.type || "p").toLowerCase();
 
-      /* ============================================================
-         KIARABU — RANGI 2 TU
-         red_arabic  → NYEKUNDU (Qur'ani)
-         blue_arabic → BLUU (Hadith)
-         ============================================================ */
+      /* KIARABU — RANGI 2 TU */
       if (t === "red_arabic" || t === "quran_arabic") {
         return `<p class="ayah-arabic">${escapeHtml(b.arabic || txt(b))}</p>`;
       }
@@ -757,10 +794,7 @@
         return `<p class="ayah-arabic hadith">${escapeHtml(b.arabic || txt(b))}</p>`;
       }
 
-      /* ============================================================
-         BOX — 4 TU
-         forest, navy, ruby, mauve
-         ============================================================ */
+      /* BOX — 4 TU */
       if (BOX_COLORS.includes(t)) {
         const ar = b.arabic ? `<div class="ar">${escapeHtml(b.arabic)}</div>` : "";
         const sw = b.swahili ? `<div class="sw">${alama(b.swahili)}</div>` : "";
@@ -768,10 +802,7 @@
         return `<div class="box" data-color="${t}">${ar}${sw}${tx}</div>`;
       }
 
-      /* ============================================================
-         TEXT — 3 TU
-         red, blue, green
-         ============================================================ */
+      /* TEXT — 3 TU */
       if (TEXT_COLORS.includes(t)) {
         const ar = b.arabic ? `<div class="ar">${escapeHtml(b.arabic)}</div>` : "";
         const sw = b.swahili ? `<div class="sw">${alama(b.swahili)}</div>` : "";
@@ -779,14 +810,10 @@
         return `<div class="text-color" data-color="${t}">${ar}${sw}${tx}</div>`;
       }
 
-      /* ============================================================
-         AINA NYINGINE
-         ============================================================ */
       switch (t) {
         case "h": case "heading": case "kichwa":
           return `<p class="content-heading">${alama(txt(b))}</p>`;
 
-        /* --- QUOTES: default, note, white, black, teal --- */
         case "quote": case "nukuu":
           return `<div class="content-quote">${alama(txt(b))}${src(b)}</div>`;
         case "note": case "dokezo": case "note_orange":
@@ -798,7 +825,6 @@
         case "teal_quote": case "nukuu_teal":
           return `<div class="content-quote" data-variant="teal">${alama(txt(b))}${src(b)}</div>`;
 
-        /* --- Aya yenye number + Kiarabu + tafsiri --- */
         case "ayah": case "aya":
           return `<div class="ayah-block">
             ${b.sura ? `<div class="ayah-number">${escapeHtml(b.sura)}</div>` : ""}
@@ -806,7 +832,6 @@
             ${txt(b) ? `<p class="tafsiri">${alama(txt(b))}</p>` : ""}
           </div>`;
 
-        /* --- Orodha --- */
         case "list": case "orodha": {
           const tag = b.ordered ? "ol" : "ul";
           return `<${tag} class="content-list">${(b.items || []).map(i => `<li>${alama(i)}</li>`).join("")}</${tag}>`;
@@ -895,13 +920,23 @@
 
   /* ============================================================
      KURUDI ORODHANI
+     - Kama tuko kwenye somo → rudi kwenye orodha ya masomo
+     - Kama tuko kwenye orodha ya masomo → rudi kwenye kategoria
      ============================================================ */
   function rudiOrodhani() {
-    lessonView.style.display = "none";
-    document.getElementById("matchBar").classList.add("hidden");
-    lessonList.classList.remove("hidden");
-    tg.BackButton.hide();
-    window.scrollTo(0, 0);
+    // Kama somo linaonekana → funga somo, rudi kwenye orodha ya kategoria
+    if (lessonView.style.display === "block") {
+      lessonView.style.display = "none";
+      document.getElementById("matchBar").classList.add("hidden");
+      lessonList.classList.remove("hidden");
+      window.scrollTo(0, 0);
+      return;
+    }
+    // Kama tuko kwenye orodha ya masomo ya kategoria → rudi kwenye kategoria
+    if (kategoriaActive) {
+      onyeshaKategoria();
+      tg.BackButton.hide();
+    }
   }
 
   /* ============================================================
@@ -967,17 +1002,46 @@
      ============================================================ */
   searchInput.addEventListener("input", () => {
     clearSearch.style.display = searchInput.value ? "block" : "none";
-    choraOrodha();
+    if (kategoriaActive) choraOrodha();
+    else choraKategoria();
   });
   clearSearch.addEventListener("click", () => {
     searchInput.value = "";
     clearSearch.style.display = "none";
-    choraOrodha();
+    if (kategoriaActive) choraOrodha();
+    else choraKategoria();
     searchInput.focus();
   });
   document.getElementById("prevM").addEventListener("click", () => ruka(curMark - 1));
   document.getElementById("nextM").addEventListener("click", () => ruka(curMark + 1));
   tg.BackButton.onClick(rudiOrodhani);
+
+  /* ============================================================
+     UTAFUTAJI WA KATEGORIA (wakati wa kategoria zote)
+     ============================================================ */
+  function choraKategoria() {
+    const words = queryWords();
+    const filtered = kategoria.filter(k => {
+      const haystack = norm(`${k.title || ""} ${k.subtitle || ""} ${k.category || ""}`);
+      return words.every(w => haystack.includes(w));
+    });
+    listContainer.innerHTML = "";
+    count.textContent = `${filtered.length}/${kategoria.length}`;
+    emptyMsg.textContent = "Hakuna kategoria iliyopatikana.";
+    emptyMsg.classList.toggle("hidden", filtered.length !== 0);
+    filtered.forEach(k => {
+      const item = document.createElement("div");
+      item.className = "lesson-item";
+      item.innerHTML = `
+        <img src="${escapeAttr(k.image || "")}" alt="" loading="lazy" />
+        <div class="info">
+          <div class="title">${escapeHtml(k.title || "Bila jina")}</div>
+          <div class="subtitle">${escapeHtml(k.subtitle || "")}</div>
+        </div><span class="arrow">›</span>`;
+      item.addEventListener("click", () => funguaKategoria(k));
+      listContainer.appendChild(item);
+    });
+  }
 </script>
 </body>
 </html>
