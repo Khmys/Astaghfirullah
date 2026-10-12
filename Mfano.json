@@ -1,13 +1,133 @@
 {
   "type": "somo",
   "blocks": [
-    { "t": "h", "text": "KICHWA" },
-    { "t": "dark_green_arabic", "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ..." },
-    { "t": "green_quote", "text": "Maana: \"...\"" },
-    { "t": "blue_arabic", "arabic": "رَسُول اللَّهِ..." },
-    { "t": "blue_quote", "text": "Kutoka kwa...\"" },
-    { "t": "note_orange", "text": "Dokezo muhimu!" },
-    { "t": "p", "text": "Maandishi na [[nyekundu]] na {{italiki}} na **nzito**" },
-    { "t": "quote", "text": "Umoja ni nguvu.", "source": "Methali" }
+
+    { "t": "h", "text": "1. VICHWA VYA HABARI (HEADINGS)" },
+
+    { "t": "h", "text": "Hii ni heading ya kawaida" },
+    { "t": "p", "text": "Hii ni aya ya kawaida (paragraph) chini ya heading." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "2. KIARABU — RANGI 2 TU" },
+
+    { "t": "h", "text": "2.1 Red Arabic — Qur'ani (NYEKUNDU)" },
+    { "t": "red_arabic", "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ" },
+    { "t": "p", "text": "Hii ni Kiarabu cha Qur'ani — kinapaswa kuwa NYEKUNDU." },
+
+    { "t": "h", "text": "2.2 Blue Arabic — Hadith (BLUU)" },
+    { "t": "blue_arabic", "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ" },
+    { "t": "p", "text": "Hii ni Kiarabu cha Hadith — kinapaswa kuwa BLUU." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "3. TEXT — RANGI 3 TU" },
+
+    { "t": "h", "text": "3.1 Red Text" },
+    { "t": "red", "swahili": "Maandishi nyekundu bila box." },
+
+    { "t": "h", "text": "3.2 Blue Text" },
+    { "t": "blue", "swahili": "Maandishi bluu bila box." },
+
+    { "t": "h", "text": "3.3 Green Text" },
+    { "t": "green", "swahili": "Maandishi kijani bila box." },
+
+    { "t": "h", "text": "3.4 Red Text yenye Kiarabu" },
+    { "t": "red", "arabic": "النَّصُّ الْعَرَبِيُّ", "swahili": "Maandishi nyekundu yenye Kiarabu juu." },
+
+    { "t": "h", "text": "3.5 Blue Text yenye Kiarabu" },
+    { "t": "blue", "arabic": "النَّصُّ الْعَرَبِيُّ", "swahili": "Maandishi bluu yenye Kiarabu juu." },
+
+    { "t": "h", "text": "3.6 Green Text yenye Kiarabu" },
+    { "t": "green", "arabic": "النَّصُّ الْعَرَبِيُّ", "swahili": "Maandishi kijani yenye Kiarabu juu." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "4. BOX — RANGI 4 TU (mistari inayozunguka)" },
+
+    { "t": "h", "text": "4.1 Forest Box" },
+    { "t": "forest", "swahili": "Box ya kijani forest yenye mstari unaozunguka." },
+
+    { "t": "h", "text": "4.2 Navy Box" },
+    { "t": "navy", "swahili": "Box ya bluu navy yenye mstari unaozunguka." },
+
+    { "t": "h", "text": "4.3 Ruby Box" },
+    { "t": "ruby", "swahili": "Box ya nyekundu ruby yenye mstari unaozunguka." },
+
+    { "t": "h", "text": "4.4 Mauve Box" },
+    { "t": "mauve", "swahili": "Box ya mauve yenye mstari unaozunguka." },
+
+    { "t": "h", "text": "4.5 Forest Box yenye Kiarabu" },
+    { "t": "forest", "arabic": "النَّصُّ الْعَرَبِيُّ", "swahili": "Box ya forest yenye Kiarabu juu." },
+
+    { "t": "h", "text": "4.6 Navy Box yenye Kiarabu" },
+    { "t": "navy", "arabic": "النَّصُّ الْعَرَبِيُّ", "swahili": "Box ya navy yenye Kiarabu juu." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "5. QUOTES — AINA 5" },
+
+    { "t": "h", "text": "5.1 Quote ya kawaida (default)" },
+    { "t": "quote", "text": "Umoja ni nguvu, utengano ni udhaifu.", "source": "Methali" },
+
+    { "t": "h", "text": "5.2 Note Quote (dhahabu/njano)" },
+    { "t": "note", "text": "Dokezo muhimu: Soma kwa makini." },
+
+    { "t": "h", "text": "5.3 White Quote (nyeupe)" },
+    { "t": "white_quote", "text": "Hii ni quote nyeupe yenye background nyeupe." },
+
+    { "t": "h", "text": "5.4 Black Quote (nyeusi)" },
+    { "t": "black_quote", "text": "Hii ni quote nyeusi yenye background nyeusi." },
+
+    { "t": "h", "text": "5.5 Teal Quote (kijani-bluu)" },
+    { "t": "teal_quote", "text": "Hii ni quote ya teal yenye rangi ya kijani-bluu." },
+
+    { "t": "h", "text": "5.6 Quote yenye chanzo" },
+    { "t": "quote", "text": "Elimu ni nuru.", "source": "Profesa Juma" },
+
+    { "t": "hr" },
+    { "t": "h", "text": "6. AYA YA QUR'ANI (AYAH)" },
+
+    { "t": "ayah", "sura": "Al-Baqarah 2:255", "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ", "text": "Allaah, hakuna mungu isipokuwa Yeye, aliye hai, msimamizi wa kila kitu." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "7. ORODHA (LIST)" },
+
+    { "t": "h", "text": "7.1 Orodha ya kawaida" },
+    { "t": "list", "items": ["Kitu cha kwanza", "Kitu cha pili", "Kitu cha tatu"] },
+
+    { "t": "h", "text": "7.2 Orodha yenye namba" },
+    { "t": "list", "ordered": true, "items": ["Hatua ya kwanza", "Hatua ya pili", "Hatua ya tatu"] },
+
+    { "t": "hr" },
+    { "t": "h", "text": "8. PICHA (IMAGE)" },
+    { "t": "img", "src": "https://via.placeholder.com/400x200" },
+
+    { "t": "hr" },
+    { "t": "h", "text": "9. ALAMA ZA NDANI (INLINE)" },
+    { "t": "p", "text": "Hapa kuna [[nyekundu]], {{italiki}}, na **nzito** katika aya moja." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "10. MCHANGANYIKO (MIXED)" },
+
+    { "t": "h", "text": "10.1 Aya yenye Kiarabu + Tafsiri" },
+    { "t": "red_arabic", "arabic": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ" },
+    { "t": "p", "text": "Na hatukukutuma isipokuwa kama rehema kwa walimwengu wote. [Qur'ani 21:107]" },
+
+    { "t": "h", "text": "10.2 Hadith yenye Kiarabu + Tafsiri" },
+    { "t": "blue_arabic", "arabic": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ" },
+    { "t": "p", "text": "Kwa hakika vitendo vyote vinategemea nia. [Bukhari]" },
+
+    { "t": "h", "text": "10.3 Box ya Navy yenye Kiarabu + Kiswahili" },
+    { "t": "navy", "arabic": "الْجَنَّةُ تَحْتَ أَقْدَامِ الْأُمَّهَاتِ", "swahili": "Hii ni box ya navy yenye Kiarabu na Kiswahili." },
+
+    { "t": "h", "text": "10.4 Mchanganyiko wa rangi" },
+    { "t": "red", "swahili": "Nyekundu" },
+    { "t": "blue", "swahili": "Bluu" },
+    { "t": "green", "swahili": "Kijani" },
+    { "t": "forest", "swahili": "Forest Box" },
+    { "t": "navy", "swahili": "Navy Box" },
+    { "t": "ruby", "swahili": "Ruby Box" },
+    { "t": "mauve", "swahili": "Mauve Box" },
+
+    { "t": "hr" },
+    { "t": "h", "text": "11. MWISHO" },
+    { "t": "quote", "text": "Hii ni mwisho wa mfano wa JSON.", "source": "Mfano" }
   ]
 }
