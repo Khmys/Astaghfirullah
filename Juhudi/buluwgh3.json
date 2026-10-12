@@ -41,7 +41,9 @@
     { "t": "hr" },
 
     { "t": "blue_arabic", "arabic": "وَعَنْ عَقَبَةِ بْنُ عَامِرٍ ‏ رضى الله عنه ‏ {قَالَ: سَمِعْتَ رَسُولَ اَللَّهِ ‏ صلى الله عليه وسلم ‏وَهُوَ عَلَى اَلْمِنْبَرِ يَقْرَأُ: ﴿ وَأَعِدُّوا لَهُمْ مَا اِسْتَطَعْتُمْ مِنْ قُوَّةٍ ﴾ ‏ \"أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ، أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ، أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ} ‏ رَوَاهُ مُسْلِمٌ" },
-    { "t": "p", "text": "Kutoka kwa ‘Aqabah bin ‘Aamir (رَضِيَ اللهُ عَنْهُ) amesema: “Nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema naye yuko juu ya minbar: “Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)…” [Al-Anfaal: 60] mpaka mwisho wa Aayah (kisha akasema): “Jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale.” [Imetolewa na Muslim]" },
+    { "t": "red_arabic", "arabic": "﴿ وَأَعِدُّوا لَهُمْ مَا اِسْتَطَعْتُمْ مِنْ قُوَّةٍ ﴾" },
+    { "t": "green_text", "swahili": "Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)… [Al-Anfaal: 60]" },
+    { "t": "p", "text": "Kutoka kwa ‘Aqabah bin ‘Aamir (رَضِيَ اللهُ عَنْهُ) amesema: “Nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema naye yuko juu ya minbar: [[Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)…]] [Al-Anfaal: 60] mpaka mwisho wa Aayah (kisha akasema): “Jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale.” [Imetolewa na Muslim]" },
 
     { "t": "h", "text": "UFAFANUZI" },
     { "t": "green_quote", "text": "Kutupa mishale ndio iliyokuwa silaha kuu ya wakati ule. Katika hali yetu leo hii unaweza kulinganisha na silaha za kisasa na silaha za kijeshi zinazotumia teknolojia ya hali ya juu iliyokuwa na nguvu zaidi." }
