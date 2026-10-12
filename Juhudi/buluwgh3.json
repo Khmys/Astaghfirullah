@@ -13,8 +13,8 @@
     { "t": "p", "text": "Al-Bukhaariy ameongeza: “Sufyaan amesema: ‘Kutoka Hafyaai hadi Thaniyyah Al-Wadaa’ ni maili tano au sita. Na kutoka Thaniyyah hadi Msikiti wa Baniy Zurayq ni maili moja.’”" },
 
     { "t": "h", "text": "UFAFANUZI" },
-    { "t": "green_quote", "text": "Hadiyth hii inaonyesha uhalaali wa kushindanisha farasi. Hata hivyo cha kuangalia ni nguvu na umri wa farasi ni vizuri ukatiliwa maanani katika kuwashindanisha. Farasi wa kawaida anaweza kukimbia maili moja kwa hadhari wakati farasi aliyefundishwa anaweza kukimbia kwa urefu wa maili tano bila matatizo." },
-    { "t": "green_quote", "text": "Njia ya mlimani karibu na Madiynah kuelekea Al-‘Aqabah." },
+    { "t": "navy", "text": "Hadiyth hii inaonyesha uhalaali wa kushindanisha farasi. Hata hivyo cha kuangalia ni nguvu na umri wa farasi ni vizuri ukatiliwa maanani katika kuwashindanisha. Farasi wa kawaida anaweza kukimbia maili moja kwa hadhari wakati farasi aliyefundishwa anaweza kukimbia kwa urefu wa maili tano bila matatizo." },
+    { "t": "navy", "text": "Njia ya mlimani karibu na Madiynah kuelekea Al-‘Aqabah." },
 
     { "t": "hr" },
 
@@ -27,7 +27,7 @@
     { "t": "p", "text": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ) amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Hakuna mashindano ila katika farasi au kulenga shabaha au ngamia.” [Imetolewa na Ahmad na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na akaisahihisha Ibn Hibbaan]" },
 
     { "t": "h", "text": "UFAFANUZI" },
-    { "t": "green_quote", "text": "Hili linajulisha kuwa mashindano na zawadi inakuwa kwa kuwashindanisha ngamia na farasi kwa sharti kwamba zawadi itakayotolewa ni kutoka kwa mmoja wa washindani, kulingana na ‘Ulamaa wengi. Kama zawadi itatolewa na wasio kuwa washindani (mtu au kundi la nje) hakuna tofauti katika uhalaali wake." },
+    { "t": "navy", "text": "Hili linajulisha kuwa mashindano na zawadi inakuwa kwa kuwashindanisha ngamia na farasi kwa sharti kwamba zawadi itakayotolewa ni kutoka kwa mmoja wa washindani, kulingana na ‘Ulamaa wengi. Kama zawadi itatolewa na wasio kuwa washindani (mtu au kundi la nje) hakuna tofauti katika uhalaali wake." },
 
     { "t": "hr" },
 
@@ -35,17 +35,17 @@
     { "t": "p", "text": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ) amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mwenye kumuingiza farasi mashindanoni baina ya farasi wawili na haijulikani kama atashindwa, basi hapana ubaya. Na kama itajulikana (kama atashindwa) hiyo ni kamari.” [Imetolewa na Ahmad na Abuu Daawuwd na isnaadi yake ni Dhwaiyf]" },
 
     { "t": "h", "text": "UFAFANUZI" },
-    { "t": "green_quote", "text": "Lengo la mashindano ya farasi ni kupima nguvu na uwezo wa farasi wa kukimbia, ama suala la zawadi ni jambo linalofuatia tu lakini si la msingi. Ikiwa masharti ya mashindano ni kuwashindanisha kwa msingi ufuatao, “Ikiwa farasi wake atashinda nitakulipa shilingi elfu kumi au farasi wangu atakuwa wako, au useme kinyume chake. ‘unilipe elfu kumi au farasi wako awe wangu’.” Katika hali kama hii hairuhusiwi na imekataliwa na ‘Ulamaa wengi. Ikiwa mashindano yamesimama kwa sharti la upande mmoja tu kwa kusema: “Nitakulipa elfu ishirini, ikiwa farasi wako atashinda.” Kitu hiki ni halaal (kulingana na rai za ‘Ulamaa wengi). Kingine kinachoruhusiwa ni maelekezo yafuatayo: ‘Nitamlipa atakayeshinda kiasi kadha’." },
-    { "t": "green_quote", "text": "Ikiwa inafahamika kuwa farasi fulani atashinda kwa hali yoyote ile, basi hairuhusiwi kushindana kwa sababu tu ya kupata zawadi." },
+    { "t": "navy", "text": "Lengo la mashindano ya farasi ni kupima nguvu na uwezo wa farasi wa kukimbia, ama suala la zawadi ni jambo linalofuatia tu lakini si la msingi. Ikiwa masharti ya mashindano ni kuwashindanisha kwa msingi ufuatao, “Ikiwa farasi wake atashinda nitakulipa shilingi elfu kumi au farasi wangu atakuwa wako, au useme kinyume chake. ‘unilipe elfu kumi au farasi wako awe wangu’.” Katika hali kama hii hairuhusiwi na imekataliwa na ‘Ulamaa wengi. Ikiwa mashindano yamesimama kwa sharti la upande mmoja tu kwa kusema: “Nitakulipa elfu ishirini, ikiwa farasi wako atashinda.” Kitu hiki ni halaal (kulingana na rai za ‘Ulamaa wengi). Kingine kinachoruhusiwa ni maelekezo yafuatayo: ‘Nitamlipa atakayeshinda kiasi kadha’." },
+    { "t": "navy", "text": "Ikiwa inafahamika kuwa farasi fulani atashinda kwa hali yoyote ile, basi hairuhusiwi kushindana kwa sababu tu ya kupata zawadi." },
 
     { "t": "hr" },
 
     { "t": "blue_arabic", "arabic": "وَعَنْ عَقَبَةِ بْنُ عَامِرٍ ‏ رضى الله عنه ‏ {قَالَ: سَمِعْتَ رَسُولَ اَللَّهِ ‏ صلى الله عليه وسلم ‏وَهُوَ عَلَى اَلْمِنْبَرِ يَقْرَأُ: ﴿ وَأَعِدُّوا لَهُمْ مَا اِسْتَطَعْتُمْ مِنْ قُوَّةٍ ﴾ ‏ \"أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ، أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ، أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ} ‏ رَوَاهُ مُسْلِمٌ" },
     { "t": "red_arabic", "arabic": "﴿ وَأَعِدُّوا لَهُمْ مَا اِسْتَطَعْتُمْ مِنْ قُوَّةٍ ﴾" },
-    { "t": "green_text", "swahili": "Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)… [Al-Anfaal: 60]" },
+    { "t": "green", "swahili": "Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)… [Al-Anfaal: 60]" },
     { "t": "p", "text": "Kutoka kwa ‘Aqabah bin ‘Aamir (رَضِيَ اللهُ عَنْهُ) amesema: “Nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema naye yuko juu ya minbar: [[Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)…]] [Al-Anfaal: 60] mpaka mwisho wa Aayah (kisha akasema): “Jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale.” [Imetolewa na Muslim]" },
 
     { "t": "h", "text": "UFAFANUZI" },
-    { "t": "green_quote", "text": "Kutupa mishale ndio iliyokuwa silaha kuu ya wakati ule. Katika hali yetu leo hii unaweza kulinganisha na silaha za kisasa na silaha za kijeshi zinazotumia teknolojia ya hali ya juu iliyokuwa na nguvu zaidi." }
+    { "t": "navy", "text": "Kutupa mishale ndio iliyokuwa silaha kuu ya wakati ule. Katika hali yetu leo hii unaweza kulinganisha na silaha za kisasa na silaha za kijeshi zinazotumia teknolojia ya hali ya juu iliyokuwa na nguvu zaidi." }
   ]
 }
