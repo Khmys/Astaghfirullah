@@ -14,7 +14,7 @@
     { "t": "p", "text": "Na ndani yake mna kuitakasa nafsi, kuitakasa mali, na kumuuzia Allaah nafsi, na haya yote ni matunda ya mapenzi na imani na yakini na kuelekea kwa Allaah (Subhaanahu wa Ta'ala)." },
 
     { "t": "red_arabic", "sura": "At-Tawbah: 111", "arabic": "إِنَّ اللّهَ اشْتَرَى مِنَ الْمُؤْمِنِينَ أَنفُسَهُمْ وَأَمْوَالَهُم بِأَنَّ لَهُمُ الجَنَّةَ يُقَاتِلُونَ فِي سَبِيلِ اللّهِ فَيَقْتُلُونَ وَيُقْتَلُونَ وَعْدًا عَلَيْهِ حَقًّا فِي التَّوْرَاةِ وَالإِنجِيلِ وَالْقُرْآنِ وَمَنْ أَوْفَى بِعَهْدِهِ مِنَ اللّهِ فَاسْتَبْشِرُواْ بِبَيْعِكُمُ الَّذِي بَايَعْتُم بِهِ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ" },
-    { "t": "green_text", "sura": "At-Tawbah: 111", "swahili": "Hakika Allaah Amenunua kwa Waumini nafsi zao na mali zao kwa kuwa wao watapata Pepo. Wanapigana katika Njia ya Allaah - wanaua na wanauawa. Hii ni ahadi Aliyojilazimisha kwa Haki katika Taurati na Injili na Qur-aan. Na nani atimizae ahadi kuliko Allaah? Basi furahini kwa biashara yenu mliyo fanya naye. Na huko ndiko kufuzu kukubwa." },
+    { "t": "green", "swahili": "Hakika Allaah Amenunua kwa Waumini nafsi zao na mali zao kwa kuwa wao watapata Pepo. Wanapigana katika Njia ya Allaah - wanaua na wanauawa. Hii ni ahadi Aliyojilazimisha kwa Haki katika Taurati na Injili na Qur-aan. Na nani atimizae ahadi kuliko Allaah? Basi furahini kwa biashara yenu mliyo fanya naye. Na huko ndiko kufuzu kukubwa." },
 
     { "t": "hr" },
 
@@ -54,7 +54,7 @@
     { "t": "p", "text": "Hajeruhiwi mtu (anapopigana Jihaad) katika njia ya Allaah, na Allaah anamuelewa kila anayejeruhiwa katika njia ya Allaah, isipokuwa atakuja siku ya kiama huku jeraha lake likiwa linamwaga damu, na rangi ni rangi ya damu lakini harufu ni harufu ya miski." },
 
     { "t": "red_arabic", "sura": "Aal-'Imraan: 169", "arabic": "﴿ وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ ﴾" },
-    { "t": "green_text", "sura": "Aal-'Imraan: 169", "swahili": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi." },
+    { "t": "green", "swahili": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi." },
     { "t": "p", "text": "Roho za mashahidi zimo ndani ya miili (mfano wa miili) ya ndege (yenye rangi ya) kijani, wanatembezwa (wanaingia na kutoka) Peponi wanavyotaka." },
 
     { "t": "blue_arabic", "arabic": "وَعَنْ أَنَسٍ رَضِيَ اللهُ عَنْهُ أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"مَا أَحَدٌ يَدْخُلُ الْجَنَّةَ يَسُرُّهُ أَنْ يَرْجِعَ إِلَى الدُّنْيَا، إِلَّا الشَّهِيدُ، فَإِنَّهُ يَتَمَنَّى أَنْ يَرْجِعَ فَيُقْتَلَ عَشْرَ مَرَّاتٍ، لِمَا يَرَى مِنَ الْكَرَامَةِ\"" },
@@ -70,12 +70,12 @@
     { "t": "p", "text": "Atakayeuliwa kwa ajili ya (kuihami) mali yake ni shahidi, na atakayeuliwa kwa ajili ya (kuipigania) dini yake ni shahidi, na atakayeuliwa kwa ajili ya (kuwahami) watu wake ni shahidi. [Ahmad na At-Tirmidhiy]" },
 
     { "t": "red_arabic", "sura": "Aal-'Imraan: 169-171", "arabic": "وَلاَ تَحْسَبَنَّ الَّذِينَ قُتِلُواْ فِي سَبِيلِ اللّهِ أَمْوَاتًا بَلْ أَحْيَاء عِندَ رَبِّهِمْ يُرْزَقُونَ . فَرِحِينَ بِمَا آتَاهُمُ اللّهُ مِن فَضْلِهِ وَيَسْتَبْشِرُونَ بِالَّذِينَ لَمْ يَلْحَقُواْ بِهِم مِّنْ خَلْفِهِمْ أَلاَّ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ . يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ اللّهِ وَفَضْلٍ وَأَنَّ اللّهَ لاَ يُضِيعُ أَجْرَ الْمُؤْمِنِينَ" },
-    { "t": "green_text", "sura": "Aal-'Imraan: 169-171", "swahili": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi. Wanafurahia aliyo wapa Allaah kwa fadhila Yake, na wanawashangilia wale ambao bado hawajajiunga nao, walio nyuma yao, ya kwamba haitakuwa khofu juu yao wala hawatahuzunika. Wanashangilia neema na fadhila za Allaah, na ya kwamba Allaah Hapotezi ujira wa Waumini." },
+    { "t": "green", "swahili": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi. Wanafurahia aliyo wapa Allaah kwa fadhila Yake, na wanawashangilia wale ambao bado hawajajiunga nao, walio nyuma yao, ya kwamba haitakuwa khofu juu yao wala hawatahuzunika. Wanashangilia neema na fadhila za Allaah, na ya kwamba Allaah Hapotezi ujira wa Waumini." },
 
     { "t": "hr" },
 
     { "t": "h", "text": "KULINYANYUA NENO LA ALLAAH" },
-    { "t": "green_quote", "text": "Anayepigana Jihaad ya kweli ni yule ambaye nia yake ni kulinyanyua neno la Allaah na kuinyanyua bendera ya Haki na kuiondoa batili na kujitolea mhanga nafsi yake kwa ajili ya kutaka radhi za Allaah. Ama ikiwa nia ya kupigana Jihaad ni nyingine katika mambo ya kidunia tofauti na hayo yaliyotajwa, basi hiyo haiwezi kupewa jina la Jihaad." },
+    { "t": "note", "text": "Anayepigana Jihaad ya kweli ni yule ambaye nia yake ni kulinyanyua neno la Allaah na kuinyanyua bendera ya Haki na kuiondoa batili na kujitolea mhanga nafsi yake kwa ajili ya kutaka radhi za Allaah. Ama ikiwa nia ya kupigana Jihaad ni nyingine katika mambo ya kidunia tofauti na hayo yaliyotajwa, basi hiyo haiwezi kupewa jina la Jihaad." },
 
     { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي مُوسَى رَضِيَ اللهُ عَنْهُ قَالَ: جَاءَ رَجُلٌ إِلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ فَقَالَ: الرَّجُلُ يُقَاتِلُ لِلْمَغْنَمِ، وَالرَّجُلُ يُقَاتِلُ لِلذِّكْرِ، وَالرَّجُلُ يُقَاتِلُ لِيُرَى مَكَانُهُ، فَمَنْ فِي سَبِيلِ اللهِ؟ فَقَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللهِ\"" },
     { "t": "p", "text": "Kutoka kwa Abu Musa (رَضِيَ اللهُ عَنْهُ) amesema: Alikuja mtu kwa Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasema: Mtu anapigana kwa ajili ya kujipatia ngawira, na mwengine apate kusifiwa, na mwengine apate kuonesha ushujaa wake, yupi kati yao (anahesabiwa kuwa) yupo katika njia ya Allaah? Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasema: Atakayepigana ili neno la Allaah liwe juu, huyo yupo katika njia ya Allaah." },
@@ -92,7 +92,7 @@
     { "t": "hr" },
 
     { "t": "h", "text": "FADHILA ZA KULINDA MIPAKA (AL-RIBAAT)" },
-    { "t": "green_quote", "text": "Kwa kawaida panakuwa na upenyo katika mipaka baina ya ardhi ya Waislamu na ya makafiri... ni wajibu kwa Waislamu kuzilinda vizuri sehemu hizo. Uchache wake ni muda wa saa moja na ukamilifu wake ni siku arubaini." },
+    { "t": "note", "text": "Kwa kawaida panakuwa na upenyo katika mipaka baina ya ardhi ya Waislamu na ya makafiri... ni wajibu kwa Waislamu kuzilinda vizuri sehemu hizo. Uchache wake ni muda wa saa moja na ukamilifu wake ni siku arubaini." },
 
     { "t": "blue_arabic", "arabic": "وَعَنْ سَهْلِ بْنِ سَعْدٍ رَضِيَ اللهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"رِبَاطُ يَوْمٍ وَلَيْلَةٍ خَيْرٌ مِنْ صِيَامِ شَهْرٍ وَقِيَامِهِ، وَإِنْ مَاتَ جَرَى عَلَيْهِ عَمَلُهُ الَّذِي كَانَ يَعْمَلُهُ، وَأُجْرِيَ عَلَيْهِ رِزْقُهُ، وَأَمِنَ الْفَتَّانَ\"" },
     { "t": "p", "text": "Ribaat ya siku moja na usiku wake ni bora kuliko kufunga mwezi mzima na kusali usiku wake, na mtu akifa (akiwa katika jukumu hilo), amali zake zitaendelea kuandikwa na riziki yake ataendela kupata na atasalimika na fitna (za kaburi). [Muslim]" },
@@ -104,7 +104,7 @@
 
     { "t": "h", "text": "FADHILA ZA KURUSHA (AR-RAMYI)" },
     { "t": "red_arabic", "sura": "At-Tawbah: 60", "arabic": "﴿ وَأَعِدُّواْ لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ ﴾" },
-    { "t": "green_text", "sura": "At-Tawbah: 60", "swahili": "Basi waandalieni (wawekeeni tayari) nguvu mnazoweza (silaha)." },
+    { "t": "green", "swahili": "Basi waandalieni (wawekeeni tayari) nguvu mnazoweza (silaha)." },
 
     { "t": "blue_arabic", "arabic": "وَعَنْ عُقْبَةَ بْنِ عَامِرٍ رَضِيَ اللهُ عَنْهُ قَالَ: سَمِعْتُ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: \"أَلَا إِنَّ الْقُوَّةَ الرَّمْيُ، أَلَا إِنَّ الْقُوَّةَ الرَّمْيُ، أَلَا إِنَّ الْقُوَّةَ الرَّمْيُ\"" },
     { "t": "p", "text": "Hakika nguvu ya kweli ni kurusha, hakika nguvu ya kweli ni kurusha, hakika nguvu ya kweli ni kurusha. [Muslim]" },
@@ -121,6 +121,6 @@
     { "t": "blue_arabic", "arabic": "وَعَنْ سَعْدِ بْنِ أَبِي وَقَّاصٍ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"عَلَيْكُمْ بِالرَّمْيِ، فَإِنَّهُ خَيْرُ لَهْوِكُمْ\"" },
     { "t": "p", "text": "Enyi wana wa Isma'iyl! rusheni (mishale) kwani baba yenu alikuwa mrushaji." },
 
-    { "t": "green_quote", "text": "Anasema Al-Qurtubiy: Maana ya Hadiyth hii na Allaah ndiye ajuwae zaidi, ni kuwa; Kila mchezo unaopoteza wakati wa mtu usio na faida, hauna thawabu yoyote ndani yake, na kuachana nao ni bora zaidi, isipokuwa mambo matatu haya... Na kujifunza kupanda farasi na kutumia silaha ni katika fardhi kifaya inayoweza kuwa fardhi 'ayn." }
+    { "t": "note", "text": "Anasema Al-Qurtubiy: Maana ya Hadiyth hii na Allaah ndiye ajuwae zaidi, ni kuwa; Kila mchezo unaopoteza wakati wa mtu usio na faida, hauna thawabu yoyote ndani yake, na kuachana nao ni bora zaidi, isipokuwa mambo matatu haya... Na kujifunza kupanda farasi na kutumia silaha ni katika fardhi kifaya inayoweza kuwa fardhi 'ayn." }
   ]
 }
