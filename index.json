@@ -5,7 +5,7 @@
     "title": "Qur'ani Tukufu",
     "subtitle": "Sura zote za Qur'ani",
     "image": "https://placehold.co/600x300.png?text=Quran",
-    "file": "quran.json"
+    "file": "quran/quran.json"
   },
   {
     "id": "jihaad",
@@ -13,7 +13,7 @@
     "title": "Kitabu cha Jihaad",
     "subtitle": "Masomo yote ya Jihaad",
     "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg",
-    "file": "jihaad.json"
+    "file": "Juhudi/jihaad.json"
   },
   {
     "id": "maisha",
@@ -21,7 +21,7 @@
     "title": "Maisha ya Kiislamu",
     "subtitle": "Familia, uchumi na jamii",
     "image": "https://placehold.co/600x300.png?text=Maisha",
-    "file": "maisha.json"
+    "file": "Maisha/maisha.json"
   },
   {
     "id": "mfano",
@@ -29,6 +29,6 @@
     "title": "Mifano",
     "subtitle": "Kwa majaribio tu",
     "image": "https://placehold.co/600x300.png?text=Mfano",
-    "file": "mfano.json"
+    "file": "Mfano.json"
   }
 ]
