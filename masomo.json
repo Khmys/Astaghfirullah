@@ -25,21 +25,24 @@
   },
   {
     "category": "jihaad",
-    "title": "Buluwgh Al-Maraam: Kitabu cha Jihaad",
+    "title": "01. Kitabu cha Jihaad",
     "subtitle": "Hadiyth pamoja na ufafanuzi",
-    "file": "Juhudi/buluwgh.json"
+    "file": "Juhudi/buluwgh.json",
+    "image": ""
   },
   {
     "category": "jihaad",
-    "title": "02 Kitabu Cha Jihaad: Mlango Wa Jizya Na Kusitisha Vita",
+    "title": "02. Mlango Wa Jizya Na Kusitisha Vita",
     "subtitle": "Hadiyth pamoja na ufafanuzi",
-    "file": "Juhudi/buluwgh2.json"
+    "file": "Juhudi/buluwgh2.json",
+    "image": ""
   },
   {
     "category": "jihaad",
-    "title": "03 Mlango Wa Mashindano Ya Farasi Na Kurusha Mishale",
+    "title": "03. Mlango Wa Mashindano Ya Farasi Na Kurusha Mishale",
     "subtitle": "Buluwgh Al-Maraam: Hadiyth pamoja na ufafanuzi",
-    "file": "Juhudi/buluwgh3.json"
+    "file": "Juhudi/buluwgh3.json",
+    "image": ""
   },
   {
     "category": "Maisha",
