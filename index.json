@@ -1,0 +1,34 @@
+[
+  {
+    "id": "quran",
+    "category": "Qur-aan",
+    "title": "Qur'ani Tukufu",
+    "subtitle": "Sura zote za Qur'ani",
+    "image": "https://placehold.co/600x300.png?text=Quran",
+    "file": "quran.json"
+  },
+  {
+    "id": "jihaad",
+    "category": "jihaad",
+    "title": "Kitabu cha Jihaad",
+    "subtitle": "Masomo yote ya Jihaad",
+    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg",
+    "file": "jihaad.json"
+  },
+  {
+    "id": "maisha",
+    "category": "Maisha",
+    "title": "Maisha ya Kiislamu",
+    "subtitle": "Familia, uchumi na jamii",
+    "image": "https://placehold.co/600x300.png?text=Maisha",
+    "file": "maisha.json"
+  },
+  {
+    "id": "mfano",
+    "category": "Mfano",
+    "title": "Mifano",
+    "subtitle": "Kwa majaribio tu",
+    "image": "https://placehold.co/600x300.png?text=Mfano",
+    "file": "mfano.json"
+  }
+]
