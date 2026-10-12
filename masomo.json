@@ -49,12 +49,14 @@
     "category": "Maisha",
     "title": "🧩",
     "subtitle": "🤝",
-    "file": "Maisha/Umojaninguvu.json"
+    "file": "Maisha/Umojaninguvu.json",
+    "image": "https://placehold.co/600x300.png?text=Maisha"
   },
   {
     "category": "Mfano",
     "title": "Majalibio",
     "subtitle": "Kwavile Bado tuna anza pia na majalibio nayo ni mengi saana Kwahiyo sehemu hii niyakujalibia tu ",
-    "file": "Mfano.json"
+    "file": "Mfano.json",
+    "image": "https://placehold.co/600x300.png?text=Majalibio"
   }
 ]
