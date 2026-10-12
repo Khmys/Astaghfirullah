@@ -1,89 +1,97 @@
 {
-  "taype": "Jihaad",
-  "name": "Fadhila Za Jihaad",
-  "title": "Ibada Bora",
-  "content": {
-    "utangulizi": "Fadhila zinazopatikana katika Kupigana Jihaad isiyokuwa ya waajib kwa ajili ya kulinyanyua neno la Allaah na kuimakinisha hidaaya Yake juu ya ardhi, na kwa ajili ya kuimakinisha dini ya haki ni nyingi kupita fadhila zinazopatikana katika kuhiji Hija ya nyongeza baada ya mtu kuhiji Hija yake ya lazima, au 'Umrah ya nyongeza, au Swalah za Sunnah au Swawm ya Sunnah.",
-    "maelezo_ya_ibada": "Juu ya yote hayo, Jihaad imekusanya kila aina ya ibada za kiroho na kiwiliwili, kuikinai dunia, kuihama nchi na kuyahama matamanio na hii ndiyo maana ikapewa jina la 'Uchaji Allaah', kwani imekuja katika Hadiyth kuwa: 'Ucha Mungu wa umma wangu ni Jihaad katika njia ya Allaah.'",
-    "utakaso": "Na ndani yake mna kuitakasa nafsi, kuitakasa mali, na kumuuzia Allaah nafsi, na haya yote ni matunda ya mapenzi na imani na yakini na kuelekea kwa Allaah (Subhaanahu wa Ta'ala).",
-    "aya": {
-      "sura": "At-Tawbah: 111",
-      "kwaarabu": "إِنَّ اللّهَ اشْتَرَى مِنَ الْمُؤْمِنِينَ أَنفُسَهُمْ وَأَمْوَالَهُم بِأَنَّ لَهُمُ الجَنَّةَ يُقَاتِلُونَ فِي سَبِيلِ اللّهِ فَيَقْتُلُونَ وَيُقْتَلُونَ وَعْدًا عَلَيْهِ حَقًّا فِي التَّوْرَاةِ وَالإِنجِيلِ وَالْقُرْآنِ وَمَنْ أَوْفَى بِعَهْدِهِ مِنَ اللّهِ فَاسْتَبْشِرُواْ بِبَيْعِكُمُ الَّذِي بَايَعْتُم بِهِ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
-      "tafsiri": "Hakika Allaah Amenunua kwa Waumini nafsi zao na mali zao kwa kuwa wao watapata Pepo. Wanapigana katika Njia ya Allaah - wanaua na wanauawa. Hii ni ahadi Aliyojilazimisha kwa Haki katika Taurati na Injili na Qur-aan. Na nani atimizae ahadi kuliko Allaah? Basi furahini kwa biashara yenu mliyo fanya naye. Na huko ndiko kufuzu kukubwa."
-    },
-    "sehemu": [
-      {
-        "kichwa": "Watu Bora",
-        "hadiyth": [
-          "Kutoka kwa Ibn 'Abbaas (Radhiya Allaahu 'anhu) kuwa Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) amesema: 'Nikujulisheni juu ya aliye bora kupita wote? Mtu aliyeshika hatamu za farasi wake (akimuelekeza) katika njia ya Allaah (kupigana Jihaad). Nikujulisheni juu ya anayefuatia? Mtu aliyejitenga akiwa na mbuzi wake akitoa haki ya Allaah katika mbuzi hao. Nikujulisheni juu ya mtu muovu kupita wote? Mtu anayeombwa kwa jina la Allaah kisha hatoi (juu ya kuwa anao uwezo).'",
-          "Alipoulizwa Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam): 'Mtu yupi aliye bora?' Akajibu: 'Muislamu anayepigana Jihaad katika njia ya Allaah kwa nafsi yake na mali yake.' Wakamuuliza: 'Kisha yupi?' Akasema: 'Muislamu katika bonde mojawapo akimcha Allaah na anawaepusha watu na shari yake.'"
-        ]
-      },
-      {
-        "kichwa": "Pepo Kwa Ajili Ya Mujaahidiyn",
-        "hadiyth": "AmeHadiytha At-Tirmidhiy kuwa mtu mmoja alitamani ajitenge (awe mbali na watu huku akifanya shughuli za ibada peke yake), akamuuliza Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) juu ya jambo hilo, na Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) akamwambia: 'Usifanye hivyo, kwa sababu mmoja wenu anaposimama (tu) katika njia ya Allaah (wakati wowote anapokuwa katika Jihaad), ni bora kuliko akisali nyumbani kwake muda wa miaka sabini. Hampendi nyinyi Allaah akughufirieni kisha akuingizeni Peponi? Piganeni katika njia ya Allaah. Atakayepigana katika njia ya Allaah (muda wa) kiasi cha kumkamua ngamia maziwa tu, imemwajibikia Pepo.' - At-Tirmidhy"
-      },
-      {
-        "kichwa": "Daraja Mia Peponi",
-        "hadiyth": [
-          "Kutoka kwa Abu Sa'iyd al-Khudry (Radhiya Allaahu 'anhu) kuwa Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) amesema: 'Ewe Abu Sa'iyd! Atakayeridhika kuwa Mola wake ni Allaah, na Islamu dini yake, na Muhammad Mtume wake, amewajibika kuingia Peponi.' Abu Said akastaajabu... Akasema: 'Na mengine anamnyanyua kwayo mja wake daraja mia, na baina ya kila daraja mbili (umbali wake) sawa na umbali wa mbingu na ardhi.' Akauliza; 'Nini hicho ewe Mtume wa Allaah?' Akasema: 'Ni Jihaad katika njia ya Allaah, ni Jihaad katika njia ya Allaah.'",
-          "Na Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) amesema: 'Hakika huko Peponi zipo daraja mia, Allaah amewatayarishia wapiganao Jihaad katika njia ya Allaah, na baina ya kila daraja mbili umbali wake sawa na umbali wa mbingu na ardhi. Na mnapomuomba Allaah, muombeni (Pepo ya) Al Firdaus, kwani hiyo ipo kati kati ya Pepo, sehemu ya juu ya Pepo, na juu yake ipo Arshi ya Al Rahman, na kutoka hapo inapasuka (inaanzia) mito ya Peponi.'"
-        ]
-      },
-      {
-        "kichwa": "Thamani ya Jihaad",
-        "hadiyth": "Kutoka kwa Abu Hurayrah (Radhiya Allaahu 'anhu) kuwa amesema: 'Aliulizwa Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam): Kipi chenye thamani kupita Jihaad katika njia ya Allaah? Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) akasema: Hamukiwezi.' Akaulizwa suali hilo mara mbili au tatu... Mara ya tatu akasema: 'Mfano wa anayepigana Jihaad katika njia ya Allaah ni mfano wa aliyefunga (aliyebaki akiwa amefunga), (na) akasali nyakati za usiku huku akiomba na kusoma aya za Allaah bila kuchoka katika Sala yake wala kuacha kufunga mpaka atakaporudi yule aliyekwenda kupigana Jihaad katika njia ya Mwenyezi.' - Maimamu watano"
-      },
-      {
-        "kichwa": "Kufa Shahiyd",
-        "hadiyth": [
-          "Hajeruhiwi mtu (anapopigana Jihaad) katika njia ya Allaah, na Allaah anamuelewa kila anayejeruhiwa katika njia ya Allaah, isipokuwa atakuja siku ya kiama huku jeraha lake likiwa linamwaga damu, na rangi ni rangi ya damu lakini harufu ni harufu ya miski.",
-          "Roho za mashahidi zimo ndani ya miili (mfano wa miili) ya ndege (yenye rangi ya) kijani, wanatembezwa (wanaingia na kutoka) Peponi wanavyotaka.",
-          "Shahidi hahisi maumivu ya kuuliwa ila kama mmoja wenu anavyohisi maumivu ya kufinywa.",
-          "Jihaad iliyo bora, ajeruhiwe farasi wako na imwagike damu yako.",
-          "Mashahidi ni (aina) saba gheri ya aliyeuliwa katika njia ya Allaah: Aliyekufa kwa maradhi ya tauni ni shahidi, aliyezama (aliyekufa kwa kuzama) shahidi, mwenye maradhi yanayosibu sehemu za mbavu ni shahidi, aliyekufa kwa maradhi ya tumbo ni shahidi, aliyekufa kwa kuungua - shahidi, aliyekufa kwa kuangukiwa na nyumba - shahidi, na mwanamke aliyekufa katika uzazi - shahidi. - Ahmad, Abu Daawuud, An-Nasaaiy",
-          "Atakayeuliwa kwa ajili ya (kuihami) mali yake ni shahidi, na atakayeuliwa kwa ajili ya (kuipigania) dini yake ni shahidi, na atakayeuliwa kwa ajili ya (kuwahami) watu wake ni shahidi. - Ahmad na At-Tirmidhiy"
-        ],
-        "aya_shahidi": {
-          "sura": "Aal-'Imraan: 169-171",
-          "kwaarabu": "وَلاَ تَحْسَبَنَّ الَّذِينَ قُتِلُواْ فِي سَبِيلِ اللّهِ أَمْوَاتًا بَلْ أَحْيَاء عِندَ رَبِّهِمْ يُرْزَقُونَ . فَرِحِينَ بِمَا آتَاهُمُ اللّهُ مِن فَضْلِهِ وَيَسْتَبْشِرُونَ بِالَّذِينَ لَمْ يَلْحَقُواْ بِهِم مِّنْ خَلْفِهِمْ أَلاَّ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ 0 يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ اللّهِ وَفَضْلٍ وَأَنَّ اللّهَ لاَ يُضِيعُ أَجْرَ الْمُؤْمِنِينَ",
-          "tafsiri": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi. Wanafurahia aliyo wapa Allaah kwa fadhila Yake, na wanawashangilia wale ambao bado hawajajiunga nao, walio nyuma yao, ya kwamba haitakuwa khofu juu yao wala hawatahuzunika. Wanashangilia neema na fadhila za Allaah, na ya kwamba Allaah Hapotezi ujira wa Waumini."
-        }
-      },
-      {
-        "kichwa": "Kulinyanyua Neno La Allaah",
-        "maelezo": "Anayepigana Jihaad ya kweli ni yule ambaye nia yake ni kulinyanyua neno la Allaah na kuinyanyua bendera ya Haki na kuiondoa batili na kujitolea mhanga nafsi yake kwa ajili ya kutaka radhi za Allaah. Ama ikiwa nia ya kupigana Jihaad ni nyingine katika mambo ya kidunia tofauti na hayo yaliyotajwa, basi hiyo haiwezi kupewa jina la Jihaad.",
-        "hadiyth": [
-          "Kutoka kwa Abu Musa (Radhiya Allaahu 'anhu) amesema: Alikuja mtu kwa Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) akasema: Mtu anapigana kwa ajili ya kujipatia ngawira, na mwengine apate kusifiwa, na mwengine apate kuonesha ushujaa wake, yupi kati yao (anahesabiwa kuwa) yupo katika njia ya Allaah? Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam) akasema: Atakayepigana ili neno la Allaah liwe juu, huyo yupo katika njia ya Allaah.",
-          "Ewe Mtume wa Allaah, unaonaje mtu anayepigana kwa ajili ya kutaka ujira na umaarufu, anapata nini? Mtume wa Allaah (Swalla Allaahu 'alayhi wa sallam): Hapati chochote. - Abu Daawuud na An-Nasaaiy",
-          "Hakika 'amali zote (huhesabiwa kutokana) na nia, na hakika ana kila mja (malipo) ya aliyoyanuwia. - Al-Bukhaariy",
-          "Atakayemuomba Allaah kwa nia ya kweli afe shahidi, Allaah Atamfikisha katika daraja za waliokufa shahidi hata kama atakufa kitandani pake."
-        ]
-      },
-      {
-        "kichwa": "Fadhila Za Kulinda Mipaka (Al Ribaat)",
-        "maelezo": "Kwa kawaida panakuwa na upenyo katika mipaka baina ya ardhi ya Waislamu na ya makafiri... ni wajibu kwa Waislamu kuzilinda vizuri sehemu hizo. Uchache wake ni muda wa saa moja na ukamilifu wake ni siku arubaini.",
-        "hadiyth": [
-          "Ribaat ya siku moja na usiku wake ni bora kuliko kufunga mwezi mzima na kusali usiku wake, na mtu akifa (akiwa katika jukumu hilo), amali zake zitaendelea kuandikwa na riziki yake ataendela kupata na atasalimika na fitna (za kaburi). - Muslim",
-          "Kila maiti amali zake zinakatika ila aliyekufa akiwa analinda mipaka ili adui asiweze kuingia katika nchi ya Kiislamu (Muraabitan), kwa hakika huyu amali zake zinaendelea kuandikwa mpaka siku ya Kiama, na anaepushwa na mitihani ya kaburi."
-        ]
-      },
-      {
-        "kichwa": "Fadhila Za Kurusha (Ar-Ramyi)",
-        "aya": {
-          "sura": "At-Tawbah: 60",
-          "kwaarabu": "وَأَعِدُّواْ لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ",
-          "tafsiri": "Basi waandalieni (wawekeeni tayari) nguvu mnazoweza (silaha)."
-        },
-        "hadiyth": [
-          "Hakika nguvu ya kweli ni kurusha, hakika nguvu ya kweli ni kurusha, hakika nguvu ya kweli ni kurusha. - Muslim",
-          "Mtawezeshwa kuziteka nchi nyingi, mmoja wenu asishindwe kuutumuia mshale wake. Hakika Allaah huwaingiza Peponi watu watatu kwa mshale mmoja - aliyeutengeneza (kwa nia ya Jihaad), anayempa, na mrushaji katika njia ya Allaah.",
-          "Atakayejifunza kutupa, kisha akasahau hayupo pamoja nasi.",
-          "Mchezo wowote anaocheza mtu ni batil, isipokuwa (mchezo wa) upinde (na mshale), na kumzowesha farasi wake (pamoja na kumfundisha), na kucheza na watu wa nyumba yake, hayo ni katika mambo ya haki.",
-          "Enyi wana wa Isma'iyl! rusheni (mishale) kwani baba yenu alikuwa mrushaji."
-        ],
-        "maelezo_ya_wanachuoni": "Anasema Al-Qurtubiy: Maana ya Hadiyth hii na Allaah ndiye ajuwae zaidi, ni kuwa; Kila mchezo unaopoteza wakati wa mtu usio na faida, hauna thawabu yoyote ndani yake, na kuachana nao ni bora zaidi, isipokuwa mambo matatu haya... Na kujifunza kupanda farasi na kutumia silaha ni katika fardhi kifaya inayoweza kuwa fardhi 'ayn."
-      }
-    ]
-  }
-}
+  "type": "somo",
+  "blocks": [
+    { "t": "h", "text": "بُلُوغُ الْمَرام" },
+    { "t": "p", "text": "Buluwgh Al-Maraam" },
+    { "t": "h", "text": "كِتَابُ اَلْجِهَادِ" },
+    { "t": "p", "text": "Kitabu cha Jihaad" },
+    { "t": "h", "text": "فَضَائِلُ الْجِهَادِ" },
+    { "t": "p", "text": "Fadhila Za Jihaad" },
+
+    { "t": "h", "text": "IBADA BORA" },
+    { "t": "p", "text": "Fadhila zinazopatikana katika Kupigana Jihaad isiyokuwa ya waajib kwa ajili ya kulinyanyua neno la Allaah na kuimakinisha hidaaya Yake juu ya ardhi, na kwa ajili ya kuimakinisha dini ya haki ni nyingi kupita fadhila zinazopatikana katika kuhiji Hija ya nyongeza baada ya mtu kuhiji Hija yake ya lazima, au 'Umrah ya nyongeza, au Swalah za Sunnah au Swawm ya Sunnah." },
+    { "t": "p", "text": "Juu ya yote hayo, Jihaad imekusanya kila aina ya ibada za kiroho na kiwiliwili, kuikinai dunia, kuihama nchi na kuyahama matamanio na hii ndiyo maana ikapewa jina la 'Uchaji Allaah', kwani imekuja katika Hadiyth kuwa: 'Ucha Mungu wa umma wangu ni Jihaad katika njia ya Allaah.'" },
+    { "t": "p", "text": "Na ndani yake mna kuitakasa nafsi, kuitakasa mali, na kumuuzia Allaah nafsi, na haya yote ni matunda ya mapenzi na imani na yakini na kuelekea kwa Allaah (Subhaanahu wa Ta'ala)." },
+
+    { "t": "red_arabic", "sura": "At-Tawbah: 111", "arabic": "إِنَّ اللّهَ اشْتَرَى مِنَ الْمُؤْمِنِينَ أَنفُسَهُمْ وَأَمْوَالَهُم بِأَنَّ لَهُمُ الجَنَّةَ يُقَاتِلُونَ فِي سَبِيلِ اللّهِ فَيَقْتُلُونَ وَيُقْتَلُونَ وَعْدًا عَلَيْهِ حَقًّا فِي التَّوْرَاةِ وَالإِنجِيلِ وَالْقُرْآنِ وَمَنْ أَوْفَى بِعَهْدِهِ مِنَ اللّهِ فَاسْتَبْشِرُواْ بِبَيْعِكُمُ الَّذِي بَايَعْتُم بِهِ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ" },
+    { "t": "green_text", "sura": "At-Tawbah: 111", "swahili": "Hakika Allaah Amenunua kwa Waumini nafsi zao na mali zao kwa kuwa wao watapata Pepo. Wanapigana katika Njia ya Allaah - wanaua na wanauawa. Hii ni ahadi Aliyojilazimisha kwa Haki katika Taurati na Injili na Qur-aan. Na nani atimizae ahadi kuliko Allaah? Basi furahini kwa biashara yenu mliyo fanya naye. Na huko ndiko kufuzu kukubwa." },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "WATU BORA" },
+    { "t": "blue_arabic", "arabic": "عَنْ اِبْنِ عَبَّاسٍ رَضِيَ اللهُ عَنْهُمَا أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"أَلَا أُخْبِرُكُمْ بِخَيْرِ النَّاسِ؟ رَجُلٌ مُمْسِكٌ بِعِنَانِ فَرَسِهِ فِي سَبِيلِ اللهِ. أَلَا أُخْبِرُكُمْ بِالَّذِي يَتْلُوهُ؟ رَجُلٌ مُعْتَزِلٌ فِي غَنَمِهِ يُؤَدِّي حَقَّ اللهِ فِيهَا. أَلَا أُخْبِرُكُمْ بِشَرِّ النَّاسِ؟ الَّذِي يُسْأَلُ بِاللهِ وَلَا يُعْطِي بِهِ\"" },
+    { "t": "p", "text": "Kutoka kwa Ibn ‘Abbaas (رَضِيَ اللهُ عَنْهُ) kuwa Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Nikujulisheni juu ya aliye bora kupita wote? Mtu aliyeshika hatamu za farasi wake (akimuelekeza) katika njia ya Allaah (kupigana Jihaad). Nikujulisheni juu ya anayefuatia? Mtu aliyejitenga akiwa na mbuzi wake akitoa haki ya Allaah katika mbuzi hao. Nikujulisheni juu ya mtu muovu kupita wote? Mtu anayeombwa kwa jina la Allaah kisha hatoi (juu ya kuwa anao uwezo).”" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللهُ عَنْهُ قَالَ: قِيلَ: يَا رَسُولَ اللهِ، أَيُّ النَّاسِ أَفْضَلُ؟ قَالَ: \"مُؤْمِنٌ يُجَاهِدُ فِي سَبِيلِ اللهِ بِنَفْسِهِ وَمَالِهِ\". قَالُوا: ثُمَّ مَنْ؟ قَالَ: \"مُؤْمِنٌ فِي شِعْبٍ مِنَ الشِّعَابِ يَتَّقِي اللهَ، وَيَدَعُ النَّاسَ مِنْ شَرِّهِ\"" },
+    { "t": "p", "text": "Alipoulizwa Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ): ‘Mtu yupi aliye bora?’ Akajibu: ‘Muislamu anayepigana Jihaad katika njia ya Allaah kwa nafsi yake na mali yake.’ Wakamuuliza: ‘Kisha yupi?’ Akasema: ‘Muislamu katika bonde mojawapo akimcha Allaah na anawaepusha watu na shari yake.’" },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "PEPO KWA AJILI YA MUJAAHIDIYN" },
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَجُلًا قَالَ: يَا رَسُولَ اللهِ، رَجُلٌ يُرِيدُ الْجِهَادَ وَهُوَ يَتَخَلَّى؟ فَقَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"لَا، لَا يَتَخَلَّى، فَإِنَّ مُقَامَ أَحَدِكُمْ فِي سَبِيلِ اللهِ أَفْضَلُ مِنْ صَلَاتِهِ فِي بَيْتِهِ سَبْعِينَ عَامًا. أَلَا تُحِبُّونَ أَنْ يَغْفِرَ اللهُ لَكُمْ وَيُدْخِلَكُمْ الْجَنَّةَ؟ اغْزُوا فِي سَبِيلِ اللهِ، فَإِنَّ مَنْ قَاتَلَ فِي سَبِيلِ اللهِ فُوَاقَ نَاقَةٍ وَجَبَتْ لَهُ الْجَنَّةُ\"" },
+    { "t": "p", "text": "AmeHadiytha At-Tirmidhiy kuwa mtu mmoja alitamani ajitenge (awe mbali na watu huku akifanya shughuli za ibada peke yake), akamuuliza Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) juu ya jambo hilo, na Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akamwambia: ‘Usifanye hivyo, kwa sababu mmoja wenu anaposimama (tu) katika njia ya Allaah (wakati wowote anapokuwa katika Jihaad), ni bora kuliko akisali nyumbani kwake muda wa miaka sabini. Hampendi nyinyi Allaah akughufirieni kisha akuingizeni Peponi? Piganeni katika njia ya Allaah. Atakayepigana katika njia ya Allaah (muda wa) kiasi cha kumkamua ngamia maziwa tu, imemwajibikia Pepo.’ [At-Tirmidhy]" },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "DARAJA MIA PEPONI" },
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"يَا أَبَا سَعِيدٍ، مَنْ رَضِيَ بِاللهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ نَبِيًّا، وَجَبَتْ لَهُ الْجَنَّةُ\". فَعَجِبَ لَهَا أَبُو سَعِيدٍ، فَقَالَ: أَعِدْهَا عَلَيَّ يَا رَسُولَ اللهِ، فَفَعَلَ، ثُمَّ قَالَ: \"وَأُخْرَى يَرْفَعُ اللهُ بِهَا الْعَبْدَ مِائَةَ دَرَجَةٍ فِي الْجَنَّةِ، مَا بَيْنَ كُلِّ دَرَجَتَيْنِ كَمَا بَيْنَ السَّمَاءِ وَالْأَرْضِ\". قَالَ: وَمَا هِيَ يَا رَسُولَ اللهِ؟ قَالَ: \"الْجِهَادُ فِي سَبِيلِ اللهِ، الْجِهَادُ فِي سَبِيلِ اللهِ\"" },
+    { "t": "p", "text": "Kutoka kwa Abu Sa'iyd al-Khudry (رَضِيَ اللهُ عَنْهُ) kuwa Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: ‘Ewe Abu Sa'iyd! Atakayeridhika kuwa Mola wake ni Allaah, na Islamu dini yake, na Muhammad Mtume wake, amewajibika kuingia Peponi.’ Abu Said akastaajabu... Akasema: ‘Na mengine anamnyanyua kwayo mja wake daraja mia, na baina ya kila daraja mbili (umbali wake) sawa na umbali wa mbingu na ardhi.’ Akauliza; ‘Nini hicho ewe Mtume wa Allaah?’ Akasema: ‘Ni Jihaad katika njia ya Allaah, ni Jihaad katika njia ya Allaah.’" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"إِنَّ فِي الْجَنَّةِ مِائَةَ دَرَجَةٍ، أَعَدَّهَا اللهُ لِلْمُجَاهِدِينَ فِي سَبِيلِ اللهِ، مَا بَيْنَ الدَّرَجَتَيْنِ كَمَا بَيْنَ السَّمَاءِ وَالْأَرْضِ، فَإِذَا سَأَلْتُمُ اللهَ فَاسْأَلُوهُ الْفِرْدَوْسَ، فَإِنَّهُ أَوْسَطُ الْجَنَّةِ وَأَعْلَى الْجَنَّةِ، وَمِنْهُ يُفَجَّرُ أَنْهَارُ الْجَنَّةِ، وَفَوْقَهُ عَرْشُ الرَّحْمَنِ\"" },
+    { "t": "p", "text": "Na Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: ‘Hakika huko Peponi zipo daraja mia, Allaah amewatayarishia wapiganao Jihaad katika njia ya Allaah, na baina ya kila daraja mbili umbali wake sawa na umbali wa mbingu na ardhi. Na mnapomuomba Allaah, muombeni (Pepo ya) Al Firdaus, kwani hiyo ipo kati kati ya Pepo, sehemu ya juu ya Pepo, na juu yake ipo Arshi ya Al Rahman, na kutoka hapo inapasuka (inaanzia) mito ya Peponi.’" },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "THAMANI YA JIHAAD" },
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قِيلَ: يَا رَسُولَ اللهِ، مَا يَعْدِلُ الْجِهَادَ فِي سَبِيلِ اللهِ؟ قَالَ: \"لَا تَسْتَطِيعُونَهُ\". فَقَالُوا: يَا رَسُولَ اللهِ، مَا يَعْدِلُ الْجِهَادَ فِي سَبِيلِ اللهِ؟ قَالَ: \"لَا تَسْتَطِيعُونَهُ\". قَالَ: فَقَالُوا فِي الثَّالِثَةِ: يَا رَسُولَ اللهِ، مَا يَعْدِلُ الْجِهَادَ فِي سَبِيلِ اللهِ؟ قَالَ: \"مَثَلُ الْمُجَاهِدِ فِي سَبِيلِ اللهِ كَمَثَلِ الصَّائِمِ الْقَائِمِ الَّذِي لَا يَفْتُرُ صِيَامًا وَلَا صَلَاةً حَتَّى يَرْجِعَ الْمُجَاهِدُ فِي سَبِيلِ اللهِ\"" },
+    { "t": "p", "text": "Kutoka kwa Abu Hurayrah (رَضِيَ اللهُ عَنْهُ) kuwa amesema: ‘Aliulizwa Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ): Kipi chenye thamani kupita Jihaad katika njia ya Allaah? Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasema: Hamukiwezi.’ Akaulizwa suali hilo mara mbili au tatu… Mara ya tatu akasema: ‘Mfano wa anayepigana Jihaad katika njia ya Allaah ni mfano wa aliyefunga (aliyebaki akiwa amefunga), (na) akasali nyakati za usiku huku akiomba na kusoma aya za Allaah bila kuchoka katika Sala yake wala kuacha kufunga mpaka atakaporudi yule aliyekwenda kupigana Jihaad katika njia ya Mwenyezi.’ [Maimamu watano]" },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "KUFA SHAHIYD" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ أَنَّ رَسُولَ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"مَا يُكْلَمُ أَحَدٌ فِي سَبِيلِ اللهِ، وَاللهُ أَعْلَمُ بِمَنْ يُكْلَمُ فِي سَبِيلِهِ، إِلَّا جَاءَ يَوْمَ الْقِيَامَةِ، وَجُرْحُهُ يَثْعَبُ دَمًا، اللَّوْنُ لَوْنُ دَمٍ، وَالرِّيحُ رِيحُ مِسْكٍ\"" },
+    { "t": "p", "text": "Hajeruhiwi mtu (anapopigana Jihaad) katika njia ya Allaah, na Allaah anamuelewa kila anayejeruhiwa katika njia ya Allaah, isipokuwa atakuja siku ya kiama huku jeraha lake likiwa linamwaga damu, na rangi ni rangi ya damu lakini harufu ni harufu ya miski." },
+
+    { "t": "red_arabic", "sura": "Aal-'Imraan: 169", "arabic": "﴿ وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ ﴾" },
+    { "t": "green_text", "sura": "Aal-'Imraan: 169", "swahili": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi." },
+    { "t": "p", "text": "Roho za mashahidi zimo ndani ya miili (mfano wa miili) ya ndege (yenye rangi ya) kijani, wanatembezwa (wanaingia na kutoka) Peponi wanavyotaka." },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَنَسٍ رَضِيَ اللهُ عَنْهُ أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"مَا أَحَدٌ يَدْخُلُ الْجَنَّةَ يَسُرُّهُ أَنْ يَرْجِعَ إِلَى الدُّنْيَا، إِلَّا الشَّهِيدُ، فَإِنَّهُ يَتَمَنَّى أَنْ يَرْجِعَ فَيُقْتَلَ عَشْرَ مَرَّاتٍ، لِمَا يَرَى مِنَ الْكَرَامَةِ\"" },
+    { "t": "p", "text": "Shahidi hahisi maumivu ya kuuliwa ila kama mmoja wenu anavyohisi maumivu ya kufinywa." },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي أُمَامَةَ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"أَفْضَلُ الْجِهَادِ أَنْ يُجْرَحَ فَرَسُكَ وَيُسْفَكَ دَمُكَ\"" },
+    { "t": "p", "text": "Jihaad iliyo bora, ajeruhiwe farasi wako na imwagike damu yako." },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"الشُّهَدَاءُ سَبْعَةٌ سِوَى الْقَتِيلِ فِي سَبِيلِ اللهِ: الْمَطْعُونُ شَهِيدٌ، وَالْغَرِقُ شَهِيدٌ، وَصَاحِبُ ذَاتِ الْجَنْبِ شَهِيدٌ، وَالْمَبْطُونُ شَهِيدٌ، وَالْحَرِقُ شَهِيدٌ، وَالَّذِي يَمُوتُ تَحْتَ الْهَدْمِ شَهِيدٌ، وَالْمَرْأَةُ تَمُوتُ بِجُمْعٍ شَهِيدٌ\"" },
+    { "t": "p", "text": "Mashahidi ni (aina) saba gheri ya aliyeuliwa katika njia ya Allaah: Aliyekufa kwa maradhi ya tauni ni shahidi, aliyezama (aliyekufa kwa kuzama) shahidi, mwenye maradhi yanayosibu sehemu za mbavu ni shahidi, aliyekufa kwa maradhi ya tumbo ni shahidi, aliyekufa kwa kuungua - shahidi, aliyekufa kwa kuangukiwa na nyumba - shahidi, na mwanamke aliyekufa katika uzazi - shahidi. [Ahmad, Abu Daawuud, An-Nasaaiy]" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ سَعِيدِ بْنِ زَيْدٍ رَضِيَ اللهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"مَنْ قُتِلَ دُونَ مَالِهِ فَهُوَ شَهِيدٌ، وَمَنْ قُتِلَ دُونَ دِينِهِ فَهُوَ شَهِيدٌ، وَمَنْ قُتِلَ دُونَ أَهْلِهِ فَهُوَ شَهِيدٌ\"" },
+    { "t": "p", "text": "Atakayeuliwa kwa ajili ya (kuihami) mali yake ni shahidi, na atakayeuliwa kwa ajili ya (kuipigania) dini yake ni shahidi, na atakayeuliwa kwa ajili ya (kuwahami) watu wake ni shahidi. [Ahmad na At-Tirmidhiy]" },
+
+    { "t": "red_arabic", "sura": "Aal-'Imraan: 169-171", "arabic": "وَلاَ تَحْسَبَنَّ الَّذِينَ قُتِلُواْ فِي سَبِيلِ اللّهِ أَمْوَاتًا بَلْ أَحْيَاء عِندَ رَبِّهِمْ يُرْزَقُونَ . فَرِحِينَ بِمَا آتَاهُمُ اللّهُ مِن فَضْلِهِ وَيَسْتَبْشِرُونَ بِالَّذِينَ لَمْ يَلْحَقُواْ بِهِم مِّنْ خَلْفِهِمْ أَلاَّ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ . يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ اللّهِ وَفَضْلٍ وَأَنَّ اللّهَ لاَ يُضِيعُ أَجْرَ الْمُؤْمِنِينَ" },
+    { "t": "green_text", "sura": "Aal-'Imraan: 169-171", "swahili": "Wala kabisa usiwadhanie waliouliwa katika Njia ya Allaah kuwa ni maiti. Bali hao ni wahai, wanaruzukiwa kwa Mola wao Mlezi. Wanafurahia aliyo wapa Allaah kwa fadhila Yake, na wanawashangilia wale ambao bado hawajajiunga nao, walio nyuma yao, ya kwamba haitakuwa khofu juu yao wala hawatahuzunika. Wanashangilia neema na fadhila za Allaah, na ya kwamba Allaah Hapotezi ujira wa Waumini." },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "KULINYANYUA NENO LA ALLAAH" },
+    { "t": "green_quote", "text": "Anayepigana Jihaad ya kweli ni yule ambaye nia yake ni kulinyanyua neno la Allaah na kuinyanyua bendera ya Haki na kuiondoa batili na kujitolea mhanga nafsi yake kwa ajili ya kutaka radhi za Allaah. Ama ikiwa nia ya kupigana Jihaad ni nyingine katika mambo ya kidunia tofauti na hayo yaliyotajwa, basi hiyo haiwezi kupewa jina la Jihaad." },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي مُوسَى رَضِيَ اللهُ عَنْهُ قَالَ: جَاءَ رَجُلٌ إِلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ فَقَالَ: الرَّجُلُ يُقَاتِلُ لِلْمَغْنَمِ، وَالرَّجُلُ يُقَاتِلُ لِلذِّكْرِ، وَالرَّجُلُ يُقَاتِلُ لِيُرَى مَكَانُهُ، فَمَنْ فِي سَبِيلِ اللهِ؟ فَقَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللهِ\"" },
+    { "t": "p", "text": "Kutoka kwa Abu Musa (رَضِيَ اللهُ عَنْهُ) amesema: Alikuja mtu kwa Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasema: Mtu anapigana kwa ajili ya kujipatia ngawira, na mwengine apate kusifiwa, na mwengine apate kuonesha ushujaa wake, yupi kati yao (anahesabiwa kuwa) yupo katika njia ya Allaah? Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akasema: Atakayepigana ili neno la Allaah liwe juu, huyo yupo katika njia ya Allaah." },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قِيلَ: يَا رَسُولَ اللهِ، الرَّجُلُ يُقَاتِلُ لِيُرَى مَكَانُهُ، وَلِيُذْكَرَ؟ فَقَالَ: \"لَا يَنَالُهُ شَيْءٌ\"" },
+    { "t": "p", "text": "Ewe Mtume wa Allaah, unaonaje mtu anayepigana kwa ajili ya kutaka ujira na umaarufu, anapata nini? Mtume wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ): Hapati chochote. [Abu Daawuud na An-Nasaaiy]" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ عُمَرَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى\"" },
+    { "t": "p", "text": "Hakika 'amali zote (huhesabiwa kutokana) na nia, na hakika ana kila mja (malipo) ya aliyoyanuwia. [Al-Bukhaariy]" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَنَسٍ رَضِيَ اللهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"مَنْ سَأَلَ اللهَ الشَّهَادَةَ بِصِدْقٍ بَلَّغَهُ اللهُ مَنَازِلَ الشُّهَدَاءِ، وَإِنْ مَاتَ عَلَى فِرَاشِهِ\"" },
+    { "t": "p", "text": "Atakayemuomba Allaah kwa nia ya kweli afe shahidi, Allaah Atamfikisha katika daraja za waliokufa shahidi hata kama atakufa kitandani pake." },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "FADHILA ZA KULINDA MIPAKA (AL-RIBAAT)" },
+    { "t": "green_quote", "text": "Kwa kawaida panakuwa na upenyo katika mipaka baina ya ardhi ya Waislamu na ya makafiri... ni wajibu kwa Waislamu kuzilinda vizuri sehemu hizo. Uchache wake ni muda wa saa moja na ukamilifu wake ni siku arubaini." },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ سَهْلِ بْنِ سَعْدٍ رَضِيَ اللهُ عَنْهُ عَنِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"رِبَاطُ يَوْمٍ وَلَيْلَةٍ خَيْرٌ مِنْ صِيَامِ شَهْرٍ وَقِيَامِهِ، وَإِنْ مَاتَ جَرَى عَلَيْهِ عَمَلُهُ الَّذِي كَان
