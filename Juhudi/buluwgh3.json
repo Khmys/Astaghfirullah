@@ -1,1 +1,49 @@
+{
+  "type": "somo",
+  "blocks": [
+    { "t": "h", "text": "بُلُوغُ الْمَرام" },
+    { "t": "p", "text": "Buluwgh Al-Maraam" },
+    { "t": "h", "text": "كِتَابُ اَلْجِهَادِ" },
+    { "t": "p", "text": "Kitabu cha Jihaad" },
+    { "t": "h", "text": "بَاب اَلسَّبْقِ وَالرَّمْيِ" },
+    { "t": "p", "text": "Mlango Wa Kushindanisha Na Kurusha Mishale" },
 
+    { "t": "blue_arabic", "arabic": "عَنْ اِبْنِ عُمَرَ رَضِيَ اَللَّهُ عَنْهُمَا قَالَ: {سَابَقَ اَلنَّبِيَّ ‏ صلى الله عليه وسلم ‏بِالْخَيْلِ اَلَّتِي قَدْ أُضْمِرَتْ، مِنْ الْحَفْيَاءِ، وَكَانَ أَمَدُهَا ثَنِيَّةِ اَلْوَدَاعِ.‏ وَسَابَقَ بَيْنَ اَلْخَيْلِ اَلَّتِي لَمْ تُضَمَّرْ مِنْ اَلثَّنِيَّةِ إِلَى مَسْجِدٍ ‏ بَنِي زُرَيْقٍ، وَكَانَ اِبْنُ عُمَرَ فِيمَنْ سَابَقَ} مُتَّفَقٌ عَلَيْهِ ‏ زَادَ اَلْبُخَارِيُّ، قَالَ سُفْيَانُ: مِنْ الْحَفْيَاءِ إِلَى ثَنِيَّةِ اَلْوَدَاعُ خَمْسَةِ أَمْيَالٍ، أَوْ سِتَّةَ، وَمِنْ اَلثَّنِيَّةِ إِلَى مَسْجِدِ بَنِي زُرَيْقٍ مِيلٍ" },
+    { "t": "p", "text": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا) amesema: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alishindanisha farasi wepesi (wa kukimbia) kutoka Hafyaa mpaka Thaniyyah Al-Wadaa’. Ambao siyo wepesi akawashindanisha Thaniyyah Al-Wadaa’ mpaka katika Msikiti wa Baniy Zurayq. Na Ibn ‘Umar alikuwa miongoni mwa walioshindanishwa.” [Al-Bukhaariy, Muslim]" },
+    { "t": "p", "text": "Al-Bukhaariy ameongeza: “Sufyaan amesema: ‘Kutoka Hafyaai hadi Thaniyyah Al-Wadaa’ ni maili tano au sita. Na kutoka Thaniyyah hadi Msikiti wa Baniy Zurayq ni maili moja.’”" },
+
+    { "t": "h", "text": "UFAFANUZI" },
+    { "t": "green_quote", "text": "Hadiyth hii inaonyesha uhalaali wa kushindanisha farasi. Hata hivyo cha kuangalia ni nguvu na umri wa farasi ni vizuri ukatiliwa maanani katika kuwashindanisha. Farasi wa kawaida anaweza kukimbia maili moja kwa hadhari wakati farasi aliyefundishwa anaweza kukimbia kwa urefu wa maili tano bila matatizo." },
+    { "t": "green_quote", "text": "Njia ya mlimani karibu na Madiynah kuelekea Al-‘Aqabah." },
+
+    { "t": "hr" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْهُ، {أَنَّ اَلنَّبِيَّ ‏ صلى الله عليه وسلم ‏سَبْقَ بَيْنَ اَلْخَيْلِ، وَفَضْلِ اَلْقَرْحُ فِي اَلْغَايَةِ} رَوَاهُ أَحْمَدُ، وَأَبُو دَاوُدَ، وَصَحَّحَهُ اِبْنُ حِبَّانَ" },
+    { "t": "p", "text": "Kutoka kwa Ibn ‘Umar (رَضِيَ اللهُ عَنْهُمَا) amesema kuwa: “Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) alishindanisha farasi, akaweka kikomo ni kwa farasi anayekimbia masafa marefu zaidi.” [Imetolewa na Ahmad na Abuu Daawuwd na akaisahihisha Ibn Hibbaan]" },
+
+    { "t": "hr" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ أَبِي هُرَيْرَةَ ‏ رضى الله عنه ‏ قَالَ: قَالَ رَسُولُ اَللَّهِ ‏ صلى الله عليه وسلم ‏{\"لَا سَبْقَ إِلَّا فِي خُفٍّ، أَوْ نَصْلٍ، أَوْ حَافِرٍ\"} رَوَاهُ أَحْمَدُ، وَالثَّلَاثَةَ، وَصَحَّحَهُ اِبْنُ حِبَّانَ" },
+    { "t": "p", "text": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ) amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Hakuna mashindano ila katika farasi au kulenga shabaha au ngamia.” [Imetolewa na Ahmad na Ath-Thalaathah (At-Tirmidhiy, An-Nasaaiy, Abuu Daawuwd) na akaisahihisha Ibn Hibbaan]" },
+
+    { "t": "h", "text": "UFAFANUZI" },
+    { "t": "green_quote", "text": "Hili linajulisha kuwa mashindano na zawadi inakuwa kwa kuwashindanisha ngamia na farasi kwa sharti kwamba zawadi itakayotolewa ni kutoka kwa mmoja wa washindani, kulingana na ‘Ulamaa wengi. Kama zawadi itatolewa na wasio kuwa washindani (mtu au kundi la nje) hakuna tofauti katika uhalaali wake." },
+
+    { "t": "hr" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْهُ، عَنْ اَلنَّبِيِّ ‏ صلى الله عليه وسلم ‏قَالَ: {\" مَنْ أَدْخُلُ فَرَساً بَيْنَ فَرَسَيْنِ ‏ وَهُوَ لَا يَأْمَنُ أَنْ يَسْبِقَ ‏ فَلَا بَأْسَ بِهِ، وَإِنْ أَمِنَ فَهُوَ قِمَارٌ\"} رَوَاهُ أَحْمَدُ، وَأَبُو دَاوُدَ، وَإِسْنَادُهُ ضَعِيفٌ" },
+    { "t": "p", "text": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ) amesema kuwa Nabiy (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) amesema: “Mwenye kumuingiza farasi mashindanoni baina ya farasi wawili na haijulikani kama atashindwa, basi hapana ubaya. Na kama itajulikana (kama atashindwa) hiyo ni kamari.” [Imetolewa na Ahmad na Abuu Daawuwd na isnaadi yake ni Dhwaiyf]" },
+
+    { "t": "h", "text": "UFAFANUZI" },
+    { "t": "green_quote", "text": "Lengo la mashindano ya farasi ni kupima nguvu na uwezo wa farasi wa kukimbia, ama suala la zawadi ni jambo linalofuatia tu lakini si la msingi. Ikiwa masharti ya mashindano ni kuwashindanisha kwa msingi ufuatao, “Ikiwa farasi wake atashinda nitakulipa shilingi elfu kumi au farasi wangu atakuwa wako, au useme kinyume chake. ‘unilipe elfu kumi au farasi wako awe wangu’.” Katika hali kama hii hairuhusiwi na imekataliwa na ‘Ulamaa wengi. Ikiwa mashindano yamesimama kwa sharti la upande mmoja tu kwa kusema: “Nitakulipa elfu ishirini, ikiwa farasi wako atashinda.” Kitu hiki ni halaal (kulingana na rai za ‘Ulamaa wengi). Kingine kinachoruhusiwa ni maelekezo yafuatayo: ‘Nitamlipa atakayeshinda kiasi kadha’." },
+    { "t": "green_quote", "text": "Ikiwa inafahamika kuwa farasi fulani atashinda kwa hali yoyote ile, basi hairuhusiwi kushindana kwa sababu tu ya kupata zawadi." },
+
+    { "t": "hr" },
+
+    { "t": "blue_arabic", "arabic": "وَعَنْ عَقَبَةِ بْنُ عَامِرٍ ‏ رضى الله عنه ‏ {قَالَ: سَمِعْتَ رَسُولَ اَللَّهِ ‏ صلى الله عليه وسلم ‏وَهُوَ عَلَى اَلْمِنْبَرِ يَقْرَأُ: ﴿ وَأَعِدُّوا لَهُمْ مَا اِسْتَطَعْتُمْ مِنْ قُوَّةٍ ﴾ ‏ \"أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ، أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ، أَلَا إِنَّ اَلْقُوَّةَ اَلرَّمْيُ} ‏ رَوَاهُ مُسْلِمٌ" },
+    { "t": "p", "text": "Kutoka kwa ‘Aqabah bin ‘Aamir (رَضِيَ اللهُ عَنْهُ) amesema: “Nilimsikia Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَآلِهِ وَسَلَّمْ) akisema naye yuko juu ya minbar: “Na waandalieni nguvu zozote mziwezazo na farasi waliofungwa tayari (kwa vita)…” [Al-Anfaal: 60] mpaka mwisho wa Aayah (kisha akasema): “Jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale, jueni kuwa, nguvu ni kurusha mishale.” [Imetolewa na Muslim]" },
+
+    { "t": "h", "text": "UFAFANUZI" },
+    { "t": "green_quote", "text": "Kutupa mishale ndio iliyokuwa silaha kuu ya wakati ule. Katika hali yetu leo hii unaweza kulinganisha na silaha za kisasa na silaha za kijeshi zinazotumia teknolojia ya hali ya juu iliyokuwa na nguvu zaidi." }
+  ]
+}
