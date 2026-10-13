@@ -290,6 +290,7 @@
     min-height:46px; display:flex; justify-content:center; align-items:center;
     padding:8px; text-align:center;
     background:var(--tg-theme-secondary-bg-color,#e8f6fb);
+    border:1px solid var(--tg-theme-hint-color,#999);
     border-radius:12px;
   }
   .quran-title-sw { font-size:14px; font-weight:700; }
