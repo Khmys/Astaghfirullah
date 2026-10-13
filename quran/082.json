@@ -1,0 +1,31 @@
+  {
+    "type": "sura",
+    "surah_number": 82,
+    "name": "Al-Infitar",
+    "arabic_name": "سُورَةُ الِانْفِطَارِ",
+    "revelation": "Makkah",
+    "ayah_count": 19,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Infitar, yaani Kupasuka, kwa kuwa inaanza kwa kueleza mbingu zitakapopasuka Siku ya Kiyama. Inaeleza mabadiliko ya ulimwengu Siku hiyo, inawakumbusha binadamu neema za Allah na ukarimu Wake, na inaeleza kuwa kila nafsi itajua yaliyotanguliza na yaliyochelewa.",
+    "content": [
+      { "number": 1, "page": 1486, "arabic": "إِذَا السَّمَاءُ انفَطَرَتْ", "translation": "Pindi mbingu zitakapopasuka na ukaharibika mpango wake." },
+      { "number": 2, "page": 1486, "arabic": "وَإِذَا الْكَوَاكِبُ انتَثَرَتْ", "translation": "Na pindi nyota zitakapoangukiana." },
+      { "number": 3, "page": 1486, "arabic": "وَإِذَا الْبِحَارُ فُجِّرَتْ", "translation": "Na pindi Allah Mtukufu Atakapozifanya bahari kulipuka na maji yake kutoweka." },
+      { "number": 4, "page": 1486, "arabic": "وَإِذَا الْقُبُورُ بُعْثِرَتْ", "translation": "Na pindi makaburi yatakapogeu zwa kwa kufufuliwa waliokuwamo ndani yake." },
+      { "number": 5, "page": 1486, "arabic": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ", "translation": "Wakati huo itajua kila nafsi vitendo vyake vyote ilivyovifanya, vilivyotangulia na vilivyochelewa na italipwa kwa vitendo hivyo." },
+      { "number": 6, "page": 1486, "arabic": "يَا أَيُّهَا الْإِنسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ", "translation": "Ewe binadamu unayekanusha kufufuliwa! Ni kipi kilichokufanya uhadaike na ughurike kuhusu Mola wako Mpaji Mwenye kheri nyingi, Anayestahiki kushukuriwa na kutiwa?" },
+      { "number": 7, "page": 1486, "arabic": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ", "translation": "Mola ambaye alikuumba, Akalisawazisha umbo lako, Akakuweka katika hali ya sawa na Akakurekibisha ili uweze kutekeleza nyadhifa zako?" },
+      { "number": 8, "page": 1486, "arabic": "فِي أَيِّ صُورَةٍ مَّا شَاءَ رَكَّبَكَ", "translation": "Mola ambaye amekuumba katika sura aliyoitaka?" },
+      { "number": 9, "page": 1486, "arabic": "كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ", "translation": "Mambo hayako kama vile mnvyosema kwamba nyinyi mna haki ya kumuabudu asiyekuwa Allah Mtukufu, Bali nyinyi mnaikanusha Siku ya Hesabu na Malipo." },
+      { "number": 10, "page": 1487, "arabic": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ", "translation": "Na mjue kuwa mko na malaika wanawafuatilia katika kila jambo." },
+      { "number": 11, "page": 1487, "arabic": "كِرَامًا كَاتِبِينَ", "translation": "Wabora kwa Allah Mtukufu, waandishi wa yale waliyowakilishwa kuyadhibiti, Hakiwapiti, katika vitendo vyenu na siri zenu, chochote." },
+      { "number": 12, "page": 1487, "arabic": "يَعْلَمُونَ مَا تَفْعَلُونَ", "translation": "Wanayajua mnayoyafanya, ya kheri na ya shari." },
+      { "number": 13, "page": 1487, "arabic": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ", "translation": "Hakika wachamungu wanaotekeleza haki za Allah Mtukufu na haki za waja wake watakuwa kwenye neema." },
+      { "number": 14, "page": 1487, "arabic": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ", "translation": "Hakika watu waovu waliopuuza haki za Allah Mtukufu na haki za waja wake watakuwa katika Moto mkali." },
+      { "number": 15, "page": 1487, "arabic": "يَصْلَوْنَهَا يَوْمَ الدِّينِ", "translation": "Ukali wake, Moto huo, utawapata Siku ya Malipo." },
+      { "number": 16, "page": 1487, "arabic": "وَمَا هُمْ عَنْهَا بِغَائِبِينَ", "translation": "Na wala wao hawatakuwa ni wenye kughibu, wakawa hawamo ndani ya Moto wa Jahanamu, si kwa kutoka wala kwa kufa." },
+      { "number": 17, "page": 1487, "arabic": "وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ", "translation": "Ni kipi kinachokujulisha ni upi ukubwa wa Siku ya Hesabu?" },
+      { "number": 18, "page": 1487, "arabic": "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ", "translation": "Kisha ni kipi kinachokujulisha ni upi ukubwa wa Siku ya Hesabu?" },
+      { "number": 19, "page": 1487, "arabic": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِّنَفْسٍ شَيْئًا ۖ وَالْأَمْرُ يَوْمَئِذٍ لِّلَّهِ", "translation": "Siku ya Hesabu, hataweza yoyote kumnufaisha yoyote. Na amri zote Siku Hiyo ni za Allah Mtukufu Peke yake Ambaye hakuna mwenye kumshinda, wala hakuna mwenye kumtendesha nguvu, wala hakuna mwenye kushindana naye." }
+    ]
+  }
