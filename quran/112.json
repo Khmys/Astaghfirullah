@@ -1,0 +1,16 @@
+  {
+    "type": "sura",
+    "surah_number": 112,
+    "name": "Al-Ikhlas",
+    "arabic_name": "سُورَةُ الْإِخْلَاصِ",
+    "revelation": "Makkah",
+    "ayah_count": 4,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Ikhlas, yaani Kujitakasa Imani, kwa kuwa inamtakasa Allah Mtukufu na kila sifa ya upungufu. Inajibu swali la washirikina kuhusu sifa za Mola wao, na inathibitisha Umoja Wake na kutokuwa na mshirika.",
+    "content": [
+      { "number": 1, "page": 1535, "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ", "translation": "Sema, (ewe Mtume), «Yeye Ndiye Allah Mtukufu Aliyepwekeka kwa ustahiki wa kuabudiwa, uumbaji na utakatifu wa Majina na sifa zake, Asiye na mshirika katika hayo»." },
+      { "number": 2, "page": 1535, "arabic": "اللَّهُ الصَّمَدُ", "translation": "Allah Mtukufu Peke Yake Ndiye Mwenye kukusudiwa na viumbe katika kutaka kukidhiwa haja zao." },
+      { "number": 3, "page": 1535, "arabic": "لَمْ يَلِدْ وَلَمْ يُولَدْ", "translation": "Hana mtoto wala wazazi wala mke." },
+      { "number": 4, "page": 1535, "arabic": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ", "translation": "Wala hakuna yoyote katika viumbe Vyake mwenye kufanana wala kushabihiyana naye katika Majina Yake, Sifa Zake na vitendo Vyake." }
+    ]
+  }
