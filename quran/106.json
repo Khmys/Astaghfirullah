@@ -1,0 +1,16 @@
+  {
+    "type": "sura",
+    "surah_number": 106,
+    "name": "Quraysh",
+    "arabic_name": "سُورَةُ قُرَيْشٍ",
+    "revelation": "Makkah",
+    "ayah_count": 4,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Quraysh, kwa kuwa inawataja watu wa kabila la Quraysh na neema walizopewa: amani, riziki, na misafara ya biashara ya kaskazi na kusi. Inawaita wamshukuru na kumuabudu Mola wa Al-Ka'ba.",
+    "content": [
+      { "number": 1, "page": 1529, "arabic": "لِإِيلَافِ قُرَيْشٍ", "translation": "Oneni ajabu ya mazowea ya makureishi, na amani walionayo, na kuwaendea uzuri mambo yao." },
+      { "number": 2, "page": 1529, "arabic": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ", "translation": "Oneni ajabu kwa kupangika na kuwepeka kwa misafara yao ya kwenda yemeni kipindi cha kusi na kwenda Shamu kipindi cha kaskazi, ili kuleta vitu wanavyohitajia, na kuwa yote hayo yamewepeshwa na Allah Mtukufu." },
+      { "number": 3, "page": 1529, "arabic": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتِ", "translation": "Basi, wamshukuru na kumuabudu Bwana wa Nyumba hii ya Al Ka'ba, ambayo kwa ajili Yake wamepewa cheo na ukarimu, na wampwekeshe na kumtakasia ibada mola wa nyumba hiyo ya Al Ka'ba." },
+      { "number": 4, "page": 1529, "arabic": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ", "translation": "Mola ambaye Amewapa chakula wakati wa njaa kali, na akawapa amani na utulivu dhidi ya hofu iliyokua kubwa sana." }
+    ]
+  }
