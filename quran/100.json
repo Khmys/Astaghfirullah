@@ -1,0 +1,23 @@
+  {
+    "type": "sura",
+    "surah_number": 100,
+    "name": "Al-'Adiyat",
+    "arabic_name": "سُورَةُ الْعَادِيَاتِ",
+    "revelation": "Makkah",
+    "ayah_count": 11,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-'Adiyat, yaani Farasi Wenye Kukimbia, kwa kuwa Allah Mtukufu Anaapa kwa farasi hao. Inawaonya binadamu kuhusu ukanushaji wake wa neema na upendo wake wa kupindukia wa mali, na inamtaka afikirie Siku ya Hesabu.",
+    "content": [
+      { "number": 1, "page": 1523, "arabic": "وَالْعَادِيَاتِ ضَبْحًا", "translation": "Allah Mtukufu Anaapa kwa farasi wenye kwenda Mbio katika njia Yake kumkabili adui, wakitoa sauti kwa kasi ya kukimbia. Haifai kwa kiumbe kuapa kwa asiyekuwa Allah Mtukufu. Kuapa kwa asiyekuwa Allah Mtukufu ni ushirikina." },
+      { "number": 2, "page": 1523, "arabic": "فَالْمُورِيَاتِ قَدْحًا", "translation": "Na wenye kutoa cheche za moto kwa kwato zao ngumu wanapokimbia kwa kasi." },
+      { "number": 3, "page": 1523, "arabic": "فَالْمُغِيرَاتِ صُبْحًا", "translation": "Wenye kushambulia maadui kipindi cha asubuhi." },
+      { "number": 4, "page": 1523, "arabic": "فَأَثَرْنَ بِهِ نَقْعًا", "translation": "Wakarusha vumbi kwa mbio zao." },
+      { "number": 5, "page": 1523, "arabic": "فَوَسَطْنَ بِهِ جَمْعًا", "translation": "Wakauweka kati, kwa kuuzunguka kwa vipando vyao, mkusanyiko wa maadui." },
+      { "number": 6, "page": 1523, "arabic": "إِنَّ الْإِنسَانَ لِرَبِّهِ لَكَنُودٌ", "translation": "Hakika binadamu ni mkanushaji sana wa neema za Mola wake." },
+      { "number": 7, "page": 1523, "arabic": "وَإِنَّهُ عَلَىٰ ذَٰلِكَ لَشَهِيدٌ", "translation": "Na yeye anakubali ukanushaji wake." },
+      { "number": 8, "page": 1523, "arabic": "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ", "translation": "Na yeye ana pupa sana ya kupata mali na anaipenda sana." },
+      { "number": 9, "page": 1523, "arabic": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ", "translation": "Kwani binadamu hajui linalomngojea mbele yake, pindi Allah Mtukufu Atakapowatoa wafu makaburini waende kuhesabiwa na kulipwa?" },
+      { "number": 10, "page": 1523, "arabic": "وَحُصِّلَ مَا فِي الصُّدُورِ", "translation": "Na yakatolewa yaliyo ndani ya vifua: mema na maovu?" },
+      { "number": 11, "page": 1523, "arabic": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌ", "translation": "Hakika Mola wao siku hiyo ni mwenye kuwatambua wao na mali zao hakuna chenye kufichika Kwake." }
+    ]
+  }
