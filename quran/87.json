@@ -1,0 +1,31 @@
+{
+    "type": "sura",
+    "surah_number": 87,
+    "name": "Al-A'la",
+    "arabic_name": "سُورَةُ الْأَعْلَى",
+    "revelation": "Makkah",
+    "ayah_count": 19,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-A'la, yaani Aliye Juu, kwa kuwa inaanza kwa amri ya kumtasa Allah Mtukufu Aliye Juu. Inaeleza uwezo Wake wa kuumba na kuongoza, inamwahidi Mtume kuwa hata sahau Qur'ani, na inalinganisha maisha ya dunia na Akhera.",
+    "content": [
+      { "number": 1, "page": 1500, "arabic": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى", "translation": "Takasa Jina la Mola wako na kila ushirika na sifa pungufu kwa namna inayonasibiana na utukufu Wake na utakatifu Wake." },
+      { "number": 2, "page": 1500, "arabic": "الَّذِي خَلَقَ فَسَوَّىٰ", "translation": "Mola ambaye ndiye aliyeumba viumbe, Akalitengeneza umbo lao na kulifanya zuri." },
+      { "number": 3, "page": 1500, "arabic": "وَالَّذِي قَدَّرَ فَهَدَىٰ", "translation": "Na Aliyekadiria kila kitu na kukipereka njia inayonasibiana nacho." },
+      { "number": 4, "page": 1500, "arabic": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ", "translation": "Na Aliyeotesha nyasi mbichi zenye rangi ya kijani." },
+      { "number": 5, "page": 1500, "arabic": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ", "translation": "Akazifanya baadaye kuwa kavu zilizobadilika rangi." },
+      { "number": 6, "page": 1500, "arabic": "سَنُقْرِئُكَ فَلَا تَنسَىٰ", "translation": "Tutakusomea, (ewe Mtume), hii Qur'ani kisomo ambacho hutakisahau." },
+      { "number": 7, "page": 1500, "arabic": "إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَىٰ", "translation": "Isipokuwa iwapo Allah Mtukufu Atataka usahau kwa hekima na maslahi anayoyajua Yeye. Kwani Yeye ni Mjuzi wa yaliyo wazi na yaliyofichika, ya maneno na ya vitendo." },
+      { "number": 8, "page": 1500, "arabic": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ", "translation": "Na tutakuwepeishia mambo yako yote; miongoni mwayo ni kukusahilishia kubeba majukumu ya utume na kuifanya nyepesi Dini uliyokuja nayo." },
+      { "number": 9, "page": 1500, "arabic": "فَذَكِّرْ إِن نَّفَعَتِ الذِّكْرَىٰ", "translation": "Basi wakumbushe watu wako, (ewe Mtume), na uwaongoze njia yenye kheri nao, na uwahusu kwa mawaidha yako wale wanaotarajiwa kuwaidhika nayo. Wala usijisumbue kuwashauri wale ambao mawaidha hayawaathiri isipokuwa yanawazidishia ujeuri na kuwafanya wayakimbie." },
+      { "number": 10, "page": 1501, "arabic": "سَيَذَّكَّرُ مَن يَخْشَىٰ", "translation": "Atanufaika kwa mawaidha anayemcha mola wake." },
+      { "number": 11, "page": 1501, "arabic": "وَيَتَجَنَّبُهَا الْأَشْقَى", "translation": "Na atajiepusha na mawaidha aliye mbaya asiyemuogopa Mola wake." },
+      { "number": 12, "page": 1501, "arabic": "الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ", "translation": "Atakayeingia kwenye Moto wa Jahanamu uliomkubwa na kuadhibiwa vikali." },
+      { "number": 13, "page": 1501, "arabic": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ", "translation": "Kisha hatakuwa ni mwenye kufa akapumzika wala ni mwenye kuishi akanufaika." },
+      { "number": 14, "page": 1501, "arabic": "قَدْ أَفْلَحَ مَن تَزَكَّىٰ", "translation": "Hakika amefuzu mwenye kuisafisha nafsi yake na tabia mbovu." },
+      { "number": 15, "page": 1501, "arabic": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ", "translation": "Na akamtaja Allah Mtukufu, akampwekesha, akamuomba, akafanya vitendo vya kumridhisha, na akasimamisha Swala kwa nyakati zake, kwa kutaka radhi za Allah Mtukufu na kufuata sheria alizoweka." },
+      { "number": 16, "page": 1501, "arabic": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا", "translation": "Hakika yenu, (nyinyi watu), mnafadhilisha pambo la maisha ya kilimwengu dhidi ya starehe za Akhera." },
+      { "number": 17, "page": 1501, "arabic": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ", "translation": "Na hakika ya mambo ni kuwa nyumba ya Akhera na starehe zake ni bora zaidi kuliko ulimwengu, na ni yenye kusalia zaidi." },
+      { "number": 18, "page": 1501, "arabic": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ", "translation": "Haya mliosimuliwa ndani ya Sura hii ni miongoni mwa yaliyotajwa kimaana katika Kurasa zilizotangulia kuteremshwa kabla ya Qur'ani." },
+      { "number": 19, "page": 1501, "arabic": "صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ", "translation": "Nazo ni Kurasa za Ibrāhīm na Mūsā, amani ziwashukie." }
+    ]
+  }
