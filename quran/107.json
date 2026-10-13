@@ -1,0 +1,19 @@
+  {
+    "type": "sura",
+    "surah_number": 107,
+    "name": "Al-Ma'un",
+    "arabic_name": "سُورَةُ الْمَاعُونِ",
+    "revelation": "Makkah",
+    "ayah_count": 7,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Ma'un, yaani Vitu vya Kutumia, kwa kuwa inataja wale wanaokataa kuazima vitu vidogo vya kutumia. Inaeleza sifa za mkanushaji wa Din: kumkaripia yatima, kutowahurumia masikini, kuswali kwa kuonyesha, na kukataa msaada.",
+    "content": [
+      { "number": 1, "page": 1530, "arabic": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ", "translation": "Je, umeiona hali ya yule ambaye anakanusha kufufuliwa na kulipwa?" },
+      { "number": 2, "page": 1530, "arabic": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ", "translation": "Huyo ndiye yule anayemkaripia yatima kwa nguvu, akimnyima haki zake kwa sababu ya ususuavu wa moyo wake." },
+      { "number": 3, "page": 1530, "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ", "translation": "Na wala hawahimize wengine kulisha masikini. Vipi yeye mwenyewe atamlilisha?" },
+      { "number": 4, "page": 1530, "arabic": "فَوَيْلٌ لِّلْمُصَلِّينَ", "translation": "Basi adhabu kali itawafikia wenye kuswali." },
+      { "number": 5, "page": 1530, "arabic": "الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ", "translation": "Nao ni wale ambao wameghafilika na Swala zao: hawazisimamishi kama ipasavyo wala hawaziswali kwa nyakati zake." },
+      { "number": 6, "page": 1530, "arabic": "الَّذِينَ هُمْ يُرَاءُونَ", "translation": "Na ambao huonyesha watu amali zao za kheri kwa njia ya ria." },
+      { "number": 7, "page": 1530, "arabic": "وَيَمْنَعُونَ الْمَاعُونَ", "translation": "Na wanakataa kuwaazima watu vitu ambavyo hawad huriki kwa kuviazima, kama vyombo vya kutumia, na vinginevyo. Wao hawakujifanyia wema nafsi zao kwa kumuabudu Mola wao, wala hawakuwafanyia wema viumbe Vyake." }
+    ]
+  }
