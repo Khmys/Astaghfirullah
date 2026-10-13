@@ -1,0 +1,15 @@
+  {
+    "type": "sura",
+    "surah_number": 103,
+    "name": "Al-'Asr",
+    "arabic_name": "سُورَةُ الْعَصْرِ",
+    "revelation": "Makkah",
+    "ayah_count": 3,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-'Asr, yaani Zama, kwa kuwa Allah Mtukufu Anaapa kwa zama. Inaeleza kwamba wanadamu wote wako kwenye hasara isipokuwa wale walioamini, wakafanya amali njema, wakausiana kwa haki na wakausiana kusubiri.",
+    "content": [
+      { "number": 1, "page": 1526, "arabic": "وَالْعَصْرِ", "translation": "Allah Mtukufu Anaapa kwa zama." },
+      { "number": 2, "page": 1526, "arabic": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ", "translation": "Kwamba hakika wanadamu wako kwenye hasara na maangamivu. Haifai kwa mja kuapa isipokuwa kwa Allah Mtukufu, kwani kuapa kwa asiyekuwa Allah Mtukufu ni ushirikina." },
+      { "number": 3, "page": 1526, "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ", "translation": "Isipokuwa wale walioamini Allah Mtukufu, wakafanya amali njema, wakausiana wao kwa wao kushikamana na haki, kufanya matendo ya kumtii Allah Mtukufu na kusubiri juu yake, wao hawatakua kwenye hasara na maangamivu." }
+    ]
+  }
