@@ -1,0 +1,15 @@
+  {
+    "type": "sura",
+    "surah_number": 110,
+    "name": "Al-Nasr",
+    "arabic_name": "سُورَةُ النَّصْرِ",
+    "revelation": "Madinah",
+    "ayah_count": 3,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Nasr, yaani Ushindi, kwa kuwa inazungumzia ushindi wa Makkah na kuingia watu wengi katika Uislamu. Inamwamrisha Mtume kumtasa na kumhimidi Allah na kumuomba msamaha.",
+    "content": [
+      { "number": 1, "page": 1533, "arabic": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ", "translation": "Utakapotimia kwako, (ewe Mtume), ushindi dhidi ya makafiri wa kikureishi na ukaikomboa Makkah." },
+      { "number": 2, "page": 1533, "arabic": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا", "translation": "Na ukaona watu wengi wanaingia kwenye Dini ya Allah Mtukufu makundi kwa makundi." },
+      { "number": 3, "page": 1533, "arabic": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا", "translation": "Yatakapotokea hayo, basi jitayarishe kukutana na Mola Wako kwa kumtakasa na kumhimidi na kumuomba msamaha kwa wingi. Kwani Yeye ni Mwingi wa kuwakubalia toba wenye kumsabihi na kumuomba msamaha, kwa kuwasahehe na kuwarehemu." }
+    ]
+  }
