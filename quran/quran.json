@@ -17,784 +17,784 @@
   {
     "id": "quran-003",
     "category": "Qur-aan",
-    "title": "Aal-'Imraan",
+    "title": "3. Aal-'Imraan",
     "file": "quran/003.json",
     "image": "https://placehold.co/600x300.png?text=Aal-%27Imraan"
   },
   {
     "id": "quran-004",
     "category": "Qur-aan",
-    "title": "An-Nisaa",
+    "title": "4. An-Nisaa",
     "file": "quran/004.json",
     "image": "https://placehold.co/600x300.png?text=An-Nisaa"
   },
   {
     "id": "quran-005",
     "category": "Qur-aan",
-    "title": "Al-Maaidah",
+    "title": "5. Al-Maaidah",
     "file": "quran/005.json",
     "image": "https://placehold.co/600x300.png?text=Al-Maaidah"
   },
   {
     "id": "quran-006",
     "category": "Qur-aan",
-    "title": "Al-An'aam",
+    "title": "6. Al-An'aam",
     "file": "quran/006.json",
     "image": "https://placehold.co/600x300.png?text=Al-An%27aam"
   },
   {
     "id": "quran-007",
     "category": "Qur-aan",
-    "title": "Al-A'raaf",
+    "title": "7. Al-A'raaf",
     "file": "quran/007.json",
     "image": "https://placehold.co/600x300.png?text=Al-A%27raaf"
   },
   {
     "id": "quran-008",
     "category": "Qur-aan",
-    "title": "Al-Anfaal",
+    "title": "8. Al-Anfaal",
     "file": "quran/008.json",
     "image": "https://placehold.co/600x300.png?text=Al-Anfaal"
   },
   {
     "id": "quran-009",
     "category": "Qur-aan",
-    "title": "At-Tawbah",
+    "title": "9. At-Tawbah",
     "file": "quran/009.json",
     "image": "https://placehold.co/600x300.png?text=At-Tawbah"
   },
   {
     "id": "quran-010",
     "category": "Qur-aan",
-    "title": "Yuunus",
+    "title": "10. Yuunus",
     "file": "quran/010.json",
     "image": "https://placehold.co/600x300.png?text=Yuunus"
   },
   {
     "id": "quran-011",
     "category": "Qur-aan",
-    "title": "Huud",
+    "title": "11. Huud",
     "file": "quran/011.json",
     "image": "https://placehold.co/600x300.png?text=Huud"
   },
   {
     "id": "quran-012",
     "category": "Qur-aan",
-    "title": "Yuusuf",
+    "title": "12. Yuusuf",
     "file": "quran/012.json",
     "image": "https://placehold.co/600x300.png?text=Yuusuf"
   },
   {
     "id": "quran-013",
     "category": "Qur-aan",
-    "title": "Ar-Ra'd",
+    "title": "13. Ar-Ra'd",
     "file": "quran/013.json",
     "image": "https://placehold.co/600x300.png?text=Ar-Ra%27d"
   },
   {
     "id": "quran-014",
     "category": "Qur-aan",
-    "title": "Ibraahiym",
+    "title": "14. Ibraahiym",
     "file": "quran/014.json",
     "image": "https://placehold.co/600x300.png?text=Ibraahiym"
   },
   {
     "id": "quran-015",
     "category": "Qur-aan",
-    "title": "Al-Hijr",
+    "title": "15. Al-Hijr",
     "file": "quran/015.json",
     "image": "https://placehold.co/600x300.png?text=Al-Hijr"
   },
   {
     "id": "quran-016",
     "category": "Qur-aan",
-    "title": "An-Nahl",
+    "title": "16. An-Nahl",
     "file": "quran/016.json",
     "image": "https://placehold.co/600x300.png?text=An-Nahl"
   },
   {
     "id": "quran-017",
     "category": "Qur-aan",
-    "title": "Al-Israa",
+    "title": "17. Al-Israa",
     "file": "quran/017.json",
     "image": "https://placehold.co/600x300.png?text=Al-Israa"
   },
   {
     "id": "quran-018",
     "category": "Qur-aan",
-    "title": "Al-Kahf",
+    "title": "18. Al-Kahf",
     "file": "quran/018.json",
     "image": "https://placehold.co/600x300.png?text=Al-Kahf"
   },
   {
     "id": "quran-019",
     "category": "Qur-aan",
-    "title": "Maryam",
+    "title": "19. Maryam",
     "file": "quran/019.json",
     "image": "https://placehold.co/600x300.png?text=Maryam"
   },
   {
     "id": "quran-020",
     "category": "Qur-aan",
-    "title": "Twaahaa",
+    "title": "20. Twaahaa",
     "file": "quran/020.json",
     "image": "https://placehold.co/600x300.png?text=Twaahaa"
   },
   {
     "id": "quran-021",
     "category": "Qur-aan",
-    "title": "Al-Anbiyaa",
+    "title": "21. Al-Anbiyaa",
     "file": "quran/021.json",
     "image": "https://placehold.co/600x300.png?text=Al-Anbiyaa"
   },
   {
     "id": "quran-022",
     "category": "Qur-aan",
-    "title": "Al-Hajj",
+    "title": "22. Al-Hajj",
     "file": "quran/022.json",
     "image": "https://placehold.co/600x300.png?text=Al-Hajj"
   },
   {
     "id": "quran-023",
     "category": "Qur-aan",
-    "title": "Al-Muuminuun",
+    "title": "23. Al-Muuminuun",
     "file": "quran/023.json",
     "image": "https://placehold.co/600x300.png?text=Al-Muuminuun"
   },
   {
     "id": "quran-024",
     "category": "Qur-aan",
-    "title": "An-Nuur",
+    "title": "24. An-Nuur",
     "file": "quran/024.json",
     "image": "https://placehold.co/600x300.png?text=An-Nuur"
   },
   {
     "id": "quran-025",
     "category": "Qur-aan",
-    "title": "Al-Furqaan",
+    "title": "25. Al-Furqaan",
     "file": "quran/025.json",
     "image": "https://placehold.co/600x300.png?text=Al-Furqaan"
   },
   {
     "id": "quran-026",
     "category": "Qur-aan",
-    "title": "Ash-Shuaraa",
+    "title": "26. Ash-Shuaraa",
     "file": "quran/026.json",
     "image": "https://placehold.co/600x300.png?text=Ash-Shuaraa"
   },
   {
     "id": "quran-027",
     "category": "Qur-aan",
-    "title": "An-Naml",
+    "title": "27. An-Naml",
     "file": "quran/027.json",
     "image": "https://placehold.co/600x300.png?text=An-Naml"
   },
   {
     "id": "quran-028",
     "category": "Qur-aan",
-    "title": "Al-Qasas",
+    "title": "28. Al-Qasas",
     "file": "quran/028.json",
     "image": "https://placehold.co/600x300.png?text=Al-Qasas"
   },
   {
     "id": "quran-029",
     "category": "Qur-aan",
-    "title": "Al-Ankabuut",
+    "title": "29. Al-Ankabuut",
     "file": "quran/029.json",
     "image": "https://placehold.co/600x300.png?text=Al-Ankabuut"
   },
   {
     "id": "quran-030",
     "category": "Qur-aan",
-    "title": "Ar-Ruum",
+    "title": "30. Ar-Ruum",
     "file": "quran/030.json",
     "image": "https://placehold.co/600x300.png?text=Ar-Ruum"
   },
   {
     "id": "quran-031",
     "category": "Qur-aan",
-    "title": "Luqmaan",
+    "title": "31. Luqmaan",
     "file": "quran/031.json",
     "image": "https://placehold.co/600x300.png?text=Luqmaan"
   },
   {
     "id": "quran-032",
     "category": "Qur-aan",
-    "title": "As-Sajdah",
+    "title": "32. As-Sajdah",
     "file": "quran/032.json",
     "image": "https://placehold.co/600x300.png?text=As-Sajdah"
   },
   {
     "id": "quran-033",
     "category": "Qur-aan",
-    "title": "Al-Ahzaab",
+    "title": "33. Al-Ahzaab",
     "file": "quran/033.json",
     "image": "https://placehold.co/600x300.png?text=Al-Ahzaab"
   },
   {
     "id": "quran-034",
     "category": "Qur-aan",
-    "title": "Saba",
+    "title": "34. Saba",
     "file": "quran/034.json",
     "image": "https://placehold.co/600x300.png?text=Saba"
   },
   {
     "id": "quran-035",
     "category": "Qur-aan",
-    "title": "Faatwir",
+    "title": "35. Faatwir",
     "file": "quran/035.json",
     "image": "https://placehold.co/600x300.png?text=Faatwir"
   },
   {
     "id": "quran-036",
     "category": "Qur-aan",
-    "title": "Yaa-Siyn",
+    "title": "36. Yaa-Siyn",
     "file": "quran/036.json",
     "image": "https://placehold.co/600x300.png?text=Yaa-Siyn"
   },
   {
     "id": "quran-037",
     "category": "Qur-aan",
-    "title": "As-Saaffaat",
+    "title": "37. As-Saaffaat",
     "file": "quran/037.json",
     "image": "https://placehold.co/600x300.png?text=As-Saaffaat"
   },
   {
     "id": "quran-038",
     "category": "Qur-aan",
-    "title": "Swaad",
+    "title": "38. Swaad",
     "file": "quran/038.json",
     "image": "https://placehold.co/600x300.png?text=Swaad"
   },
   {
     "id": "quran-039",
     "category": "Qur-aan",
-    "title": "Az-Zumar",
+    "title": "39. Az-Zumar",
     "file": "quran/039.json",
     "image": "https://placehold.co/600x300.png?text=Az-Zumar"
   },
   {
     "id": "quran-040",
     "category": "Qur-aan",
-    "title": "Ghaafir",
+    "title": "40. Ghaafir",
     "file": "quran/040.json",
     "image": "https://placehold.co/600x300.png?text=Ghaafir"
   },
   {
     "id": "quran-041",
     "category": "Qur-aan",
-    "title": "Fussilat",
+    "title": "41. Fussilat",
     "file": "quran/041.json",
     "image": "https://placehold.co/600x300.png?text=Fussilat"
   },
   {
     "id": "quran-042",
     "category": "Qur-aan",
-    "title": "Ash-Shuuraa",
+    "title": "42. Ash-Shuuraa",
     "file": "quran/042.json",
     "image": "https://placehold.co/600x300.png?text=Ash-Shuuraa"
   },
   {
     "id": "quran-043",
     "category": "Qur-aan",
-    "title": "Az-Zukhruf",
+    "title": "43. Az-Zukhruf",
     "file": "quran/043.json",
     "image": "https://placehold.co/600x300.png?text=Az-Zukhruf"
   },
   {
     "id": "quran-044",
     "category": "Qur-aan",
-    "title": "Ad-Dukhaan",
+    "title": "44. Ad-Dukhaan",
     "file": "quran/044.json",
     "image": "https://placehold.co/600x300.png?text=Ad-Dukhaan"
   },
   {
     "id": "quran-045",
     "category": "Qur-aan",
-    "title": "Al-Jaathiyah",
+    "title": "45. Al-Jaathiyah",
     "file": "quran/045.json",
     "image": "https://placehold.co/600x300.png?text=Al-Jaathiyah"
   },
   {
     "id": "quran-046",
     "category": "Qur-aan",
-    "title": "Al-Ahqaaf",
+    "title": "46. Al-Ahqaaf",
     "file": "quran/046.json",
     "image": "https://placehold.co/600x300.png?text=Al-Ahqaaf"
   },
   {
     "id": "quran-047",
     "category": "Qur-aan",
-    "title": "Muhammad",
+    "title": "47. Muhammad",
     "file": "quran/047.json",
     "image": "https://placehold.co/600x300.png?text=Muhammad"
   },
   {
     "id": "quran-048",
     "category": "Qur-aan",
-    "title": "Al-Fat-h",
+    "title": "48. Al-Fat-h",
     "file": "quran/048.json",
     "image": "https://placehold.co/600x300.png?text=Al-Fat-h"
   },
   {
     "id": "quran-049",
     "category": "Qur-aan",
-    "title": "Al-Hujuraat",
+    "title": "49. Al-Hujuraat",
     "file": "quran/049.json",
     "image": "https://placehold.co/600x300.png?text=Al-Hujuraat"
   },
   {
     "id": "quran-050",
     "category": "Qur-aan",
-    "title": "Qaaf",
+    "title": "50. Qaaf",
     "file": "quran/050.json",
     "image": "https://placehold.co/600x300.png?text=Qaaf"
   },
   {
     "id": "quran-051",
     "category": "Qur-aan",
-    "title": "Adh-Dhaariyaat",
+    "title": "51. Adh-Dhaariyaat",
     "file": "quran/051.json",
     "image": "https://placehold.co/600x300.png?text=Adh-Dhaariyaat"
   },
   {
     "id": "quran-052",
     "category": "Qur-aan",
-    "title": "At-Twuur",
+    "title": "52. At-Twuur",
     "file": "quran/052.json",
     "image": "https://placehold.co/600x300.png?text=At-Twuur"
   },
   {
     "id": "quran-053",
     "category": "Qur-aan",
-    "title": "An-Najm",
+    "title": "53. An-Najm",
     "file": "quran/053.json",
     "image": "https://placehold.co/600x300.png?text=An-Najm"
   },
   {
     "id": "quran-054",
     "category": "Qur-aan",
-    "title": "Al-Qamar",
+    "title": "54. Al-Qamar",
     "file": "quran/054.json",
     "image": "https://placehold.co/600x300.png?text=Al-Qamar"
   },
   {
     "id": "quran-055",
     "category": "Qur-aan",
-    "title": "Ar-Rahmaan",
+    "title": "55. Ar-Rahmaan",
     "file": "quran/055.json",
     "image": "https://placehold.co/600x300.png?text=Ar-Rahmaan"
   },
   {
     "id": "quran-056",
     "category": "Qur-aan",
-    "title": "Al-Waaqi'ah",
+    "title": "56. Al-Waaqi'ah",
     "file": "quran/056.json",
     "image": "https://placehold.co/600x300.png?text=Al-Waaqi%27ah"
   },
   {
     "id": "quran-057",
     "category": "Qur-aan",
-    "title": "Al-Hadiyd",
+    "title": "57. Al-Hadiyd",
     "file": "quran/057.json",
     "image": "https://placehold.co/600x300.png?text=Al-Hadiyd"
   },
   {
     "id": "quran-058",
     "category": "Qur-aan",
-    "title": "Al-Mujaadalah",
+    "title": "58. Al-Mujaadalah",
     "file": "quran/058.json",
     "image": "https://placehold.co/600x300.png?text=Al-Mujaadalah"
   },
   {
     "id": "quran-059",
     "category": "Qur-aan",
-    "title": "Al-Hashr",
+    "title": "59. Al-Hashr",
     "file": "quran/059.json",
     "image": "https://placehold.co/600x300.png?text=Al-Hashr"
   },
   {
     "id": "quran-060",
     "category": "Qur-aan",
-    "title": "Al-Mumtahanah",
+    "title": "60. Al-Mumtahanah",
     "file": "quran/060.json",
     "image": "https://placehold.co/600x300.png?text=Al-Mumtahanah"
   },
   {
     "id": "quran-061",
     "category": "Qur-aan",
-    "title": "As-Swaff",
+    "title": "61. As-Swaff",
     "file": "quran/061.json",
     "image": "https://placehold.co/600x300.png?text=As-Swaff"
   },
   {
     "id": "quran-062",
     "category": "Qur-aan",
-    "title": "Al-Jumu'ah",
+    "title": "62. Al-Jumu'ah",
     "file": "quran/062.json",
     "image": "https://placehold.co/600x300.png?text=Al-Jumu%27ah"
   },
   {
     "id": "quran-063",
     "category": "Qur-aan",
-    "title": "Al-Munaafiquun",
+    "title": "63. Al-Munaafiquun",
     "file": "quran/063.json",
     "image": "https://placehold.co/600x300.png?text=Al-Munaafiquun"
   },
   {
     "id": "quran-064",
     "category": "Qur-aan",
-    "title": "At-Taghaabun",
+    "title": "64. At-Taghaabun",
     "file": "quran/064.json",
     "image": "https://placehold.co/600x300.png?text=At-Taghaabun"
   },
   {
     "id": "quran-065",
     "category": "Qur-aan",
-    "title": "At-Twalaaq",
+    "title": "65. At-Twalaaq",
     "file": "quran/065.json",
     "image": "https://placehold.co/600x300.png?text=At-Twalaaq"
   },
   {
     "id": "quran-066",
     "category": "Qur-aan",
-    "title": "At-Tahriym",
+    "title": "66. At-Tahriym",
     "file": "quran/066.json",
     "image": "https://placehold.co/600x300.png?text=At-Tahriym"
   },
   {
     "id": "quran-067",
     "category": "Qur-aan",
-    "title": "Al-Mulk",
+    "title": "67. Al-Mulk",
     "file": "quran/067.json",
     "image": "https://placehold.co/600x300.png?text=Al-Mulk"
   },
   {
     "id": "quran-068",
     "category": "Qur-aan",
-    "title": "Al-Qalam",
+    "title": "68. Al-Qalam",
     "file": "quran/068.json",
     "image": "https://placehold.co/600x300.png?text=Al-Qalam"
   },
   {
     "id": "quran-069",
     "category": "Qur-aan",
-    "title": "Al-Haaqqah",
+    "title": "69. Al-Haaqqah",
     "file": "quran/069.json",
     "image": "https://placehold.co/600x300.png?text=Al-Haaqqah"
   },
   {
     "id": "quran-070",
     "category": "Qur-aan",
-    "title": "Al-Ma'aarij",
+    "title": "70. Al-Ma'aarij",
     "file": "quran/070.json",
     "image": "https://placehold.co/600x300.png?text=Al-Ma%27aarij"
   },
   {
     "id": "quran-071",
     "category": "Qur-aan",
-    "title": "Nuuh",
+    "title": "71. Nuuh",
     "file": "quran/071.json",
     "image": "https://placehold.co/600x300.png?text=Nuuh"
   },
   {
     "id": "quran-072",
     "category": "Qur-aan",
-    "title": "Al-Jinn",
+    "title": "72. Al-Jinn",
     "file": "quran/072.json",
     "image": "https://placehold.co/600x300.png?text=Al-Jinn"
   },
   {
     "id": "quran-073",
     "category": "Qur-aan",
-    "title": "Al-Muzzammil",
+    "title": "73. Al-Muzzammil",
     "file": "quran/073.json",
     "image": "https://placehold.co/600x300.png?text=Al-Muzzammil"
   },
   {
     "id": "quran-074",
     "category": "Qur-aan",
-    "title": "Al-Muddaththir",
+    "title": "74. Al-Muddaththir",
     "file": "quran/074.json",
     "image": "https://placehold.co/600x300.png?text=Al-Muddaththir"
   },
   {
     "id": "quran-075",
     "category": "Qur-aan",
-    "title": "Al-Qiyaamah",
+    "title": "75. Al-Qiyaamah",
     "file": "quran/075.json",
     "image": "https://placehold.co/600x300.png?text=Al-Qiyaamah"
   },
   {
     "id": "quran-076",
     "category": "Qur-aan",
-    "title": "Al-Insaan",
+    "title": "76. Al-Insaan",
     "file": "quran/076.json",
     "image": "https://placehold.co/600x300.png?text=Al-Insaan"
   },
   {
     "id": "quran-077",
     "category": "Qur-aan",
-    "title": "Al-Mursalaat",
+    "title": "77. Al-Mursalaat",
     "file": "quran/077.json",
     "image": "https://placehold.co/600x300.png?text=Al-Mursalaat"
   },
   {
     "id": "quran-078",
     "category": "Qur-aan",
-    "title": "An-Naba",
+    "title": "78. An-Naba",
     "file": "quran/078.json",
     "image": "https://placehold.co/600x300.png?text=An-Naba"
   },
   {
     "id": "quran-079",
     "category": "Qur-aan",
-    "title": "An-Naazi'aat",
+    "title": "79. An-Naazi'aat",
     "file": "quran/079.json",
     "image": "https://placehold.co/600x300.png?text=An-Naazi%27aat"
   },
   {
     "id": "quran-080",
     "category": "Qur-aan",
-    "title": "'Abasa",
+    "title": "80. 'Abasa",
     "file": "quran/080.json",
     "image": "https://placehold.co/600x300.png?text=%27Abasa"
   },
   {
     "id": "quran-081",
     "category": "Qur-aan",
-    "title": "At-Takwiyr",
+    "title": "81. At-Takwiyr",
     "file": "quran/081.json",
     "image": "https://placehold.co/600x300.png?text=At-Takwiyr"
   },
   {
     "id": "quran-082",
     "category": "Qur-aan",
-    "title": "Al-Infitwaar",
+    "title": "82. Al-Infitwaar",
     "file": "quran/082.json",
     "image": "https://placehold.co/600x300.png?text=Al-Infitwaar"
   },
   {
     "id": "quran-083",
     "category": "Qur-aan",
-    "title": "Al-Mutwaffifiyn",
+    "title": "83. Al-Mutwaffifiyn",
     "file": "quran/083.json",
     "image": "https://placehold.co/600x300.png?text=Al-Mutwaffifiyn"
   },
   {
     "id": "quran-084",
     "category": "Qur-aan",
-    "title": "Al-Inshiqaaq",
+    "title": "84. Al-Inshiqaaq",
     "file": "quran/084.json",
     "image": "https://placehold.co/600x300.png?text=Al-Inshiqaaq"
   },
   {
     "id": "quran-085",
     "category": "Qur-aan",
-    "title": "Al-Buruuj",
+    "title": "85. Al-Buruuj",
     "file": "quran/085.json",
     "image": "https://placehold.co/600x300.png?text=Al-Buruuj"
   },
   {
     "id": "quran-086",
     "category": "Qur-aan",
-    "title": "At-Twaariq",
+    "title": "86. At-Twaariq",
     "file": "quran/086.json",
     "image": "https://placehold.co/600x300.png?text=At-Twaariq"
   },
   {
     "id": "quran-087",
     "category": "Qur-aan",
-    "title": "Al-A'laa",
+    "title": "87. Al-A'laa",
     "file": "quran/087.json",
     "image": "https://placehold.co/600x300.png?text=Al-A%27laa"
   },
   {
     "id": "quran-088",
     "category": "Qur-aan",
-    "title": "Al-Ghaashiyah",
+    "title": "88. Al-Ghaashiyah",
     "file": "quran/088.json",
     "image": "https://placehold.co/600x300.png?text=Al-Ghaashiyah"
   },
   {
     "id": "quran-089",
     "category": "Qur-aan",
-    "title": "Al-Fajr",
+    "title": "89. Al-Fajr",
     "file": "quran/089.json",
     "image": "https://placehold.co/600x300.png?text=Al-Fajr"
   },
   {
     "id": "quran-090",
     "category": "Qur-aan",
-    "title": "Al-Balad",
+    "title": "90. Al-Balad",
     "file": "quran/090.json",
     "image": "https://placehold.co/600x300.png?text=Al-Balad"
   },
   {
     "id": "quran-091",
     "category": "Qur-aan",
-    "title": "Ash-Shams",
+    "title": "91. Ash-Shams",
     "file": "quran/091.json",
     "image": "https://placehold.co/600x300.png?text=Ash-Shams"
   },
   {
     "id": "quran-092",
     "category": "Qur-aan",
-    "title": "Al-Layl",
+    "title": "92. Al-Layl",
     "file": "quran/092.json",
     "image": "https://placehold.co/600x300.png?text=Al-Layl"
   },
   {
     "id": "quran-093",
     "category": "Qur-aan",
-    "title": "Adh-Dhuhaa",
+    "title": "93. Adh-Dhuhaa",
     "file": "quran/093.json",
     "image": "https://placehold.co/600x300.png?text=Adh-Dhuhaa"
   },
   {
     "id": "quran-094",
     "category": "Qur-aan",
-    "title": "Ash-Sharh",
+    "title": "94. Ash-Sharh",
     "file": "quran/094.json",
     "image": "https://placehold.co/600x300.png?text=Ash-Sharh"
   },
   {
     "id": "quran-095",
     "category": "Qur-aan",
-    "title": "At-Tiyn",
+    "title": "95. At-Tiyn",
     "file": "quran/095.json",
     "image": "https://placehold.co/600x300.png?text=At-Tiyn"
   },
   {
     "id": "quran-096",
     "category": "Qur-aan",
-    "title": "Al-'Alaq",
+    "title": "96. Al-'Alaq",
     "file": "quran/096.json",
     "image": "https://placehold.co/600x300.png?text=Al-%27Alaq"
   },
   {
     "id": "quran-097",
     "category": "Qur-aan",
-    "title": "Al-Qadr",
+    "title": "97. Al-Qadr",
     "file": "quran/097.json",
     "image": "https://placehold.co/600x300.png?text=Al-Qadr"
   },
   {
     "id": "quran-098",
     "category": "Qur-aan",
-    "title": "Al-Bayyinah",
+    "title": "98. Al-Bayyinah",
     "file": "quran/098.json",
     "image": "https://placehold.co/600x300.png?text=Al-Bayyinah"
   },
   {
     "id": "quran-099",
     "category": "Qur-aan",
-    "title": "Az-Zalzalah",
+    "title": "99. Az-Zalzalah",
     "file": "quran/099.json",
     "image": "https://placehold.co/600x300.png?text=Az-Zalzalah"
   },
   {
     "id": "quran-100",
     "category": "Qur-aan",
-    "title": "Al-'Aadiyaat",
+    "title": "100. Al-'Aadiyaat",
     "file": "quran/100.json",
     "image": "https://placehold.co/600x300.png?text=Al-%27Aadiyaat"
   },
   {
     "id": "quran-101",
     "category": "Qur-aan",
-    "title": "Al-Qaari'ah",
+    "title": "101. Al-Qaari'ah",
     "file": "quran/101.json",
     "image": "https://placehold.co/600x300.png?text=Al-Qaari%27ah"
   },
   {
     "id": "quran-102",
     "category": "Qur-aan",
-    "title": "At-Takaathur",
+    "title": "102. At-Takaathur",
     "file": "quran/102.json",
     "image": "https://placehold.co/600x300.png?text=At-Takaathur"
   },
   {
     "id": "quran-103",
     "category": "Qur-aan",
-    "title": "Al-'Asr",
+    "title": "103. Al-'Asr",
     "file": "quran/103.json",
     "image": "https://placehold.co/600x300.png?text=Al-%27Asr"
   },
   {
     "id": "quran-104",
     "category": "Qur-aan",
-    "title": "Al-Humazah",
+    "title": "104. Al-Humazah",
     "file": "quran/104.json",
     "image": "https://placehold.co/600x300.png?text=Al-Humazah"
   },
   {
     "id": "quran-105",
     "category": "Qur-aan",
-    "title": "Al-Fiyl",
+    "title": "105. Al-Fiyl",
     "file": "quran/105.json",
     "image": "https://placehold.co/600x300.png?text=Al-Fiyl"
   },
   {
     "id": "quran-106",
     "category": "Qur-aan",
-    "title": "Quraysh",
+    "title": "106. Quraysh",
     "file": "quran/106.json",
     "image": "https://placehold.co/600x300.png?text=Quraysh"
   },
   {
     "id": "quran-107",
     "category": "Qur-aan",
-    "title": "Al-Maa'uun",
+    "title": "107. Al-Maa'uun",
     "file": "quran/107.json",
     "image": "https://placehold.co/600x300.png?text=Al-Maa%27uun"
   },
   {
     "id": "quran-108",
     "category": "Qur-aan",
-    "title": "Al-Kawthar",
+    "title": "108. Al-Kawthar",
     "file": "quran/108.json",
     "image": "https://placehold.co/600x300.png?text=Al-Kawthar"
   },
   {
     "id": "quran-109",
     "category": "Qur-aan",
-    "title": "Al-Kaafiruun",
+    "title": "109. Al-Kaafiruun",
     "file": "quran/109.json",
     "image": "https://placehold.co/600x300.png?text=Al-Kaafiruun"
   },
   {
     "id": "quran-110",
     "category": "Qur-aan",
-    "title": "An-Nasr",
+    "title": "110. An-Nasr",
     "file": "quran/110.json",
     "image": "https://placehold.co/600x300.png?text=An-Nasr"
   },
   {
     "id": "quran-111",
     "category": "Qur-aan",
-    "title": "Al-Masad",
+    "title": "111. Al-Masad",
     "file": "quran/111.json",
     "image": "https://placehold.co/600x300.png?text=Al-Masad"
   },
   {
     "id": "quran-112",
     "category": "Qur-aan",
-    "title": "Al-Ikhlaas",
+    "title": "112. Al-Ikhlaas",
     "file": "quran/112.json",
     "image": "https://placehold.co/600x300.png?text=Al-Ikhlaas"
   },
   {
     "id": "quran-113",
     "category": "Qur-aan",
-    "title": "Al-Falaq",
+    "title": "113. Al-Falaq",
     "file": "quran/113.json",
     "image": "https://placehold.co/600x300.png?text=Al-Falaq"
   },
   {
     "id": "quran-114",
     "category": "Qur-aan",
-    "title": "An-Naas",
+    "title": "114. An-Naas",
     "file": "quran/114.json",
     "image": "https://placehold.co/600x300.png?text=An-Naas"
   }
