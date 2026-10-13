@@ -1,0 +1,29 @@
+  {
+    "type": "sura",
+    "surah_number": 86,
+    "name": "Al-Tariq",
+    "arabic_name": "سُورَةُ الطَّارِقِ",
+    "revelation": "Makkah",
+    "ayah_count": 17,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Tariq, yaani Nyota Inayokuchomoza Usiku, kwa kuwa Allah Mtukufu Anaapa kwa mbingu na nyota hiyo. Inathibitisha uwezo wa Allah wa kumrudisha binadamu baada ya kufa, na inaeleza kuwa Qur'ani ni neno lenye kupambanua baina ya haki na batili.",
+    "content": [
+      { "number": 1, "page": 1498, "arabic": "وَالسَّمَاءِ وَالطَّارِقِ", "translation": "Allah Mtukufu Anaapa kwa mbingu na nyota yenye kuchomoza usiku." },
+      { "number": 2, "page": 1498, "arabic": "وَمَا أَدْرَاكَ مَا الطَّارِقُ", "translation": "Na ni lipi lilokujulisha ni ukubwa gani wa nyota hiyo?" },
+      { "number": 3, "page": 1498, "arabic": "النَّجْمُ الثَّاقِبُ", "translation": "Hiyo ni nyota ing'arayo na kumere meta." },
+      { "number": 4, "page": 1498, "arabic": "إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ", "translation": "Hakuna nafsi yoyote isipokuwa imepelekewa Malaika mwenye kusajili amali zake ili ihesabiwe Siku ya Kiyama." },
+      { "number": 5, "page": 1498, "arabic": "فَلْيَنظُرِ الْإِنسَانُ مِمَّ خُلِقَ", "translation": "Basi aangalie binadamu mwenye kukanusha kufufuliwa ameumbwa kwa kitu gani? «Ili ajue kuwa kurudisha umbo lake mara ya pili si vigumu kama kuumbwa mara ya kwanza»." },
+      { "number": 6, "page": 1498, "arabic": "خُلِقَ مِن مَّاءٍ دَافِقٍ", "translation": "Aliumbwa kwa manii yenye kupenya ndani ya kizazi kwa haraka." },
+      { "number": 7, "page": 1498, "arabic": "يَخْرُجُ مِن بَيْنِ الصُّلْبِ وَالتَّرَائِبِ", "translation": "Yatokayo kwenye mgongo wa mwanaume na kifua cha mwanamke." },
+      { "number": 8, "page": 1498, "arabic": "إِنَّهُ عَلَىٰ رَجْعِهِ لَقَادِرٌ", "translation": "Hakika yule Aliyemuumba binadamu kwa maji haya ni muweza wa kumrudisha kwenye uhai baada ya kufa." },
+      { "number": 9, "page": 1498, "arabic": "يَوْمَ تُبْلَى السَّرَائِرُ", "translation": "Siku zitakapofunuliwa siri zilizofichwa na nafsi, na kutofautishwa jema na baya." },
+      { "number": 10, "page": 1498, "arabic": "فَمَا لَهُ مِن قُوَّةٍ وَلَا نَاصِرٍ", "translation": "Binadamu hatakuwa na nguvu ya kuitetea nafsi yake, wala hatakuwa na mtetezi wa kumuepushia adhabu ya Allah Mtukufu." },
+      { "number": 11, "page": 1499, "arabic": "وَالسَّمَاءِ ذَاتِ الرَّجْعِ", "translation": "Na Anaapa kwa mbingu yenye mvua ya mara kwa mara." },
+      { "number": 12, "page": 1499, "arabic": "وَالْأَرْضِ ذَاتِ الصَّدْعِ", "translation": "Na ardhi yenye pasuko za kufanya mimea ichipuke." },
+      { "number": 13, "page": 1499, "arabic": "إِنَّهُ لَقَوْلٌ فَصْلٌ", "translation": "Hakika Qur'ani ni neno lenye kupambanua baina ya haki na batili." },
+      { "number": 14, "page": 1499, "arabic": "وَمَا هُوَ بِالْهَزْلِ", "translation": "Na wala si upuuzi. Haifai kiumbe kuapa kwa asiyekuwa Allah Mtukufu. Akifanya hivyo atakuwa amemshirikisha Allah Mtukufu." },
+      { "number": 15, "page": 1499, "arabic": "إِنَّهُمْ يَكِيدُونَ كَيْدًا", "translation": "Hakika wenye kumkanusha Mtume, (rehema za Allah Mtukufu na amani zimshukie), na Qur'ani, wanafanya vitimbi na mipango ili kuipinga haki na kuitilia nguvu batili." },
+      { "number": 16, "page": 1499, "arabic": "وَأَكِيدُ كَيْدًا", "translation": "Na Mimi nafanya vitimbi kuidhihirisha haki ingawa makafiri wanachukia." },
+      { "number": 17, "page": 1499, "arabic": "فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا", "translation": "Usiwe na haraka nao, (ewe Mtume), kutaka wateremshiwe adhabu. Wape muhula uwangoje muda mchache wala usiwafanyie haraka, utaona adhabu itakayowafikia, mateso na maangamivu." }
+    ]
+  }
