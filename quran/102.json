@@ -1,0 +1,20 @@
+  {
+    "type": "sura",
+    "surah_number": 102,
+    "name": "Al-Takathur",
+    "arabic_name": "سُورَةُ التَّكَاثُرِ",
+    "revelation": "Makkah",
+    "ayah_count": 8,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Takathur, yaani Kushindana kwa Wingi wa Mali, kwa kuwa inawakemea watu wanaojishughulisha na kujifakharisha kwa mali na watoto na kusahau kumtii Allah Mtukufu. Inawaonya kuhusu Siku ya Hesabu na kuhusu neema watakazo ulizwa.",
+    "content": [
+      { "number": 1, "page": 1525, "arabic": "أَلْهَاكُمُ التَّكَاثُرُ", "translation": "Kumekushughulisheni kujifakharisha na mali na watoto, mkaacha kumtii Allah Mtukufu." },
+      { "number": 2, "page": 1525, "arabic": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ", "translation": "Kujishughulisha kwenu na hilo kumeendelea mpaka mkafariki na mkazikwa makaburini." },
+      { "number": 3, "page": 1525, "arabic": "كَلَّا سَوْفَ تَعْلَمُونَ", "translation": "Sio sawa hivi mnvyofanya vya kushindana kwa wingi wa mali. kwani itawadhihirikia na mtajua kuwa Nyumba ya Akhera ni bora kwenu." },
+      { "number": 4, "page": 1525, "arabic": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ", "translation": "Kisha eleweni kua mtaujua mwisho mbaya wa kutojiishughulisha na Akhera." },
+      { "number": 5, "page": 1525, "arabic": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ", "translation": "Sio sawa hivi mnvyofanya vya kushindana kwa wingi wa mali. Lau mngejua uhakika wa adhabu mtakayoipata mngehangaika ili kuokoa nafsi zenu kutoka kwenye maangamivu." },
+      { "number": 6, "page": 1525, "arabic": "لَتَرَوُنَّ الْجَحِيمَ", "translation": "Mtauona Moto!" },
+      { "number": 7, "page": 1525, "arabic": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ", "translation": "Kisha mtauona kwa yakini kabisa na bila shaka yoyote." },
+      { "number": 8, "page": 1525, "arabic": "ثُمَّ لَتُسْأَلُنَّ عَنِ النَّعِيمِ", "translation": "Kisha mtaulizwa kuhusu kila aina za neema mlizopewa." }
+    ]
+  }
