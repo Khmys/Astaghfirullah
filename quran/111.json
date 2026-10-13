@@ -1,0 +1,17 @@
+  {
+    "type": "sura",
+    "surah_number": 111,
+    "name": "Al-Masad",
+    "arabic_name": "سُورَةُ الْمَسَدِ",
+    "revelation": "Makkah",
+    "ayah_count": 5,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Masad, yaani Kamba, kwa kuwa inataja kamba ya moto itakayofungwa shingoni mwa mke wa Abu Lahab. Inamhusu Abu Lahab na mkewe kwa uadui wao kwa Mtume na Uislamu.",
+    "content": [
+      { "number": 1, "page": 1534, "arabic": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ", "translation": "Imepata hasara mikono miwili ya Abū Lahab, na yeye mwenyewe ameangamia, kwa kumuudhi Mtume, (rehema za Allah Mtukufu na amani zimshukie). na kwa hakika ilitimia na kutokea hasara ya abū lahab." },
+      { "number": 2, "page": 1534, "arabic": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ", "translation": "Haikumnufaisha mali yake na watoto wake. Kwani hivyo havitamkinga na adhabu ya Allah Mtukufu." },
+      { "number": 3, "page": 1534, "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ", "translation": "Ataingia kwenye Moto wenye mapande makubwa ya moto yanayochomoza kama ulimi." },
+      { "number": 4, "page": 1534, "arabic": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ", "translation": "Atauingia moto huo yeye na mke wake ambaye alikuwa akibeba miba na kuiweka kwenye njia anayopita Mtume, (rehema za Allah Mtukufu na amani zimshukie), ili kumuudhi." },
+      { "number": 5, "page": 1534, "arabic": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ", "translation": "Kwenye shingo yake patakuwa na kamba imara atabebewa nayo kwenye Moto wa Jahanamu, kisha atarushwa nayo mpaka chini." }
+    ]
+  }
