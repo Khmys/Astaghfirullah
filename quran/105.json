@@ -1,0 +1,17 @@
+  {
+    "type": "sura",
+    "surah_number": 105,
+    "name": "Al-Fil",
+    "arabic_name": "سُورَةُ الْفِيلِ",
+    "revelation": "Makkah",
+    "ayah_count": 5,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Fil, yaani Tembo, kwa kuwa inasimulia kisa cha Abraha Mhebeshi na jeshi lake la tembo waliojaribu kuivunja Al-Ka'ba, na jinsi Allah Mtukufu Alivyowaangamiza kwa ndege waliowatupia vijiwe vya udongo mkavu.",
+    "content": [
+      { "number": 1, "page": 1528, "arabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ", "translation": "Je hujui na hukusikia, (ewe Mtume), namna Alivyowafanya Mola wako watu wa ndovu: Abraha Mhebeshi na jeshi lake ambalo alikuja nalo ili kuivunja Al ka'ba tukufu?" },
+      { "number": 2, "page": 1528, "arabic": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ", "translation": "Kwani hakuifanya mipango yao mibaya waliyoifanya ni yenye kuvunjika na kupita patupu?" },
+      { "number": 3, "page": 1528, "arabic": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ", "translation": "Na Aliwarekeke makundi ya ndege yaliyofuatana." },
+      { "number": 4, "page": 1528, "arabic": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ", "translation": "Ndege hao walikua wakiwatupia vijiwe vya udongo mkavu na mgumu." },
+      { "number": 5, "page": 1528, "arabic": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ", "translation": "Vijiwe hivyo vikawapondaponda, wakawa ni kama majani makavu yaliyoliwa na wanyama na kisha kutupwa." }
+    ]
+  }
