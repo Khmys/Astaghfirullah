@@ -1,0 +1,18 @@
+  {
+    "type": "sura",
+    "surah_number": 109,
+    "name": "Al-Kafirun",
+    "arabic_name": "سُورَةُ الْكَافِرُونَ",
+    "revelation": "Makkah",
+    "ayah_count": 6,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Kafirun, yaani Makafiri, kwa kuwa inawahutubia wale waliomkufuru Allah Mtukufu na Mtume Wake. Inatamka wazi kutengana kwa ibada: Mtume haabudu wanachoabudu wao, na wao hawaabudu Anachoabudu yeye.",
+    "content": [
+      { "number": 1, "page": 1532, "arabic": "قُلْ يَا أَيُّهَا الْكَافِرُونَ", "translation": "Sema, (ewe Mtume), kuwaambia waliomkufuru Allah Mtukufu na Mtume wake: «Enyi wenye kumkanusha Allah Mtukufu!»" },
+      { "number": 2, "page": 1532, "arabic": "لَا أَعْبُدُ مَا تَعْبُدُونَ", "translation": "Mimi siabudu mnvyoviabudu miongoni mwa masanamu na waungu wa urongo." },
+      { "number": 3, "page": 1532, "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ", "translation": "Wala nyinyi si wenye kuabudu Mola Mmoja ninayemuabudu Ambaye ndiye Anayestahiki kuabudiwa." },
+      { "number": 4, "page": 1532, "arabic": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ", "translation": "Wala mimi si mwenye kuabudu mnvyoviabudu miongoni mwa masanamu na waungu wa urongo." },
+      { "number": 5, "page": 1532, "arabic": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ", "translation": "Wala nyinyi si wenye kumuabudu ninayemuabudu mimi siku zijazo, Aya hii imeteremka juu ya watu makhsusi miongoni mwa washirikina ambao Allah Mtukufu Alijua kuwa hawataamini kabisa." },
+      { "number": 6, "page": 1532, "arabic": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ", "translation": "Nyinyi mna dini yenu mnayoiamini na mimi nina Dini yangu ninayo iamini na sitaki nyingine." }
+    ]
+  }
