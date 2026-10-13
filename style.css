@@ -14,6 +14,7 @@
     --c-mauve:  #8B5FBF;
     --c-gold:   #b8860b;
     --c-teal:   #00695c;
+    --bg-sky:   #87ceeb;
 
     --bg-red:    rgba(211,47,47,0.07);
     --bg-blue:   rgba(21,101,192,0.07);
@@ -37,6 +38,7 @@
       --c-mauve:  #ba68c8;
       --c-gold:   #ffd54f;
       --c-teal:   #4db6ac;
+      --bg-sky:   rgba(135,206,235,0.28);
 
       --bg-red:    rgba(255,107,107,0.12);
       --bg-blue:   rgba(100,181,246,0.12);
@@ -277,7 +279,7 @@
     grid-template-columns: minmax(0,1fr) auto auto auto minmax(0,1fr);
     align-items:center; gap:8px; padding:0 2px 7px; margin-bottom:12px;
     border-bottom:1px solid var(--tg-theme-secondary-bg-color,#d8d8d8);
-    font-size:12px; color:var(--tg-theme-hint-color,#666);
+    font-size:12px; color:var(--c-navy);
   }
   .quran-page-header span:last-child { text-align:right; direction:rtl; }
   .quran-page-number {
@@ -289,7 +291,7 @@
   .quran-title-sw, .quran-title-ar {
     min-height:46px; display:flex; justify-content:center; align-items:center;
     padding:8px; text-align:center;
-    background:var(--tg-theme-secondary-bg-color,#e8f6fb);
+    background:var(--bg-sky);
     border:1px solid var(--tg-theme-hint-color,#999);
     border-radius:12px;
   }
