@@ -1,0 +1,20 @@
+  {
+    "type": "sura",
+    "surah_number": 99,
+    "name": "Al-Zalzalah",
+    "arabic_name": "سُورَةُ الزَّلْزَلَةِ",
+    "revelation": "Madinah",
+    "ayah_count": 8,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Zalzalah, yaani Mtikisiko, kwa kuwa inazungumzia mtikisiko mkubwa wa ardhi utakaotokea Siku ya Qiyaama. Inawaonya watu kuhusu Hesabu na Malipo ya kila tendo, hata dogo kama uzito wa mdudu chungu.",
+    "content": [
+      { "number": 1, "page": 1522, "arabic": "إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا", "translation": "Itakapotikiswa ardhi mtikiso wa nguvu." },
+      { "number": 2, "page": 1522, "arabic": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا", "translation": "Na ikatoa vilivyomo ndani yake: miongoni mwa wafu na thamani za ardhini kama dhahabu na mfano wake." },
+      { "number": 3, "page": 1522, "arabic": "وَقَالَ الْإِنسَانُ مَا لَهَا", "translation": "Na akauliza binadamu, katika hali ya kubabaika, «imepatwa na nini?»" },
+      { "number": 4, "page": 1522, "arabic": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا", "translation": "Siku hiyo (siku ya kiama) ardhi itatoa habari ya mambo iliyofanyiwa ya uzuri na ubaya." },
+      { "number": 5, "page": 1522, "arabic": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا", "translation": "Kwa kuwa Allah Mtukufu, Aliyetakasika na kutukuka, ataiamuru itoe habari ya mambo iliyofanyiwa." },
+      { "number": 6, "page": 1522, "arabic": "يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ", "translation": "Siku hiyo watu wataondoka kutoka kwenye kisimamo cha Hesabu kwa makundi, ili Allah Mtukufu Awaoneshe waliyoyatenda, mazuri na mabaya, na Awalipe kwayo." },
+      { "number": 7, "page": 1522, "arabic": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ", "translation": "Yoyote mwenye kufanya jema hata kama ni kwa uzito wa Mdudu Chungu atayaona malipo yake Akhera." },
+      { "number": 8, "page": 1522, "arabic": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ", "translation": "Na yoyote mwenye kufanya baya hata kama ni kwa uzito wa Mdudu Chungu atayaona malipo yake Akhera." }
+    ]
+  }
