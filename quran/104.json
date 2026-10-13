@@ -1,0 +1,21 @@
+  {
+    "type": "sura",
+    "surah_number": 104,
+    "name": "Al-Humazah",
+    "arabic_name": "سُورَةُ الْهُمَزَةِ",
+    "revelation": "Makkah",
+    "ayah_count": 9,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Humazah, yaani Mwenye Kusengenya, kwa kuwa inawaonya wale wanaosengenya, kuwatia doa na kuwatusi watu, na wale wanaokusanya mali na kuhesabu kwa kujivunia. Inaeleza adhabu yao kali katika Moto wa Allah.",
+    "content": [
+      { "number": 1, "page": 1527, "arabic": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ", "translation": "Shari na maangamivu yatampata kila mwenye kusengenya watu na kuwatia doa na kuwatusi." },
+      { "number": 2, "page": 1527, "arabic": "الَّذِي جَمَعَ مَالًا وَعَدَّدَهُ", "translation": "Amabye hamu yake ni kukusanya mali na kuihesabu." },
+      { "number": 3, "page": 1527, "arabic": "يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ", "translation": "Akidhani kuwa mali yake ambayo ameikusanya itampa dhamana ya kuishi milele duniani na kukwepa kuhesabiwa akhera." },
+      { "number": 4, "page": 1527, "arabic": "كَلَّا ۖ لَيُنبَذَنَّ فِي الْحُطَمَةِ", "translation": "Anavyodhania sivyo. Atatiwa ndani ya Moto ambao huvunjavunja kila kinachotiwa humo." },
+      { "number": 5, "page": 1527, "arabic": "وَمَا أَدْرَاكَ مَا الْحُطَمَةُ", "translation": "Na nikipi kilichokujulisha (ewe Mtume), kua ni upi huo Moto unaovunjavunja?" },
+      { "number": 6, "page": 1527, "arabic": "نَارُ اللَّهِ الْمُوقَدَةُ", "translation": "Huo ni Moto wa Allah Mtukufu uliowashwa." },
+      { "number": 7, "page": 1527, "arabic": "الَّتِي تَطَّلِعُ عَلَى الْأَفْئِدَةِ", "translation": "Ambao kwa ukali wake hupenyeza miilini na kufika kwenye nyoyo." },
+      { "number": 8, "page": 1527, "arabic": "إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ", "translation": "Hakika moto huo ni wenye kufungwa na kutiwa minyororo huku watu hao wa motoni wakiwa ndani yake." },
+      { "number": 9, "page": 1527, "arabic": "فِي عَمَدٍ مُّمَدَّدَةٍ", "translation": "Minyororo hiyo ni yenye kufungwa kwenye nguzo ndefu." }
+    ]
+  }
