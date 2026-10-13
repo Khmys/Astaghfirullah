@@ -1,0 +1,18 @@
+
+  {
+    "type": "sura",
+    "surah_number": 113,
+    "name": "Al-Falaq",
+    "arabic_name": "سُورَةُ الْفَلَقِ",
+    "revelation": "Makkah",
+    "ayah_count": 5,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Falaq, yaani Kupambazuka, kwa kuwa Allah Mtukufu Anaapa kwa mwambao wa asubuhi. Ni mojawapo ya sura mbili za kujilinda (Al-Mu'awwidhatayn) pamoja na Al-Nas, inafundisha kujilinda na shari za viumbe, usiku, wachawi na hasidi.",
+    "content": [
+      { "number": 1, "page": 1536, "arabic": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ", "translation": "Sema, (ewe Mtume), «Najilinda na kutaka hifadhi kwa muumbaji wa asubuhi»." },
+      { "number": 2, "page": 1536, "arabic": "مِن شَرِّ مَا خَلَقَ", "translation": "Kutokana na shari ya viumbe na maudhi yao." },
+      { "number": 3, "page": 1536, "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ", "translation": "Na kutokana na shari ya usiku wenye giza kubwa uingiapo na ujikitapo, na kutokana na shari na maudhi mbalimbali yaliyomo ndani yake." },
+      { "number": 4, "page": 1536, "arabic": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ", "translation": "Na kutokana na shari za wchawi wenye kupuliza kwenye mafundo wanayoyafunga kwa lengo la kuroga." },
+      { "number": 5, "page": 1536, "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ", "translation": "Na kutokana na shari za hasidi mwenye kuchukia watu, anapowahusudu na kuwadhuru, kwa kutaka neema za Allah Mtukufu alizowaneemesha ziwaondokee." }
+    ]
+  }
