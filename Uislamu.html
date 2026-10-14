@@ -20,7 +20,7 @@
   </div>
   <div id="categories" class="categories"></div>
   <div id="backCatBox"></div>
-  <div id="loadingMsg">Inapakia masomo...</div>
+  <div id="loadingMsg"><div class="spinner"></div></div>
   <div id="listContainer"></div>
   <div id="emptyMsg" class="hidden">Hakuna somo lililopatikana.</div>
 </div>
@@ -34,6 +34,42 @@
   <div id="lessonMeta" class="reader-meta"></div>
   <div id="lessonContent"></div>
 </div>
+
+<!-- ============================================================
+     HTML: MIPANGILIO
+     ============================================================ -->
+<div id="settingsView" class="hidden">
+  <div class="topbar"><h1>⚙️ Mipangilio</h1></div>
+  <div class="settings-card">
+    <div class="settings-row">
+      <div class="settings-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>
+      </div>
+      <div class="settings-text">
+        <div class="settings-title">Mandhari ya Giza</div>
+        <div class="settings-desc">Badilisha kati ya mwonekano mwepesi na wa giza</div>
+      </div>
+      <label class="switch" aria-label="Mandhari ya giza">
+        <input type="checkbox" id="themeToggle" />
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+     HTML: BAA YA CHINI
+     ============================================================ -->
+<nav id="bottomNav">
+  <button class="nav-btn active" data-tab="home" type="button">
+    <svg viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v8.5a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg>
+    <span>Masomo</span>
+  </button>
+  <button class="nav-btn" data-tab="settings" type="button">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+    <span>Mipangilio</span>
+  </button>
+</nav>
 
 <!-- ============================================================
      HTML: MATCH BAR
