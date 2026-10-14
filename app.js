@@ -413,6 +413,9 @@
           return `<${tag} class="content-list">${(b.items || []).map(i => `<li>${alama(i)}</li>`).join("")}</${tag}>`;
         }
 
+        case "dot_box": case "box_doti":
+          return `<div class="dot-box">${b.title ? `<p class="dot-title">${alama(b.title)}</p>` : ""}<p class="dot-text">${alama(txt(b))}</p></div>`;
+
         case "hr": return `<hr class="content-hr">`;
         case "img": case "picha":
           return `<img class="content-img" src="${escapeAttr(b.src || "")}" alt="">`;
