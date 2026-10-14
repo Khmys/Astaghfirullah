@@ -16,6 +16,9 @@
     --c-teal:   #00695c;
     --bg-sky:   #d9f0fb;
     --line-sky: #2aa0d4;
+    --dotbox-bg:   #f4f7fc;
+    --dotbox-line: #cdd5e6;
+    --dotbox-dot:  #d5dbe8;
 
     --bg-red:    rgba(211,47,47,0.07);
     --bg-blue:   rgba(21,101,192,0.07);
@@ -41,6 +44,9 @@
       --c-teal:   #4db6ac;
       --bg-sky:   rgba(135,206,235,0.22);
       --line-sky: #4fc3f7;
+      --dotbox-bg:   rgba(255,255,255,0.05);
+      --dotbox-line: rgba(255,255,255,0.20);
+      --dotbox-dot:  rgba(255,255,255,0.16);
 
       --bg-red:    rgba(255,107,107,0.12);
       --bg-blue:   rgba(100,181,246,0.12);
@@ -175,6 +181,27 @@
   .box[data-color="navy"]   { color: var(--c-navy);   background: var(--bg-navy); }
   .box[data-color="ruby"]   { color: var(--c-ruby);   background: var(--bg-ruby); }
   .box[data-color="mauve"]  { color: var(--c-mauve);  background: var(--bg-mauve); }
+
+  /* ---- Box ya doti: mandhari nyepesi, mstari mwembamba, doti zinazofifia kulia ---- */
+  .dot-box {
+    position: relative; overflow: hidden;
+    margin: 14px 0; padding: 18px 20px;
+    background: var(--dotbox-bg);
+    border: 2px solid var(--dotbox-line);
+    border-radius: 18px;
+    font-size: 15px; line-height: 1.7;
+  }
+  .dot-box::before {
+    content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%;
+    background-image: radial-gradient(circle at center, var(--dotbox-dot) 2px, transparent 2.6px);
+    background-size: 16px 16px;
+    -webkit-mask-image: linear-gradient(to left, #000 0%, transparent 100%);
+            mask-image: linear-gradient(to left, #000 0%, transparent 100%);
+    pointer-events: none;
+  }
+  .dot-box > * { position: relative; }
+  .dot-box .dot-title { font-weight: 750; margin: 0 0 8px; color: var(--tg-theme-link-color,#2481cc); }
+  .dot-box .dot-text { margin: 0; }
 
   /* ============================================================
      7. RANGI ZA TEXT — 3 TU
