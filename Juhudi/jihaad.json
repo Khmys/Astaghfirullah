@@ -4,14 +4,14 @@
     "category": "jihaad",
     "title": "Utangulizi",
     "file": "Juhudi/KTjihaad.json",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg"
+    "image": "Picha/bendelajhd.jpg"
   },
   {
     "id": "jihaad-fadhila",
     "category": "jihaad",
     "title": "Fadhila za Jihaad",
     "file": "Juhudi/fadhila.json",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/Fadhila%20za%20Jihaad.jpg"
+    "image": "Picha/Fadhila%20za%20Jihaad.jpg"
   },
   {
     "id": "jihaad-01",
@@ -19,7 +19,7 @@
     "title": "01. Kitabu cha Jihaad",
     "subtitle": "Hadiyth pamoja na ufafanuzi",
     "file": "Juhudi/buluwgh1.json",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/Kitabu%20cha%20Jihaad.jpg"
+    "image": "Picha/kitabu-cha-jihaad.jpg"
   },
   {
     "id": "jihaad-02",
@@ -27,7 +27,7 @@
     "title": "02. Mlango Wa Jizya Na Kusitisha Vita",
     "subtitle": "Hadiyth pamoja na ufafanuzi",
     "file": "Juhudi/buluwgh2.json",
-    "image": "Picha/Jizya.jpeg"
+    "image": "Picha/jizya.jpg"
   },
   {
     "id": "jihaad-03",
@@ -35,6 +35,6 @@
     "title": "03. Mlango Wa Mashindano Ya Farasi Na Kurusha Mishale",
     "subtitle": "Buluwgh Al-Maraam: Hadiyth pamoja na ufafanuzi",
     "file": "Juhudi/buluwgh3.json",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/Farasi%20Na%20Kurusha%20Mishale.png"
+    "image": "Picha/farasi-na-kurusha-mishale.jpg"
   }
 ]
