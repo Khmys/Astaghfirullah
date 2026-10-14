@@ -1,0 +1,31 @@
+  {
+    "type": "sura",
+    "surah_number": 96,
+    "name": "Al-'Alaq",
+    "arabic_name": "سُورَةُ الْعَلَقِ",
+    "revelation": "Makkah",
+    "ayah_count": 19,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-'Alaq, yaani Panda la Damu, kwa kuwa Allah Mtukufu Anataja kuumba binadamu kutoka panda la damu. Ni sura ya kwanza kabisa kuteremshwa kwa Mtume, ikianza kwa amri ya kusoma. Inaeleza ukarimu wa Allah katika kufundisha kwa kalamu, na inamwonya mwenye kumkataza mja kuswali. Inamwamrisha Mtume kusujudu na kumtegemea Mola wake.",
+    "content": [
+      { "number": 1, "page": 1517, "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ", "translation": "Soma, ewe Nabii, Qur'ani uliyoteremshiwa ukianza kwa Jina la Mola wako Aliyepweke kwa kuumba." },
+      { "number": 2, "page": 1517, "arabic": "خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ", "translation": "Aliyemuumba kila binadamu kwa panda la damu nzito nyekundu." },
+      { "number": 3, "page": 1517, "arabic": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ", "translation": "Soma, (ewe Nabii), kile ulichoteremshiwa, na Mola wako ni Mwingi wa wema, Mwingi wa ukarimu." },
+      { "number": 4, "page": 1517, "arabic": "الَّذِي عَلَّمَ بِالْقَلَمِ", "translation": "Aliyewafundisha viumbe vyake kuandika kwa kalamu." },
+      { "number": 5, "page": 1517, "arabic": "عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ", "translation": "Alimfundisha binadamu vitu ambavyo hakuwa akivijua. Akamtoa kwenye giza la ujinga, Akampeleka kwenye nuru ya elimu." },
+      { "number": 6, "page": 1517, "arabic": "كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ", "translation": "Kweli, binadamu hukiuka mipaka ya Allah Mtukufu" },
+      { "number": 7, "page": 1517, "arabic": "أَن رَّآهُ اسْتَغْنَىٰ", "translation": "Akijiona ametosheka kwa utajiri wake." },
+      { "number": 8, "page": 1517, "arabic": "إِنَّ إِلَىٰ رَبِّكَ الرُّجْعَىٰ", "translation": "Basi, ajue kila mwenye kuchupa mipaka kuwa uhakika ni kuwa atarudi kwa Allah Mtukufu Ambaye Atamlipa kila binadamu kwa alilolitenda." },
+      { "number": 9, "page": 1517, "arabic": "أَرَأَيْتَ الَّذِي يَنْهَىٰ", "translation": "Je, umeona ujeuri wa ajabu zaidi kuliko wa mtu huyu, (Abū jahl), Anayemkataza mja wetu? «Muhammad, rehema za Allah Mtukufu na amani zimshukie»," },
+      { "number": 10, "page": 1518, "arabic": "عَبْدًا إِذَا صَلَّىٰ", "translation": "Unamuona anavyomkataza mja wetu pale anaposwali?" },
+      { "number": 11, "page": 1518, "arabic": "أَرَأَيْتَ إِن كَانَ عَلَى الْهُدَىٰ", "translation": "Waonaje iwapo mwenye kukatazwa kuswali yuko kwenye uongofu, vipi anamkataza?" },
+      { "number": 12, "page": 1518, "arabic": "أَوْ أَمَرَ بِالتَّقْوَىٰ", "translation": "Au iwapo anaamrisha mwingine kumcha Mungu, vipi anamkataza hilo?" },
+      { "number": 13, "page": 1518, "arabic": "أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّىٰ", "translation": "Waonaje iwapo huyu mwenye kukataza anakanusha lile alinganiwalo na kulipa mgongo?" },
+      { "number": 14, "page": 1518, "arabic": "أَلَمْ يَعْلَم بِأَنَّ اللَّهَ يَرَىٰ", "translation": "Hajui kuwa Allah Mtukufu anaona kila analolifanya?" },
+      { "number": 15, "page": 1518, "arabic": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ", "translation": "Basi mambo si kama anvyodai Abū Jahl. Na asipokomeka na ushindani alionao na udhia wake, Tutamshika paji lake kwa nguvu na kumtia Motoni." },
+      { "number": 16, "page": 1518, "arabic": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ", "translation": "Paji lake ni paji lenye maneno ya urongo na vitendo vya makosa." },
+      { "number": 17, "page": 1518, "arabic": "فَلْيَدْعُ نَادِيَهُ", "translation": "Basi na awalete, mchupaji mipaka huyu, watu wa baraza ili wamsaidie." },
+      { "number": 18, "page": 1518, "arabic": "سَنَدْعُ الزَّبَانِيَةَ", "translation": "Sisi Tutawaita Malaika wa adhabu." },
+      { "number": 19, "page": 1518, "arabic": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِب", "translation": "Mambo si kama Abū Jahl anavyoyadhania. Yeye, (ewe Mtume), hawezi kukufanya lolote la kukudhuru, Usimfuate kwa lile alilokuitia la kuwa uache Swala, bali msujudie Mola wako na uwe karibu naye kwa kujipendekeza Kwake kwa kumtii." }
+    ]
+  }
