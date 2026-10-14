@@ -1,623 +1,525 @@
   /* ============================================================
-     MWANZO WA APP
+     1. MSINGI WA APP
      ============================================================ */
-  const tg = window.Telegram.WebApp;
-  tg.ready();
-  tg.expand();
-  tg.enableClosingConfirmation();
+  :root {
+    --radius: 14px;
+    --font-ar: "Noto Naskh Arabic", "Amiri", "Scheherazade New", serif;
 
-  /* ============================================================
-     ELEMENTS
-     ============================================================ */
-  const listContainer = document.getElementById("listContainer");
-  const loadingMsg    = document.getElementById("loadingMsg");
-  const emptyMsg      = document.getElementById("emptyMsg");
-  const searchInput   = document.getElementById("searchInput");
-  const clearSearch   = document.getElementById("clearSearch");
-  const categoriesBox = document.getElementById("categories");
-  const backCatBox    = document.getElementById("backCatBox");
-  const count         = document.getElementById("count");
-  const pageTitle     = document.getElementById("pageTitle");
-  const lessonView    = document.getElementById("lessonView");
-  const lessonList    = document.getElementById("lessonList");
-  const lessonContent = document.getElementById("lessonContent");
+    --c-red:    #d32f2f;
+    --c-blue:   #1565c0;
+    --c-green:  #2e7d32;
+    --c-forest: #228B22;
+    --c-navy:   #000080;
+    --c-ruby:   #9B111E;
+    --c-mauve:  #8B5FBF;
+    --c-gold:   #b8860b;
+    --c-teal:   #00695c;
+    --bg-sky:   #d9f0fb;
+    --line-sky: #2aa0d4;
+    --dotbox-bg:   #f4f7fc;
+    --dotbox-line: #cdd5e6;
+    --dotbox-dot:  #d5dbe8;
 
-  /* ============================================================
-     DATA
-     ============================================================ */
-  let kategoria = [];         // Orodha ya kategoria (kutoka index.json)
-  let kategoriaActive = null; // Kategoria iliyochaguliwa
-  let masomo = [];            // Masomo ya kategoria iliyochaguliwa
-  let filterActive = "Zote";  // Filter ya ndani ya kategoria
-
-  const TEXT_COLORS = ["red", "blue", "green"];
-  const BOX_COLORS = ["forest", "navy", "ruby", "mauve"];
-
-  /* ============================================================
-     KUPATA DATA — index.json
-     ============================================================ */
-  fetch("index.json")
-    .then(r => { if (!r.ok) throw new Error("Imeshindwa kupakia index.json"); return r.json(); })
-    .then(data => {
-      kategoria = Array.isArray(data) ? data : [];
-      loadingMsg.classList.add("hidden");
-      onyeshaKategoria();
-    })
-    .catch(error => {
-      loadingMsg.textContent = "Samahani, imeshindwa kupakia orodha. Jaribu tena baadaye.";
-      console.error(error);
-    });
-
-  /* ============================================================
-     ONYESHA KATEGORIA (hatua ya kwanza)
-     ============================================================ */
-  function onyeshaKategoria() {
-    kategoriaActive = null;
-    masomo = [];
-    filterActive = "Zote";
-    pageTitle.textContent = "📚 Masomo";
-    categoriesBox.innerHTML = "";
-    backCatBox.innerHTML = "";
-    searchInput.value = "";
-    clearSearch.style.display = "none";
-    count.textContent = `${kategoria.length}`;
-    emptyMsg.classList.add("hidden");
-
-    listContainer.innerHTML = "";
-    kategoria.forEach(k => {
-      const item = document.createElement("div");
-      item.className = "lesson-item";
-      item.innerHTML = `
-        <img src="${escapeAttr(k.image || "")}" alt="" loading="lazy" />
-        <div class="info">
-          <div class="title">${escapeHtml(k.title || "Bila jina")}</div>
-          <div class="subtitle">${escapeHtml(k.subtitle || "")}</div>
-        </div><span class="arrow">›</span>`;
-      item.addEventListener("click", () => funguaKategoria(k));
-      listContainer.appendChild(item);
-    });
+    --bg-red:    rgba(211,47,47,0.07);
+    --bg-blue:   rgba(21,101,192,0.07);
+    --bg-green:  rgba(46,125,50,0.07);
+    --bg-gold:   rgba(184,134,11,0.07);
+    --bg-forest: rgba(34,139,34,0.07);
+    --bg-navy:   rgba(0,0,128,0.07);
+    --bg-ruby:   rgba(155,17,30,0.07);
+    --bg-mauve:  rgba(139,95,191,0.07);
+    --bg-teal:   rgba(0,105,92,0.07);
   }
 
-  /* ============================================================
-     FUNGUA KATEGORIA (hatua ya pili)
-     ============================================================ */
-  async function funguaKategoria(k) {
-    kategoriaActive = k;
-    pageTitle.textContent = `📚 ${k.title || "Masomo"}`;
-    categoriesBox.innerHTML = "";
-    searchInput.value = "";
-    clearSearch.style.display = "none";
-    listContainer.innerHTML = '<div id="loadingMsg">Inapakia masomo...</div>';
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --c-red:    #ff6b6b;
+      --c-blue:   #64b5f6;
+      --c-green:  #81c784;
+      --c-forest: #66bb6a;
+      --c-navy:   #7986cb;
+      --c-ruby:   #ef5350;
+      --c-mauve:  #ba68c8;
+      --c-gold:   #ffd54f;
+      --c-teal:   #4db6ac;
+      --bg-sky:   rgba(135,206,235,0.22);
+      --line-sky: #4fc3f7;
+      --dotbox-bg:   rgba(255,255,255,0.05);
+      --dotbox-line: rgba(255,255,255,0.20);
+      --dotbox-dot:  rgba(255,255,255,0.16);
 
-    // Kitufe cha kurudi kwenye kategoria
-    backCatBox.innerHTML = `<button class="back-cat">‹ Rudi kwenye kategoria</button>`;
-    backCatBox.querySelector(".back-cat").addEventListener("click", onyeshaKategoria);
-
-    try {
-      const res = await fetch(k.file);
-      if (!res.ok) throw new Error("Imeshindwa kupakia " + k.file);
-      const data = await res.json();
-      masomo = Array.isArray(data) ? data : [];
-      tengenezaCategories();
-      choraOrodha();
-      jengaIndex();
-    } catch (error) {
-      console.error(error);
-      listContainer.innerHTML = '<p style="text-align:center;color:#777;padding:20px">Samahani, imeshindwa kupakia masomo ya kategoria hii.</p>';
+      --bg-red:    rgba(255,107,107,0.12);
+      --bg-blue:   rgba(100,181,246,0.12);
+      --bg-green:  rgba(129,199,132,0.12);
+      --bg-gold:   rgba(255,213,79,0.12);
+      --bg-forest: rgba(102,187,106,0.12);
+      --bg-navy:   rgba(121,134,203,0.12);
+      --bg-ruby:   rgba(239,83,80,0.12);
+      --bg-mauve:  rgba(186,104,200,0.12);
+      --bg-teal:   rgba(77,182,172,0.12);
     }
   }
 
-  /* ============================================================
-     CATEGORIES ZA NDANI YA KATEGORIA
-     ============================================================ */
-  function tengenezaCategories() {
-    const categories = ["Zote", ...new Set(masomo.map(s => s.category || "Mengineyo"))];
-    categoriesBox.innerHTML = categories
-      .map(cat => `<button class="cat-btn ${cat === filterActive ? "active" : ""}" data-category="${escapeHtml(cat)}">${escapeHtml(cat)}</button>`)
-      .join("");
-    categoriesBox.querySelectorAll(".cat-btn").forEach(btn => {
-      btn.addEventListener("click", () => {
-        filterActive = btn.dataset.category;
-        tengenezaCategories();
-        choraOrodha();
-      });
-    });
+  /* Mandhari ya giza kwa kuchagua mwenyewe (Mipangilio) */
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --c-red:    #ff6b6b;
+    --c-blue:   #64b5f6;
+    --c-green:  #81c784;
+    --c-forest: #66bb6a;
+    --c-navy:   #7986cb;
+    --c-ruby:   #ef5350;
+    --c-mauve:  #ba68c8;
+    --c-gold:   #ffd54f;
+    --c-teal:   #4db6ac;
+    --bg-sky:   rgba(135,206,235,0.22);
+    --line-sky: #4fc3f7;
+    --dotbox-bg:   rgba(255,255,255,0.05);
+    --dotbox-line: rgba(255,255,255,0.20);
+    --dotbox-dot:  rgba(255,255,255,0.16);
+
+    --bg-red:    rgba(255,107,107,0.12);
+    --bg-blue:   rgba(100,181,246,0.12);
+    --bg-green:  rgba(129,199,132,0.12);
+    --bg-gold:   rgba(255,213,79,0.12);
+    --bg-forest: rgba(102,187,106,0.12);
+    --bg-navy:   rgba(121,134,203,0.12);
+    --bg-ruby:   rgba(239,83,80,0.12);
+    --bg-mauve:  rgba(186,104,200,0.12);
+    --bg-teal:   rgba(77,182,172,0.12);
   }
 
-  /* ============================================================
-     UTAFUTAJI
-     ============================================================ */
-  const MARKS = /[\u0300-\u036f\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g;
-  const AR_FIX = { "ٱ":"ا", "ى":"ي", "ة":"ه" };
-
-  function normChar(c) {
-    return c.normalize("NFD").replace(MARKS, "").toLowerCase()
-      .replace(/[’‘'`\-–—]/g, "").replace(/[ٱىة]/g, m => AR_FIX[m]);
+  /* Rangi za Telegram zinabadilishwa tu mtu akichagua mandhari mwenyewe */
+  :root[data-theme="dark"][data-forced] {
+    --tg-theme-bg-color: #121417 !important;
+    --tg-theme-text-color: #e9e9ea !important;
+    --tg-theme-hint-color: #8e97a3 !important;
+    --tg-theme-link-color: #64b5f6 !important;
+    --tg-theme-button-color: #2481cc !important;
+    --tg-theme-button-text-color: #ffffff !important;
+    --tg-theme-secondary-bg-color: #1d2229 !important;
   }
-  function normMap(t) {
-    t = String(t == null ? "" : t);
-    let out = ""; const map = [];
-    for (let i = 0; i < t.length; i++) {
-      for (const ch of normChar(t[i])) {
-        if ("aeiou".includes(ch) && out.endsWith(ch)) continue;
-        out += ch;
-        for (let k = 0; k < ch.length; k++) map.push(i);
-      }
-    }
-    return { out, map };
-  }
-  const norm = t => normMap(t).out;
-  const queryWords = () => norm(searchInput.value).split(/\s+/).filter(Boolean);
-
-  /* ============================================================
-     INDEX YA NDANI YA MASOMO
-     ============================================================ */
-  function maandishiYote(v, acc = []) {
-    if (typeof v === "string") { if (v.trim()) acc.push(v); }
-    else if (Array.isArray(v)) v.forEach(x => maandishiYote(x, acc));
-    else if (v && typeof v === "object") Object.values(v).forEach(x => maandishiYote(x, acc));
-    return acc;
+  :root[data-theme="light"][data-forced] {
+    --tg-theme-bg-color: #ffffff !important;
+    --tg-theme-text-color: #000000 !important;
+    --tg-theme-hint-color: #707579 !important;
+    --tg-theme-link-color: #2481cc !important;
+    --tg-theme-button-color: #2481cc !important;
+    --tg-theme-button-text-color: #ffffff !important;
+    --tg-theme-secondary-bg-color: #f1f1f1 !important;
   }
 
-  let indexPending = 0;
-  function jengaIndex() {
-    masomo.forEach(somo => {
-      if (!somo.file || somo._index) return;
-      indexPending++;
-      fetch(somo.file)
-        .then(r => r.ok ? r.json() : null)
-        .then(data => {
-          if (!data) return;
-          somo._segs = maandishiYote(data).map(t => ({ t, n: norm(t) }));
-          somo._index = somo._segs.map(x => x.n).join(" \n ");
-        })
-        .catch(() => {})
-        .finally(() => {
-          indexPending--;
-          if (searchInput.value.trim()) choraOrodha();
-        });
-    });
+  * { box-sizing: border-box; }
+  body {
+    font-family: Georgia, "Times New Roman", "Noto Serif", serif;
+    margin: 0; padding: 16px;
+    padding-bottom: calc(24px + env(safe-area-inset-bottom));
+    background: var(--tg-theme-bg-color, #fff);
+    color: var(--tg-theme-text-color, #000);
   }
+  button, input, textarea { font: inherit; font-family: inherit; }
 
   /* ============================================================
-     HIGHLIGHT YA MANENO
+     2. TOPBAR + UTAFUTAJI + CATEGORIES
      ============================================================ */
-  function highlightIn(root, words) {
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
-    nodes.forEach(node => {
-      const text = node.nodeValue;
-      const { out, map } = normMap(text);
-      let ranges = [];
-      words.forEach(w => {
-        let i = out.indexOf(w);
-        while (i !== -1) {
-          let end = map[i + w.length - 1] + 1;
-          while (end < text.length && normChar(text[end]) === "") end++;
-          ranges.push([map[i], end]);
-          i = out.indexOf(w, i + w.length);
-        }
-      });
-      if (!ranges.length) return;
-      ranges.sort((a, b) => a[0] - b[0]);
-      const merged = [ranges[0].slice()];
-      for (const r of ranges.slice(1)) {
-        const l = merged[merged.length - 1];
-        if (r[0] <= l[1]) l[1] = Math.max(l[1], r[1]);
-        else merged.push(r.slice());
-      }
-      const frag = document.createDocumentFragment();
-      let pos = 0;
-      merged.forEach(([s0, e0]) => {
-        if (s0 > pos) frag.appendChild(document.createTextNode(text.slice(pos, s0)));
-        const m = document.createElement("mark");
-        m.textContent = text.slice(s0, e0);
-        frag.appendChild(m);
-        pos = e0;
-      });
-      if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
-      node.replaceWith(frag);
-    });
+  .topbar { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:14px; }
+  h1 { font-size:22px; margin:0; }
+  .count { font-size:12px; opacity:.65; }
+
+  .search-wrap { position:relative; margin-bottom:12px; }
+  #searchInput {
+    width:100%; padding:13px 42px 13px 14px; border:0; outline:0;
+    border-radius:13px; background:var(--tg-theme-secondary-bg-color,#f1f1f1);
+    color:var(--tg-theme-text-color,#000);
+  }
+  #searchInput::-webkit-search-cancel-button,
+  #searchInput::-webkit-search-decoration { -webkit-appearance:none; display:none; }
+  #clearSearch {
+    position:absolute; right:7px; top:5px; border:0; background:transparent;
+    color:var(--tg-theme-hint-color,#777); font-size:22px; display:none;
   }
 
-  /* ============================================================
-     SNIPPET
-     ============================================================ */
-  function snippetFor(somo, words) {
-    const segs = somo._segs || [];
-    const seg = segs.find(x => words.every(w => x.n.includes(w)))
-             || segs.find(x => words.some(w => x.n.includes(w)));
-    if (!seg) return "";
-    const { out, map } = normMap(seg.t);
-    const w = words.find(w => out.includes(w));
-    const p = out.indexOf(w);
-    const st = map[Math.max(0, p - 45)];
-    const en = map[Math.min(map.length - 1, p + 110)] + 1;
-    return (st > 0 ? "… " : "") + seg.t.slice(st, en).trim() + (en < seg.t.length ? " …" : "");
+  .categories { display:flex; gap:8px; overflow-x:auto; padding:2px 0 12px; scrollbar-width:none; }
+  .categories::-webkit-scrollbar { display:none; }
+  .cat-btn {
+    white-space:nowrap; border:0; border-radius:999px; padding:8px 13px;
+    background:var(--tg-theme-secondary-bg-color,#f1f1f1);
+    color:var(--tg-theme-text-color,#000);
   }
-
-  /* ============================================================
-     KURASA YA ORODHA (ya kategoria iliyochaguliwa)
-     ============================================================ */
-  function choraOrodha() {
-    const words = queryWords();
-    const filtered = masomo.filter(somo => {
-      const category = somo.category || "Mengineyo";
-      const matchesCategory = filterActive === "Zote" || category === filterActive;
-      const haystack = norm(`${somo.title || ""} ${somo.subtitle || ""} ${typeof somo.content === "string" ? somo.content : ""} ${category}`) + " " + (somo._index || "");
-      return matchesCategory && words.every(w => haystack.includes(w));
-    });
-
-    listContainer.innerHTML = "";
-    count.textContent = `${filtered.length}/${masomo.length}`;
-    emptyMsg.textContent = (words.length && indexPending > 0) ? "Inatafuta ndani ya masomo..." : "Hakuna somo lililopatikana.";
-    emptyMsg.classList.toggle("hidden", filtered.length !== 0);
-
-    filtered.forEach(somo => {
-      const item = document.createElement("div");
-      item.className = "lesson-item";
-      item.innerHTML = `
-        <img src="${escapeAttr(somo.image || "")}" alt="" loading="lazy" />
-        <div class="info">
-          <div class="title">${escapeHtml(somo.title || "Bila jina")}</div>
-          <div class="subtitle">${escapeHtml(somo.subtitle || "")}</div>
-        </div><span class="arrow">›</span>`;
-      if (words.length) {
-        const sn = snippetFor(somo, words);
-        if (sn) {
-          const d = document.createElement("div");
-          d.className = "snippet"; d.dir = "auto"; d.textContent = sn;
-          highlightIn(d, words);
-          item.querySelector(".info").appendChild(d);
-        }
-      }
-      item.addEventListener("click", () => funguaSomo(somo));
-      listContainer.appendChild(item);
-    });
+  .cat-btn.active {
+    background:var(--tg-theme-button-color,#2481cc);
+    color:var(--tg-theme-button-text-color,#fff);
   }
-
-  /* ============================================================
-     MATCH BAR
-     ============================================================ */
-  let marks = [], curMark = -1;
-  function onyeshaMatches() {
-    const words = queryWords();
-    const bar = document.getElementById("matchBar");
-    marks = []; curMark = -1;
-    if (words.length) {
-      highlightIn(lessonContent, words);
-      marks = [...lessonContent.querySelectorAll("mark")];
-    }
-    bar.classList.toggle("hidden", marks.length === 0);
-    if (marks.length) ruka(0);
+  .back-cat {
+    display:inline-flex; align-items:center; gap:6px;
+    background:transparent; border:0; padding:6px 0;
+    color:var(--tg-theme-link-color,#2481cc);
+    font-size:14px; margin-bottom:10px; cursor:pointer;
   }
-  function ruka(i) {
-    if (!marks.length) return;
-    if (marks[curMark]) marks[curMark].classList.remove("cur");
-    curMark = (i + marks.length) % marks.length;
-    marks[curMark].classList.add("cur");
-    marks[curMark].scrollIntoView({ block: "center", behavior: "smooth" });
-    document.getElementById("matchInfo").textContent = `${curMark + 1}/${marks.length}`;
+  .back-cat:active { opacity:.6; }
+
+  /* ============================================================
+     3. ORODHA YA MASOMO
+     ============================================================ */
+  .lesson-item {
+    background:var(--tg-theme-secondary-bg-color,#f0f0f0);
+    padding:12px; border-radius:var(--radius); margin-bottom:10px;
+    display:flex; align-items:center; gap:12px; cursor:pointer;
   }
+  .lesson-item:active { opacity:.75; }
+  .lesson-item img { width:58px; height:58px; border-radius:11px; object-fit:cover; flex:none; }
+  .info { flex:1; min-width:0; }
+  .title { font-weight:650; font-size:15px; line-height:1.35; }
+  .subtitle { font-size:13px; color:var(--tg-theme-hint-color,#777); margin-top:4px; line-height:1.35; }
+  .category-label { display:inline-block; font-size:11px; margin-top:7px; opacity:.75; }
+  .arrow { opacity:.45; font-size:20px; }
+  .snippet { font-size:12.5px; line-height:1.5; color:var(--tg-theme-hint-color,#777); margin-top:6px; unicode-bidi:plaintext; overflow-wrap:anywhere; }
+
+  #emptyMsg, #loadingMsg { text-align:center; color:var(--tg-theme-hint-color,#777); padding:28px 10px; }
+  .hidden { display:none !important; }
 
   /* ============================================================
-     KUFUNGUA SOMO
+     4. VIEW YA SOMO
      ============================================================ */
-  async function funguaSomo(somo) {
-    document.getElementById("lessonImage").src = somo.image || "";
-    document.getElementById("lessonTitle").textContent = somo.title || "";
-    document.getElementById("lessonMeta").textContent = somo.subtitle || somo.category || "";
-    lessonContent.innerHTML = '<p class="content-body">Inapakia...</p>';
-    lessonList.classList.add("hidden");
-    lessonView.style.display = "block";
-    tg.BackButton.show();
-    window.scrollTo(0, 0);
+  #lessonView { display:none; }
+  .reader-head { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+  .reader-head h2 { font-size:20px; margin:0; line-height:1.35; }
+  #lessonView img { width:100%; max-height:220px; object-fit:cover; border-radius:var(--radius); margin-bottom:14px; }
+  .reader-meta { color:var(--tg-theme-hint-color,#777); font-size:13px; margin:-5px 0 15px; }
 
-    let content = somo.content || "";
-    if (!content && somo.file) {
-      try {
-        const res = await fetch(somo.file);
-        if (!res.ok) throw new Error("Imeshindwa kupakia " + somo.file);
-        const data = await res.json();
-        content = (RENDERERS[data.type] || Array.isArray(data.blocks)) ? data : (data.content || "");
-      } catch (error) {
-        console.error(error);
-        lessonContent.innerHTML = '<p class="content-body">Samahani, imeshindwa kupakia somo hili.</p>';
-        return;
-      }
-    }
-
-    const R = (content && typeof content === "object" && !Array.isArray(content))
-      ? (RENDERERS[content.type] || (Array.isArray(content.blocks) ? RENDERERS.somo : null))
-      : null;
-
-    document.getElementById("lessonImage").classList.toggle("hidden", !somo.image || !!(R && R.hideImage));
-    lessonView.className = (R && R.cls) || "";
-    lessonContent.innerHTML = R
-      ? R.render(content)
-      : (Array.isArray(content)
-          ? pangaAya(content)
-          : (content && typeof content === "object" ? pangaKitu(content) : pangaRangiYaContent(String(content || ""))));
-    onyeshaMatches();
+  /* ============================================================
+     5. BLOCKS ZA MAANDISHI
+     ============================================================ */
+  .content-heading {
+    color: var(--tg-theme-link-color,#2481cc);
+    font-weight: 750; font-size: 16px; margin: 20px 0 7px;
   }
+  .content-body {
+    color: var(--tg-theme-text-color,#000);
+    font-size: 15px; line-height: 1.72; margin: 0 0 10px;
+  }
+  .content-list { margin:0 0 12px; padding-left:1.4em; font-size:15px; line-height:1.72; }
+  .content-list li { margin-bottom:5px; }
+  .content-hr { border:0; border-top:1px solid var(--tg-theme-hint-color,#aaa); opacity:.4; margin:18px 0; }
+  .content-img { width:100%; max-height:260px; object-fit:cover; border-radius:var(--radius); margin:10px 0; }
 
   /* ============================================================
-     RENDERERS
+     6. RANGI ZA BOX — 4 TU
      ============================================================ */
-  const RENDERERS = {
-    sura:    { render: d => pangaSura(d),    cls: "quran-reader",   hideImage: true },
-    hadiyth: { render: d => pangaHadiyth(d), cls: "hadiyth-reader" },
-    somo:    { render: d => pangaBlocks(d) }
-  };
+  .box {
+    padding: 14px 16px;
+    margin: 12px 0;
+    border-radius: 14px;
+    border: 1.5px solid currentColor;
+    background: color-mix(in srgb, currentColor 7%, transparent);
+  }
+  .box .ar {
+    direction: rtl; text-align: right;
+    font-family: var(--font-ar);
+    font-size: 22px; line-height: 2;
+    margin: 0 0 10px;
+    color: inherit;
+  }
+  .box .sw {
+    font-size: 15px; line-height: 1.7;
+    margin: 0;
+    font-weight: 500;
+    color: inherit;
+  }
+  .box[data-color="forest"] { color: var(--c-forest); background: var(--bg-forest); }
+  .box[data-color="navy"]   { color: var(--c-navy);   background: var(--bg-navy); }
+  .box[data-color="ruby"]   { color: var(--c-ruby);   background: var(--bg-ruby); }
+  .box[data-color="mauve"]  { color: var(--c-mauve);  background: var(--bg-mauve); }
+
+  /* ---- Box ya doti: mandhari nyepesi, mstari mwembamba, doti zinazofifia kulia ---- */
+  .dot-box {
+    position: relative; overflow: hidden;
+    margin: 14px 0; padding: 18px 20px;
+    background: var(--dotbox-bg);
+    border: 2px solid var(--dotbox-line);
+    border-radius: 18px;
+    font-size: 15px; line-height: 1.7;
+  }
+  .dot-box::before {
+    content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 60%;
+    background-image: radial-gradient(circle at center, var(--dotbox-dot) 2px, transparent 2.6px);
+    background-size: 16px 16px;
+    -webkit-mask-image: linear-gradient(to left, #000 0%, transparent 100%);
+            mask-image: linear-gradient(to left, #000 0%, transparent 100%);
+    pointer-events: none;
+  }
+  .dot-box > * { position: relative; }
+  .dot-box .dot-title { font-weight: 750; margin: 0 0 8px; color: var(--tg-theme-link-color,#2481cc); }
+  .dot-box .dot-text { margin: 0; }
 
   /* ============================================================
-     BLOCKS
+     7. RANGI ZA TEXT — 3 TU
      ============================================================ */
-  function pangaBlocks(d) {
-    const txt = b => b.text != null ? b.text : (b.maandishi != null ? b.maandishi : "");
-    const src = b => (b.source || b.chanzo)
-      ? `<span class="content-src">${escapeHtml(b.source || b.chanzo)}</span>` : "";
+  .text-color { padding: 2px 0; margin: 10px 0; }
+  .text-color .ar {
+    direction: rtl; text-align: right;
+    font-family: var(--font-ar);
+    font-size: 22px; line-height: 2;
+    margin: 0 0 8px;
+    color: inherit;
+  }
+  .text-color .sw {
+    font-size: 15px; line-height: 1.7;
+    margin: 0;
+    font-weight: 500;
+    color: inherit;
+  }
+  .text-color[data-color="red"]   { color: var(--c-red); }
+  .text-color[data-color="blue"]  { color: var(--c-blue); }
+  .text-color[data-color="green"] { color: var(--c-green); }
 
-    const blocks = (d.blocks || []).map(b => {
-      if (typeof b === "string") return `<p class="content-body">${alama(b)}</p>`;
-      const t = (b.t || b.type || "p").toLowerCase();
-
-      /* KIARABU — RANGI 2 TU */
-      if (t === "red_arabic" || t === "quran_arabic") {
-        return `<p class="ayah-arabic">${escapeHtml(b.arabic || txt(b))}</p>`;
-      }
-      if (t === "blue_arabic" || t === "hadith_arabic") {
-        return `<p class="ayah-arabic hadith">${escapeHtml(b.arabic || txt(b))}</p>`;
-      }
-
-      /* BOX — 4 TU */
-      if (BOX_COLORS.includes(t)) {
-        const ar = b.arabic ? `<div class="ar">${escapeHtml(b.arabic)}</div>` : "";
-        const sw = b.swahili ? `<div class="sw">${alama(b.swahili)}</div>` : "";
-        const tx = (!b.arabic && !b.swahili && txt(b)) ? `<div class="sw">${alama(txt(b))}</div>` : "";
-        return `<div class="box" data-color="${t}">${ar}${sw}${tx}</div>`;
-      }
-
-      /* TEXT — 3 TU */
-      if (TEXT_COLORS.includes(t)) {
-        const ar = b.arabic ? `<div class="ar">${escapeHtml(b.arabic)}</div>` : "";
-        const sw = b.swahili ? `<div class="sw">${alama(b.swahili)}</div>` : "";
-        const tx = (!b.arabic && !b.swahili && txt(b)) ? `<div class="sw">${alama(txt(b))}</div>` : "";
-        return `<div class="text-color" data-color="${t}">${ar}${sw}${tx}</div>`;
-      }
-
-      switch (t) {
-        case "h": case "heading": case "kichwa":
-          return `<p class="content-heading">${alama(txt(b))}</p>`;
-
-        case "quote": case "nukuu":
-          return `<div class="content-quote">${alama(txt(b))}${src(b)}</div>`;
-        case "note": case "dokezo": case "note_orange":
-          return `<div class="content-quote" data-variant="note">${alama(txt(b))}${src(b)}</div>`;
-        case "white_quote": case "nukuu_nyeupe":
-          return `<div class="content-quote" data-variant="white">${alama(txt(b))}${src(b)}</div>`;
-        case "black_quote": case "nukuu_nyeusi":
-          return `<div class="content-quote" data-variant="black">${alama(txt(b))}${src(b)}</div>`;
-        case "teal_quote": case "nukuu_teal":
-          return `<div class="content-quote" data-variant="teal">${alama(txt(b))}${src(b)}</div>`;
-
-        case "ayah": case "aya":
-          return `<div class="ayah-block">
-            ${b.sura ? `<div class="ayah-number">${escapeHtml(b.sura)}</div>` : ""}
-            ${b.arabic ? `<p class="ayah-arabic">${escapeHtml(b.arabic)}</p>` : ""}
-            ${txt(b) ? `<p class="tafsiri">${alama(txt(b))}</p>` : ""}
-          </div>`;
-
-        case "list": case "orodha": {
-          const tag = b.ordered ? "ol" : "ul";
-          return `<${tag} class="content-list">${(b.items || []).map(i => `<li>${alama(i)}</li>`).join("")}</${tag}>`;
-        }
-
-        case "dot_box": case "box_doti":
-          return `<div class="dot-box">${b.title ? `<p class="dot-title">${alama(b.title)}</p>` : ""}<p class="dot-text">${alama(txt(b))}</p></div>`;
-
-        case "hr": return `<hr class="content-hr">`;
-        case "img": case "picha":
-          return `<img class="content-img" src="${escapeAttr(b.src || "")}" alt="">`;
-
-        default:
-          return txt(b) ? `<p class="content-body">${alama(txt(b))}</p>` : "";
-      }
-    }).join("");
-    return blocks;
+  /* ============================================================
+     8. QUOTES — 5 TU
+     ============================================================ */
+  .content-quote {
+    background: var(--tg-theme-secondary-bg-color,#f0f4f8);
+    border-left: 4px solid var(--tg-theme-button-color,#2481cc);
+    padding: 12px 14px; margin: 12px 0;
+    border-radius: 8px;
+    font-size: 15px; line-height: 1.75;
+  }
+  .content-quote .content-src {
+    display:block; margin-top:6px; font-size:12.5px;
+    font-style:italic; opacity:.75;
+    color: var(--tg-theme-hint-color,#666);
+  }
+  .content-quote[data-variant="note"] {
+    border-left-color: var(--c-gold);
+    background: var(--bg-gold);
+    font-style: normal;
+  }
+  .content-quote[data-variant="white"] {
+    background: #ffffff;
+    border-left-color: #999999;
+    color: #222222;
+  }
+  .content-quote[data-variant="black"] {
+    background: #1a1a1a;
+    border-left-color: #000000;
+    color: #f0f0f0;
+  }
+  .content-quote[data-variant="teal"] {
+    background: var(--bg-teal);
+    border-left-color: var(--c-teal);
+    color: var(--c-teal);
   }
 
   /* ============================================================
-     SURA (QUR'ANI)
+     9. KIARABU — RANGI 2 TU
      ============================================================ */
-  function pangaSura(sura) {
-    const pages = [...new Set((sura.content || []).map(a => a.page || 1))].sort((a, b) => a - b);
-    const pageHtml = pages.map(page => {
-      const ayat = sura.content.filter(a => (a.page || 1) === page);
-      const title = page === pages[0] ? `
-        <div class="quran-title-row">
-          <div class="quran-title-sw">SURA YA ${escapeHtml(sura.name || "").toUpperCase()}</div>
-          <div class="quran-title-ar">${escapeHtml(sura.arabic_name || "")}</div>
-        </div>
-        ${sura.intro ? `<p class="quran-intro">${escapeHtml(sura.intro)}</p>` : ""}` : "";
-      return `<section class="quran-page">
-        <div class="quran-page-header">
-          <span>${escapeHtml(sura.surah_number || "")} - ${escapeHtml(sura.name || "")}</span>
-          <span>Juzuu ${escapeHtml(sura.juz || 1)}</span>
-          <span class="quran-page-number">${escapeHtml(page)}</span>
-          <span>${escapeHtml(sura.name || "")}</span>
-          <span>${escapeHtml(sura.arabic_name || "")}</span>
-        </div>
-        ${title}
-        ${ayat.map(ayah => `<div class="quran-ayah-row">
-          <div class="quran-translation" data-number="${escapeAttr(ayah.number ?? "")}">${escapeHtml(ayah.translation || "")}</div>
-          <div class="quran-arabic-cell">
-            <span class="quran-arabic-number">${escapeHtml(ayah.number ?? "")}</span>
-            <span class="quran-arabic-text">${escapeHtml(ayah.arabic || "")}</span>
-          </div>
-        </div>`).join("")}
-      </section>`;
-    }).join("");
-    return `<div class="quran-pages">${pageHtml}</div>`;
+  .ayah-arabic {
+    direction: rtl; text-align: right;
+    font-family: var(--font-ar);
+    font-size: 24px; line-height: 2;
+    color: var(--c-red);
+    margin: 0 0 10px;
+    unicode-bidi: plaintext;
+  }
+  .ayah-arabic.hadith {
+    color: var(--c-blue);
+    font-size: 22px;
+  }
+  .tafsiri { color: var(--c-green); font-size:15px; line-height:1.7; margin:0 0 12px; }
+
+  .ayah-block {
+    margin: 0 0 22px; padding-bottom: 16px;
+    border-bottom: 1px solid var(--tg-theme-secondary-bg-color,#eee);
+  }
+  .ayah-number {
+    font-size: 12px; color: var(--tg-theme-link-color,#2481cc);
+    font-weight: 650; margin-bottom: 8px;
+  }
+  .ayah-translation {
+    font-size: 15px; line-height: 1.7;
+    color: var(--tg-theme-hint-color,#666); margin: 0;
   }
 
   /* ============================================================
-     AYA (plain list)
+     10. MUONEKANO WA QUR'ANI
      ============================================================ */
-  function pangaAya(ayahList) {
-    return ayahList.map(ayah => `
-      <div class="ayah-block">
-        <div class="ayah-number">Aya ${ayah.number ?? ""}</div>
-        <p class="ayah-arabic">${escapeHtml(ayah.arabic || "")}</p>
-        <p class="ayah-translation">${escapeHtml(ayah.translation || "")}</p>
-      </div>`).join("");
+  .quran-pages { display:flex; flex-direction:column; gap:18px; }
+  .quran-reader .reader-head, .quran-reader .reader-meta { display:none; }
+  .quran-page {
+    width:100%; max-width:900px; margin:0 auto;
+    padding:18px 16px 22px;
+    background: var(--tg-theme-bg-color,#fff);
+    border: 1px solid var(--tg-theme-secondary-bg-color,#d8d8d8);
+    box-shadow: 0 2px 10px rgba(0,0,0,.04);
+    border-radius: 18px;
+  }
+  .quran-page-header {
+    display:grid;
+    grid-template-columns: minmax(0,1fr) auto auto auto minmax(0,1fr);
+    align-items:center; gap:8px; padding:0 2px 7px; margin-bottom:12px;
+    border-bottom:1px solid var(--tg-theme-secondary-bg-color,#d8d8d8);
+    font-size:12px; color:var(--c-navy);
+  }
+  .quran-page-header span:last-child { text-align:right; direction:rtl; }
+  .quran-page-number {
+    min-width:34px; padding:2px 10px; text-align:center;
+    border:1px solid var(--tg-theme-hint-color,#999);
+    border-radius:0 0 12px 12px;
+  }
+  /* Box moja: Kiswahili kushoto, Kiarabu kulia, kitenganisha katikati */
+  .quran-title-row {
+    display:grid; grid-template-columns:1fr 1fr; gap:0; margin:14px 0 14px;
+    background:var(--bg-sky);
+    border:1px solid var(--line-sky);
+    border-radius:0;
+  }
+  .quran-title-sw, .quran-title-ar {
+    min-height:52px; display:flex; justify-content:center; align-items:center;
+    padding:8px 12px; text-align:center;
+  }
+  .quran-title-sw { font-size:14px; font-weight:700; letter-spacing:.2px; }
+  .quran-title-ar {
+    direction:rtl; font-size:20px; font-family:var(--font-ar);
+    border-left:1px solid var(--line-sky);
+  }
+  .quran-intro { margin:12px 0 18px; text-align:center; font-size:13px; line-height:1.55; }
+  .quran-ayah-row {
+    display:grid; grid-template-columns:minmax(0,62%) minmax(0,38%);
+    align-items:stretch; margin:0;
+  }
+  .quran-translation {
+    position:relative; padding:2px 10px 15px 1.4em;
+    font-size:13px; line-height:1.48;
+    white-space:pre-wrap; overflow-wrap:anywhere;
+  }
+  .quran-translation:before {
+    content:attr(data-number) ".";
+    position:absolute; top:1px; left:0.2em; white-space:nowrap;
+    color:var(--tg-theme-link-color,#2498b9); font-weight:700;
+  }
+  .quran-arabic-cell {
+    min-width:0; padding:2px 3px 15px 9px;
+    border-left:1px solid var(--tg-theme-hint-color,#aaa);
+    text-align:right; direction:rtl;
+  }
+  .quran-arabic-text {
+    font-family: var(--font-ar);
+    font-size:17px; line-height:2.1; overflow-wrap:anywhere;
+  }
+  .quran-arabic-number {
+    display:inline-flex; align-items:center; justify-content:center;
+    width:17px; height:17px; margin-left:4px;
+    border:1px solid var(--tg-theme-button-color,#77c8dc);
+    border-radius:999px;
+    font-size:11px; font-weight:700;
+    color:var(--tg-theme-button-color,#77c8dc);
+    background: rgba(119,200,220,.08);
+  }
+  @media (min-width:600px) {
+    .quran-page { padding:24px 26px 28px; }
+    .quran-translation { font-size:15px; line-height:1.58; }
+    .quran-arabic-text { font-size:22px; }
   }
 
   /* ============================================================
-     HADITH
+     11. HADITH READER
      ============================================================ */
-  function pangaHadiyth(d) {
-    const head = `<div class="hd-head">
-      <div class="ar">${escapeHtml(d.kitabu_ar || "")}</div>
-      <div class="sw">${escapeHtml(d.kitabu || "")}</div>
-      <div class="ar">${escapeHtml(d.sura_ar || "")}</div>
-      <div class="sw">${escapeHtml(d.sura || "")}</div>
-    </div>`;
-    const items = (d.hadiyth || []).map(h => `<div class="hd-item">
-      ${[].concat(h.kwaarabu || []).map(a => `<p class="hd-ar">${alama(a)}</p>`).join("")}
-      <p class="hd-sw">
-        <span class="msimulizi">${escapeHtml(h.msimulizi || "")}</span>
-        ${alama(h.tafsiri)}${h.chanzo ? ` <span class="chanzo">[${escapeHtml(h.chanzo)}]</span>` : ""}
-      </p>
-      ${[].concat(h.zaidi || []).map(z => `<p class="hd-sw">${alama(z)}</p>`).join("")}
-      ${(h.ufafanuzi && h.ufafanuzi.length)
-        ? `<p class="hd-ufa-title">UFAFANUZI</p>` + [].concat(h.ufafanuzi).map(u => `<p class="hd-ufa">${alama(u)}</p>`).join("")
-        : ""}
-    </div>`).join("");
-    return head + items;
+  .hadiyth-reader { background:#c6cdb8; border-radius:10px; padding:12px; color:#222; }
+  .hadiyth-reader .reader-head h2,
+  .hadiyth-reader .reader-meta { color:#222; }
+  .hd-head { text-align:center; margin:6px 0 18px; font-weight:700; }
+  .hd-head .ar { direction:rtl; font-size:26px; color: var(--c-blue); font-family: var(--font-ar); }
+  .hd-head .sw { font-size:18px; color:#222; margin-bottom:8px; }
+  .hd-item { margin:0 0 34px; }
+  .hd-ar {
+    direction:rtl; text-align:right; color: var(--c-blue);
+    font-size:22px; line-height:2; margin:0 0 14px;
+    font-family: var(--font-ar);
   }
+  .hd-sw { color:#222; font-size:16px; line-height:1.7; margin:0 0 14px; }
+  .hd-sw .msimulizi { color: var(--c-blue); }
+  .hd-sw .chanzo { font-style:italic; }
+  .hd-ufa-title { text-align:center; text-decoration:underline; font-weight:700; margin:16px 0 8px; }
+  .hd-ufa { font-weight:700; font-style:italic; color:#333; line-height:1.7; margin:0 0 10px; }
 
   /* ============================================================
-     KURUDI ORODHANI
-     - Kama tuko kwenye somo → rudi kwenye orodha ya masomo
-     - Kama tuko kwenye orodha ya masomo → rudi kwenye kategoria
+     12. ALAMA ZA NDANI
      ============================================================ */
-  function rudiOrodhani() {
-    // Kama somo linaonekana → funga somo, rudi kwenye orodha ya kategoria
-    if (lessonView.style.display === "block") {
-      lessonView.style.display = "none";
-      document.getElementById("matchBar").classList.add("hidden");
-      lessonList.classList.remove("hidden");
-      window.scrollTo(0, 0);
-      return;
-    }
-    // Kama tuko kwenye orodha ya masomo ya kategoria → rudi kwenye kategoria
-    if (kategoriaActive) {
-      onyeshaKategoria();
-      tg.BackButton.hide();
-    }
-  }
+  .aya-red { color: var(--c-red); font-weight:700; }
+  mark { background:#ffe066; color:#000; border-radius:3px; padding:0 1px; }
+  mark.cur { background:#ff9f1c; }
 
   /* ============================================================
-     FALLBACK RENDERERS
+     13. MATCH BAR
      ============================================================ */
-  function pangaRangiYaContent(text) {
-    return text.split("\n").map(mstari => {
-      const s = mstari.trim();
-      if (!s) return "";
-      if (s.startsWith(">")) return `<p class="content-quote">${escapeHtml(s.substring(1).trim())}</p>`;
-      const niHeading = s === s.toUpperCase() && /[A-Z]/.test(s);
-      return niHeading
-        ? `<p class="content-heading">${escapeHtml(s)}</p>`
-        : `<p class="content-body">${escapeHtml(s)}</p>`;
-    }).join("");
+  #matchBar {
+    position:fixed; left:50%; transform:translateX(-50%);
+    bottom:calc(16px + env(safe-area-inset-bottom)); z-index:20;
+    display:flex; align-items:center; gap:6px;
+    background:var(--tg-theme-button-color,#2481cc);
+    color:var(--tg-theme-button-text-color,#fff);
+    border-radius:999px; padding:8px 12px;
+    box-shadow:0 4px 16px rgba(0,0,0,.18);
   }
-
-  function pangaKitu(v, key = "") {
-    if (v == null) return "";
-    if (typeof v === "string") {
-      if (key === "kwaarabu") return `<p class="ayah-arabic hadith">${escapeHtml(v)}</p>`;
-      if (key === "hadiyth")  return `<div class="content-quote">${escapeHtml(v)}</div>`;
-      if (key === "maelezo_ya_wanachuoni") return `<div class="content-quote">${escapeHtml(v)}</div>`;
-      if (key === "tafsiri")  return `<p class="tafsiri">${escapeHtml(v)}</p>`;
-      return pangaRangiYaContent(v);
-    }
-    if (Array.isArray(v)) return v.map(x => pangaKitu(x, key)).join("");
-    if (typeof v === "object") {
-      let html = "";
-      if (v.kichwa) html += `<p class="content-heading">${escapeHtml(v.kichwa)}</p>`;
-      if (v.sura && v.kwaarabu) html += `<div class="ayah-number">${escapeHtml(v.sura)}</div>`;
-      for (const [k, val] of Object.entries(v)) {
-        if (k === "kichwa" || k === "sura") continue;
-        html += pangaKitu(val, k);
-      }
-      return html;
-    }
-    return `<p class="content-body">${escapeHtml(v)}</p>`;
-  }
+  #matchBar button { border:0; background:transparent; color:inherit; font-size:18px; padding:4px 10px; }
 
   /* ============================================================
-     ALAMA ZA NDANI
+     14. ARAMA INAYOZUNGUKA (LOADING)
      ============================================================ */
-  function alama(t) {
-    return escapeHtml(t || "")
-      .replace(/\[\[(.+?)\]\]/g, '<span class="aya-red">$1</span>')
-      .replace(/\{\{(.+?)\}\}/g, '<i>$1</i>')
-      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  .spinner {
+    width: 34px; height: 34px; margin: 0 auto;
+    border: 4px solid var(--tg-theme-secondary-bg-color,#e5e5e5);
+    border-top-color: var(--tg-theme-button-color,#2481cc);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
   }
+  .spinner-wrap { padding: 36px 0; text-align: center; }
+  @keyframes spin { to { transform: rotate(360deg); } }
 
   /* ============================================================
-     ESCAPE
+     15. MIPANGILIO
      ============================================================ */
-  function escapeHtml(value) {
-    return String(value).replace(/[&<>'"]/g, c => ({
-      "&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"
-    }[c]));
+  #settingsView h1 { margin-bottom: 14px; }
+  .settings-card {
+    background: var(--tg-theme-secondary-bg-color,#f4f4f4);
+    border-radius: 22px; padding: 6px 16px;
   }
-  const escapeAttr = escapeHtml;
+  .settings-row { display:flex; align-items:center; gap:14px; padding:14px 0; }
+  .settings-row + .settings-row { border-top: 1px solid rgba(128,128,128,.25); }
+  .settings-icon {
+    width: 52px; height: 52px; flex: none; border-radius: 15px;
+    display:flex; align-items:center; justify-content:center; background:#ff9500;
+  }
+  .settings-icon svg { width: 28px; height: 28px; stroke:#fff; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+  .settings-text { flex:1; min-width:0; }
+  .settings-title { font-size:17px; font-weight:500; line-height:1.3; }
+  .settings-desc  { font-size:13px; line-height:1.45; margin-top:3px; color:var(--tg-theme-hint-color,#707579); }
+
+  .switch { position:relative; width:52px; height:30px; flex:none; }
+  .switch input { position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; z-index:1; }
+  .switch .slider { position:absolute; inset:0; border-radius:999px; background:#cfcfd4; transition:background .2s; }
+  .switch .slider::before {
+    content:""; position:absolute; top:3px; left:3px; width:24px; height:24px; border-radius:50%;
+    background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.3); transition:transform .2s;
+  }
+  .switch input:checked + .slider { background: var(--tg-theme-button-color,#2481cc); }
+  .switch input:checked + .slider::before { transform: translateX(22px); }
 
   /* ============================================================
-     EVENTS
+     16. BAA YA CHINI (Masomo / Mipangilio)
      ============================================================ */
-  searchInput.addEventListener("input", () => {
-    clearSearch.style.display = searchInput.value ? "block" : "none";
-    if (kategoriaActive) choraOrodha();
-    else choraKategoria();
-  });
-  clearSearch.addEventListener("click", () => {
-    searchInput.value = "";
-    clearSearch.style.display = "none";
-    if (kategoriaActive) choraOrodha();
-    else choraKategoria();
-    searchInput.focus();
-  });
-  document.getElementById("prevM").addEventListener("click", () => ruka(curMark - 1));
-  document.getElementById("nextM").addEventListener("click", () => ruka(curMark + 1));
-  tg.BackButton.onClick(rudiOrodhani);
-
-  /* ============================================================
-     UTAFUTAJI WA KATEGORIA (wakati wa kategoria zote)
-     ============================================================ */
-  function choraKategoria() {
-    const words = queryWords();
-    const filtered = kategoria.filter(k => {
-      const haystack = norm(`${k.title || ""} ${k.subtitle || ""} ${k.category || ""}`);
-      return words.every(w => haystack.includes(w));
-    });
-    listContainer.innerHTML = "";
-    count.textContent = `${filtered.length}/${kategoria.length}`;
-    emptyMsg.textContent = "Hakuna kategoria iliyopatikana.";
-    emptyMsg.classList.toggle("hidden", filtered.length !== 0);
-    filtered.forEach(k => {
-      const item = document.createElement("div");
-      item.className = "lesson-item";
-      item.innerHTML = `
-        <img src="${escapeAttr(k.image || "")}" alt="" loading="lazy" />
-        <div class="info">
-          <div class="title">${escapeHtml(k.title || "Bila jina")}</div>
-          <div class="subtitle">${escapeHtml(k.subtitle || "")}</div>
-        </div><span class="arrow">›</span>`;
-      item.addEventListener("click", () => funguaKategoria(k));
-      listContainer.appendChild(item);
-    });
+  body:not(.reading) { padding-bottom: calc(86px + env(safe-area-inset-bottom)); }
+  #bottomNav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 15;
+    display: flex;
+    background: var(--tg-theme-bg-color,#fff);
+    border-top: 1px solid rgba(128,128,128,.25);
+    padding-bottom: env(safe-area-inset-bottom);
   }
+  body.reading #bottomNav { display: none; }
+  #bottomNav .nav-btn {
+    flex: 1; border: 0; background: transparent; padding: 9px 0 8px;
+    display:flex; flex-direction:column; align-items:center; gap:3px;
+    font-size: 13px; color: var(--tg-theme-hint-color,#707579); cursor: pointer;
+  }
+  #bottomNav .nav-btn svg { width: 26px; height: 26px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+  #bottomNav .nav-btn.active { color: var(--tg-theme-link-color,#2481cc); font-weight: 650; }
