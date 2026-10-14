@@ -127,7 +127,12 @@
     { "t": "mauve", "swahili": "Mauve Box" },
 
     { "t": "hr" },
-    { "t": "h", "text": "11. MWISHO" },
+    { "t": "h", "text": "11. BOX YA DOTI" },
+    { "t": "dot_box", "text": "Hii ni box ya doti. Mandhari ni nyepesi, ina msitari mwembamba, na doti zinafifia upande wa kulia." },
+    { "t": "dot_box", "title": "Kichwa cha box", "text": "Box hii ina kichwa juu yake. Unaweza kutumia **nzito**, {{italiki}} na [[nyekundu]] ndani yake." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "12. MWISHO" },
     { "t": "quote", "text": "Hii ni mwisho wa mfano wa JSON.", "source": "Mfano" }
   ]
 }
