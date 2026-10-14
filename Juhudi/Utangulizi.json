@@ -15,8 +15,8 @@
     { "t": "green", "swahili": "Na piganeni Jihaad kwa ajili ya Allaah kwa Jihaad inayostahili kwa ajili Yake. [Al-Hajj: 78]" },
 
     { "t": "h", "text": "UFAFANUZI" },
-    { "t": "navy", "text": "Jihaad si vita tu kwa upanga, bali ni juhudi zote zinazotolewa katika njia ya Allaah - iwe kwa nafsi, kwa mali, kwa ulimi, au kwa maandishi. Kila Muislam ana wajibu wa kushiriki katika Jihaad kwa kadiri ya uwezo wake." },
-    { "t": "navy", "text": "Aayah hii inahimiza Jihaad ya kweli isiyokuwa na unafiki wala kusudi la kidunia. Ni juhudi inayotolewa kwa ikhlasi kwa ajili ya Allaah pekee." },
+    { "t": "teal_quote", "text": "Jihaad si vita tu kwa upanga, bali ni juhudi zote zinazotolewa katika njia ya Allaah - iwe kwa nafsi, kwa mali, kwa ulimi, au kwa maandishi. Kila Muislam ana wajibu wa kushiriki katika Jihaad kwa kadiri ya uwezo wake." },
+    { "t": "teal_quote", "text": "Aayah hii inahimiza Jihaad ya kweli isiyokuwa na unafiki wala kusudi la kidunia. Ni juhudi inayotolewa kwa ikhlasi kwa ajili ya Allaah pekee." },
 
     { "t": "hr" },
 
@@ -38,13 +38,13 @@
     { "t": "h", "text": "1. Pepo ni Malipo ya Mujahid" },
     { "t": "blue_arabic", "arabic": "عَنْ أَبِي هُرَيْرَةَ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"إِنَّ فِي الْجَنَّةِ مِائَةَ دَرَجَةٍ، أَعَدَّهَا اللهُ لِلْمُجَاهِدِينَ فِي سَبِيلِ اللهِ\"" },
     { "t": "p", "text": "Kutoka kwa Abuu Hurayrah (رَضِيَ اللهُ عَنْهُ) amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ) amesema: “Hakika huko Peponi zipo daraja mia, Allaah Amewatayarishia wapiganao Jihaad katika njia ya Allaah.” [Al-Bukhaariy]" },
-    { "t": "navy", "text": "Hadiyth hii inaonyesha fadhila kubwa ya Mujahid. Daraja moja hadi nyingine ni kama umbali wa mbingu na ardhi. Hii ni motisha kwa kila Muislam kujitolea katika Jihaad." },
+    { "t": "teal_quote", "text": "Hadiyth hii inaonyesha fadhila kubwa ya Mujahid. Daraja moja hadi nyingine ni kama umbali wa mbingu na ardhi. Hii ni motisha kwa kila Muislam kujitolea katika Jihaad." },
 
     { "t": "h", "text": "2. Jihaad ni Biashara Yenye Faida" },
     { "t": "red_arabic", "arabic": "﴿ إِنَّ اللّهَ اشْتَرَى مِنَ الْمُؤْمِنِينَ أَنفُسَهُمْ وَأَمْوَالَهُم بِأَنَّ لَهُمُ الجَنَّةَ ﴾" },
     { "t": "green", "swahili": "Hakika Allaah Amenunua kwa Waumini nafsi zao na mali zao kwa kuwa wao watapata Pepo. [At-Tawbah: 111]" },
     { "t": "p", "text": "Aayah hii ni tangazo la biashara ya faida isiyokuwa na kifani. Muislam anatoa nafsi yake na mali yake, na Allaah Amemuahidi Pepo. Ni biashara yenye faida ya milele." },
-    { "t": "navy", "text": "Hii ni biashara ya kiroho - mtu anauza maisha yake ya muda mfupi kwa ajili ya maisha ya milele. Ni biashara ambayo Muislam mwenye akili hawezi kuipuuza." },
+    { "t": "teal_quote", "text": "Hii ni biashara ya kiroho - mtu anauza maisha yake ya muda mfupi kwa ajili ya maisha ya milele. Ni biashara ambayo Muislam mwenye akili hawezi kuipuuza." },
 
     { "t": "h", "text": "3. Shahidi Hafi" },
     { "t": "red_arabic", "arabic": "﴿ وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللهِ أَمْوَاتًا بَلْ أَحْيَاءٌ عِنْدَ رَبِّهِمْ يُرْزَقُونَ ﴾" },
@@ -65,7 +65,7 @@
       "Kutofanya uharibifu usio wa lazima."
     ]},
 
-    { "t": "navy", "text": "Sharti hizi zinaonyesha kuwa Jihaad katika Uislamu si ukatili, bali ni vita vya haki vyenye nidhamu na maadili. Ni vita vinavyolenga kulinda dini, nafsi, mali, na heshima ya Waislamu." },
+    { "t": "teal_quote", "text": "Sharti hizi zinaonyesha kuwa Jihaad katika Uislamu si ukatili, bali ni vita vya haki vyenye nidhamu na maadili. Ni vita viteal_quoteolenga kulinda dini, nafsi, mali, na heshima ya Waislamu." },
 
     { "t": "hr" },
 
@@ -75,7 +75,7 @@
     { "t": "blue_arabic", "arabic": "وَعَنْ أَنَسٍ رَضِيَ اللهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ: \"جَاهِدُوا الْمُشْرِكِينَ بِأَمْوَالِكُمْ، وَأَنْفُسِكُمْ، وَأَلْسِنَتِكُمْ\"" },
     { "t": "p", "text": "Kutoka kwa Anas (رَضِيَ اللهُ عَنْهُ) amesema Rasuli wa Allaah (صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ) amesema: “Piganeni na washirikina kwa mali yenu, nafsi zenu na ndimi zenu.” [Ahmad, An-Nasaaiy]" },
 
-    { "t": "navy", "text": "Hadiyth hii ni wito kwa kila Muislam kushiriki katika Jihaad kwa kadiri ya uwezo wake. Mwenye mali atoe mali, mwenye nafsi atoe nafsi, na mwenye ulimi atumie ulimi wake kutetea Uislamu na kueneza haki. Hakuna Muislam anayeruhusiwa kujitenga na Jihaad kabisa." },
+    { "t": "teal_quote", "text": "Hadiyth hii ni wito kwa kila Muislam kushiriki katika Jihaad kwa kadiri ya uwezo wake. Mwenye mali atoe mali, mwenye nafsi atoe nafsi, na mwenye ulimi atumie ulimi wake kutetea Uislamu na kueneza haki. Hakuna Muislam anayeruhusiwa kujitenga na Jihaad kabisa." },
 
     { "t": "hr" },
 
