@@ -1,0 +1,33 @@
+  {
+    "type": "sura",
+    "surah_number": 92,
+    "name": "Al-Layl",
+    "arabic_name": "سُورَةُ اللَّيْلِ",
+    "revelation": "Makkah",
+    "ayah_count": 21,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Layl, yaani Usiku, kwa kuwa Allah Mtukufu Anaapa kwa usiku unapofunika ardhi kwa giza lake. Inaeleza kuwa vitendo vya watu vinatofautiana: mwenye kutoa, kumcha Allah na kuamini wema atamsahilishia; na mwenye ubakhili, kujitosheleza na kukanusha atamsahilishia shari. Inaeleza pia malipo ya mchaji na mwenye kutenda wema.",
+    "content": [
+      { "number": 1, "page": 1511, "arabic": "وَاللَّيْلِ إِذَا يَغْشَىٰ", "translation": "Allah Mtukufu Anaapa kwa usiku unapoifunika ardhi na vilivyoko juu yake kwa giza lake." },
+      { "number": 2, "page": 1511, "arabic": "وَالنَّهَارِ إِذَا تَجَلَّىٰ", "translation": "Na kwa mchana unapochomoza mwangaza wake kutoka kwenye giza la usiku." },
+      { "number": 3, "page": 1511, "arabic": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَىٰ", "translation": "Na kwa kuumba aina mbili: ya kiume na ya kike." },
+      { "number": 4, "page": 1511, "arabic": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ", "translation": "Kuwa hakika vitendo vyenu vinatofautiana: kuna wanaofanya kwa ajili ya dunia na wanaofanya kwa ajili ya akhera." },
+      { "number": 5, "page": 1511, "arabic": "فَأَمَّا مَنْ أَعْطَىٰ وَاتَّقَىٰ", "translation": "Ama mwenye kutoa kwenye mali yake, akamcha Allah Mtukufu katika huko kutoa." },
+      { "number": 6, "page": 1511, "arabic": "وَصَدَّقَ بِالْحُسْنَىٰ", "translation": "Na akaamini «Lā Ilāha Illā Allāh» na yanayotakiwa na Imani hiyo, na akaamini malipo yanayofungamana nayo." },
+      { "number": 7, "page": 1511, "arabic": "فَسَنُيَسِّرُهُ لِلْيُسْرَىٰ", "translation": "Basi huyo tutamuongoza na kumuafikisha kwenye njia za kheri na wema na kumsahilishia mambo yake." },
+      { "number": 8, "page": 1511, "arabic": "وَأَمَّا مَن بَخِلَ وَاسْتَغْنَىٰ", "translation": "Na ama mwenye kuifanyia ubakhili mali yake, akawa hana haja na malipo ya Mola wake." },
+      { "number": 9, "page": 1511, "arabic": "وَكَذَّبَ بِالْحُسْنَىٰ", "translation": "Na akakanusha neno la «Lā Ilāha Illā Allāh» na yanayotakiwa na neno hilo na akakanusha malipo yanayofungamana nalo." },
+      { "number": 10, "page": 1512, "arabic": "فَسَنُيَسِّرُهُ لِلْعُسْرَىٰ", "translation": "Tutamnyoshea njia za mateso." },
+      { "number": 11, "page": 1512, "arabic": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ", "translation": "Wala haitamfaa kitu mali yake aliyoifanyia ubakhili atakapotumbukia Motoni." },
+      { "number": 12, "page": 1512, "arabic": "إِنَّ عَلَيْنَا لَلْهُدَىٰ", "translation": "Ni juu Yetu, kwa fadhila Zetu na busara zetu, kueleza njia ya uongofu yenye kufikisha kwa Allah Mtukufu." },
+      { "number": 13, "page": 1512, "arabic": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ", "translation": "Na Sisi Tuna mamlaka ya maisha ya Akhera na maisha ya ulimwenguni." },
+      { "number": 14, "page": 1512, "arabic": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ", "translation": "Ndipo nikawaonya, (enyi watu), na moto wenye kuwaka, nao ni moto wa Jahanamu." },
+      { "number": 15, "page": 1512, "arabic": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى", "translation": "Hataingia Moto huo isipokuwa aliye kuwa muovu zaidi, Mwenye kumkanusha Nabii Muhammad, (rehema za Allah Mtukufu na amani zimshukie)." },
+      { "number": 16, "page": 1512, "arabic": "الَّذِي كَذَّبَ وَتَوَلَّىٰ", "translation": "Amabye amekataa kumuamini na kumtii Allah Mtukufu na Mtume wake." },
+      { "number": 17, "page": 1512, "arabic": "وَسَيُجَنَّبُهَا الْأَتْقَى", "translation": "Na ataepushwa na moto huo mchaji Allah Mtukufu kwa wingi." },
+      { "number": 18, "page": 1512, "arabic": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّىٰ", "translation": "Amabye hutoa mali yake kwa kutaka nyongeza za kheri." },
+      { "number": 19, "page": 1512, "arabic": "وَمَا لِأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَىٰ", "translation": "Kutoa Kwake si kwa kulipa wema aliofanyiwa na mtu." },
+      { "number": 20, "page": 1512, "arabic": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَىٰ", "translation": "Lakini anatoa kwa kutaka uso wa Mola wake na radhi zake." },
+      { "number": 21, "page": 1512, "arabic": "وَلَسَوْفَ يَرْضَىٰ", "translation": "Basi Allah Mtukufu atampa huko peponi malipo ya kumridhisha." }
+    ]
+  }
