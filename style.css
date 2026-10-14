@@ -32,7 +32,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
       --c-red:    #ff6b6b;
       --c-blue:   #64b5f6;
       --c-green:  #81c784;
@@ -58,6 +58,55 @@
       --bg-mauve:  rgba(186,104,200,0.12);
       --bg-teal:   rgba(77,182,172,0.12);
     }
+  }
+
+  /* Mandhari ya giza kwa kuchagua mwenyewe (Mipangilio) */
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --c-red:    #ff6b6b;
+    --c-blue:   #64b5f6;
+    --c-green:  #81c784;
+    --c-forest: #66bb6a;
+    --c-navy:   #7986cb;
+    --c-ruby:   #ef5350;
+    --c-mauve:  #ba68c8;
+    --c-gold:   #ffd54f;
+    --c-teal:   #4db6ac;
+    --bg-sky:   rgba(135,206,235,0.22);
+    --line-sky: #4fc3f7;
+    --dotbox-bg:   rgba(255,255,255,0.05);
+    --dotbox-line: rgba(255,255,255,0.20);
+    --dotbox-dot:  rgba(255,255,255,0.16);
+
+    --bg-red:    rgba(255,107,107,0.12);
+    --bg-blue:   rgba(100,181,246,0.12);
+    --bg-green:  rgba(129,199,132,0.12);
+    --bg-gold:   rgba(255,213,79,0.12);
+    --bg-forest: rgba(102,187,106,0.12);
+    --bg-navy:   rgba(121,134,203,0.12);
+    --bg-ruby:   rgba(239,83,80,0.12);
+    --bg-mauve:  rgba(186,104,200,0.12);
+    --bg-teal:   rgba(77,182,172,0.12);
+  }
+
+  /* Rangi za Telegram zinabadilishwa tu mtu akichagua mandhari mwenyewe */
+  :root[data-theme="dark"][data-forced] {
+    --tg-theme-bg-color: #121417 !important;
+    --tg-theme-text-color: #e9e9ea !important;
+    --tg-theme-hint-color: #8e97a3 !important;
+    --tg-theme-link-color: #64b5f6 !important;
+    --tg-theme-button-color: #2481cc !important;
+    --tg-theme-button-text-color: #ffffff !important;
+    --tg-theme-secondary-bg-color: #1d2229 !important;
+  }
+  :root[data-theme="light"][data-forced] {
+    --tg-theme-bg-color: #ffffff !important;
+    --tg-theme-text-color: #000000 !important;
+    --tg-theme-hint-color: #707579 !important;
+    --tg-theme-link-color: #2481cc !important;
+    --tg-theme-button-color: #2481cc !important;
+    --tg-theme-button-text-color: #ffffff !important;
+    --tg-theme-secondary-bg-color: #f1f1f1 !important;
   }
 
   * { box-sizing: border-box; }
@@ -412,3 +461,65 @@
     box-shadow:0 4px 16px rgba(0,0,0,.18);
   }
   #matchBar button { border:0; background:transparent; color:inherit; font-size:18px; padding:4px 10px; }
+
+  /* ============================================================
+     14. ARAMA INAYOZUNGUKA (LOADING)
+     ============================================================ */
+  .spinner {
+    width: 34px; height: 34px; margin: 0 auto;
+    border: 4px solid var(--tg-theme-secondary-bg-color,#e5e5e5);
+    border-top-color: var(--tg-theme-button-color,#2481cc);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+  }
+  .spinner-wrap { padding: 36px 0; text-align: center; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ============================================================
+     15. MIPANGILIO
+     ============================================================ */
+  #settingsView h1 { margin-bottom: 14px; }
+  .settings-card {
+    background: var(--tg-theme-secondary-bg-color,#f4f4f4);
+    border-radius: 22px; padding: 6px 16px;
+  }
+  .settings-row { display:flex; align-items:center; gap:14px; padding:14px 0; }
+  .settings-row + .settings-row { border-top: 1px solid rgba(128,128,128,.25); }
+  .settings-icon {
+    width: 52px; height: 52px; flex: none; border-radius: 15px;
+    display:flex; align-items:center; justify-content:center; background:#ff9500;
+  }
+  .settings-icon svg { width: 28px; height: 28px; stroke:#fff; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+  .settings-text { flex:1; min-width:0; }
+  .settings-title { font-size:17px; font-weight:500; line-height:1.3; }
+  .settings-desc  { font-size:13px; line-height:1.45; margin-top:3px; color:var(--tg-theme-hint-color,#707579); }
+
+  .switch { position:relative; width:52px; height:30px; flex:none; }
+  .switch input { position:absolute; opacity:0; width:100%; height:100%; margin:0; cursor:pointer; z-index:1; }
+  .switch .slider { position:absolute; inset:0; border-radius:999px; background:#cfcfd4; transition:background .2s; }
+  .switch .slider::before {
+    content:""; position:absolute; top:3px; left:3px; width:24px; height:24px; border-radius:50%;
+    background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.3); transition:transform .2s;
+  }
+  .switch input:checked + .slider { background: var(--tg-theme-button-color,#2481cc); }
+  .switch input:checked + .slider::before { transform: translateX(22px); }
+
+  /* ============================================================
+     16. BAA YA CHINI (Masomo / Mipangilio)
+     ============================================================ */
+  body:not(.reading) { padding-bottom: calc(86px + env(safe-area-inset-bottom)); }
+  #bottomNav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 15;
+    display: flex;
+    background: var(--tg-theme-bg-color,#fff);
+    border-top: 1px solid rgba(128,128,128,.25);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  body.reading #bottomNav { display: none; }
+  #bottomNav .nav-btn {
+    flex: 1; border: 0; background: transparent; padding: 9px 0 8px;
+    display:flex; flex-direction:column; align-items:center; gap:3px;
+    font-size: 13px; color: var(--tg-theme-hint-color,#707579); cursor: pointer;
+  }
+  #bottomNav .nav-btn svg { width: 26px; height: 26px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+  #bottomNav .nav-btn.active { color: var(--tg-theme-link-color,#2481cc); font-weight: 650; }
