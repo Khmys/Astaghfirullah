@@ -1,151 +1,126 @@
-{
-  "type": "somo",
-  "blocks": [
-    { "t": "h", "text": "UTANGULIZI WA UMOJA NA KUSAIDIANA KATIKA UISLAMU" },
-    { "t": "p", "text": "Kuna mafundisho mengi katika Uislamu yanayohusiana na umoja wa familia, kusaidiana, kuhifadhi mali, kufanya biashara halali, kuunga undugu na kuandaa vizazi vijavyo. Uislamu unahimiza ushirikiano, lakini haumfundishi mtu kuacha umiliki wake binafsi au kuifanya familia yote imtegemee mtu mmoja. Kila mtu ana haki zake, wajibu wake na mali yake." },
+[
+  {
+    "type": "somo",
+    "blocks": [
+      { "t": "h", "text": "UTANGULIZI WA UMOJA NA KUSAIDIANA KATIKA UISLAMU" },
+      { "t": "p", "text": "Kuna mafundisho mengi katika Uislamu yanayohusiana na umoja wa familia, kusaidiana, kuhifadhi mali, kufanya biashara halali, kuunga undugu na kuandaa vizazi vijavyo. Uislamu unahimiza ushirikiano, lakini haumfundishi mtu kuacha umiliki wake binafsi au kuifanya familia yote imtegemee mtu mmoja. Kila mtu ana haki zake, wajibu wake na mali yake." },
 
-    { "t": "hr" },
+      { "t": "hr" },
 
-    { "t": "h", "text": "1. KUSHIRIKIANA KATIKA KHERI NA MAMBO YENYE MANUFAA" },
+      { "t": "h", "text": "1. KUSHIRIKIANA KATIKA KHERI NA MAMBO YENYE MANUFAA" },
+      { "t": "red_arabic", "sura": "Al-Maa'idah: 2", "arabic": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ ۚ وَاتَّقُوا اللَّهَ ۖ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ" },
+      { "t": "green", "swahili": "Na saidianeni katika wema na uchamungu, wala msisaidiane katika dhambi na uadui. Na mcheni Allah. Hakika Allah ni Mkali wa kuadhibu." },
+      { "t": "p", "text": "Aya hii ni miongoni mwa misingi mikubwa ya ushirikiano katika Uislamu. Allah Subhaanahu wa Ta'aalaa ametuelekeza tushirikiane katika mambo yenye kheri. Katika familia, ndugu wanaweza kushirikiana kuanzisha biashara halali, kuweka akiba kwa ajili ya nyumba au ardhi, kusaidiana kupata elimu na kutumia taaluma zao kutatua changamoto." },
+      { "t": "p", "text": "Ushirikiano una mipaka ya Sharia. Haupaswi kujengwa juu ya dhuluma, udanganyifu, kula mali za watu bila haki au kulazimishana. Familia inayotaka kujenga maendeleo inapaswa kuzingatia uadilifu na kumcha Allah." },
+      { "t": "forest", "text": "Ushirikiano wa kweli hauvunji haki za mtu binafsi. Kila mwanafamilia ana haki ya kumiliki mali yake, lakini wanaweza kushirikiana katika mambo yenye kheri kwa makubaliano ya wazi." },
 
-    { "t": "red_arabic", "sura": "Al-Maa'idah: 2", "arabic": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ ۚ وَاتَّقُوا اللَّهَ ۖ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ" },
-    { "t": "green", "swahili": "Na saidianeni katika wema na uchamungu, wala msisaidiane katika dhambi na uadui. Na mcheni Allah. Hakika Allah ni Mkali wa kuadhibu." },
+      { "t": "hr" },
 
-    { "t": "p", "text": "Aya hii ni miongoni mwa misingi mikubwa ya ushirikiano katika Uislamu. Allah Subhaanahu wa Ta'aalaa ametuelekeza tushirikiane katika mambo yenye kheri. Katika familia, ndugu wanaweza kushirikiana kuanzisha biashara halali, kuweka akiba kwa ajili ya nyumba au ardhi, kusaidiana kupata elimu na kutumia taaluma zao kutatua changamoto." },
-    { "t": "p", "text": "Ushirikiano una mipaka ya Sharia. Haupaswi kujengwa juu ya dhuluma, udanganyifu, kula mali za watu bila haki au kulazimishana. Familia inayotaka kujenga maendeleo inapaswa kuzingatia uadilifu na kumcha Allah." },
+      { "t": "h", "text": "2. UMUHIMU WA UMOJA NA KUEPUKA MIGAWANYIKO" },
+      { "t": "red_arabic", "sura": "Aal-Imraan: 103", "arabic": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ" },
+      { "t": "green", "swahili": "Na shikamaneni kwa kamba ya Allah nyote, wala msifarikiane." },
+      { "t": "p", "text": "Aya hii inawaamrisha Waumini kushikamana na dini ya Allah na kuepuka migawanyiko. Katika familia, migogoro ya mali, wivu, kutokuaminiana na kutoheshimu nafasi za wengine inaweza kuvunja umoja. Upendo, mashauriano na kusaidiana huwezesha familia kutumia vizuri uwezo wa wanachama wake." },
+      { "t": "p", "text": "Umoja haumaanishi kwamba kila mtu lazima awe na biashara moja au akaunti moja. Familia inahitaji kwanza kujenga mahusiano ya upendo, haki na kuheshimiana." },
 
-    { "t": "forest", "text": "Ushirikiano wa kweli hauvunji haki za mtu binafsi. Kila mwanafamilia ana haki ya kumiliki mali yake, lakini wanaweza kushirikiana katika mambo yenye kheri kwa makubaliano ya wazi." },
+      { "t": "hr" },
 
-    { "t": "hr" },
+      { "t": "h", "text": "3. KUWASAIDIA NDUGU NI IBADA YENYE MALIPO" },
+      { "t": "blue_arabic", "arabic": "عَنْ سَلْمَانَ بْنِ عَامِرٍ أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"الصَّدَقَةُ عَلَى الْمِسْكِينِ صَدَقَةٌ، وَعَلَى ذِي الرَّحِمِ صَدَقَتَانِ: صَدَقَةٌ وَصِلَةٌ\"" },
+      { "t": "p", "text": "Imepokewa kutoka kwa Salman bin Aamir kwamba Mtume Swalla Allaahu Alayhi wa Sallam amesema: “Sadaka kwa maskini ni sadaka moja, na kwa ndugu ni sadaka mbili: sadaka na kuunga undugu.” [At-Tirmidhiy na An-Nasaa'iy - Hasan]" },
+      { "t": "p", "text": "Mtu anapomsaidia ndugu yake mwenye uhitaji kwa ajili ya Allah, anapata fursa ya kutoa sadaka na kuunga undugu. Msaada unaweza kuwa fedha, elimu, ushauri au kumwezesha ndugu kujifunza ujuzi. Msaada huo uzingatie uwezo wa mtoaji na mahitaji ya wanaomtegemea." },
+      { "t": "forest", "text": "Kusaidia ndugu si jambo la hiari pekee bali ni ibada yenye malipo makubwa. Ni njia ya kuimarisha undugu na kupata thawabu mara mbili - thawabu ya sadaka na thawabu ya kuunga undugu." },
 
-    { "t": "h", "text": "2. UMUHIMU WA UMOJA NA KUEPUKA MIGAWANYIKO" },
+      { "t": "hr" },
 
-    { "t": "red_arabic", "sura": "Aal-Imraan: 103", "arabic": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ" },
-    { "t": "green", "swahili": "Na shikamaneni kwa kamba ya Allah nyote, wala msifarikiane." },
+      { "t": "h", "text": "4. FAMILIA KAMA MFUMO WA KUSAIDIANA" },
+      { "t": "red_arabic", "sura": "Al-Anfaal: 75", "arabic": "وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِي كِتَابِ اللَّهِ" },
+      { "t": "green", "swahili": "Na ndugu wa damu, baadhi yao wana haki zaidi kwa baadhi yao katika Kitabu cha Allah." },
+      { "t": "p", "text": "Aya hii inahusiana na haki za undugu na urithi. Uislamu umeweka sheria zinazohusu haki za wazazi, watoto, wanandoa na ndugu. Familia inaweza kupanga kusaidiana katika elimu, matibabu, shughuli za kipato, kuwahudumia wazazi na uwekezaji wa muda mrefu. Ni muhimu kutofautisha wajibu uliowekwa na Sharia na msaada wa hiari." },
+      { "t": "note", "text": "Muhimu: Haki za urithi zimewekwa na Sharia - hazibadiliki kwa makubaliano ya familia. Kila mrithi ana haki yake iliyowekwa na Allah." },
 
-    { "t": "p", "text": "Aya hii inawaamrisha Waumini kushikamana na dini ya Allah na kuepuka migawanyiko. Katika familia, migogoro ya mali, wivu, kutokuaminiana na kutoheshimu nafasi za wengine inaweza kuvunja umoja. Upendo, mashauriano na kusaidiana huwezesha familia kutumia vizuri uwezo wa wanachama wake." },
-    { "t": "p", "text": "Umoja haumaanishi kwamba kila mtu lazima awe na biashara moja au akaunti moja. Familia inahitaji kwanza kujenga mahusiano ya upendo, haki na kuheshimiana." },
+      { "t": "hr" },
 
-    { "t": "hr" },
+      { "t": "h", "text": "5. WAUMINI NI KAMA JENGO IMARA" },
+      { "t": "blue_arabic", "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا" },
+      { "t": "green", "swahili": "Muumin kwa Muumin ni kama jengo, sehemu zake zinaiimarisha nyingine. [Sahih Al-Bukhari, 481; Sahih Muslim, 2585]" },
+      { "t": "p", "text": "Mtume ﷺ alifafanua kwa kuingiza vidole vya mikono yake katika vingine, kuonyesha jinsi sehemu za jengo zinavyoshikamana. Katika familia, watu wenye vipaji tofauti wanaweza kusaidiana na kuimarishana. Mmoja anaweza kuwa na maarifa ya biashara, mwingine elimu, mwingine uhasibu na mwingine uzoefu wa uzalishaji." },
+      { "t": "teal_quote", "text": "Familia ni kama jengo - kila mwanafamilia ni sehemu muhimu. Kukiwa na sehemu dhaifu, jengo lote linaathirika. Kukiwa na sehemu imara, jengo lote linakuwa imara." },
 
-    { "t": "h", "text": "3. KUWASAIDIA NDUGU NI IBADA YENYE MALIPO" },
+      { "t": "hr" },
 
-    { "t": "blue_arabic", "arabic": "عَنْ سَلْمَانَ بْنِ عَامِرٍ أَنَّ النَّبِيَّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ: \"الصَّدَقَةُ عَلَى الْمِسْكِينِ صَدَقَةٌ، وَعَلَى ذِي الرَّحِمِ صَدَقَتَانِ: صَدَقَةٌ وَصِلَةٌ\"" },
-    { "t": "p", "text": "Imepokewa kutoka kwa Salman bin Aamir kwamba Mtume Swalla Allaahu Alayhi wa Sallam amesema: “Sadaka kwa maskini ni sadaka moja, na kwa ndugu ni sadaka mbili: sadaka na kuunga undugu.” [At-Tirmidhiy na An-Nasaa'iy - Hasan]" },
+      { "t": "h", "text": "6. KUSAIDIANA BILA KUONDOA HAKI ZA MTU BINAFSI" },
+      { "t": "red_arabic", "sura": "An-Nisaa: 29", "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ إِلَّا أَن تَكُونَ تِجَارَةً عَن تَرَاضٍ مِّنكُمْ" },
+      { "t": "green", "swahili": "Enyi mlioamini! Msiliane mali zenu kwa batili, isipokuwa iwe biashara kwa kuridhiana baina yenu." },
+      { "t": "p", "text": "Hata familia inapoanzisha biashara ya pamoja, lazima kuwe na makubaliano yanayoeleweka. Wanapaswa kukubaliana kuhusu umiliki, mtaji, majukumu, faida, hasara na namna ya kutatua migogoro. Hakuna anayepaswa kunyang'anywa haki yake kwa kisingizio cha umoja." },
+      { "t": "forest", "text": "Makubaliano ya wazi ni msingi wa ushirikiano wa mafanikio. Bila makubaliano ya wazi, hata familia yenye nia njema inaweza kuingia katika migogoro isiyo na mwisho." },
+      { "t": "forest", "text": "Biashara ya pamoja inapaswa kuwa na mikataba ya maandishi inayoeleza haki na wajibu wa kila mshiriki. Hii inalinda haki za wote na kuepusha migogoro ya baadaye." },
 
-    { "t": "p", "text": "Mtu anapomsaidia ndugu yake mwenye uhitaji kwa ajili ya Allah, anapata fursa ya kutoa sadaka na kuunga undugu. Msaada unaweza kuwa fedha, elimu, ushauri au kumwezesha ndugu kujifunza ujuzi. Msaada huo uzingatie uwezo wa mtoaji na mahitaji ya wanaomtegemea." },
+      { "t": "hr" },
 
-    { "t": "forest", "text": "Kusaidia ndugu si jambo la hiari pekee bali ni ibada yenye malipo makubwa. Ni njia ya kuimarisha undugu na kupata thawabu mara mbili - thawabu ya sadaka na thawabu ya kuunga undugu." },
+      { "t": "h", "text": "7. KUHIFADHI MALI NA KUITUMIA VIZURI" },
+      { "t": "red_arabic", "sura": "Al-Qasas: 77", "arabic": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا" },
+      { "t": "green", "swahili": "Na utafute kwa yale aliyokupa Allah makazi ya Akhera, wala usisahau sehemu yako katika dunia." },
+      { "t": "p", "text": "Mali si lengo la mwisho la maisha ya Muislamu, lakini inaweza kuwa nyenzo ya kufanya ibada, kusaidia familia, kutoa sadaka na kuendeleza jamii. Kufanya kazi, kuanzisha biashara, kununua ardhi, kujenga nyumba na kuwekeza katika miradi halali si jambo linalopingana na dini, mradi haki za watu na wajibu kwa Allah vihifadhiwe." },
+      { "t": "note", "text": "Mali ni wasaa wa kufanya kheri - si lengo la mwisho. Muislam anatumia mali kama nyenzo ya kumfikisha kwa Allah, si kama lengo la maisha yenyewe." },
 
-    { "t": "hr" },
+      { "t": "hr" },
 
-    { "t": "h", "text": "4. FAMILIA KAMA MFUMO WA KUSAIDIANA" },
+      { "t": "h", "text": "8. KUANDAA KIZAZI KINACHOFUATA" },
+      { "t": "red_arabic", "sura": "An-Nisaa: 9", "arabic": "وَلْيَخْشَ الَّذِينَ لَوْ تَرَكُوا مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَافًا خَافُوا عَلَيْهِمْ فَلْيَتَّقُوا اللَّهَ وَلْيَقُولُوا قَوْلًا سَدِيدًا" },
+      { "t": "green", "swahili": "Na wawahofie wale ambao lau wangeacha nyuma yao watoto dhaifu, wangewahofia. Basi wamche Allah na waseme maneno yaliyo sawa." },
+      { "t": "p", "text": "Aya hii inatukumbusha kuzingatia hali ya watoto na vizazi vinavyoachwa nyuma. Wazazi wanapaswa kuzingatia malezi, haki, elimu na mustakabali wa watoto. Maarifa, maadili, ujuzi wa kazi na nidhamu ya kusimamia mali ni urithi muhimu. Mali ya marehemu lazima igawanywe kwa mujibu wa sheria za mirathi za Kiislamu." },
+      { "t": "forest", "text": "Kuandaa kizazi kizuri ni uwekezaji wa kiroho na kimaisha. Wazazi wanaojali mustakabali wa watoto wao wanaweka msingi imara wa jamii yenye nguvu." },
 
-    { "t": "red_arabic", "sura": "Al-Anfaal: 75", "arabic": "وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِي كِتَابِ اللَّهِ" },
-    { "t": "green", "swahili": "Na ndugu wa damu, baadhi yao wana haki zaidi kwa baadhi yao katika Kitabu cha Allah." },
+      { "t": "hr" },
 
-    { "t": "p", "text": "Aya hii inahusiana na haki za undugu na urithi. Uislamu umeweka sheria zinazohusu haki za wazazi, watoto, wanandoa na ndugu. Familia inaweza kupanga kusaidiana katika elimu, matibabu, shughuli za kipato, kuwahudumia wazazi na uwekezaji wa muda mrefu. Ni muhimu kutofautisha wajibu uliowekwa na Sharia na msaada wa hiari." },
+      { "t": "h", "text": "9. UADILIFU WA KIUCHUMI" },
+      { "t": "red_arabic", "sura": "Al-Hashr: 7", "arabic": "كَيْ لَا يَكُونَ دُولَةً بَيْنَ الْأَغْنِيَاءِ مِنكُمْ" },
+      { "t": "green", "swahili": "Ili isiwe inazunguka baina ya matajiri miongoni mwenu tu." },
+      { "t": "p", "text": "Aya hii imo katika muktadha wa mgawanyo wa mali ya fay'i. Inatufundisha kutafakari kuhusu uadilifu wa kiuchumi na namna mali inavyosimamiwa katika jamii. Haipigi marufuku utajiri au umiliki binafsi, bali inatukumbusha umuhimu wa kuzingatia haki na manufaa ya jamii." },
+      { "t": "teal_quote", "text": "Uadilifu wa kiuchumi haumaanishi usawa wa mali, bali haki katika mgawanyo na fursa. Uislamu unaruhusu umiliki binafsi lakini unahimiza mali isizunguke kwa matajiri pekee." },
 
-    { "t": "note", "text": "Muhimu: Haki za urithi zimewekwa na Sharia - hazibadiliki kwa makubaliano ya familia. Kila mrithi ana haki yake iliyowekwa na Allah." },
+      { "t": "hr" },
 
-    { "t": "hr" },
+      { "t": "h", "text": "10. MAMBO YA KUTEKELEZA KATIKA FAMILIA" },
+      { "t": "p", "text": "Haya ni mambo ya kuzingatia ili kujenga familia yenye umoja, ushirikiano na mafanikio:" },
+      {
+        "t": "list",
+        "ordered": true,
+        "items": [
+          "Kuimarisha undugu, kuondoa chuki na kujenga mawasiliano yenye heshima.",
+          "Kusaidia kila mwanafamilia kupata elimu, ujuzi na fursa za kutumia vipaji vyake.",
+          "Kuweka utaratibu wa kusaidiana katika mahitaji na changamoto.",
+          "Kujenga akiba na uwekezaji kwa makubaliano ya wazi na ya hiari.",
+          "Kuanzisha biashara halali zenye kumbukumbu, uwazi na uwajibikaji.",
+          "Kuheshimu umiliki binafsi na haki za kila mshiriki.",
+          "Kuwafundisha watoto dini, maadili, kazi na usimamizi wa mali."
+        ]
+      },
+      { "t": "note", "text": "Mambo haya si ya kulazimishwa - ni mwongozo wa kujenga familia imara kwa makubaliano na ridhaa ya kila mwanafamilia." },
 
-    { "t": "h", "text": "5. WAUMINI NI KAMA JENGO IMARA" },
+      { "t": "hr" },
 
-    { "t": "blue_arabic", "arabic": "الْمُؤْمِنُ لِلْمُؤْمِنِ كَالْبُنْيَانِ يَشُدُّ بَعْضُهُ بَعْضًا" },
-    { "t": "green", "swahili": "Muumin kwa Muumin ni kama jengo, sehemu zake zinaiimarisha nyingine. [Sahih Al-Bukhari, 481; Sahih Muslim, 2585]" },
+      { "t": "h", "text": "VITABU VYA KUJIFUNZA ZAIDI" },
+      { "t": "p", "text": "Vitabu vifuatavyo vinaweza kusaidia kujenga uelewa wa undugu, tabia, mali na uchumi katika Uislamu:" },
+      {
+        "t": "list",
+        "items": [
+          "Riyaadhus-Swaalihiin - Imam An-Nawawi: Hadith kuhusu undugu, kusaidiana, tabia njema, sadaka, kuunga undugu na haki za watu.",
+          "Al-Adab Al-Mufrad - Imam Al-Bukhari: Adabu za Kiislamu katika familia na jamii, ikiwemo kuwaheshimu wazazi, kuunga undugu na kuwatendea wema wengine.",
+          "Al-Amwaal - Abu Ubayd Al-Qaasim bin Salaam: Mali, zaka, mapato ya umma na masuala ya kiuchumi katika maandiko ya kale ya Kiislamu.",
+          "Fiqh Az-Zakaah - Sheikh Yusuf Al-Qaradawi: Uchambuzi wa zaka, mali zinazotozwa zaka, walengwa na nafasi ya zaka katika jamii.",
+          "Al-Kharaaj - Imam Abu Yusuf: Uchumi wa umma, mapato ya dola na wajibu wa kusimamia mali na haki za wananchi.",
+          "The Ideal Muslim - Muhammad Ali Al-Hashimi: Tabia ya Muislamu na mwenendo wake katika familia na jamii."
+        ]
+      },
 
-    { "t": "p", "text": "Mtume ﷺ alifafanua kwa kuingiza vidole vya mikono yake katika vingine, kuonyesha jinsi sehemu za jengo zinavyoshikamana. Katika familia, watu wenye vipaji tofauti wanaweza kusaidiana na kuimarishana. Mmoja anaweza kuwa na maarifa ya biashara, mwingine elimu, mwingine uhasibu na mwingine uzoefu wa uzalishaji." },
+      { "t": "hr" },
 
-    { "t": "teal_quote", "text": "Familia ni kama jengo - kila mwanafamilia ni sehemu muhimu. Kukiwa na sehemu dhaifu, jengo lote linaathirika. Kukiwa na sehemu imara, jengo lote linakuwa imara." },
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "6. KUSAIDIANA BILA KUONDOA HAKI ZA MTU BINAFSI" },
-
-    { "t": "red_arabic", "sura": "An-Nisaa: 29", "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ إِلَّا أَن تَكُونَ تِجَارَةً عَن تَرَاضٍ مِّنكُمْ" },
-    { "t": "green", "swahili": "Enyi mlioamini! Msiliane mali zenu kwa batili, isipokuwa iwe biashara kwa kuridhiana baina yenu." },
-
-    { "t": "p", "text": "Hata familia inapoanzisha biashara ya pamoja, lazima kuwe na makubaliano yanayoeleweka. Wanapaswa kukubaliana kuhusu umiliki, mtaji, majukumu, faida, hasara na namna ya kutatua migogoro. Hakuna anayepaswa kunyang'anywa haki yake kwa kisingizio cha umoja." },
-
-    { "t": "forest", "text": "Makubaliano ya wazi ni msingi wa ushirikiano wa mafanikio. Bila makubaliano ya wazi, hata familia yenye nia njema inaweza kuingia katika migogoro isiyo na mwisho." },
-    { "t": "forest", "text": "Biashara ya pamoja inapaswa kuwa na mikataba ya maandishi inayoeleza haki na wajibu wa kila mshiriki. Hii inalinda haki za wote na kuepusha migogoro ya baadaye." },
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "7. KUHIFADHI MALI NA KUITUMIA VIZURI" },
-
-    { "t": "red_arabic", "sura": "Al-Qasas: 77", "arabic": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ وَلَا تَنسَ نَصِيبَكَ مِنَ الدُّنْيَا" },
-    { "t": "green", "swahili": "Na utafute kwa yale aliyokupa Allah makazi ya Akhera, wala usisahau sehemu yako katika dunia." },
-
-    { "t": "p", "text": "Mali si lengo la mwisho la maisha ya Muislamu, lakini inaweza kuwa nyenzo ya kufanya ibada, kusaidia familia, kutoa sadaka na kuendeleza jamii. Kufanya kazi, kuanzisha biashara, kununua ardhi, kujenga nyumba na kuwekeza katika miradi halali si jambo linalopingana na dini, mradi haki za watu na wajibu kwa Allah vihifadhiwe." },
-
-    { "t": "note", "text": "Mali ni wasaa wa kufanya kheri - si lengo la mwisho. Muislam anatumia mali kama nyenzo ya kumfikisha kwa Allah, si kama lengo la maisha yenyewe." },
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "8. KUANDAA KIZAZI KINACHOFUATA" },
-
-    { "t": "red_arabic", "sura": "An-Nisaa: 9", "arabic": "وَلْيَخْشَ الَّذِينَ لَوْ تَرَكُوا مِنْ خَلْفِهِمْ ذُرِّيَّةً ضِعَافًا خَافُوا عَلَيْهِمْ فَلْيَتَّقُوا اللَّهَ وَلْيَقُولُوا قَوْلًا سَدِيدًا" },
-    { "t": "green", "swahili": "Na wawahofie wale ambao lau wangeacha nyuma yao watoto dhaifu, wangewahofia. Basi wamche Allah na waseme maneno yaliyo sawa." },
-
-    { "t": "p", "text": "Aya hii inatukumbusha kuzingatia hali ya watoto na vizazi vinavyoachwa nyuma. Wazazi wanapaswa kuzingatia malezi, haki, elimu na mustakabali wa watoto. Maarifa, maadili, ujuzi wa kazi na nidhamu ya kusimamia mali ni urithi muhimu. Mali ya marehemu lazima igawanywe kwa mujibu wa sheria za mirathi za Kiislamu." },
-
-    { "t": "forest", "text": "Kuandaa kizazi kizuri ni uwekezaji wa kiroho na kimaisha. Wazazi wanaojali mustakabali wa watoto wao wanaweka msingi imara wa jamii yenye nguvu." },
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "9. UADILIFU WA KIUCHUMI" },
-
-    { "t": "red_arabic", "sura": "Al-Hashr: 7", "arabic": "كَيْ لَا يَكُونَ دُولَةً بَيْنَ الْأَغْنِيَاءِ مِنكُمْ" },
-    { "t": "green", "swahili": "Ili isiwe inazunguka baina ya matajiri miongoni mwenu tu." },
-
-    { "t": "p", "text": "Aya hii imo katika muktadha wa mgawanyo wa mali ya fay'i. Inatufundisha kutafakari kuhusu uadilifu wa kiuchumi na namna mali inavyosimamiwa katika jamii. Haipigi marufuku utajiri au umiliki binafsi, bali inatukumbusha umuhimu wa kuzingatia haki na manufaa ya jamii." },
-
-    { "t": "teal_quote", "text": "Uadilifu wa kiuchumi haumaanishi usawa wa mali, bali haki katika mgawanyo na fursa. Uislamu unaruhusu umiliki binafsi lakini unahimiza mali isizunguke kwa matajiri pekee." },
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "10. MAMBO YA KUTEKELEZA KATIKA FAMILIA" },
-
-    { "t": "p", "text": "Haya ni mambo ya kuzingatia ili kujenga familia yenye umoja, ushirikiano na mafanikio:" },
-
-    { "t": "list", "ordered": true, "items": [
-      "Kuimarisha undugu, kuondoa chuki na kujenga mawasiliano yenye heshima.",
-      "Kusaidia kila mwanafamilia kupata elimu, ujuzi na fursa za kutumia vipaji vyake.",
-      "Kuweka utaratibu wa kusaidiana katika mahitaji na changamoto.",
-      "Kujenga akiba na uwekezaji kwa makubaliano ya wazi na ya hiari.",
-      "Kuanzisha biashara halali zenye kumbukumbu, uwazi na uwajibikaji.",
-      "Kuheshimu umiliki binafsi na haki za kila mshiriki.",
-      "Kuwafundisha watoto dini, maadili, kazi na usimamizi wa mali."
-    ]},
-
-    { "t": "note", "text": "Mambo haya si ya kulazimishwa - ni mwongozo wa kujenga familia imara kwa makubaliano na ridhaa ya kila mwanafamilia." },
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "VITABU VYA KUJIFUNZA ZAIDI" },
-
-    { "t": "p", "text": "Vitabu vifuatavyo vinaweza kusaidia kujenga uelewa wa undugu, tabia, mali na uchumi katika Uislamu:" },
-
-    { "t": "list", "items": [
-      "Riyaadhus-Swaalihiin - Imam An-Nawawi: Hadith kuhusu undugu, kusaidiana, tabia njema, sadaka, kuunga undugu na haki za watu.",
-      "Al-Adab Al-Mufrad - Imam Al-Bukhari: Adabu za Kiislamu katika familia na jamii, ikiwemo kuwaheshimu wazazi, kuunga undugu na kuwatendea wema wengine.",
-      "Al-Amwaal - Abu Ubayd Al-Qaasim bin Salaam: Mali, zaka, mapato ya umma na masuala ya kiuchumi katika maandiko ya kale ya Kiislamu.",
-      "Fiqh Az-Zakaah - Sheikh Yusuf Al-Qaradawi: Uchambuzi wa zaka, mali zinazotozwa zaka, walengwa na nafasi ya zaka katika jamii.",
-      "Al-Kharaaj - Imam Abu Yusuf: Uchumi wa umma, mapato ya dola na wajibu wa kusimamia mali na haki za wananchi.",
-      "The Ideal Muslim - Muhammad Ali Al-Hashimi: Tabia ya Muislamu na mwenendo wake katika familia na jamii."
-    ]},
-
-    { "t": "hr" },
-
-    { "t": "h", "text": "HITIMISHO" },
-
-    { "t": "p", "text": "Kujitegemea kwa kweli kunaweza kuambatana na kusaidiana, kushirikiana na kujenga mifumo inayowezesha kila mmoja kukua. Familia yenye mafanikio si lazima iwe na biashara moja au mali inayomilikiwa na wote kwa pamoja. Inaweza kuwa na watu wanaomiliki mali zao binafsi, lakini wakashirikiana katika elimu, uwekezaji, kusaidiana na kuandaa vizazi vijavyo." },
-    { "t": "p", "text": "Ukombozi wa kiuchumi haujengwi kwa bidii pekee, bali pia kwa maarifa, mipango, nidhamu, ushirikiano na mifumo inayoweza kuendeleza mafanikio kutoka kizazi kimoja hadi kingine." },
-
-    { "t": "teal_quote", "text": "Familia imara = Umoja + Ushirikiano + Haki + Malezi + Uwekezaji wa Kizazi. Hivi vyote vikijengwa kwa misingi ya Sharia, familia inakuwa nguzo imara ya jamii ya Kiislamu." },
-
-    { "t": "forest", "text": "Tunamuomba Allaah Atujaalie tuwe miongoni mwa wale wanaojenga familia imara, wanaoshirikiana katika kheri, na wanaowaandaa vizazi vijavyo kwa Imaan na Taqwa. Aamiin." }
-  ]
-}
+      { "t": "h", "text": "HITIMISHO" },
+      { "t": "p", "text": "Kujitegemea kwa kweli kunaweza kuambatana na kusaidiana, kushirikiana na kujenga mifumo inayowezesha kila mmoja kukua. Familia yenye mafanikio si lazima iwe na biashara moja au mali inayomilikiwa na wote kwa pamoja. Inaweza kuwa na watu wanaomiliki mali zao binafsi, lakini wakashirikiana katika elimu, uwekezaji, kusaidiana na kuandaa vizazi vijavyo." },
+      { "t": "p", "text": "Ukombozi wa kiuchumi haujengwi kwa bidii pekee, bali pia kwa maarifa, mipango, nidhamu, ushirikiano na mifumo inayoweza kuendeleza mafanikio kutoka kizazi kimoja hadi kingine." },
+      { "t": "teal_quote", "text": "Familia imara = Umoja + Ushirikiano + Haki + Malezi + Uwekezaji wa Kizazi. Hivi vyote vikijengwa kwa misingi ya Sharia, familia inakuwa nguzo imara ya jamii ya Kiislamu." },
+      { "t": "forest", "text": "Tunamuomba Allaah Atujaalie tuwe miongoni mwa wale wanaojenga familia imara, wanaoshirikiana katika kheri, na wanaowaandaa vizazi vijavyo kwa Imaan na Taqwa. Aamiin." }
+    ]
+  }
+]
