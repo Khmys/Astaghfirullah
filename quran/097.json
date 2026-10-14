@@ -1,0 +1,17 @@
+  {
+    "type": "sura",
+    "surah_number": 97,
+    "name": "Al-Qadr",
+    "arabic_name": "سُورَةُ الْقَدْرِ",
+    "revelation": "Makkah",
+    "ayah_count": 5,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Qadr, yaani Cheo na Utukufu, kwa kuwa inazungumzia usiku wa cheo na utukufu ambao Qur'ani iliteremshwa. Ni usiku bora kuliko miezi elfu moja, ambao Malaika na Jibrili hushuka kwa amri za Allah, na usiku wote ni amani mpaka kuchomoza alfajiri.",
+    "content": [
+      { "number": 1, "page": 1519, "arabic": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ", "translation": "Sisi Tumeiteremsha Qur'ani katika usiku wa cheo na utukufu, nao ni miongoni mwa masiku ya mwezi wa Ramdhani." },
+      { "number": 2, "page": 1519, "arabic": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ", "translation": "Na nilipi liliokujulisha, (ewe Mtume), ni upi usiku wa cheo na utukufu?" },
+      { "number": 3, "page": 1519, "arabic": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ", "translation": "Usiku wa cheo na utukufu ni bora fadhila zake kuliko fadhila za miezi elfu moja isiyokuwa usiku huo." },
+      { "number": 4, "page": 1519, "arabic": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ", "translation": "Usiku huo hushuka Malaika na Jibrili, amani iwashukie, kwa ruhusa ya Mola wao na kila amri ya kila jambo Alilolikadiria liwe kwa mwaka mzima." },
+      { "number": 5, "page": 1519, "arabic": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ", "translation": "Usiku huo wote ni amani, hakuna shari, mpaka kuchomoza alfajiri." }
+    ]
+  }
