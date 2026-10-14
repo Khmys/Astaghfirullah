@@ -343,7 +343,9 @@
   /* ============================================================
      KUFUNGUA SOMO
      ============================================================ */
+  let listScrollY = 0;   // nafasi ya orodha kabla ya kufungua somo (ili turudi hapo hapo)
   async function funguaSomo(somo) {
+    listScrollY = window.scrollY || document.documentElement.scrollTop || 0;
     document.getElementById("lessonImage").src = somo.image || "";
     document.getElementById("lessonTitle").textContent = somo.title || "";
     document.getElementById("lessonMeta").textContent = somo.subtitle || somo.category || "";
@@ -550,7 +552,8 @@
       document.body.classList.remove("reading");
       document.getElementById("matchBar").classList.add("hidden");
       lessonList.classList.remove("hidden");
-      window.scrollTo(0, 0);
+      window.scrollTo(0, listScrollY);
+      requestAnimationFrame(() => window.scrollTo(0, listScrollY));
       return;
     }
     // Kama tuko kwenye orodha ya masomo ya kategoria → rudi kwenye kategoria
