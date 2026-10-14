@@ -1,0 +1,32 @@
+  {
+    "type": "sura",
+    "surah_number": 90,
+    "name": "Al-Balad",
+    "arabic_name": "سُورَةُ الْبَلَدِ",
+    "revelation": "Makkah",
+    "ayah_count": 20,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Balad, yaani Mji, kwa kuwa Allah Mtukufu Anaapa kwa mji mtakatifu wa Makkah. Inaeleza kuwa binadamu ameumbwa katika usumbufu na shida, na inamwonya mwenye kujivunia mali yake. Inaeleza njia ya kujiepusha na janga la Akhera: kumkomboa mtumwa, kulisha yatima na masikini, kuamini na kuusiana kwa subira na rehema.",
+    "content": [
+      { "number": 1, "page": 1507, "arabic": "لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ", "translation": "Allah Mtukufu Anaapa kwa mji huu mtakatifu wa (Makkah)." },
+      { "number": 2, "page": 1507, "arabic": "وَأَنتَ حِلٌّ بِهَٰذَا الْبَلَدِ", "translation": "Na wewe, (ewe Nabii), ni mkazi wa mji huu mtakatifu." },
+      { "number": 3, "page": 1507, "arabic": "وَوَالِدٍ وَمَا وَلَدَ", "translation": "Na Anaapa kwa mzazi wa wanaadamu, ambaye ni Ādam, (amani imshukie), na kilichozalikana naye." },
+      { "number": 4, "page": 1507, "arabic": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي كَبَدٍ", "translation": "Hakika Tumemuumba binadamu katika usumbufu na shida za kilimwengu." },
+      { "number": 5, "page": 1507, "arabic": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ", "translation": "Kwani anadhani kwa mali aliyoikusanya kuwa Allah Mtukufu Hatakuwa na uwezo juu yake?" },
+      { "number": 6, "page": 1507, "arabic": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا", "translation": "Huwa akisema kwa kujigamba: «Nimetumia mali nyingi»." },
+      { "number": 7, "page": 1507, "arabic": "أَيَحْسَبُ أَن لَّمْ يَرَهُ أَحَدٌ", "translation": "Kwani anadhani, kwa kitendo chake hicho, kuwa Allah Mtukufu, Aliyetukuka na kushinda, Hamuoni wala hatamhesabu kwenye kubwa na dogo?" },
+      { "number": 8, "page": 1507, "arabic": "أَلَمْ نَجْعَل لَّهُ عَيْنَيْنِ", "translation": "Kwani hatukumpa macho mawili ya kuonea?" },
+      { "number": 9, "page": 1507, "arabic": "وَلِسَانًا وَشَفَتَيْنِ", "translation": "Na ulimi na midomo miwili ya kusemea?" },
+      { "number": 10, "page": 1507, "arabic": "وَهَدَيْنَاهُ النَّجْدَيْنِ", "translation": "Na kumfafanulia njia mbili: ya kheri na ya shari?" },
+      { "number": 11, "page": 1507, "arabic": "فَلَا اقْتَحَمَ الْعَقَبَةَ", "translation": "Basi ajiepushe na janga la Akhera kwa kutoa mali yake ili aokoke." },
+      { "number": 12, "page": 1508, "arabic": "وَمَا أَدْرَاكَ مَا الْعَقَبَةُ", "translation": "Ni kitu gani kilichokujulisha ni lipi hilo janga la Akhera na ni mambo gani yenye kusaidia kujiepusha nalo?" },
+      { "number": 13, "page": 1508, "arabic": "فَكُّ رَقَبَةٍ", "translation": "Ni kuacha huru mtumwa aliyeamini ilikumkomboa na utumwa." },
+      { "number": 14, "page": 1508, "arabic": "أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ", "translation": "Au kulisha, wakati wa shida ya njaa." },
+      { "number": 15, "page": 1508, "arabic": "يَتِيمًا ذَا مَقْرَبَةٍ", "translation": "Kulisha yatima mwenye ujamaa, ili ipatikane fadhila ya sadaka na ya kuunga udugu." },
+      { "number": 16, "page": 1508, "arabic": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ", "translation": "Au masikini asiokuwa na kitu." },
+      { "number": 17, "page": 1508, "arabic": "ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ", "translation": "Kisha akawa, baada ya kufanya amali njema zilizotajwa, ni miongoni mwa waliotakasa Imani yao kwa Allah Mtukufu, wakausiana kusubiri katika kumtii Allah Mtukufu, kwa kufuata maamrisho Yake na kujiepusha na vitendo vya kumuasi, na wakausiana kuwahurumia viumbe." },
+      { "number": 18, "page": 1508, "arabic": "أُولَٰئِكَ أَصْحَابُ الْمَيْمَنَةِ", "translation": "Wenye kufanya hayo ndio watu wa kulia, ambao watapelekwa Siku ya Kiyama upande wa kulia kuelekea Peponi." },
+      { "number": 19, "page": 1508, "arabic": "وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ", "translation": "Na wale waliokanusha Qur'ani ndio ambao watapelekwa, Siku ya Kiyama, upande wa kushoto kuelekea Motoni." },
+      { "number": 20, "page": 1508, "arabic": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌ", "translation": "Malipo yao ni Moto wa Jahanamu wenye kuwafunika na kuwaziba." }
+    ]
+  }
