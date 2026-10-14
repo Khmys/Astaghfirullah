@@ -1,0 +1,20 @@
+  {
+    "type": "sura",
+    "surah_number": 95,
+    "name": "Al-Tin",
+    "arabic_name": "سُورَةُ التِّينِ",
+    "revelation": "Makkah",
+    "ayah_count": 8,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Tin, yaani Tini, kwa kuwa Allah Mtukufu Anaapa kwa tini na zaituni, na kwa Jabali la Ṭūr Sīnā', na kwa mji wa amani Makkah. Inaeleza kuwa Allah Alimuumba binadamu katika sura nzuri, kisha atamrudisha chini kabisa isipokuwa wale walioamini na kufanya amali njema. Inathibitisha kuwa Allah ni mwadilifu zaidi ya waadilifu wote.",
+    "content": [
+      { "number": 1, "page": 1516, "arabic": "وَالتِّينِ وَالزَّيْتُونِ", "translation": "Allah Mtukufu Anaapa kwa tini na zaituni, nayo ni miongoni mwa matunda yanayojulikana." },
+      { "number": 2, "page": 1516, "arabic": "وَطُورِ سِينِينَ", "translation": "Na Anaapa kwa jabali la Ṭūr Sīnā' «ambalo Allah Mtukufu Alisema na Mūsā juu yake»." },
+      { "number": 3, "page": 1516, "arabic": "وَهَٰذَا الْبَلَدِ الْأَمِينِ", "translation": "Na Anaapa kwa Mji huu wa amani, «usiokuwa na mambo ya kutisha, Nao ni mji wa Makkah, chimbuko la Uislamu»." },
+      { "number": 4, "page": 1516, "arabic": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ", "translation": "Hakika Tumemuumba binadamu katika sura nzuri." },
+      { "number": 5, "page": 1516, "arabic": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ", "translation": "Kisha Tutampeleka Motoni akiwa hatamtii Allah Mtukufu na kuwafuata Mitume." },
+      { "number": 6, "page": 1516, "arabic": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ", "translation": "Isipokuwa wale walioamini na wakafanya amali njema; wao watakuwa na malipo makubwa yasiyokatika wala kupungua." },
+      { "number": 7, "page": 1516, "arabic": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ", "translation": "Ni lipi linalokupelekea (ewe binadamu), kukanusha kufufuliwa na kulipwa, hali ya kuwa kuna dalili za wazi kwamba Allah Mtukufu Ana uwezo wa kufanya hayo?" },
+      { "number": 8, "page": 1516, "arabic": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ", "translation": "Je, Hakuwa Allah Mtukufu, Ambaye Ameiweka Siku hii kutoa uamuzi baina ya watu, ni muadilifu zaidi ya wanaosifika kuwa ni waadilifu katika kila Alichokiumba? kwani walidhani wataachwa Hivihivi tu: hawaamrishwi wala hawakatazwi wala hawalipwi kwa mema wala hawateswi kwa mabaya? Hilo si sahihi wala haliwi." }
+    ]
+  }
