@@ -12,7 +12,7 @@
     "category": "jihaad",
     "title": "Kitabu cha Jihaad",
     "subtitle": "Masomo yote ya Jihaad",
-    "image": "https://raw.githubusercontent.com/Khmys/Astaghfirullah/refs/heads/main/Picha/bendelajhd.jpg",
+    "image": "Picha/bendelajhd.jpg",
     "file": "Juhudi/jihaad.json"
   },
   {
@@ -21,7 +21,7 @@
     "title": "Maisha ya Kiislamu",
     "subtitle": "Familia, uchumi na jamii",
     "image": "https://placehold.co/600x300.png?text=Maisha",
-    "file": "Maisha/Umojaninguvu.json"
+    "file": "Maisha/maisha.json"
   },
   {
     "id": "mfano",
@@ -29,6 +29,6 @@
     "title": "Mifano",
     "subtitle": "Kwa majaribio tu",
     "image": "https://placehold.co/600x300.png?text=Mfano",
-    "file": "Mfano.json"
+    "file": "Jlb/mifano.json"
   }
 ]
