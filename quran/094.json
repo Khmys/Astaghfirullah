@@ -1,0 +1,20 @@
+  {
+    "type": "sura",
+    "surah_number": 94,
+    "name": "Al-Sharh",
+    "arabic_name": "سُورَةُ الشَّرْحِ",
+    "revelation": "Makkah",
+    "ayah_count": 8,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Sharh, yaani Kufungua, kwa kuwa Allah Mtukufu Alimfungulia Mtume kifua chake kwa sharia za Dini na kumpa utulivu. Inamkumbusha Mtume neema za Allah juu yake: kumfungulia kifua, kumuondolea mzigo, na kumpa cheo cha juu. Inathibitisha kuwa pamoja na uzito kuna wepesi, na inamwamrisha Mtume kufanya ibada na kumtegemea Mola wake.",
+    "content": [
+      { "number": 1, "page": 1515, "arabic": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ", "translation": "Kwani Hatukukunjulia, (ewe Mtume), kifua chako kwa sheria za Dini, kulingania watu kwa Allah Mtukufu, na kujipamba kwa tabia nzuri?" },
+      { "number": 2, "page": 1515, "arabic": "وَوَضَعْنَا عَنكَ وِزْرَكَ", "translation": "Na tukakuondolea mazito yako?" },
+      { "number": 3, "page": 1515, "arabic": "الَّذِي أَنقَضَ ظَهْرَكَ", "translation": "Mazito yaliyolemea mgongo wako?" },
+      { "number": 4, "page": 1515, "arabic": "وَرَفَعْنَا لَكَ ذِكْرَكَ", "translation": "Na Tukakunyanyua, kwa matukufu Tuliyokuneemesha kwenye cheo cha juu?" },
+      { "number": 5, "page": 1515, "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا", "translation": "Usirudi nyuma katika kueneza ujumbe uliotumwa nao kwa maudhi ya maadui zako. Kwani kwenye uzito kuna wepesi." },
+      { "number": 6, "page": 1515, "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا", "translation": "Hakika kwenye uzito kuna wepesi." },
+      { "number": 7, "page": 1515, "arabic": "فَإِذَا فَرَغْتَ فَانصَبْ", "translation": "Basi utakapomaliza mambo ya kidunia na shughuli zake jipinde kwa kufanya ibada." },
+      { "number": 8, "page": 1515, "arabic": "وَإِلَىٰ رَبِّكَ فَارْغَبْ", "translation": "Na kwa Mola wako Peke Yake weka matumaini yako." }
+    ]
+  }
