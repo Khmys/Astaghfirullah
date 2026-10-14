@@ -79,7 +79,6 @@
 
     { "t": "hr" },
 
-    { "t": "h", "text": "TUNAOMBA DUA" },
-    { "t": "p", "text": "Allaah Atujaalie tuwe miongoni mwa wale wanaojitolea katika njia Yake, na Atujaalie tufe kama mashahidi katika njia Yake. Aamiin." }
+    { "t": "dot_box", "title": "TUNAOMBA DUA", "text": "Allaah Atujaalie tuwe miongoni mwa wale wanaojitolea katika njia Yake, na Atujaalie tufe kama mashahidi katika njia Yake. Aamiin." }
   ]
 }
