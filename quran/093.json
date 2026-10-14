@@ -1,0 +1,23 @@
+  {
+    "type": "sura",
+    "surah_number": 93,
+    "name": "Al-Duha",
+    "arabic_name": "سُورَةُ الضُّحَى",
+    "revelation": "Makkah",
+    "ayah_count": 11,
+    "juz": 30,
+    "intro": "Sura hii inaitwa Al-Duha, yaani Wakati wa Dhuha, kwa kuwa Allah Mtukufu Anaapa kwa wakati wa dhuha na usiku. Iliteremshwa kumfariji Mtume alipokuwa amekaa muda bila Wahyi kuteremka. Inamkumbusha Mtume neema za Allah juu yake: kumhifadhi akiwa yatima, kumwongoza, na kumtajirisha, na inamwamrisha kuwatendea wema yatima na mwombaji.",
+    "content": [
+      { "number": 1, "page": 1513, "arabic": "وَالضُّحَىٰ", "translation": "Allah Mtukufu Anaapa kwa wakati wa dhuha, na uliokusudiwa ni wakati wa mchana mzima." },
+      { "number": 2, "page": 1513, "arabic": "وَاللَّيْلِ إِذَا سَجَىٰ", "translation": "Na kwa usiku utulizapo vi umbe na likakolea giza lake. «Allah Mtukufu Huapa kwa Atakacho katika viumbe vyake. Ama kiumbe, hafai kuapa kwa asiyekuwa Muumba wake, Kuapa kwa asiyekuwa Allah Mtukufu ni ushirikina»." },
+      { "number": 3, "page": 1513, "arabic": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ", "translation": "Hakukuwacha Mola wako, (ewe Mtume), wala Hakukuchukia kwa kuchelewesha kukuteremshia Wahyi." },
+      { "number": 4, "page": 1513, "arabic": "وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَىٰ", "translation": "Na Nyumba ya Akhera ni bora kwako kuliko nyumba ya ulimwengu." },
+      { "number": 5, "page": 1513, "arabic": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَىٰ", "translation": "Na Atakupa Mola wako, (ewe Mtume), neema ya kila sampuli uridhike." },
+      { "number": 6, "page": 1513, "arabic": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَىٰ", "translation": "Kwani hakukukuta, kabla ya hapo, ukiwa ni yatima, akakuhifadhi na kukutunza?" },
+      { "number": 7, "page": 1513, "arabic": "وَوَجَدَكَ ضَالًّا فَهَدَىٰ", "translation": "Na akakukuta hujui chochote kuhusu kitabu wala Imani, Akakufundisha yale amabayo ulikuwa huyajui na akakupa taufiki ya kufanya matendo mema?" },
+      { "number": 8, "page": 1513, "arabic": "وَوَجَدَكَ عَائِلًا فَأَغْنَىٰ", "translation": "Na akakukuta masikini, Akakuletea riziki yako, na Akakutajirisha kwa kutosheka na kusubiri?" },
+      { "number": 9, "page": 1513, "arabic": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ", "translation": "Basi yatima usimtendee ubaya." },
+      { "number": 10, "page": 1514, "arabic": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ", "translation": "Na muombaji usimkaripie, bali mlishe na umtimizie haja zake." },
+      { "number": 11, "page": 1514, "arabic": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ", "translation": "Na neema alizokupa mola wako zielezee." }
+    ]
+  }
