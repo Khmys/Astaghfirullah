@@ -18,6 +18,7 @@
     <input id="searchInput" type="search" placeholder="🔎 Tafuta somo..." autocomplete="off" />
     <button id="clearSearch" aria-label="Futa utafutaji">×</button>
   </div>
+  <div id="continueBox"></div>
   <div id="categories" class="categories"></div>
   <div id="backCatBox"></div>
   <div id="loadingMsg"><div class="spinner"></div></div>
@@ -53,6 +54,35 @@
         <input type="checkbox" id="themeToggle" />
         <span class="slider"></span>
       </label>
+    </div>
+
+    <div class="settings-row">
+      <div class="settings-icon" style="background:#2481cc"><span class="aa">Aa</span></div>
+      <div class="settings-text">
+        <div class="settings-title">Ukubwa wa maandishi</div>
+        <div class="settings-desc" id="fsDesc">100%</div>
+      </div>
+      <div class="stepper">
+        <button id="fsMinus" type="button" aria-label="Punguza">A−</button>
+        <button id="fsPlus" type="button" aria-label="Ongeza">A+</button>
+      </div>
+    </div>
+
+    <div class="settings-row">
+      <div class="settings-icon" style="background:#34c759">
+        <svg viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></svg>
+      </div>
+      <div class="settings-text">
+        <div class="settings-title">Kusoma bila mtandao</div>
+        <div class="settings-desc" id="offlineDesc">Pakua masomo yote ili yafunguke bila intaneti</div>
+      </div>
+      <button id="offlineBtn" class="pill-btn" type="button">Pakua</button>
+    </div>
+
+    <div class="settings-preview">
+      <div class="settings-preview-label">Mfano wa maandishi</div>
+      <p class="content-body">Hiki ni mfano wa maandishi ya masomo.</p>
+      <p class="ayah-arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
     </div>
   </div>
 </div>
