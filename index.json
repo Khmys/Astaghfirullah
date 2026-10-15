@@ -8,14 +8,6 @@
     "file": "quran/quran.json"
   },
   {
-    "id": "quran",
-    "category": "Qur-aan",
-    "title": "Faida za Qur'ani Tukufu",
-    "subtitle": "Sura zote za Qur'ani",
-    "image": "Picha/Qur'an.jpg",
-    "file": "quran/Ufafanuzi.json"
-  },
-  {
     "id": "jihaad",
     "category": "jihaad",
     "title": "Kitabu cha Jihaad",
