@@ -1,15 +1,15 @@
 [
   {
-  "id": "quran-001",
-  "category": "Qur-aan",
-  "title": "1. Al-Faatihah",
-  "subtitle": "Suwrah hii inaitwa Al-Faatihah (Ufunguo)...",
-  "files": {
-    "quran": "quran/001.json",
-    "Faida": "quran/Qtafsiri/f001.json"
-    "tafsiri": "quran/Qtafsiri/t001.json"
+    "id": "quran-001",
+    "category": "Qur-aan",
+    "title": "1. Al-Faatihah",
+    "subtitle": "Suwrah hii inaitwa Al-Faatihah (Ufunguo)...",
+    "file": "quran/001.json",
+    "extras": {
+      "faida": "quran/Qtafsiri/f001.json",
+      "tafsiri": "quran/Qtafsiri/t001.json"
     },
-  "image": "https://placehold.co/600x300.png?text=Al-Faatihah"
+    "image": "https://placehold.co/600x300.png?text=Al-Faatihah"
   },
   {
     "id": "quran-002",
@@ -784,9 +784,9 @@
   {
     "id": "quran-112",
     "category": "Qur-aan",
-    "title": "112. Al-Ikhlaas",
+    "title": "112. Al-Ikhlaasw",
     "file": "quran/112.json",
-    "image": "https://placehold.co/600x300.png?text=Al-Ikhlaas"
+    "image": "https://placehold.co/600x300.png?text=Al-Ikhlaasw"
   },
   {
     "id": "quran-113",
@@ -801,5 +801,5 @@
     "title": "114. An-Naas",
     "file": "quran/114.json",
     "image": "https://placehold.co/600x300.png?text=An-Naas"
-  },
+  }
 ]
