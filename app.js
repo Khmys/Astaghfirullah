@@ -1,7 +1,20 @@
   /* ============================================================
      MWANZO WA APP
      ============================================================ */
-  const tg = window.Telegram.WebApp;
+  const tg = (window.Telegram && window.Telegram.WebApp) || (() => {
+    // Hakuna Telegram (mfano nje ya mtandao au kivinjari): tumia mbadala rahisi
+    let cb = null;
+    const btn = document.createElement("button");
+    btn.className = "fb-back hidden"; btn.textContent = "‹ Rudi";
+    btn.addEventListener("click", () => cb && cb());
+    document.body.appendChild(btn);
+    return {
+      ready() {}, expand() {}, enableClosingConfirmation() {}, onEvent() {},
+      isVersionAtLeast: () => false, setHeaderColor() {}, setBackgroundColor() {},
+      colorScheme: (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches) ? "dark" : "light",
+      BackButton: { show() { btn.classList.remove("hidden"); }, hide() { btn.classList.add("hidden"); }, onClick(f) { cb = f; } }
+    };
+  })();
   tg.ready();
   tg.expand();
   tg.enableClosingConfirmation();
@@ -45,6 +58,83 @@
     window.scrollTo(0, 0);
   }
   document.querySelectorAll("#bottomNav .nav-btn").forEach(b => b.addEventListener("click", () => onyeshaTab(b.dataset.tab)));
+
+  /* ============================================================
+     KUSOMA BILA MTANDAO
+     ============================================================ */
+  const OFFLINE_CACHE = "elimu-cache-v1";   // lazima ilingane na sw.js
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+
+  // Pakua kila kitu: faili za programu, kategoria zote, masomo yote na picha
+  async function pakuaYote(onProgress) {
+    const urls = new Set(["Uislamu.html", "style.css", "app.js", "index.json", "https://telegram.org/js/telegram-web-app.js"]);
+    // Picha za mtandaoni (mfano placehold.co) hazipakuliwi; picha za ndani na faili zote za masomo zinapakuliwa
+    const add = u => { if (u && !/^https?:\/\//i.test(u)) urls.add(u); };
+    const kats = await (await fetch("index.json", { cache: "no-cache" })).json();
+    for (const k of kats) {
+      add(k.file); add(k.image);
+      try {
+        const orodha = await (await fetch(k.file)).json();
+        if (Array.isArray(orodha)) orodha.forEach(it => { add(it.file); add(it.image); });
+      } catch (e) {}
+    }
+    const queue = [...urls], total = queue.length;
+    const cache = await caches.open(OFFLINE_CACHE);
+    let done = 0, fail = 0;
+    async function worker() {
+      while (queue.length) {
+        const u = queue.shift();
+        try {
+          const abs = new URL(u, location.href);
+          const cross = abs.origin !== location.origin;
+          const res = await fetch(abs.href, cross ? { mode: "no-cors" } : { cache: "reload" });
+          if (res.ok || res.type === "opaque") await cache.put(abs.href, res);
+          else if (res.status !== 404) fail++;     // 404 = faili haipo kwenye mradi, si kosa la mtandao
+        } catch (e) { fail++; }
+        done++; onProgress(done, total);
+      }
+    }
+    await Promise.all(Array.from({ length: 6 }, worker));
+    return { total, fail };
+  }
+
+  const offlineBtn  = document.getElementById("offlineBtn");
+  const offlineDesc = document.getElementById("offlineDesc");
+  try { const t = localStorage.getItem("offlineAt"); if (t) offlineDesc.textContent = "✓ Imepakuliwa tarehe " + t; } catch (e) {}
+  offlineBtn.addEventListener("click", async () => {
+    if (!("caches" in window)) { offlineDesc.textContent = "Kifaa hiki hakiungi mkono kipengele hiki."; return; }
+    offlineBtn.disabled = true;
+    try {
+      const r = await pakuaYote((d, t) => { offlineDesc.textContent = `Inapakua… ${d}/${t}`; });
+      const tarehe = new Date().toLocaleDateString("sw-TZ");
+      try { localStorage.setItem("offlineAt", tarehe); } catch (e) {}
+      offlineDesc.textContent = r.fail
+        ? `Imekamilika: faili ${r.total - r.fail} kati ya ${r.total} (zingine zimeshindwa)`
+        : `✓ Tayari: faili ${r.total} zimehifadhiwa (${tarehe})`;
+    } catch (e) {
+      offlineDesc.textContent = "Imeshindwa. Angalia mtandao kisha jaribu tena.";
+    }
+    offlineBtn.disabled = false; offlineBtn.textContent = "Pakua tena";
+  });
+
+  /* ============================================================
+     UKUBWA WA MAANDISHI
+     ============================================================ */
+  const FS_STEPS = [0.85, 1, 1.15, 1.3, 1.5, 1.75];
+  let fsIdx = 1;
+  try { const i = FS_STEPS.indexOf(parseFloat(localStorage.getItem("ukubwa"))); if (i >= 0) fsIdx = i; } catch (e) {}
+  const fsMinus = document.getElementById("fsMinus"), fsPlus = document.getElementById("fsPlus"), fsDesc = document.getElementById("fsDesc");
+  function tumiaUkubwa(hifadhi) {
+    document.documentElement.style.setProperty("--fs", FS_STEPS[fsIdx]);
+    fsDesc.textContent = Math.round(FS_STEPS[fsIdx] * 100) + "%";
+    fsMinus.disabled = fsIdx === 0; fsPlus.disabled = fsIdx === FS_STEPS.length - 1;
+    if (hifadhi) { try { localStorage.setItem("ukubwa", FS_STEPS[fsIdx]); } catch (e) {} }
+  }
+  fsMinus.addEventListener("click", () => { if (fsIdx > 0) { fsIdx--; tumiaUkubwa(true); } });
+  fsPlus.addEventListener("click", () => { if (fsIdx < FS_STEPS.length - 1) { fsIdx++; tumiaUkubwa(true); } });
+  tumiaUkubwa(false);
 
   /* ============================================================
      ELEMENTS
@@ -116,6 +206,7 @@
       item.addEventListener("click", () => funguaKategoria(k));
       listContainer.appendChild(item);
     });
+    onyeshaContinue();
   }
 
   /* ============================================================
@@ -123,6 +214,7 @@
      ============================================================ */
   async function funguaKategoria(k) {
     kategoriaActive = k;
+    document.getElementById("continueBox").innerHTML = "";
     pageTitle.textContent = `📚 ${k.title || "Masomo"}`;
     categoriesBox.innerHTML = "";
     searchInput.value = "";
@@ -343,8 +435,48 @@
   /* ============================================================
      KUFUNGUA SOMO
      ============================================================ */
+  /* ============================================================
+     ENDELEA ULIPOISHIA
+     ============================================================ */
+  const END_KEY = "endelea";
+  let somoSasa = null, scrollTimer = null;
+  function somoSafi(s) {
+    const o = {};
+    ["id", "title", "subtitle", "image", "category", "file"].forEach(k => { if (s[k]) o[k] = s[k]; });
+    if (!o.file && s.content) o.content = s.content;
+    return o;
+  }
+  function hifadhiEndelea(somo, ratio) {
+    try { localStorage.setItem(END_KEY, JSON.stringify({ somo: somoSafi(somo), ratio: ratio || 0 })); } catch (e) {}
+  }
+  function somaEndelea() { try { return JSON.parse(localStorage.getItem(END_KEY) || "null"); } catch (e) { return null; } }
+  function ratioSasa() {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    return max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+  }
+  function hifadhiRatio() { if (somoSasa) hifadhiEndelea(somoSasa, ratioSasa()); }
+  window.addEventListener("scroll", () => {
+    if (!somoSasa || !document.body.classList.contains("reading")) return;
+    clearTimeout(scrollTimer); scrollTimer = setTimeout(hifadhiRatio, 300);
+  }, { passive: true });
+
+  function onyeshaContinue() {
+    const box = document.getElementById("continueBox");
+    const e = somaEndelea();
+    if (kategoriaActive || !e || !e.somo) { box.innerHTML = ""; return; }
+    const pct = Math.round((e.ratio || 0) * 100);
+    box.innerHTML = `<div class="continue-card"><div class="continue-info"><div class="continue-label">▶ Endelea kusoma</div><div class="continue-title">${escapeHtml(e.somo.title || "Somo")}</div><div class="continue-bar"><span style="width:${pct}%"></span></div></div><button class="continue-x" aria-label="Ondoa">×</button></div>`;
+    box.querySelector(".continue-card").addEventListener("click", () => funguaSomo(e.somo, e.ratio));
+    box.querySelector(".continue-x").addEventListener("click", ev => {
+      ev.stopPropagation();
+      try { localStorage.removeItem(END_KEY); } catch (err) {}
+      onyeshaContinue();
+    });
+  }
+
   let listScrollY = 0;   // nafasi ya orodha kabla ya kufungua somo (ili turudi hapo hapo)
-  async function funguaSomo(somo) {
+  async function funguaSomo(somo, restore) {
+    somoSasa = null;
     listScrollY = window.scrollY || document.documentElement.scrollTop || 0;
     document.getElementById("lessonImage").src = somo.image || "";
     document.getElementById("lessonTitle").textContent = somo.title || "";
@@ -382,6 +514,14 @@
           ? pangaAya(content)
           : (content && typeof content === "object" ? pangaKitu(content) : pangaRangiYaContent(String(content || ""))));
     onyeshaMatches();
+
+    // Kumbuka somo hili, na rudisha mahali ulipoishia kama ulikuja kutoka "Endelea kusoma"
+    somoSasa = somo;
+    hifadhiEndelea(somo, restore || 0);
+    if (restore) {
+      const rudisha = () => { const max = document.documentElement.scrollHeight - window.innerHeight; window.scrollTo(0, restore * max); };
+      requestAnimationFrame(rudisha); setTimeout(rudisha, 350);
+    }
   }
 
   /* ============================================================
@@ -548,12 +688,14 @@
   function rudiOrodhani() {
     // Kama somo linaonekana → funga somo, rudi kwenye orodha ya kategoria
     if (lessonView.style.display === "block") {
+      hifadhiRatio();
       lessonView.style.display = "none";
       document.body.classList.remove("reading");
       document.getElementById("matchBar").classList.add("hidden");
       lessonList.classList.remove("hidden");
       window.scrollTo(0, listScrollY);
       requestAnimationFrame(() => window.scrollTo(0, listScrollY));
+      onyeshaContinue();
       return;
     }
     // Kama tuko kwenye orodha ya masomo ya kategoria → rudi kwenye kategoria
