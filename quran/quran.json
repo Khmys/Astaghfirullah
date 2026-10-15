@@ -797,5 +797,10 @@
     "title": "114. An-Naas",
     "file": "quran/114.json",
     "image": "https://placehold.co/600x300.png?text=An-Naas"
+  },
+  {
+    "id": "Al faatih",
+    "category": "Tafsiri",
+    "file": "quran/Qtafsiri/t001.json"
   }
 ]
