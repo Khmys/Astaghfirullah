@@ -1,0 +1,48 @@
+{
+  "type": "somo",
+  "blocks": [
+    { "t": "h", "text": "Isti'aanah (Kuomba Msaada)" },
+
+    { "t": "p", "text": "Rejea makala ifuatayo kupata faida:" },
+
+    { "t": "quote", "text": "18-Hakika Shirki Ni Dhulma Kubwa Mno! - Isti'aanah (Kuomba Msaada) Kwa Asiyekuwa Allaah", "source": "Alhidaaya.com" },
+
+    { "t": "p", "text": "Rejea pia Al-Anfaal (8:9), Al-Qaswasw (28:15) kupata maana ya Istighaathah (Kuomba Uokozi)." },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "Maana Ya Swiraatw Al-Mustaqiym (Njia Iliyonyooka)" },
+
+    { "t": "h", "text": "Hadiyth Ya Kwanza:" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ النَّوَّاسِ بْنِ سَمْعَانَ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ" },
+
+    { "t": "note", "text": "Amesimulia An-Nawaas bin Sam'aan (رضي الله عنه): Rasuli wa Allaah (صلى الله عليه وآله وسلم) amesema:" },
+
+    { "t": "quote", "text": "Allaah (تعالى) Amepiga mfano Swiraatw (njia) iliyonyooka, imezungukwa pande zote na kuta mbili na kila ukuta una milango iliyo wazi na imefunikwa na mapazia. Na katika lango la Swiraatw kuna mlinganiaji akiita: \"Enyi watu! Ingieni nyote katika swiraatw na msipite pembeni.\" Na juu ya Swiraatw, kuna mlinganiaji mwengine anamuonya mtu yeyote anayetaka kufungua hiyo milango akiwaambia: Ole wenu! Msiufungue! Kwani mkifungua mtapita ndani! Kwani Asw-Swiraatw ni Uislaam, na kuta mbili ni mipaka Aliyoiweka Allaah. Na milango iliyofunguliwa ni yaliyoharamishwa na Allaah. Na huyo mlinganiaji juu ya lango la Swiraatw ni Kitabu cha Allaah, na mlinganiaji juu ya Swiraatw ni Maonyo ya Allaah yaliyo ndani ya kila nafsi ya Muislamu.", "source": "Ahmad, ameisahihisha Al-Albaaniy; Swahiyh Al-Jaami' (3887)" },
+
+    { "t": "h", "text": "Hadiyth Ya Pili:" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ جَابِرٍ رَضِيَ اللَّهُ عَنْهُ قَالَ" },
+
+    { "t": "note", "text": "Amesimulia Jaabir (رضي الله عنه): Tulikuwa tumekaa pamoja na Nabiy (صلى الله عليه وآله وسلم), akachora mstari mbele yake, kisha akachora mistari miwili kuliani, na mistari miwili kushotoni, kisha akaweka mkono wake katika njia ya katikati akasema: \"Hii Njia ya Allaah.\" Kisha akasoma:" },
+
+    { "t": "red_arabic", "arabic": "وَأَنَّ هَـٰذَا صِرَاطِي مُسْتَقِيمًا فَاتَّبِعُوهُ ۖ  وَلَا تَتَّبِعُوا السُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِ ۚ" },
+
+    { "t": "p", "text": "Na kwamba hii ndiyo njia Yangu iliyonyooka, basi ifuateni. Na wala msifuate njia nyinginezo zitakufarikisheni na Njia Yake. [Al-An'aam (6:153)]" },
+
+    { "t": "quote", "text": "Ahmad, Swahiyh Ibn Maajah (11)", "source": "Swahiyh Ibn Maajah" },
+
+    { "t": "p", "text": "Rejea pia (Aal-'Imraan (3:103) (3:105), Al-An'aam (6:153)." },
+
+    { "t": "hr" },
+
+    { "t": "h", "text": "Nani Walioghadhibikiwa Na Waliopotea:" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ عَدِيِّ بْنِ حَاتِمٍ رَضِيَ اللَّهُ عَنْهُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ" },
+
+    { "t": "note", "text": "Amesimulia 'Adiy bin Haatim (رضي الله عنه): Rasuli wa Allaah (صلى الله عليه وآله وسلم) amesema:" },
+
+    { "t": "quote", "text": "Walioghadhibikiwa ni Mayahudi, na waliopotea ni Manaswara.", "source": "At-Tirmidhiy Hadiyth Hasan Ghariyb na taz. Silsilah Asw-Swahiyhah (363)" }
+  ]
+}
