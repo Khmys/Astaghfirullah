@@ -1,0 +1,177 @@
+{
+  "type": "somo",
+  "blocks": [
+    { "t": "h", "text": "SURA YA 1: AL-FAATIHAH (UFUNGUO)" },
+
+    { "t": "hr" },
+    { "t": "h", "text": "1. UTANGULIZI WA SURA" },
+
+    { "t": "p", "text": "Suwrah imeitwa Al-Faatihah (Ufunguo), na yanayodalilisha ni kutajwa kwake katika Hadiyth zilizonukuliwa katika Fadhila za Suwrah. Na Suwrah imeitwa Al-Faatihah (Ufunguo), kutokana na Suwrah kuwa ya mwanzo katika Mswahafu." },
+
+    { "t": "hr" },
+    { "t": "h", "text": "2. TAARIFA ZA MSINGI" },
+
+    { "t": "list", "items": [
+      "Namba ya Suwrah: 1",
+      "Jina la Suwrah: Al-Faatihah",
+      "Maana ya Jina: Ufunguo",
+      "Jina la Kiarabu: الفاتحة",
+      "Imeteremka: Makkah",
+      "Itifaki: ‘Ulamaa",
+      "Idadi ya Aayah: 7"
+    ]},
+
+    { "t": "hr" },
+    { "t": "h", "text": "3. MAJINA YAKO MENGINEYO" },
+
+    { "t": "list", "ordered": true, "items": [
+      "Ummul-Qur-aan (Mama wa Qur-aan)",
+      "AlhamduliLlaah (Himdi Anastahiki Allaah)",
+      "Asw-Swalaah (Swalaah, duaa)",
+      "Ash-Shifaa (shifaa, poza, tiba)",
+      "Ar-Ruqyah (kinga)",
+      "Sab‘ul-Mathaaniy (Aayah saba zinazokaririwa na kusomwa)",
+      "Al-Qur-aan Al-‘Adhwiym (Qur-aan Adhimu)",
+      "Ummul-Kitaab (Mama wa Kitabu)"
+    ]},
+
+    { "t": "hr" },
+    { "t": "h", "text": "4. MIONGONI MWA MAKUSUDIO YA SUWRAH" },
+
+    { "t": "list", "ordered": true, "items": [
+      "Kuthibitisha kuwa wanaadam wote ni waja wa Allaah (سبحانه وتعالى) [Al-Mukhtaswar Fiy Tafsiyr Al-Qur-aan Al-Kariym]",
+      "Kuthibitishwa kumwabudu Allaah (سبحانه وتعالى) kwa ikhlaasw.",
+      "Kuwakumbusha waja kwamba wao ni waja, na Anaepaswa kuabudiwa na kuombwa msaada ni Allaah (سبحانه وتعالى).",
+      "Kubainisha hali za watu na njia iliyonyooka."
+    ]},
+
+    { "t": "hr" },
+    { "t": "h", "text": "5. MIONGONI MWA MAUDHUI YA SUWRAH" },
+
+    { "t": "list", "ordered": true, "items": [
+      "Suwrah imefunguliwa kwa kutajwa Sifa za Allah (عز وجل).",
+      "Imetajwa Siku ya Malipo.",
+      "Imethibitishwa Kumpwekesha Allaah (سبحانه وتعالى) katika ibaada na katika kuomba msaada.",
+      "Inaelekeza kuomba hidaaya ya kuongozwa katika njia iliyonyooka.",
+      "Imetambulisha njia iliyonyooka, ambayo ni njia ya walioneemeshwa na waliohidika.",
+      "Suwrah imekhitimishwa kwa kuelekeza kujiepusha na njia ya wale walioghadhibikiwa na Allaah na waliopotea."
+    ]},
+
+    { "t": "hr" },
+    { "t": "h", "text": "6. FADHILA ZA SUWRAH" },
+
+    { "t": "h", "text": "6.1 Ni Suwrah Tukufu Kabisa" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ أَبِي سَعِيدِ بْنِ الْمُعَلَّى رضى الله عنه ـ قَالَ كُنْتُ أُصَلِّي فَمَرَّ بِي رَسُولُ اللَّهِ صلى الله عليه وسلم فَدَعَانِي فَلَمْ آتِهِ حَتَّى صَلَّيْتُ، ثُمَّ أَتَيْتُهُ فَقَالَ ‏\"‏ مَا مَنَعَكَ أَنْ تَأْتِيَ أَلَمْ يَقُلِ اللَّهُ ‏ ‏يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَجِيبُوا لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ‏ - ‏ ثُمَّ قَالَ: لأُعَلِّمَنَّكَ أَعْظَمَ سُورَةٍ فِي الْقُرْآنِ قَبْلَ أَنْ أَخْرُجَ ‏\"‏‏.‏ فَذَهَبَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِيَخْرُجَ فَذَكَرْتُ لَهُ‏.‏ وَقَالَ مُعَاذٌ حَدَّثَنَا شُعْبَةُ، عَنْ خُبَيْبٍ، سَمِعَ حَفْصًا، سَمِعَ أَبَا سَعِيدٍ، رَجُلاً مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا، وَقَالَ هِيَ ‏{‏الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ‏}‏ السَّبْعُ الْمَثَانِي‏.‏" },
+
+    { "t": "p", "text": "Amesimulia Abuu Sa’iyd bin Al-Mu’allaa (رضي الله عنه): Nilikuwa nikiswali, Rasuli wa Allaah (صلى الله عليه وآله وسلم) akaniita nikawa sikumuitikia mpaka nilipomaliza kuswali. Kisha nikamwendea akaniambia: “Kimekuzuia nini usinijie?” Nikasema: Ee Rasuli wa Allaah, nilikuwa naswali. Akasema: “Kwani Allaah Hakusema:" },
+
+    { "t": "red_arabic", "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَجِيبُوا لِلَّـهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ ۖ" },
+
+    { "t": "p", "text": "“Enyi walioamini! Muitikieni Allaah na Rasuli Anapokuiteni kwenye yale yenye kukupeni uhai mwema (wa dunia na Aakhirah).” [Al-Anfaal (8:24)]" },
+
+    { "t": "p", "text": "Kisha akasema: “Nitakufundisha Suwrah Tukufu kabisa katika Qur-aan kabla hujatoka Msikitini.” Akanikamata mkono, alipotaka kutoka Msikitini, nikamwambia: Ee Rasuli wa Allaah, ulisema utanifundisha Suwrah Tukufu kabisa katika Qur-aan. Akasema: “Naam," },
+
+    { "t": "red_arabic", "arabic": "الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ ﴿٢﴾" },
+
+    { "t": "p", "text": "“AlhamduliLLaah (Himdi Anastahiki) Allaah Rabb wa walimwengu.”" },
+
+    { "t": "p", "text": "Hizo ni (Aayaat) Saba zinazokaririwa (kusomwa) na Qur-aan Adhimu niliyopewa.” [Al-Hijr (15:87) ameipokea Al-Bukhaariy]" },
+
+    { "t": "quote", "text": "Chanzo: Al-Bukhaariy" },
+
+    { "t": "h", "text": "6.2 Swalaah Haitimii Bila Ya Kusomwa Suwrah Al-Faatihah" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ عُبَادَةَ بْنِ الصَّامِتِ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: لَا صَلَاةَ لمن لم يقْرَأ بِفَاتِحَة الْكتاب." },
+
+    { "t": "p", "text": "Amesimulia ‘Ubaadah bin Swaamit (رضي الله عنه): Rasuli wa Allaah (صلى الله عليه وآله وسلم) amesema: “Hakuna Swalaah kwa asiyesoma (ndani yake) Ufunguo wa Kitabu.”" },
+
+    { "t": "quote", "text": "Chanzo: Al-Bukhaariy, Muslim" },
+
+    { "t": "h", "text": "6.3 Ni Ruqyah (Kinga, Shifaa, Poza, Tiba)" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ أَبِي سَعِيدٍ، أَنَّ رَهْطًا، مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم انْطَلَقُوا فِي سَفْرَةٍ سَافَرُوهَا، حَتَّى نَزَلُوا بِحَىٍّ مِنْ أَحْيَاءِ الْعَرَبِ فَاسْتَضَافُوهُمْ، فَأَبَوْا أَنْ يُضَيِّفُوهُمْ، فَلُدِغَ سَيِّدُ ذَلِكَ الْحَىِّ، فَسَعَوْا لَهُ بِكُلِّ شَىْءٍ لاَ يَنْفَعُهُ شَىْءٌ، فَقَالَ بَعْضُهُمْ لَوْ أَتَيْتُمْ هَؤُلاَءِ الرَّهْطَ الَّذِينَ قَدْ نَزَلُوا بِكُمْ، لَعَلَّهُ أَنْ يَكُونَ عِنْدَ بَعْضِهِمْ شَىْءٌ‏.‏ فَأَتَوْهُمْ فَقَالُوا يَا أَيُّهَا الرَّهْطُ إِنَّ سَيِّدَنَا لُدِغَ، فَسَعَيْنَا لَهُ بِكُلِّ شَىْءٍ، لاَ يَنْفَعُهُ شَىْءٌ، فَهَلْ عِنْدَ أَحَدٍ مِنْكُمْ شَىْءٌ فَقَالَ بَعْضُهُمْ نَعَمْ، وَاللَّهِ إِنِّي لَرَاقٍ، وَلَكِنْ وَاللَّهِ لَقَدِ اسْتَضَفْنَاكُمْ فَلَمْ تُضَيِّفُونَا، فَمَا أَنَا بِرَاقٍ لَكُمْ حَتَّى تَجْعَلُوا لَنَا جُعْلاً‏.‏ فَصَالَحُوهُمْ عَلَى قَطِيعٍ مِنَ الْغَنَمِ، فَانْطَلَقَ فَجَعَلَ يَتْفُلُ وَيَقْرَأُ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ حَتَّى لَكَأَنَّمَا نُشِطَ مِنْ عِقَالٍ، فَانْطَلَقَ يَمْشِي مَا بِهِ قَلَبَةٌ‏.‏ قَالَ فَأَوْفَوْهُمْ جُعْلَهُمُ الَّذِي صَالَحُوهُمْ عَلَيْهِ، فَقَالَ بَعْضُهُمُ اقْسِمُوا‏.‏ فَقَالَ الَّذِي رَقَى لاَ تَفْعَلُوا حَتَّى نَأْتِيَ رَسُولَ اللَّهِ صلى الله عليه وسلم فَنَذْكُرَ لَهُ الَّذِي كَانَ، فَنَنْظُرَ مَا يَأْمُرُنَا‏.‏ فَقَدِمُوا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرُوا لَهُ فَقَالَ ‏\"‏ وَمَا يُدْرِيكَ أَنَّهَا رُقْيَةٌ أَصَبْتُمُ اقْسِمُوا وَاضْرِبُوا لِي مَعَكُمْ بِسَهْمٍ ‏\"‏‏.‏" },
+
+    { "t": "p", "text": "Amesimulia Abuu Sa’iyd Al-Khudriyy (رضي الله عنه): Kikundi cha Swahaba wa Rasuli wa Allaah (صلى الله عليه وآله وسلم) walitokea kwenda safari mpaka wakafika katika sehemu miongoni mwa sehemu za Waarabu. Wakaomba wapokelewe kama wageni wao, lakini (watu wa kabila hilo) walikataa kuwapokea. Kisha mtemi wa kabila hilo aliumwa na nyoka (au nge), naye akapewa matibabu ya aina yote lakini hakuna kilichomfaa. Baadhi yao wakasema: Je, hamtakwenda kwa kile kikundi (wasafiri) walioteremka kwenu ili muone kama mmoja wao ana chochote (cha kumtibu mtemi)? Wakawaendea na kuwaambia: Enyi kikundi! Mtemi wetu ameumwa na nyoka (au nge) nasi tumemtibu kwa kila kitu (tulicho nacho) lakini hakuna kilichomnufaisha. Je, yupo miongoni mwenu aliye na chochote (cha kumtibu)? Mmoja wao akajibu: Naam, hakika mimi najua kutibu kwa ruqyah. Lakini wa-Allaahi, tulikuombeni mtupokee kama wageni wenu lakini mlikataa. Sitamtibu mgonjwa wenu kwa ruqyah mpaka mtufanyie malipo! Kwa hiyo, wakakubali kuwalipa wasafiri wale kundi la kondoo. (Swahaba huyo) akaenda nao (watu wa kabila hilo kwa mtemi) akatemea mate (alipongatwa) huku anamsomea Suwrah Al-Faatihah mpaka mgonjwa huyo akatibika na kuanza kutembea kama kwamba hakuwa mgonjwa (kabla ya hapo). Pindi wale watu wa kabila walipowalipa pato waliokubaliana, baadhi yao (Swahaba) wakasema: Gaweni (kondoo). Lakini yule aliyetibu kwa ruqyah akasema: Msifanye hivyo mpaka tuende kwa Rasuli wa Allaah (صلى الله عليه وآله وسلم) kumtajia yaliyotokea ili tuone atakavyotuamuru. Wakaenda kwa Rasuli wa Allaah (صلى الله عليه وآله وسلم) na wakamtajia kisa chao, naye (صلى الله عليه وآله وسلم) akasema: “Mlijuaje kuwa Suwratul-Faatihah ni ruqyah? Mmepatia! Gawanyeni (mlichopata) na nigaieni sehemu yangu.”" },
+
+    { "t": "quote", "text": "Chanzo: Al-Bukhaariy" },
+
+    { "t": "h", "text": "6.4 Hajapatapo Kupewa Nabiy Yeyote Suwrah Al-Faatihah, Isipokuwa Nabiy Muhammad (صلى الله عليه وآله وسلم)" },
+
+    { "t": "blue_arabic", "arabic": "عَنِ ابْنِ عَبَّاسٍ، قَالَ بَيْنَمَا جِبْرِيلُ قَاعِدٌ عِنْدَ النَّبِيِّ صلى الله عليه وسلم سَمِعَ نَقِيضًا مِنْ فَوْقِهِ فَرَفَعَ رَأْسَهُ فَقَالَ هَذَا بَابٌ مِنَ السَّمَاءِ فُتِحَ الْيَوْمَ لَمْ يُفْتَحْ قَطُّ إِلاَّ الْيَوْمَ فَنَزَلَ مِنْهُ مَلَكٌ فَقَالَ هَذَا مَلَكٌ نَزَلَ إِلَى الأَرْضِ لَمْ يَنْزِلْ قَطُّ إِلاَّ الْيَوْمَ فَسَلَّمَ وَقَالَ أَبْشِرْ بِنُورَيْنِ أُوتِيتَهُمَا لَمْ يُؤْتَهُمَا نَبِيٌّ قَبْلَكَ فَاتِحَةُ الْكِتَابِ وَخَوَاتِيمُ سُورَةِ الْبَقَرَةِ لَنْ تَقْرَأَ بِحَرْفٍ مِنْهُمَا إِلاَّ أُعْطِيتَهُ ‏.‏" },
+
+    { "t": "p", "text": "Amesimulia Ibn ‘Abbaas (رضي الله عنهما): Jibriyl (عليه السلام) alipokuwa na Nabiy (صلى الله عليه وآله وسلم) alisikia sauti kutoka juu. Jibriyl (عليه السلام) akatazama juu akasema: “Huo ni mlango wa mbinguni umefunguliwa na haujapatapo kufunguliwa isipokuwa leo.” Malaika akateremka kupitia humo akasema: “Huyu Malaika ameteremka ardhini, hajapatapo kuteremka kamwe isipokuwa leo.” Akasalimia kisha akasema: “Pokea bishara ya nuru mbili ulizopewa ambazo hakuna Nabii aliyepewa kabla yako: Ufunguo wa Kitabu (Al-Faatihah), na Aayah (mbili) za mwisho wa Suwratul-Baqarah. Hutosoma herufi humo ila utapewa (ujira).”" },
+
+    { "t": "quote", "text": "Chanzo: Muslim" },
+
+    { "t": "h", "text": "6.5 Suwrah Al-Faatihah, Haijateremshwa Katika Tawraat Wala Katika Injiyl Wala Katika Zabuwr, Wala Hakuna Mfano Wake Katika Qur-aan" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ أَبِي هُرَيْرَةَ رضي الله عنه أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ لأُبَيِّ بْنِ كَعْبٍ : أَتُحِبُّ أَنْ أُعَلِّمَكَ سُورَةً لَمْ يَنْزِلْ فِي التَّوْرَاةِ وَلَا فِي الْإِنْجِيلِ وَلَا فِي الزَّبُورِ وَلَا فِي الْفُرْقَانِ مِثْلُهَا ؟ قَالَ : نَعَمْ ، يَا رَسُولَ اللَّهِ ، قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : كَيْفَ تَقْرَأُ فِي الصَّلَاةِ ؟ قَالَ : فَقَرَأَ أُمَّ الْقُرْآنِ . فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : (وَالَّذِي نَفْسِي بِيَدِهِ مَا أُنْزِلَتْ فِي التَّوْرَاةِ وَلَا فِي الْإِنْجِيلِ وَلَا فِي الزَّبُورِ وَلَا فِي الْفُرْقَانِ مِثْلُهَا) صححه الألباني في صحيح الترمذي ." },
+
+    { "t": "p", "text": "Amesimulia Abuu Hurayrah (رضي الله عنه): Rasuli wa Allaah (صلى الله عليه وآله وسلم) alimuuliza ‘Ubayy Bin Ka’b: “Je unapenda nikufundishe Suwrah ambayo haijapata kuteremshiwa katika Tawraat, wala katika Injiyl, wala katika Zabuwr, wala hakuna mfano wake katika Qur-aan?” Akasema: Naam ee Rasuli wa Allaah. Rasuli wa Allaah (صلى الله عليه وآله وسلم) akamuuliza: “Unasoma nini katika Swalaah?” Akasema: Akasoma (Suwrah) ya Ummul-Kitaab (Al-Faatihah). Kisha Rasuli wa Allaah (صلى الله عليه وآله وسلم) akasema: “Naapa kwa Ambaye nafsi yangu imo Mikononi Mwake! Haijapata kuteremshwa katika Tawraat, wala katika Injiyl, wala katika Zabuwr wala hakuna mfano wake katika Qur-aan.”" },
+
+    { "t": "quote", "text": "Chanzo: At-Tirmidhiy na ameisahihisha Al-Albaaniy katika Swahiyh At-Tirmidhiy" },
+
+    { "t": "h", "text": "6.6 Allaah (سبحانه وتعالى) Ameigawa Suwrah Al-Faatihah Sehemu Mbili; Sehemu Yake Na Sehemu Ya Mja Anayeisoma" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ أَبِي هُرَيْرَةَ (رضي الله عنه) عَنْ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: ((مَنْ صَلَّى صَلاَةً لَمْ يَقْرَأْ فِيهَا بِأُمِّ الْقُرْآنِ فَهِيَ خِدَاجٌ)) ثَلاَثًا ((غَيْرُ تَمَامٍ)) فَقِيلَ لإِبِي هُرَيْرَةَ: إِنَّا نَكُونُ وَرَاءَ الإِمَامِ؟ فَقَالَ: اقْرَأْ بِهَا فِي نَفْسِكَ فَإِنِّي سَمِعْتُ رَسُولَ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَسَلَّم)َ يَقُولُ: ((قَالَ اللَّهُ تَعَالَى قَسَمْتُ الصَّلاَةَ بَيْنِي وَبَيْنَ عَبْدِي نِصْفَيْنِ، وَلِعَبْدِي مَا سَأَلَ. فَإِذَا قَالَ الْعَبْدُ (الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ) قَالَ اللَّهُ تَعَالَى: حَمِدَنِي عَبْدِي، وَإِذَا قَالَ (الرَّحْمَنِ الرَّحِيمِ) قَالَ اللَّهُ تَعَالَى: أَثْنَى عَلَيَّ عَبْدِي، وَإِذَا قَالَ (مَالِكِ يَوْمِ الدِّينِ) قَالَ: مَجَّدَنِي عَبْدِي، وَقَالَ مَرَّةً فَوَّضَ إِلَيَّ عَبْدِي، فَإِذَا قَالَ (إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ) قَالَ: هَذَا بَيْنِي وَبَيْنَ عَبْدِي وَلِعَبْدِي مَا سَأَلَ))" },
+
+    { "t": "p", "text": "Amesimulia Abuu Hurayrah (رضي الله عنه): Nabiy (صلى الله عليه وآله وسلم) amesema: “Atakayeswali Swalaah bila ya kusoma humo mama wa Qur-aan (Suwratul-Faatihah) basi ina kasoro.” Alikariri mara tatu: “Haikutimia.” Mtu mmoja alimwambia Abuu Hurayrah: (Hata) tukiwa nyuma ya Imaam? Akasema: Isome mwenyewe (kimya kimya) kwani nilimsikia Rasuli wa Allaah (صلى الله عليه وآله وسلم) akisema: “Allaah (تعالى) Amesema: Nimeigawa Swalaah baina Yangu na mja Wangu nusu mbili, mja Wangu atapata yale aliyoyaomba. Mja anaposema:" },
+
+    { "t": "red_arabic", "arabic": "الْحَمْدُ لِلَّـهِ رَبِّ الْعَالَمِينَ ﴿٢﴾" },
+
+    { "t": "p", "text": "“AlhamduliLLaah (Himdi Anastahiki) Rabb wa walimwengu.”" },
+
+    { "t": "p", "text": "Allaah (تعالى) Husema: Mja Wangu kanihimidi. Na anaposema:" },
+
+    { "t": "red_arabic", "arabic": "الرَّحْمَـٰنِ الرَّحِيمِ ﴿٣﴾" },
+
+    { "t": "p", "text": "“Mwingi wa Rehma, Mwenye Kurehemu.”" },
+
+    { "t": "p", "text": "Allaah (تعالى) Husema: Mja wangu kanisifu na kunitukuza kwa wingi. Na anaposema:" },
+
+    { "t": "red_arabic", "arabic": "مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾" },
+
+    { "t": "p", "text": "“Mfalme wa Siku ya Malipo.”" },
+
+    { "t": "p", "text": "Allaah (تعالى) Husema: Mja wangu kaniadhimisha. Na mara moja alisema: Mja wangu ameniaminisha. Na anaposema:" },
+
+    { "t": "red_arabic", "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾" },
+
+    { "t": "p", "text": "“Wewe Pekee Ndiye tunakuabudu na Wewe Pekee Ndiye tunakuomba msaada.”" },
+
+    { "t": "p", "text": "Husema: Hii ni baina Yangu na mja Wangu na mja Wangu atapata kile alichokiomba. Na anaposema:" },
+
+    { "t": "red_arabic", "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾" },
+
+    { "t": "p", "text": "“Tuongoze njia iliyonyooka. Njia ya wale Uliowaneemesha, si ya walioghadhibikiwa wala waliopotea.”" },
+
+    { "t": "p", "text": "Tuongoze njia iliyonyooka, njia ya wale Uliowaneemesha, si ya walioghadhibikiwa wala waliopotea, Husema: Hii ni ya mja Wangu na mja Wangu atapata kile alichokiomba.”" },
+
+    { "t": "quote", "text": "Chanzo: Muslim, Maalik, At-Tirmidhiy, Abuu Daawuwd, An-Nasaaiy na Ibn Maajah" },
+
+    { "t": "h", "text": "6.7 Suwrah Al-Faatihah Ina Aayah Saba Zinazokaririwa Kusomwa" },
+
+    { "t": "blue_arabic", "arabic": "عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" أُمُّ الْقُرْآنِ هِيَ السَّبْعُ الْمَثَانِي وَالْقُرْآنُ الْعَظِيمُ \"." },
+
+    { "t": "p", "text": "Amesimulia Abu Hurayrah (رضي الله عنه): Rasuli wa Allaah (صلى الله عليه وآله وسلم) amesema: “Ummul-Qur-aan (Mama wa Qur-aan) ni Aayah saba zinazokaririwa mara kwa mara na Qur-aan Adhimu (Yaani Suwrah Al-Faatihah).”" },
+
+    { "t": "quote", "text": "Chanzo: Al-Bukhaari" },
+
+    { "t": "hr" },
+    { "t": "h", "text": "7. FAIDA" },
+
+    { "t": "list", "ordered": true, "items": [
+      "Suwrah Al-Faatihah ni Suwrah Adhimu kabisa kuliko Suwrah zote za Qur-aan.",
+      "Suwrah ya Al-Faatihah ina msingi wa Dini na matawi yake: Aqiydah (itikadi), ibaada, Sharia (hukumu), kuitakidi na kuiamini Siku ya Mwisho, kuamini Majina Mazuri ya Allaah (عزّ وجلّ) na Sifa Zake Kamilifu, Kumpwekesha Allaah (سبحانه وتعالى) katika kumuabudu na katika Isti’aanah (kumuomba msaada), na katika kuomba duaa, na kumwelekea Yeye Allaah (سبحانه وتعالى) kumuomba hidaaya ya kuongozwa katika njia iliyonyooka kwa kunyenyekea Kwake, na kumuomba kuwa miongoni mwa wema waliotangulia ambao wameneemeshwa, na kuomba kujiepuesha na njia ya walioghadhibikiwa (na Allaah) na waliopotea.",
+      "Ni Suwrah ambayo inajumuisha Qur-aan nzima. Na ndio maana ikawa ni Suwrah ambayo Muislamu anapaswa kuisoma katika Swalaah zake zote za faradhi na katika Swalaah za Sunnah, na ikawa hukumu yake ni faradhi (lazima), yaani: Bila ya kuisoma, Swalaah haikamiliki.",
+      "Suwrah imejumuisha Tawhiyd zote tatu: (i) Tawhiyd Ar-Rubuwbiyyah (Kumpwekesha Allaah katika Uola [Rabb], Uumbaji, Ufalme, Uendeshaji wa mambo yote ya ulimwengu na walimwengu, Utoaji rizki n.k) (ii) Tawhiyd Al-Uluwhiyyah (Kumpwekesha Allaah katika ibaada). (iii) Tawhiyd ya Asmaa wa Asw-Swifaat (Kumpwekesha Allaah katika Majina Yake Mazuri kabisa na Sifa Zake).",
+      "Suwrah Al-Faatihah (1), ni miongoni mwa Suwrah tano zinazoanzia kwa AlhamduliLlaah. Nyenginezo ni Al-An’aam (6), Al-Kahf (18), Saba-a (34) na Faatwir (35)."
+    ]},
+
+    { "t": "hr" },
+    { "t": "h", "text": "8. MWISHO" },
+
+    { "t": "quote", "text": "Hii ni Sura ya Al-Faatihah — Ufunguo wa Qur-aan Tukufu.", "source": "Somo la Qur-aan" }
+  ]
+}
