@@ -446,8 +446,31 @@
     if (!o.file && s.content) o.content = s.content;
     return o;
   }
+  // Hifadhi ya akaunti ya Telegram: inamfuata kila mtu kwenye simu zake zote (si ya mtu mwingine)
+  const cloud = (tg.CloudStorage && tg.isVersionAtLeast && tg.isVersionAtLeast("6.9")) ? tg.CloudStorage : null;
   function hifadhiEndelea(somo, ratio) {
-    try { localStorage.setItem(END_KEY, JSON.stringify({ somo: somoSafi(somo), ratio: ratio || 0 })); } catch (e) {}
+    const s = JSON.stringify({ somo: somoSafi(somo), ratio: ratio || 0, t: Date.now() });
+    try { localStorage.setItem(END_KEY, s); } catch (e) {}
+    if (cloud && s.length < 3900) { try { cloud.setItem(END_KEY, s, () => {}); } catch (e) {} }
+  }
+  function futaEndelea() {
+    try { localStorage.removeItem(END_KEY); } catch (e) {}
+    if (cloud) { try { cloud.removeItem(END_KEY, () => {}); } catch (e) {} }
+  }
+  // Mwanzoni: kama akaunti ina rekodi mpya kuliko ya simu hii, itumie
+  function pakiaEndeleaCloud() {
+    if (!cloud) return;
+    try {
+      cloud.getItem(END_KEY, (err, val) => {
+        if (err || !val) return;
+        let c; try { c = JSON.parse(val); } catch (e) { return; }
+        const l = somaEndelea();
+        if (!l || (c.t || 0) > (l.t || 0)) {
+          try { localStorage.setItem(END_KEY, val); } catch (e) {}
+          onyeshaContinue();
+        }
+      });
+    } catch (e) {}
   }
   function somaEndelea() { try { return JSON.parse(localStorage.getItem(END_KEY) || "null"); } catch (e) { return null; } }
   function ratioSasa() {
@@ -469,7 +492,7 @@
     box.querySelector(".continue-card").addEventListener("click", () => funguaSomo(e.somo, e.ratio));
     box.querySelector(".continue-x").addEventListener("click", ev => {
       ev.stopPropagation();
-      try { localStorage.removeItem(END_KEY); } catch (err) {}
+      futaEndelea();
       onyeshaContinue();
     });
   }
@@ -781,6 +804,7 @@
   document.getElementById("prevM").addEventListener("click", () => ruka(curMark - 1));
   document.getElementById("nextM").addEventListener("click", () => ruka(curMark + 1));
   tg.BackButton.onClick(rudiOrodhani);
+  pakiaEndeleaCloud();
 
   /* ============================================================
      UTAFUTAJI WA KATEGORIA (wakati wa kategoria zote)
