@@ -1,0 +1,230 @@
+{
+  "type": "sura",
+  "surah_number": 12,
+  "name": "Yusuf",
+  "arabic_name": "سُورَةُ يُوسُفَ",
+  "revelation": "Makkah",
+  "ayah_count": 111,
+  "juz": 13,
+  "intro": "Sura hii inaitwa Yusuf kwa kuwa inasimulia kisa kizima cha Nabii Yusuf, maisha yake tangu utotoni, kuuzwa kwake utumwani, kufungwa jela, hadi kufikia utawala na kukutana na wazazi wake na ndugu zake.",
+  "content": [
+    {
+      "number": 1,
+      "page": 565,
+      "arabic": "الر ۚ تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ",
+      "translation": "Alif, Lām, Rā’. Maneno yametangulia juu ya herufi zilizokatwa na kutengwa mwanzo wa sura ya Al-Baqarah. Hizi ni aya za Kitabu kilichobainika kilicho wazi katika maana yake, mahalalisho yake, maharamisho yake na uongofu wake."
+    },
+    {
+      "number": 2,
+      "page": 565,
+      "arabic": "إِنَّا أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا لَّعَلَّكُمْ تَعْقِلُونَ",
+      "translation": "Sisi tumekuteremshia Qur’ani kwa lugha ya Waarabu, huenda nyinyi, enyi Waarabu mkayatia akilini maana yake, mkayafahamu na mkatenda kulingana na uongofu wake."
+    },
+    {
+      "number": 3,
+      "page": 565,
+      "arabic": "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ بِمَا أَوْحَيْنَا إِلَيْكَ هَٰذَا الْقُرْآنَ وَإِن كُنتَ مِن قَبْلِهِ لَمِنَ الْغَافِلِينَ",
+      "translation": "Sisi tunakusimulia wewe, ewe Mtume, visa vizuri zaidi kwa wahyi tuliyokuletea wa hii Qur’ani, na ingawa, kabla ya kukuteremshia, ulikuwa ni miongoni mwa waliosh aghalika nazo, hujui chochote kuhusu habari hizi."
+    },
+    {
+      "number": 4,
+      "page": 565,
+      "arabic": "إِذْ قَالَ يُوسُفُ لِأَبِيهِ يَا أَبَتِ إِنِّي رَأَيْتُ أَحَدَ عَشَرَ كَوْكَبًا وَالشَّمْسَ وَالْقَمَرَ رَأَيْتُهُمْ لِي سَاجِدِينَ",
+      "translation": "Kumbuka, ewe Mtume, neno la Yūsuf kumwambia babake, «Mimi nimeota usingizini kuona nyota kumi na moja, jua na mwezi, zote zikinisujudia.» Ndoto hii ilikuwa ni bishara ya cheo kikubwa, cha ulimwenguni na Akhera, alichofikia Yūsuf, amani imshukie."
+    },
+    {
+      "number": 5,
+      "page": 565,
+      "arabic": "قَالَ يَا بُنَيَّ لَا تَقْصُصْ رُؤْيَاكَ عَلَىٰ إِخْوَتِكَ فَيَكِيدُوا لَكَ كَيْدًا ۖ إِنَّ الشَّيْطَانَ لِلْإِنسَانِ عَدُوٌّ مُّبِينٌ",
+      "translation": "Ya‘qūb, amani imshukie, alisema kumwambia mwanawe Yūsuf, «Ewe Mwanangu, usiwatajie ndugu zako ndoto hii, watakuhusudu, watakufanyia uadui na watafanya hila za kukuua, hakika Shetani kwa binadamu ni adui ambaye uadui wake uko waziwanai»."
+    },
+    {
+      "number": 6,
+      "page": 566,
+      "arabic": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ الْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُ عَلَيْكَ وَعَلَىٰ آلِ يَعْقُوبَ كَمَا أَتَمَّهَا عَلَىٰ أَبَوَيْكَ مِن قَبْلُ إِبْرَاهِيمَ وَإِسْحَاقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌ",
+      "translation": "Na kama Alivyokuonesha Mola wako ndoto hii, pia Atakuteua na Atakufundisha kutafsiri ndoto ambazo watu huziona usingizini, ujue matokeo yake ya uhakika, na atazitimiza neema zake kwako na kwa kizazi cha Ya‘qūb, kama alivyozitimiza hapo nyuma kwa wazazi wako wawili, Ibrāhīm na Is’ḥāq, kwa kuwapa unabii na utume. Hakika Mola wako Anamjua yule Anayemteua miongoni mwa waja Wake, ni Mwingi wa hekima katika kuendesha mambo ya viumbe vyake."
+    },
+    {
+      "number": 7,
+      "page": 566,
+      "arabic": "۞ لَّقَدْ كَانَ فِي يُوسُفَ وَإِخْوَتِهِ آيَاتٌ لِّلسَّائِلِينَ",
+      "translation": "Hakika katika kisa cha Yūsuf na ndugu zake kuna mazingatio na dalili za uwezo wa Allah Mtukufu na hekima Yake kwa anayeuliza habari zao na akataka kuzijua."
+    },
+    {
+      "number": 8,
+      "page": 566,
+      "arabic": "إِذْ قَالُوا لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِي ضَلَالٍ مُّبِينٍ",
+      "translation": "Waliposema ndugu zake Yūsuf wa kwa baba kuambiana wao kwa wao, Hakika Yūsuf na ndugu yake wa kwa baba na mama wanapendwa zaidi na baba yetu kuliko sisi. Anawafanya wao bora juu yetu, na sisi ni kundi lenye idadi kubwa. Hakika baba yetu yuko makosani waziwanai, kwa kuwa amewafanya wao ni bora juu yetu bila ya sababu tunayoiona yenye kupelekea kufanya hivyo."
+    },
+    {
+      "number": 9,
+      "page": 566,
+      "arabic": "اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا مِن بَعْدِهِ قَوْمًا صَالِحِينَ",
+      "translation": "«Muu eni Yūsuf! Au mtupeni kwenye ardhi isiyojulikana iliyo mbali na mji, hapo yatasafika kwenu mapenzi ya baba yenu na muelekeo wake kwenu, na hatageuka kwa wengine na kuacha kushughulika na nyinyi, na mtakuwa, baada ya kumuua Yūsuf au kumpoteza, ni wenye kutubia kwa Allah Mtukufu na kumuomba msamaha baada ya kosa lenu»."
+    },
+    {
+      "number": 10,
+      "page": 567,
+      "arabic": "قَالَ قَائِلٌ مِّنْهُمْ لَا تَقْتُلُوا يُوسُفَ وَأَلْقُوهُ فِي غَيَابَتِ الْجُبِّ يَلْتَقِطْهُ بَعْضُ السَّيَّارَةِ إِن كُنتُمْ فَاعِلِينَ",
+      "translation": "Akasema mwenye kusema, miongoni mwa ndugu za Yūsuf, «Msimuue Yūsuf, na mtupeni ndani ya kisima ataokotwa na wapita njia miongoni mwa wasafiri, na hapo mtapumzika na yeye; na hakuna haja ya nyinyi kumuua, iwapo muna azma ya kulifanya hilo mnalolisema»."
+    },
+    {
+      "number": 11,
+      "page": 567,
+      "arabic": "قَالُوا يَا أَبَانَا مَا لَكَ لَا تَأْمَنَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُ لَنَاصِحُونَ",
+      "translation": "Wakasema ndugu zake Yūsuf, baada ya kuafikiana kumpoteza, «Ewe baba yetu, unani wewe hutufanyi sisi ni waaminifu juu ya Yūsuf pamoja na kuwa yeye ni ndugu yetu, na sisi tunamtakia wema na kumhurumia, tutamtunza na tutampa ushauri mzuri wa kidhati?»"
+    },
+    {
+      "number": 12,
+      "page": 567,
+      "arabic": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُ لَحَافِظُونَ",
+      "translation": "«Tuachie awe na sisi kesho tutakapotoka kwenda kwenye malisho ya wanyama wetu, apate kutembea, afurahi ke na acheze kwa kushindana na mfano wake miongoni mwa michezo inayofaa. Na sisi ni wenye kumtunza na kila unalomuogopea»."
+    },
+    {
+      "number": 13,
+      "page": 567,
+      "arabic": "قَالَ إِنِّي لَيَحْزُنُنِي أَن تَذْهَبُوا بِهِ وَأَخَافُ أَن يَأْكُلَهُ الذِّئْبُ وَأَنتُمْ عَنْهُ غَافِلُونَ",
+      "translation": "Ya‘qūb alisema, «Hakika nafsi yangu itaniuma akiwa mbali na mimi na mkaenda naye yeye malishoni. Na mimi nachelea asije akaliwa na mbwamwitu, hali mkiwa kwenye shughuli zenu mumeghafilika na yeye»."
+    },
+    {
+      "number": 14,
+      "page": 567,
+      "arabic": "قَالُوا لَئِنْ أَكَلَهُ الذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّا إِذًا لَّخَاسِرُونَ",
+      "translation": "Wakasema ndugu zake Yūsuf kumwambia baba yao, «Ikiwa mbwamwitu atamla na hali sisi ni kikundi chenye nguvu, sisi wakati huo tutakuwa ni wenye kupata hasara, hatuna wema wowote, na hakuna manufaa yoyote yanayotarajiwa kutoka kwetu»."
+    },
+    {
+      "number": 15,
+      "page": 568,
+      "arabic": "فَلَمَّا ذَهَبُوا بِهِ وَأَجْمَعُوا أَن يَجْعَلُوهُ فِي غَيَابَتِ الْجُبِّ ۚ وَأَوْحَيْنَا إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا يَشْعُرُونَ",
+      "translation": "Hapo baba yao akawaachia wawe naye, walipokwenda na yeye na wakaamua kumtupa ndani ya kisima (na wakafanya hivyo) na hapo tukamletea wahyi Yūsuf, «Uta waambia ndugu zako mbeleni kuhusu kitendo chao hiki walichokufanyia na hali wao hawakitambui»."
+    },
+    {
+      "number": 16,
+      "page": 568,
+      "arabic": "وَجَاءُوا أَبَاهُمْ عِشَاءً يَبْكُونَ",
+      "translation": "Na wakaja ndugu zake Yūsuf kwa baba yao mwanzo wa usiku kipindi cha isha, huku wanalia na wanajionesha wana masikitiko na msiba."
+    },
+    {
+      "number": 17,
+      "page": 568,
+      "arabic": "قَالُوا يَا أَبَانَا إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَاعِنَا فَأَكَلَهُ الذِّئْبُ ۖ وَمَا أَنتَ بِمُؤْمِنٍ لَّنَا وَلَوْ كُنَّا صَادِقِينَ",
+      "translation": "Wakasema, «Ewe baba yetu! Sisi tulikwenda tukawa tunashindana kukimbia na kurusha mishale, na tukamuacha Yūsuf kwenye vyombo vyetu na nguo zetu; na hatukufanya kasoro katika kumtunza, kwa kuwa tulimuacha mahali pa amani petu, na hatukumuacha isipokuwa kwa wakati mchache, mbwamwitu akamla. Na wewe hutatuamini, ingawa sisi ni wenye sifa ya ukweli, kwa sababu ya mapenzi yako makubwa kwa Yūsuf»."
+    },
+    {
+      "number": 18,
+      "page": 568,
+      "arabic": "وَجَاءُوا عَلَىٰ قَمِيصِهِ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَاللَّهُ الْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "translation": "Wakaja na kanzu yake ikiwa imerowa kwa damu ambayo si ya Yūsuf, ili iwe ni ushahidi juu ya ukweli wao, ikawa ni dalili ya urongo wao, kwa kuwa kanzu haikuchanika. Baba yao Ya‘qūb, amani imshukie, akawaambia, «Mambo sivyo kama mlivyosema, bali ni nafsi zenu zenye kuamrisha uovu ziliwapa mbia jambo ovu kumfanyia Yūsuf, mkaliona ni zuri na mkalifanya. Basi nitasubiri subira nzuri isiyokuwa na malalamishi kwa kiumbe chochote, na namuomba Allah Mtukufu msaada wa kuweza kuubeba huo urongo mnaoupanga; sitegemei uwezo wangu wala nguvu zangu»."
+    },
+    {
+      "number": 19,
+      "page": 569,
+      "arabic": "وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُ ۖ قَالَ يَا بُشْرَىٰ هَٰذَا غُلَامٌ ۚ وَأَسَرُّوهُ بِضَاعَةً ۚ وَاللَّهُ عَلِيمٌ بِمَا يَعْمَلُونَ",
+      "translation": "Likaja kundi la wasafiri wakamtuma mwenye kuutafutia maji, alipoiteremsha ndoo yake kisimani, Yūsuf alii shikilia. Hapo mchota maji alifurahi na akachangamka kwa kumuokota mtoto na akasema, «Ni bishara njema iliyoje! Huyu ni mtoto wa kiiume mzuri.» Mchota maji na wenzake walimficha Yūsuf asijulikane na wasafiri wengine wasiwaoneshe, na wakasema, «Hii ni bidhaa tumeinunua.» Na Allah Mtukufu ni Mjuzi mno wa wanayomfanyia Yūsuf."
+    },
+    {
+      "number": 20,
+      "page": 569,
+      "arabic": "وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ وَكَانُوا فِيهِ مِنَ الزَّاهِدِينَ",
+      "translation": "Na ndugu zake wakamuuza kwa wachota maji miongoni mwa wasafiri kwa thamani chache ya dirhamu, na wakawa hawana haja na yeye, wanataka kupeukana na yeye. Hivyo ni kwa kuwa hawakijui cheo chake kwa Allah Mtukufu."
+    },
+    {
+      "number": 21,
+      "page": 569,
+      "arabic": "وَقَالَ الَّذِي اشْتَرَاهُ مِن مِّصْرَ لِامْرَأَتِهِ أَكْرِمِي مَثْوَاهُ عَسَىٰ أَن يَنفَعَنَا أَوْ نَتَّخِذَهُ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِي الْأَرْضِ وَلِنُعَلِّمَهُ مِن تَأْوِيلِ الْأَحَادِيثِ ۚ وَاللَّهُ غَالِبٌ عَلَىٰ أَمْرِهِ وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+      "translation": "Na wasafiri walipoon doka na Yūsuf kuelekea Misri, kiongozi wake alimnuua, naye ni waziri, na akamwambia mke wake, «Kaa naye vizuri na uyafanye mema makazi yake kwetu, huenda tukafaidika na utumishi wake, au tukamu weka hapa kwetu kama mtoto.» Na kama tulivyomuokoa Yūsuf na tukamfanya kiongozi wa Misri kuwa na huruma na yeye, vilevile tulimma kinisha kwenye ardhi ya Misri na tulimfanya asimamie hazina zake, na ili tumfundishe kufasiri ndoto na apate kujua matukio ya wakati unaokuja. Na Allah Mtukufu ni Mshindi kwa jambo Lake, uamuzi Wake ni wenye kupita, hakuna Mwenye kuutengua, lakini wengi sana kati ya watu hawajui kwamba mambo yote yako kwenye mkono wa Allah Mtukufu."
+    },
+    {
+      "number": 22,
+      "page": 570,
+      "arabic": "وَلَمَّا بَلَغَ أَشُدَّهُ آتَيْنَاهُ حُكْمًا وَعِلْمًا ۚ وَكَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
+      "translation": "Yūsuf alipofikia umri wa kukamilika nguvu za ujana wake, tulimpa fahamu na elimu. Na mfano wa malipo haya tuliyomlipa Yūsuf kwa wema wake, tutawalipa walio wema kwa wema wao. Katika haya kuna kumliwaza Mtume, (rehema za Allah Mtukufu na amani zimshukie)."
+    },
+    {
+      "number": 23,
+      "page": 570,
+      "arabic": "وَرَاوَدَتْهُ الَّتِي هُوَ فِي بَيْتِهَا عَن نَّفْسِهِ وَغَلَّقَتِ الْأَبْوَابَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ اللَّهِ ۖ إِنَّهُ رَبِّي أَحْسَنَ مَثْوَايَ ۖ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+      "translation": "Na mke wa yule kiongozi, ambaye Yūsuf alikuwa nyumbani kwake, alimtaka Yūsuf kwa upole na kubembeleza, kwa kuwa alimpenda sana na kwa ajili ya uzuri wake, na akamfungia milango na akasema kumwambia Yūsuf, «Njoo kwangu.» Akasema, «Najilinda kwa Allah Mtukufu na najihifadhi Kwake na kujihami kutokana na hayo unayoniitia ya kumfanyia hiana bwanangu aliyeyafanya mazuri mashukio yangu na akanikirimu. Sitamhini kwa watu wake. Hakika hafaulu anayedhulumu na akafanya mambo ambayo hatakiwi kuyafanya»."
+    },
+    {
+      "number": 24,
+      "page": 570,
+      "arabic": "وَلَقَدْ هَمَّتْ بِهِ ۖ وَهَمَّ بِهَا لَوْلَا أَن رَّأَىٰ بُرْهَانَ رَبِّهِ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ السُّوءَ وَالْفَحْشَاءَ ۚ إِنَّهُ مِنْ عِبَادِنَا الْمُخْلَصِينَ",
+      "translation": "Na nafsi yake ilivutika kufanya machafu, na Yūsuf nafsi yake ilipitiwa na mawazo ya kukubali, lau si yeye kuona alama miongoni mwa alama za Mola wake zenye kumkemea kufanya yale ambayo nafsi yake ilimzungumzia. Hakika tulimuonesha hilo, ili tumuepushie baya na chafu katika mambo yake yote. Yeye ni miongoni mwa waja wetu waliosafishwa walioteuliwa kwa ujumbe na waliotakasa katika kumuabudu kwao Allah Mtukufu na kumpwekesha."
+    },
+    {
+      "number": 25,
+      "page": 571,
+      "arabic": "وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَى الْبَابِ ۚ قَالَتْ مَا جَزَاءُ مَنْ أَرَادَ بِأَهْلِكَ سُوءًا إِلَّا أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "translation": "Yūsuf alikimbilia mlangoni kutaka kutoka, na yeye (mke wa kiongozi) akafanya haraka kumshika na akamvuta nguo yake kwa nyuma ili kumzuia asitoke na akaipasua. Wakamkuta mumewe kwenye mlango, hapo akasema (mke wa Kiongozi), «Ni yapi malipo ya anayetafuta jambo baya kwa mke wako, isipokuwa ni afungwe au apewe adhabu yenye uchungu?»"
+    },
+    {
+      "number": 26,
+      "page": 571,
+      "arabic": "قَالَ هِيَ رَاوَدَتْنِي عَن نَّفْسِي وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَا إِن كَانَ قَمِيصُهُ قُدَّ مِن قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ الْكَاذِبِينَ",
+      "translation": "Yūsuf akasema, «Yeye ndiye aliyetaka hilo kwangu. Na akatoa ushahidi mtoto wa mlezini katika jamaa zake(mke wa kiongozi) na akasema, «Iwapo kanzu yake imepasuka kwa mbele, basi mwanamke amesema kweli katika tuhma alizomfanyia na yeye (Yūsuf) ni miongoni mwa warongo»."
+    },
+    {
+      "number": 27,
+      "page": 571,
+      "arabic": "وَإِن كَانَ قَمِيصُهُ قُدَّ مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ الصَّادِقِينَ",
+      "translation": "«Na iwapo nguo yake imeraruliwa kwa nyuma, basi mwanamke amesema urongo katika kauli yake, na yeye (Yūsuf) ni miongoni mwa wakweli»."
+    },
+    {
+      "number": 28,
+      "page": 571,
+      "arabic": "فَلَمَّا رَأَىٰ قَمِيصَهُ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+      "translation": "Yule mume alipoiona nguo ya Yūsuf imeraruliwa kwa nyuma alijua kwamba Yūsuf hana hatia na akasema kumwambia mke wake, «Urongo huu uliomtuhumu nao kijana huyu ni katika jumla ya vitimbi vyenu, enyi wanawake, kwani vitimbi vyenu ni vikubwa»."
+    },
+    {
+      "number": 29,
+      "page": 572,
+      "arabic": "يُوسُفُ أَعْرِضْ عَنْ هَٰذَا ۚ وَاسْتَغْفِرِي لِذَنبِكِ ۖ إِنَّكِ كُنتِ مِنَ الْخَاطِئِينَ",
+      "translation": "Akasema kiongozi wa Misri, «Ewe Yūsuf! acha kutaja mambo yaliyokuwa kutoka kwake na usimwambie yoyote. Na uombe msamaha wa dhambi zako kwa Mola wako, ewe mwanamke, iwapo wewe ni miongoni mwa wale waliofanya hatia kwa kumtaka Yūsuf kimapenzi bila ya yeye kutaka na kwa kumzulia urongo»."
+    },
+    {
+      "number": 30,
+      "page": 572,
+      "arabic": "۞ وَقَالَ نِسْوَةٌ فِي الْمَدِينَةِ امْرَأَتُ الْعَزِيزِ تُرَاوِدُ فَتَاهَا عَن نَّفْسِهِ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَاهَا فِي ضَلَالٍ مُّبِينٍ",
+      "translation": "Habari ziliwafikia wanawake mjini wakaizungumza kuhusu hizo na wakasema kwa njia ya kumpinga mke wa kiongozi, «Mke wa Bwana anajaribu kumtaka mtumwa wake na amwita amjie. Na mapenzi yake yamefikia kwenye ngozi ya moyo wake. Hakika sisi tunamuona yeye kuwa yuko kwenye upotevu waziwanai»."
+    },
+    {
+      "number": 31,
+      "page": 572,
+      "arabic": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَأً وَآتَتْ كُلَّ وَاحِدَةٍ مِّنْهُنَّ سِكِّينًا وَقَالَتِ اخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُ أَكْبَرْنَهُ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَاشَ لِلَّهِ مَا هَٰذَا بَشَرًا إِنْ هَٰذَا إِلَّا مَلَكٌ كَرِيمٌ",
+      "translation": "Aliposikia mke wa Kiongozi kusengenya kwao na hila zao za kumtukana yeye, aliwatumia ujumbe na kuwa ita kuja kumtembelea, na akatayarisha mito ya kutegemea na chakula cha kula, na akampa kila mmoja miongoni mwao kisu cha kukatia chakula kisha akasema kumwambia Yūsuf, «Jitokeze kwao.» Walipomshuhudia, walimuona ni kitu kikubwa chenye haiba, na wakashikwa na babaiko la uzuri wake na kuvutia kwake, wakajikata mikono yao katika hali ya kukata chakula kwa babaiko kuu na mshangao, na wakasema kwa kustaajabu, «Twajilinda na Allah Mtukufu! Huyu si binadamu!» kwa kuwa uzuri wake sio ule ujulikanao kwa wanadamu, «Huyu si mwingine isipokuwa ni mtukufu miongoni mwa Malaika»."
+    },
+    {
+      "number": 32,
+      "page": 573,
+      "arabic": "قَالَتْ فَذَٰلِكُنَّ الَّذِي لُمْتُنَّنِي فِيهِ ۖ وَلَقَدْ رَاوَدتُّهُ عَن نَّفْسِهِ فَاسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَا آمُرُهُ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ الصَّاغِرِينَ",
+      "translation": "Mke wa kiongozi akasema kuwaambia wanawake waliojikata mikono yao, «Haya ndiyo yaliyowapata kwa kumuona yeye. Aliyefanya mpatikane na haya ni huyu kijana ambaye nyinyi mum enilaumu kusalitika naye. Kwa kweli nilimtaka na nikajaribu kumvutia ili anikubali, akajizuia na akakataa. Na asipofanya ninachom uamuru mbeleni, atateswa kwa kutiwa jela na hapo atakuwa ni miongoni mwa wanyonge."
+    },
+    {
+      "number": 33,
+      "page": 573,
+      "arabic": "قَالَ رَبِّ السِّجْنُ أَحَبُّ إِلَيَّ مِمَّا يَدْعُونَنِي إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّي كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ الْجَاهِلِينَ",
+      "translation": "Yūsuf akasema, akijilinda na shari zao na vitimbi vyao, «Ewe Mola wangu! Jela ni bora kwangu kuliko yale wanayoniitia ya kufanya machafu. Na usiponie pushia vitimbi vyao, nitalemea kwao na nitakuwa ni miongoni mwa wachache wa akili wenye kujifanyia madhambi kwa ujinga wao»."
+    },
+    {
+      "number": 34,
+      "page": 573,
+      "arabic": "فَاسْتَجَابَ لَهُ رَبُّهُ فَصَرَفَ عَنْهُ كَيْدَهُنَّ ۚ إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
+      "translation": "Allah Mtukufu Akamkubalia Yūsuf maombi yake, akamwepushia kile alichotaka mke wa Kiongozi na marafiki zake kutoka kwake cha kumuasi Allah Mtukufu. Allah Mtukufu Ndiye Mwenye kuyasikia maombi ya Yūsuf na maombi ya kila mwenye kuomba kati ya waja Wake, Ndiye Mwenye kuyajua matakwa yake, haja zake na kile kinachomfaa, na pia haja za viumbe Vyake vyote na yale yanayowafaa."
+    },
+    {
+      "number": 35,
+      "page": 574,
+      "arabic": "ثُمَّ بَدَا لَهُم مِّن بَعْدِ مَا رَأَوُا الْآيَاتِ لَيَسْجُنُنَّهُ حَتَّىٰ حِينٍ",
+      "translation": "Kisha ikamdhihirikia waziri na marafiki zake, baada ya kuziona dalili za kuwa Yūsuf hana hatia na amejiepusha na machafu, wamfunge mpaka muda fulani, mrefu au mfupi, ili kuzuia fedheha."
+    },
+    {
+      "number": 36,
+      "page": 574,
+      "arabic": "وَدَخَلَ مَعَهُ السِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَا إِنِّي أَرَانِي أَعْصِرُ خَمْرًا ۖ وَقَالَ الْآخَرُ إِنِّي أَرَانِي أَحْمِلُ فَوْقَ رَأْسِي خُبْزًا تَأْكُلُ الطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِ ۖ إِنَّا نَرَاكَ مِنَ الْمُحْسِنِينَ",
+      "translation": "Wakaingia jela pamoja na yeye vijana wawili. Mmoja wao akasema, «Mimi nimeota usingizini kwamba mimi nakamua zabibu ili ziwe pombe.» Na mwingine alisema, «Mimi nimeota kwamba nabeba mkate juu ya kichwa changu na ndege wanaula. Wakasema, «Tupe habari, ewe Yūsuf, ya tafsiri za ndoto tulizoziota. Sisi tunakuona wewe ni miongoni mwa wale wanaofanya wema katika kuabudu kwao Allah Mtukufu na kuingiliana kwao na viumbe Wake»."
+    },
+    {
+      "number": 37,
+      "page": 574,
+      "arabic": "قَالَ لَا يَأْتِيكُمَا طَعَامٌ تُرْزَقَانِهِ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِ قَبْلَ أَن يَأْتِيَكُمَا ۚ ذَٰلِكُمَا مِمَّا عَلَّمَنِي ر
