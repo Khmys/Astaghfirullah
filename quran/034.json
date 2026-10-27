@@ -1,0 +1,336 @@
+{
+  "type": "sura",
+  "surah_number": 34,
+  "name": "Saba",
+  "arabic_name": "سُورَةُ سَبَإٍ",
+  "revelation": "Makkah",
+  "ayah_count": 54,
+  "juz": 22,
+  "intro": "Sura hii inaitwa Saba' kwa kuwa inataja kisa cha watu wa Saba' na neema walizopewa kisha kuzikanusha. Inaeleza uwezo wa Allah, hekima ya Daudi na Sulayman, na hali ya makafiri Siku ya Kiyama.",
+  "content": [
+    {
+      "number": 1,
+      "page": 1044,
+      "arabic": "الْحَمْدُ لِلَّهِ الَّذِي لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَلَهُ الْحَمْدُ فِي الْآخِرَةِ ۚ وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+      "translation": "Shukrani ni za Allah Mtukufu kwa sifa Zake ambazo zote ni sifa za ukamilifu, na kwa neema Zake za nje na za ndani za kidini na za kidunia, Ambaye Ana ufalme wa vilivyoko mbinguni na vilivyoko ardhini, na ni Zake Yeye sifa njema zilizotimia huko Akhera, na Yeye Ndiye Mwenye hekima katika matendo Yake, Aliye Mtambuzi wa mambo ya viumbe Vyake."
+    },
+    {
+      "number": 2,
+      "page": 1044,
+      "arabic": "يَعْلَمُ مَا يَلِجُ فِي الْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ السَّمَاءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ الرَّحِيمُ الْغَفُورُ",
+      "translation": "Anajijua kila kinachoingia ardhini miongoni mwa matone ya maji na kinachotoka humo miongoni mwa mimea, madini na maji, na kinachoshuka kutoka juu miongoni mwa mvua, Malaika na Vitabu, na vinavyopanda huko miongoni mwa Malaika na matendo ya waja. Na Yeye Ndiye Mwenye kuwarehemu waja Wake, Hawaharakishii mateso wale wenye kuasi kati yao, ni Mwingi wa msamaha wa dhambi za wenye kutubia Kwake, wenye kujitegemeza Kwake."
+    },
+    {
+      "number": 3,
+      "page": 1044,
+      "arabic": "وَقَالَ الَّذِينَ كَفَرُوا لَا تَأْتِينَا السَّاعَةُ ۖ قُلْ بَلَىٰ وَرَبِّي لَتَأْتِيَنَّكُمْ عَالِمِ الْغَيْبِ ۖ لَا يَعْزُبُ عَنْهُ مِثْقَالُ ذَرَّةٍ فِي السَّمَاوَاتِ وَلَا فِي الْأَرْضِ وَلَا أَصْغَرُ مِن ذَٰلِكَ وَلَا أَكْبَرُ إِلَّا فِي كِتَابٍ مُّبِينٍ",
+      "translation": "Na makafiri wenye kukanusha kufufuliwa walisema. «Kiyama hakatutujia.» Sema, ewe Mtume, uwaambie! Ninaapa kwa Mola wangu, kitawajia! Lakini hakuna yoyote anayejua wakati wa kuja kwake isipokuwa Allah Mtukufu, Mjuzi wa visivyoonekana, Ambaye"
+    },
+    {
+      "number": 4,
+      "page": 1045,
+      "arabic": "لِّيَجْزِيَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ۚ أُولَٰئِكَ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "translation": "haufichiki Kwake uzito wa kadiri ya mdudu chungu uliyo mbinguni au ardhini, hata mdogo zaidi kuliko huo na hata mkubwa, isipokuwa uko kwenye Kitabu kilichotunzwa, nacho ni Ubao Uliohifadhiwa."
+    },
+    {
+      "number": 5,
+      "page": 1045,
+      "arabic": "وَالَّذِينَ سَعَوْا فِي آيَاتِنَا مُعَاجِزِينَ أُولَٰئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
+      "translation": "Ili Awalipе mema wale waliomuamini Allah Mtukufu, wakamfuata Mtume Wake na wakafanya matendo mema, hao watakuwa na msamaha wa dhambi zao na riziki njema, nayo ni Pepo."
+    },
+    {
+      "number": 6,
+      "page": 1045,
+      "arabic": "وَيَرَى الَّذِينَ أُوتُوا الْعِلْمَ الَّذِي أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ الْحَقَّ وَيَهْدِي إِلَىٰ صِرَاطِ الْعَزِيزِ الْحَمِيدِ",
+      "translation": "Na wale wanaoenda mbio katika kuizuia njia ya Allah Mtukufu, kuwakаnusha Mitume Wake na kuzitengua aya zetu huku wakitetа na Allah Mtukufu wakipinga amri Zake, hao watakuwa na adhabu mbaya zaidi na yenye ukali mwingi zaidi."
+    },
+    {
+      "number": 7,
+      "page": 1045,
+      "arabic": "وَقَالَ الَّذِينَ كَفَرُوا هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍ يُنَبِّئُكُمْ إِذَا مُزِّقْتُمْ كُلَّ مُمَزَّقٍ إِنَّكُمْ لَفِي خَلْقٍ جَدِيدٍ",
+      "translation": "Na wale waliopatiwa elimu wanajua kwamba Qur’ani uliyoteremshiwa kutoka kwa Mola wako ndiyo haki na kwamba inaongoza kwenye njia ya Allah Mtukufu, Aliye Mshindi Asiуeshindwa wala kuzuiliwa, bali Amekitendesha nguvu kila kitu na Amekishinda, Ndiye Mwenye kusifiwa katika maneno Yake, matendo Yake na Sheria Zake."
+    },
+    {
+      "number": 8,
+      "page": 1046,
+      "arabic": "أَفْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَم بِهِ جِنَّةٌ ۗ بَلِ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ فِي الْعَذَابِ وَالضَّلَالِ الْبَعِيدِ",
+      "translation": "Na makafiri walisema, wakiambiana wao kwa wao kwa njia ya shere, «Je, tuwaoneshe mtu (wakimkusudia Muhammad, rehema za Allah Mtukufu na amani zimshukie) atakayewaambia kwamba nyinyi mkifa na miili yenu ikawa mbalimbali kabisa kuwa nyinyi mtahuishwa na mtafufuliwa kutoka makaburini"
+    },
+    {
+      "number": 9,
+      "page": 1046,
+      "arabic": "أَفَلَمْ يَرَوْا إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُم مِّنَ السَّمَاءِ وَالْأَرْضِ ۚ إِن نَّشَأْ نَخْسِفْ بِهِمُ الْأَرْضَ أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ السَّمَاءِ ۚ إِنَّ فِي ذَٰلِكَ لَآيَةً لِّكُلِّ عَبْدٍ مُّنِيبٍ",
+      "translation": "mwenu?» wamesema hayo kwa kupita kiasi katika kukanusha kwao."
+    },
+    {
+      "number": 10,
+      "page": 1046,
+      "arabic": "۞ وَلَقَدْ آتَيْنَا دَاوُودَ مِنَّا فَضْلًا ۖ يَا جِبَالُ أَوِّبِي مَعَهُ وَالطَّيْرَ ۖ وَأَلَنَّا لَهُ الْحَدِيدَ",
+      "translation": "Kwani mtu huyu amemzulia Allah Mtukufu urongo, au ana wazimu na kwa hivyo anasema jambo asilolijua? Mambo si vile kama wanavyosema makafiri, bali Muhammad ni mkweli wa kukweli. Na wale wasioamini kufufuliwa na wasiofanya matendo ya kuwafaa huko, watakuwa kwenye adhabu ya milele huko Akhera, na wako kwenye upotevu wa mbali hapa duniani."
+    },
+    {
+      "number": 11,
+      "page": 1047,
+      "arabic": "أَنِ اعْمَلْ سَابِغَاتٍ وَقَدِّرْ فِي السَّرْدِ ۖ وَاعْمَلُوا صَالِحًا ۖ إِنِّي بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "translation": "Kwani hawaoni makafiri hawa wasioamini Akhera ukubwa wa uwezo wa Allah Mtukufu juu ya vilivyoko mbele yao na nyuma yao, miongoni mwa mbingu na ardhi, vinavyoshangaza akili, na kwamba viwili hivyo vimewazunguka? Tutakapo tutawazamisha ndani ya ardhi, kama tulivyomfanyia Qārūn, au tutawateremshia vipande vya adhabu, kama tulivyowafanyia watu wa Shu‘ayb, kwa hakika mbingu iliwanyеshеa moto ukawaunguza. Hakika katika hilo tulilolitaja la uwezo wetu kuna ushahidi wazi kwa kila mja mwenye kurudi kwa Mola wao kwa kutubia, mwenye kukubali upweke Wake na mwenye kumtakasia ibada."
+    },
+    {
+      "number": 12,
+      "page": 1047,
+      "arabic": "وَلِسُلَيْمَانَ الرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُ عَيْنَ الْقِطْرِ ۖ وَمِنَ الْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِ ۚ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ السَّعِيرِ",
+      "translation": "Hakika tulimpa Dāwūd unabii, Kitabu na ujuzi, na tukayaambia majabali na ndege, «Takaseni pamoja naye!» (Dāwūd anapomtakasa Allah Mtukufu kwa kuleta tasbihi, fanyeni hivyo pamoja naye). Na tulimlainishia chuma kikawa ni kama unga uliokandwa, Anakifinyanga anavyotaka."
+    },
+    {
+      "number": 13,
+      "page": 1047,
+      "arabic": "يَعْمَلُونَ لَهُ مَا يَشَاءُ مِن مَّحَارِيبَ وَتَمَاثِيلَ وَجِفَانٍ كَالْجَوَابِ وَقُدُورٍ رَّاسِيَاتٍ ۚ اعْمَلُوا آلَ دَاوُودَ شُكْرًا ۚ وَقَلِيلٌ مِّنْ عِبَادِيَ الشَّكُورُ",
+      "translation": "(Na tulikwambia, ewe Dāwūd,) «Tengeneza nguo za chuma zilizotimia na zilizo pana, na ukadirie vipimo vya misumari katika vidani vya kuunganisha nguo hizo za chuma, na usikifanye kidani kuwa kidogo kwani kitakuwa dhaifu, na kwa hivyo hizo nguo za chuma hazitaweza kumkinga (mwenye kuzivaa). Na usizifanye kubwa zikawa nzito kwa mwenye kuzivaa. Na ufanye, ewe Dāwūd, wewe na watu wako, vitendo vya kumtii Allah Mtukufu, kwani mimi kwa mnayoyafanya ni Mwenye kuyaona, hakifichiki kwangu kitu chochote katika hivyo»."
+    },
+    {
+      "number": 14,
+      "page": 1048,
+      "arabic": "فَلَمَّا قَضَيْنَا عَلَيْهِ الْمَوْتَ مَا دَلَّهُمْ عَلَىٰ مَوْتِهِ إِلَّا دَابَّةُ الْأَرْضِ تَأْكُلُ مِنسَأَتَهُ ۖ فَلَمَّا خَرَّ تَبَيَّنَتِ الْجِنُّ أَن لَّوْ كَانُوا يَعْلَمُونَ الْغَيْبَ مَا لَبِثُوا فِي الْعَذَابِ الْمُهِينِ",
+      "translation": "Na tulimdhalilishia Sulaymān upepo, ukawa unatembea kutoka mwanzo wa mchana mpaka katikati yake mwendo wa mwezi, na kutoka katikati ya mchana mpaka usiku mwendo wa mwezi kwa mwendo wa kawaida. Na tulimyayushia shaba ikawa inatiririka kama vile maji yanavyotiririka, akawa anafanya kwa shaba hiyo anachotaka. Na tulimdhalilishia miongoni mwa majini wenye kutumika mbele yake, na yoyote kati yao anayesita kufuata amri yetu tuliyomuamrisha ya kumtii Sulaymān tutamuonjesha kutokana na adhabu ya Moto unaowaka."
+    },
+    {
+      "number": 15,
+      "page": 1048,
+      "arabic": "لَقَدْ كَانَ لِسَبَإٍ فِي مَسْكَنِهِمْ آيَةٌ ۖ جَنَّتَانِ عَن يَمِينٍ وَشِمَالٍ ۖ كُلُوا مِن رِّزْقِ رَبِّكُمْ وَاشْكُرُوا لَهُ ۖ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ",
+      "translation": "Majini wanamfanyia Sulaymān anachotaka miongoni mwa misikiti ya ibada, picha za shaba na ukoa, madishi makubwa kama mabirika ya kukusanyika maji ndani yake na vyungu vilivyojikita visivyotikisika"
+    },
+    {
+      "number": 16,
+      "page": 1049,
+      "arabic": "فَأَعْرَضُوا فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ الْعَرِمِ وَبَدَّلْنَاهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَيْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَيْءٍ مِّن سِدْرٍ قَلِيلٍ",
+      "translation": "kutoka mahali pake kwa ukubwa wake, na tukasema, «Enyi jamii ya Dāwūd! Fanyeni kwa kumshukuru Allah Mtukufu kwa kile Alichowapa, kwa kumtii na kufuata amri Yake.» Na ni wachache, miongoni mwa waja wangu, wenye kumshukuru Allah Mtukufu kwa wingi. Na Dāwūd, yeye na jamii yake, alikuwa miongoni mwa hao wachache."
+    },
+    {
+      "number": 17,
+      "page": 1049,
+      "arabic": "ذَٰلِكَ جَزَيْنَاهُم بِمَا كَفَرُوا ۖ وَهَلْ نُجَازِي إِلَّا الْكَفُورَ",
+      "translation": "Tulipopitisha kuwa Sulaymān afe, hakuna kilichowafahamisha majini juu ya kifo chake isipokuwa mchwa kuila fimbo yake ambayo alikuwa ameiegemea, basi Sulaymān akaanguka chini, na hapo majini wakajua kwamba wao lau wangekua wanajua ghaibu wasingekaa kwenye adhabu yenye kudhalilisha na kazi ngumu kumfanyia Sulaymān, kwa wao kudhania kuwa yeye ni katika walio hai. Katika hii aya kuna kubatilisha itikadi ya baadhi ya watu kwamba majini wanayajua yasiyoonеkana. Kwani lau wao wangeyajua yasiyoonеkana wangejua kifo cha Sulaymān, amani imshukie, na wasingekaa kwenye adhabu yenye kunyongesha."
+    },
+    {
+      "number": 18,
+      "page": 1049,
+      "arabic": "وَجَعَلْنَا بَيْنَهُمْ وَبَيْنَ الْقُرَى الَّتِي بَارَكْنَا فِيهَا قُرًى ظَاهِرَةً وَقَدَّرْنَا فِيهَا السَّيْرَ ۖ سِيرُوا فِيهَا لَيَالِيَ وَأَيَّامًا آمِنِينَ",
+      "translation": "Kwa hakika, kabila la Saba’ la huko Yaman, kwenye makazi ya watu wake kuna dalili ya uwezo wetu: mabustani mawili kuliani na kushotoni, «Kuleni riziki ya Mola wenu na mumshukuru kwa neema Zake juu yenu, kwani nchi yenu ina mchanga bora na hewa nzuri, na Mola wenu ni Mwingi wa msamaha kwenu»."
+    },
+    {
+      "number": 19,
+      "page": 1050,
+      "arabic": "فَقَالُوا رَبَّنَا بَاعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوا أَنفُسَهُمْ فَجَعَلْنَاهُمْ أَحَادِيثَ وَمَزَّقْنَاهُمْ كُلَّ مَمْزَقٍ ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "translation": "Wakaipa mgongo amri ya Allah Mtukufu, wakaacha kumshukuru na wakawakаnusha Mitume, tukawatumia mafuriko yenye kubomoa yaliyo na nguvu, yaliyoharibu bwawa la maji na yakayazamisha mabustani. Na tukawageuzia mabustani yao mawili yenye kutoa matunda yakawa ni mabustani mawili yenye miti michache ya khamt, nayo ni miti ya matunda machungu yenye ladha ya kuchukiza, na athl, nayo ni miti inayofanana na ṭarfā’ isiyokuwa na matunda, na mikunazi michache yenye miba mingi."
+    },
+    {
+      "number": 20,
+      "page": 1050,
+      "arabic": "وَلَقَدْ صَدَّقَ عَلَيْهِمْ إِبْلِيسُ ظَنَّهُ فَاتَّبَعُوهُ إِلَّا فَرِيقًا مِّنَ الْمُؤْمِنِينَ",
+      "translation": "Mabadiliko hayo, kutoka kwenye mambo mazuri kwenda kwenye mabaya, ni kwa sababu ya kukanusha kwao na kutoshukuru kwao neema za Allah Mtukufu. Na hatumtesi mateso haya makali isipokuwa mkanushaji sana aliyeendelea kwenye ukanushaji; atalipwa kulingana na matendo yake, sawa kwa sawa."
+    },
+    {
+      "number": 21,
+      "page": 1050,
+      "arabic": "وَمَا كَانَ لَهُ عَلَيْهِم مِّن سُلْطَانٍ إِلَّا لِنَعْلَمَ مَن يُؤْمِنُ بِالْآخِرَةِ مِمَّنْ هُوَ مِنْهَا فِي شَكٍّ ۗ وَرَبُّكَ عَلَىٰ كُلِّ شَيْءٍ حَفِيظٌ",
+      "translation": "Na tulijaalia, baina ya watu wa Saba’, na hali wao wako Yaman, na ile miji tuliobarikiа, nayo ni Shām, kuwe na miji iliyoshikana, aliye kwenye mji wowote kati ya hiyo huona mji mwingine. Na tukafanya mwendo wa kutembea humo ni mwendo uliokadiriwa, kutoka nyumba hadi nyumba, bila mashaka, na tukawaambia, «Nendeni kwenye miji hiyo, wakati muutakao wa usiku au mchana, mkiwa mko kwenye amani hamuogopi adui, njaa wala kiu»."
+    },
+    {
+      "number": 22,
+      "page": 1051,
+      "arabic": "قُلِ ادْعُوا الَّذِينَ زَعَمْتُم مِّن دُونِ اللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ فِي السَّمَاوَاتِ وَلَا فِي الْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُ مِنْهُم مِّن ظَهِيرٍ",
+      "translation": "Kwa sababu ya kuruka mipaka kwao, walichoka na raha na amani na maisha ya neema na wakasema, «Mola wetu! Ifanye miji yetu iwe mbali mbali ili safari zetu zirefuke baina ya miji hiyo, tusipate mji ulioimarika njiani tunapokwenda.» Na wakajidhulumu nafsi zao kwa kukanusha kwao, na kwa hivyo tukawaangamiza na tukawafanya ni mazingatio na mazungumzo kwa wanaokuja baada yao, na tukawatenganisha kila namna ya kuwatenganisha, na miji yao ikawa magofu. Kwa hakika yale yaliyoikumba Saba’ ni mazingatio kwa kila mwingi wa uvumilivu juu ya shida na mambo magumu, mwingi wa kushukuru neema za Allah Mtukufu Aliyetukuka."
+    },
+    {
+      "number": 23,
+      "page": 1051,
+      "arabic": "وَلَا تَنفَعُ الشَّفَاعَةُ عِندَهُ إِلَّا لِمَنْ أَذِنَ لَهُ ۚ حَتَّىٰ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا الْحَقَّ ۖ وَهُوَ الْعَلِيُّ الْكَبِيرُ",
+      "translation": "Na kwa hakika alidhani Iblisi dhana isiyo ya ukweli kuwa atawapoteza wanadamu na kwamba wao watamtii yeye katika kumuasi Allah Mtukufu, na dhana yake kwao ikawa ya kweli, kwa kuwa wao walimtii yeye na wakamuasi Mola wao, isipokuwa kundi la wenye kumuamini Allah Mtukufu, kwani wao walijikita kwenye utiifu wa Allah Mtukufu."
+    },
+    {
+      "number": 24,
+      "page": 1052,
+      "arabic": "۞ قُلْ مَن يَرْزُقُكُم مِّنَ السَّمَاوَاتِ وَالْأَرْضِ ۖ قُلِ اللَّهُ ۖ وَإِنَّا أَوْ إِيَّاكُمْ لَعَلَىٰ هُدًى أَوْ فِي ضَلَالٍ مُّبِينٍ",
+      "translation": "Na wala hakuwa iblisi na uwezo wa kuwalazimisha wakanushaji kukufuru, lakini hekima ya Allah Mtukufu imepitisha awapambie wanadamu ili ujitokeze ujuzi Wake wa kale, tupate kumpambanua anayeamini kufufuliwa, thawabu na adhabu na kumtenganisha na yule mwenye shaka na hilo. Na Mola wako"
+    },
+    {
+      "number": 25,
+      "page": 1052,
+      "arabic": "قُل لَّا تُسْأَلُونَ عَمَّا أَجْرَمْنَا وَلَا نُسْأَلُ عَمَّا تَعْمَلُونَ",
+      "translation": "ni Mtunzi wa kila jambo, Analihifadhi na kutoa malipo yake."
+    },
+    {
+      "number": 26,
+      "page": 1052,
+      "arabic": "قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِالْحَقِّ ۖ وَهُوَ الْفَتَّاحُ الْعَلِيمُ",
+      "translation": "Sema, ewe Mtume, uwaambie washirikina, Wаiteni wale ambao mlidai kuwa wao ni washirika wa Allah Mtukufu mkawaabudu badala Yake, miongoni mwa masanamu, malaika na binadamu, na wakusudieni katika haja zenu. Kwani wao hawatawaitika. Wao hawamiliki chochote, mbinguni wala ardhini, hata kadiri ya uzito wa mdudu wa mdudu chungu, na wala hawana ushirika katika hizo mbili. Na hakuna yoyote miongoni mwa hawa washirikina mwenye kumsaidia kuumba chochote. Bali Allah Mtukufu, Aliyetakasika na kutukuka, ndiye Aliyepwekeka kwa upatishaji.Yeye Ndiye Anayeabudiwa Peke Yake, na hakuna mwingine yoyote asiуekuwa Yeye anayestahiki kuabudiwa."
+    },
+    {
+      "number": 27,
+      "page": 1052,
+      "arabic": "قُلْ أَرُونِيَ الَّذِينَ أَلْحَقْتُم بِهِ شُرَكَاءَ ۖ كَلَّا ۚ بَلْ هُوَ اللَّهُ الْعَزِيزُ الْحَكِيمُ",
+      "translation": "Na maombezi ya mwenye kuombea hayafai kitu na hayаnufaishi mbele Yake, isipokuwa kwa yule Aliyemruhusu. Na miongoni mwa utukufu Wake, Aliyeshinda na kutukuka, ni kuwa Yeye, kutakasika na sifa za upungufu ni Kwake, Anapomtаmka wahyi na watu wa mbinguni wakayasikia maneno Yake, wanakuwa katika hali ya kutеtemeka kutokana na haiba yake, mpaka wanakuwa katika hali kama ile ya kukosa fahamu. Na kutеtemeka kunapowaondolea kwenye nyoyo zao wanau lizana wao kwa wao, «Amesema nini Mola wenu?» Malaika watasema, «Amesema kweli! Na Yeye"
+    },
+    {
+      "number": 28,
+      "page": 1053,
+      "arabic": "وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِّلنَّاسِ بَشِيرًا وَنَذِيرًا وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+      "translation": "Yuko juu kwa dhati Yake, utendaji nguvu Wake na utukufu wa cheo Chake, Aliye Mkubwa juu ya kila kitu»."
+    },
+    {
+      "number": 29,
+      "page": 1053,
+      "arabic": "وَيَقُولُونَ مَتَىٰ هَٰذَا الْوَعْدُ إِن كُنتُمْ صَادِقِينَ",
+      "translation": "Sema, ewe Mtume, kuwaambia washirikina, «Ni nani anayewaruzuku kwa mvua kutoka mbinguni, na kwa mimea na madini na vinginevyo kutoka ardhini?» Hivyo basi hawana budi kukubali kuwa Yeye ni Allah Mtukufu. Na iwapo hawatakubali hilo, waambie, «Allah Mtukufu Ndiye Mwingi wa kuruzuku, na kwa hakika mojawapo wa mapote mawili, kati ya sisi na nyinyi, limejikita kwenye uongofu au limezama kwenye upotevu ulio wazi»."
+    },
+    {
+      "number": 30,
+      "page": 1053,
+      "arabic": "قُل لَّكُم مِّيعَادُ يَوْمٍ لَّا تَسْتَأْخِرُونَ عَنْهُ سَاعَةً وَلَا تَسْتَقْدِمُونَ",
+      "translation": "Sema, «Hamtaulizwa kuhusu dhambi zetu, wala hatutaulizwa kuhusu matendo yenu, sababu sisi tumejitenga na nyinyi na ukanushaji wenu»."
+    },
+    {
+      "number": 31,
+      "page": 1053,
+      "arabic": "وَقَالَ الَّذِينَ كَفَرُوا لَن نُّؤْمِنَ بِهَٰذَا الْقُرْآنِ وَلَا بِالَّذِي بَيْنَ يَدَيْهِ ۗ وَلَوْ تَرَىٰ إِذِ الظَّالِمُونَ مَوْقُوفُونَ عِندَ رَبِّهِمْ يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ الْقَوْلَ يَقُولُ الَّذِينَ اسْتُضْعِفُوا لِلَّذِينَ اسْتَكْبَرُوا لَوْلَا أَنتُمْ لَكُنَّا مُؤْمِنِينَ",
+      "translation": "Sema, «Mola wetu Atatukusanya baina yetu na nyinyi Siku ya Kiyama, kisha Atatoa uamuzi wa uadilifu baina yetu. Na Yeye Ndiye Mfunguzi Mwenye kutoa uamuzi baina ya viumbe Vyake, Mwingi wa ujuzi wa yale yanayotakikana yatolewe uamuzi na hali ya viumbe Vyake. Hakuna kinachofichika Kwake chochote»."
+    },
+    {
+      "number": 32,
+      "page": 1054,
+      "arabic": "قَالَ الَّذِينَ اسْتَكْبَرُوا لِلَّذِينَ اسْتُضْعِفُوا أَنَحْنُ صَدَدْنَاكُمْ عَنِ الْهُدَىٰ بَعْدَ إِذْ جَاءَكُم ۖ بَلْ كُنتُم مُّجْرِمِينَ",
+      "translation": "Sema, Nionesheni kwa hoja na dalili wale mliyowaunganisha na Allah Mtukufu mkawafanya ni washirika Wake katika kuabudiwa, je wao wameumba chochote? Mambo si kama walivyoeleza.Bali Yeye Ndiye Mwenye kuabudiwa kwa haki,"
+    },
+    {
+      "number": 33,
+      "page": 1054,
+      "arabic": "وَقَالَ الَّذِينَ اسْتُضْعِفُوا لِلَّذِينَ اسْتَكْبَرُوا بَلْ مَكْرُ اللَّيْلِ وَالنَّهَارِ إِذْ تَأْمُرُونَنَا أَن نَّكْفُرَ بِاللَّهِ وَنَجْعَلَ لَهُ أَندَادًا ۚ وَأَسَرُّوا النَّدَامَةَ لَمَّا رَأَوُا الْعَذَابَ وَجَعَلْنَا الْأَغْلَالَ فِي أَعْنَاقِ الَّذِينَ كَفَرُوا ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا يَعْمَلُونَ",
+      "translation": "ambaye hana mshirika, aliye Mshindi katika kuwatesa waliomshirikisha, na mwenye hekima katika maneno Yake, vitendo Vyake na upelekeshaji mambo ya viumbe Vyake."
+    },
+    {
+      "number": 34,
+      "page": 1055,
+      "arabic": "وَمَا أَرْسَلْنَا فِي قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَا إِنَّا بِمَا أُرْسِلْتُم بِهِ كَافِرُونَ",
+      "translation": "Na hatukukutuma, ewe Mtume, isipokuwa ni kwa watu wote, uwabashirie malipo mema ya Allah Mtukufu na uwaonye na adhabu Yake. Lakini wengi wa watu hawaijui haki, hivyo basi wao wanaipa mgongo."
+    },
+    {
+      "number": 35,
+      "page": 1055,
+      "arabic": "وَقَالُوا نَحْنُ أَكْثَرُ أَمْوَالًا وَأَوْلَادًا وَمَا نَحْنُ بِمُعَذَّبِينَ",
+      "translation": "Na hawa washirikina wanasema kwa njia ya shere, «Ni lini wakati wa Ahadi hii ambayo unatuahidi kuwa Allah Mtukufu Atatukusanya ndani yake kisha Ahukumu baina yetu, iwapo nyinyi ni wakweli katika kile mlichotuahidi kwacho?»"
+    },
+    {
+      "number": 36,
+      "page": 1055,
+      "arabic": "قُلْ إِنَّ رَبِّي يَبْسُطُ الرِّزْقَ لِمَن يَشَاءُ وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
+      "translation": "Waambie, ewe Mtume, «Nyinyi mna maagano ambayo hapana budi yatawajia, nayo ni maagano ya Siku ya Kiyama, hamtachelewewa nayo hata muda mchache wa kupata kutubia, na wala hamtatangulia mbele yake mkaadhibiwa hata kwa muda mchache. Basi jihadharini na Siku hiyo na jitayarisheni kwa vifaa vyake»."
+    },
+    {
+      "number": 37,
+      "page": 1055,
+      "arabic": "وَمَا أَمْوَالُكُمْ وَلَا أَوْلَادُكُم بِالَّتِي تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰ إِلَّا مَنْ آمَنَ وَعَمِلَ صَالِحًا فَأُولَٰئِكَ لَهُمْ جَزَاءُ الضِّعْفِ بِمَا عَمِلُوا وَهُمْ فِي الْغُرُفَاتِ آمِنُونَ",
+      "translation": "Na waliokanusha walisema, «Hatutaamini hii Qur’ani wala vile vilivyoitangulia, kina Taurati, Injili na Zaburi.» Kwa hakika washakanusha vitabu vyote vya Allah Mtukufu. Na lau utaona pindi madhalimu watafungwa mbele ya Mola wao ili wahesabiwe, huku wakirudishiana maneno baina yao,"
+    },
+    {
+      "number": 38,
+      "page": 1056,
+      "arabic": "وَالَّذِينَ يَسْعَوْنَ فِي آيَاتِنَا مُعَاجِزِينَ أُولَٰئِكَ فِي الْعَذَابِ مُحْضَرُونَ",
+      "translation": "kila mmoja anamtupia lawama mwingine, utaona jambo la kutisha! Watakuwa waliokuwa wakifanywa wanyonge wakisema kuwaambia wale waliokuwa na kiburi, nao ni wale viongozi na wakubwa waliopotea na kupoteza, «Lau si nyinyi kutupoteza njia tungekua ni wenye kumuamini Allah Mtukufu na Mtume Wake»."
+    },
+    {
+      "number": 39,
+      "page": 1056,
+      "arabic": "قُلْ إِنَّ رَبِّي يَبْسُطُ الرِّزْقَ لِمَن يَشَاءُ مِنْ عِبَادِهِ وَيَقْدِرُ لَهُ ۚ وَمَا أَنفَقْتُم مِّن شَيْءٍ فَهُوَ يُخْلِفُهُ ۖ وَهُوَ خَيْرُ الرَّازِقِينَ",
+      "translation": "Viongozi watasema kuwaambia wale waliofanywa wanyonge, «Kwani ni sisi tuliowazuia uongofu baada ya kuwajia? Bali ni nyinyi wenyewe mlikuwa wahalifu kwa kuwa mliingia kwenye ukafiri kwa matakwa yenu na hiyari yenu»."
+    },
+    {
+      "number": 40,
+      "page": 1056,
+      "arabic": "وَيَوْمَ يَحْشُرُهُمْ جَمِيعًا ثُمَّ يَقُولُ لِلْمَلَائِكَةِ أَهَٰؤُلَاءِ إِيَّاكُمْ كَانُوا يَعْبُدُونَ",
+      "translation": "Watasema waliofanywa wanyonge kuwaambia wakubwa wao katika upotevu, «Bali ni kule kutupangia kwenu ubaya usiku na mchana ndiko kulikotufitini sisi katika majanga. Kwa kuwa mlikuwa mkitutaka tumkanushe Allah Mtukufu na tumfanye kuwa ana washirika katika kuabudiwa.» Na watu wa kila mojawapo ya makundi mawili wataficha majuto watakapoiona adhabu ilioandaliwa wao. Na tutaweka minyororo kwenye shingo za wale waliokanusha. Na wao hawatareshwa kwa adhabu hii isipokuwa ni kwa sababu ya kumkanusha kwao Allah Mtukufu na kufanya kwao matendo mabaya duniani. Katika hii aya kuna onyo kali dhidi ya kuwafuata walinganizi wa upotevu na viongozi wa ukiukaji Sheria."
+    },
+    {
+      "number": 41,
+      "page": 1057,
+      "arabic": "قَالُوا سُبْحَانَكَ أَنتَ وَلِيُّنَا مِن دُونِهِم ۖ بَلْ كَانُوا يَعْبُدُونَ الْجِنَّ ۖ أَكْثَرُهُم بِهِم مُّؤْمِنُونَ",
+      "translation": "Na hatukutuma Mtume yoyote katika mji wowote alinganie kwenye kumuabudu Allah Mtukufu na kumpwekesha katika ibada, isipokuwa wale wenye kuzama kwenye starehe na matamanio miongoni mwa watu wake huwa wakisema, «Hakika sisi kwa haya mliokuja nayo, enyi Mitume, ni wenye kukanusha»."
+    },
+    {
+      "number": 42,
+      "page": 1057,
+      "arabic": "فَالْيَوْمَ لَا يَمْلِكُ بَعْضُكُمْ لِبَعْضٍ نَّفْعًا وَلَا ضَرًّا وَنَقُولُ لِلَّذِينَ ظَلَمُوا ذُوقُوا عَذَابَ النَّارِ الَّتِي كُنتُم بِهَا تُكَذِّبُونَ",
+      "translation": "Na wanasema, «Sisi ni wengi zaidi wa mali na watoto, na Allah Mtukufu hakutupa neema hizi isipokuwa ni kuwa anaridhika na sisi, na sisi si wenye kuadhibiwa duniani wala Akhera»."
+    },
+    {
+      "number": 43,
+      "page": 1057,
+      "arabic": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَاتٍ قَالُوا مَا هَٰذَا إِلَّا رَجُلٌ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ آبَاؤُكُمْ وَقَالُوا مَا هَٰذَا إِلَّا إِفْكٌ مُّفْتَرًى ۚ وَقَالَ الَّذِينَ كَفَرُوا لِلْحَقِّ لَمَّا جَاءَهُمْ إِنْ هَٰذَا إِلَّا سِحْرٌ مُّبِينٌ",
+      "translation": "Sema uwaambie, ewe Mtume, «Hakika Mola wangu Anawakunjulia riziki hapa duniani anaowataka miongoni mwa waja Wake, na anawapunguzia Anaowataka, si kwa mapenzi wala chuki, lakini Anafanya hivyo kwa kuwatahini. Lakini wengi wa watu hawajui kwamba huo ni mtihani kwa waja Wake kwa kuwa wao hawazingatii»."
+    },
+    {
+      "number": 44,
+      "page": 1057,
+      "arabic": "وَمَا آتَيْنَاهُم مِّن كُتُبٍ يَدْرُسُونَهَا ۖ وَمَا أَرْسَلْنَا إِلَيْهِمْ قَبْلَكَ مِن نَّذِيرٍ",
+      "translation": "Hayakuwa mali yenu na watoto wenu ni vitu vya kuwafanya nyinyi muwe karibu na sisi, na daraja zenu ziwekwe juu, lakini wenye kumuamini Allah Mtukufu na wakafanya matendo mema, basi hao watapata malipo ya nyongeza: kwa jema moja kwa kumi mfano wake mpaka kiwango cha nyongeza Anachokitaka Allah Mtukufu. Na wao watakuwa kwenye Pepo ya juu, wakiwa wamesalimika na adhabu, kifo na mambo ya huzuni."
+    },
+    {
+      "number": 45,
+      "page": 1057,
+      "arabic": "وَكَذَّبَ الَّذِينَ مِن قَبْلِهِمْ وَمَا بَلَغُوا مِعْشَارَ مَا آتَيْنَاهُمْ فَكَذَّبُوا رُسُلِي ۖ فَكَيْفَ كَانَ نَكِيرِ",
+      "translation": "Na wale wanaokimbilia kuzibatilisha hoja zetu na wanao zuia njia ya Allah Mtukufu isifuatwe wakiwa wapinzani na washindani, hawa wataingia ndani ya adhabu ya Jahanamu Siku ya Kiyama, watajiwa na Zabāniyah, ambao ni askari wa Motoni, na hawatatoka humo."
+    },
+    {
+      "number": 46,
+      "page": 1058,
+      "arabic": "۞ قُلْ إِنَّمَا أَعِظُكُم بِوَاحِدَةٍ ۖ أَن تَقُومُوا لِلَّهِ مَثْنَىٰ وَفُرَادَىٰ ثُمَّ تَتَفَكَّرُوا ۚ مَا بِصَاحِبِكُم مِّن جِنَّةٍ ۚ إِنْ هُوَ إِلَّا نَذِيرٌ لَّكُم بَيْنَ يَدَيْ عَذَابٍ شَدِيدٍ",
+      "translation": "Waambie, ewe Mtume, hawa waliodanganyika kwa mali na watoto, Mola wangu anamkunjulia riziki Anayemtaka miongoni mwa waja Wake na anampunguzia Anayemtaka, kwa hekima Anayojijua. Na namna mtakavyotoa kitu chochote, Yeye Atawapa badala yake duniani na huko Akhera Atawapa malipo mema. Na Yeye, (kutakasika na sifa za upungufu ni Kwake), Ndiye bora wa wenye kuruzuku, basi tafuteni riziki Kwake Peke Yake, na zungukeni kwa kufuata sababu zake Alizowaamuru."
+    },
+    {
+      "number": 47,
+      "page": 1058,
+      "arabic": "قُلْ مَا سَأَلْتُكُم مِّنْ أَجْرٍ فَهُوَ لَكُمْ ۖ إِنْ أَجْرِيَ إِلَّا عَلَى اللَّهِ ۖ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ",
+      "translation": "Kumbuka, ewe Mtume, Siku ambayo Allah Mtukufu Atawafufua washirikina na waabudiwa badala Yake miongoni mwa Malaika, kisha Awaambie Malaika kwa njia ya kuwalaumu wale waliowaabudu, «Je ni hawa waliokuwa wakiwaabudu badala yetu sisi?»"
+    },
+    {
+      "number": 48,
+      "page": 1058,
+      "arabic": "قُلْ إِنَّ رَبِّي يَقْذِفُ بِالْحَقِّ عَلَّامُ الْغُيُوبِ",
+      "translation": "Malaika watasema, «Tunakutakasa, ewe Allah Mtukufu, na kuwa na mshirika wa kuabudiwa! wewe Ndiye Msimamizi wetu tunayemtii na kumuabudu Peke Yake. Bali hawa walikuwa wakiwaabudu mashetani, wengi wao wanawaamini na kuwatii»."
+    },
+    {
+      "number": 49,
+      "page": 1058,
+      "arabic": "قُلْ جَاءَ الْحَقُّ وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ",
+      "translation": "Basi Siku ya Ufufuzi, hao waabudiwa hawatakuwa na mamlaka ya kuwanufaisha au kuwadhuru wenye kuwaabudu. Na tutasema kuwaambia wale waliozidhulumu nafsi zao, «Onjeni adhabu ya Moto ambao mlikuwa mkiikanusha!»"
+    },
+    {
+      "number": 50,
+      "page": 1059,
+      "arabic": "قُلْ إِن ضَلَلْتُ فَإِنَّمَا أَضِلُّ عَلَىٰ نَفْسِي ۖ وَإِنِ اهْتَدَيْتُ فَبِمَا يُوحِي إِلَيَّ رَبِّي ۚ إِنَّهُ سَمِيعٌ قَرِيبٌ",
+      "translation": "Na wanaposomewa makafiri wa Makkah aya za Allah Mtukufu zikiwa wazi wanasema, «Hakuwa Muhammad isipokuwa ni mtu anayependa kuwakataza nyinyi kuwaabudu waungu ambao baba zenu walikuwa wakiwaabudu,» na wanasema, «Haikuwa hii Qur’ani isipokuwa ni urongo uliozuliwa, umeleta wewe mwenyewe na sio kuwa unatoka kwa Allah Mtukufu.» Na makafiri walisema kuhusu Qur’ani ilipowajia, «Haikuwa hii isipokuwa uchawi uliojitokeza wazi»."
+    },
+    {
+      "number": 51,
+      "page": 1059,
+      "arabic": "وَلَوْ تَرَىٰ إِذْ فَزِعُوا فَلَا فَوْتَ وَأُخِذُوا مِن مَّكَانٍ قَرِيبٍ",
+      "translation": "Na hatukuwaterеmshia wakanushaji vitabu vya wao kuisoma kabla ya Qur’ani vikawa vinawaonyesha yale wanayodai kwamba kile alichokuja nacho Muhammad ni uchawi, na hatukuwatuma kwao kabla yako wewe, mjumbe yoyote wa kuwaonya na adhabu yetu."
+    },
+    {
+      "number": 52,
+      "page": 1059,
+      "arabic": "وَقَالُوا آمَنَّا بِهِ وَأَنَّىٰ لَهُمُ التَّنَاوُشُ مِن مَّكَانٍ بَعِيدٍ",
+      "translation": "Na walikanusha wale waliokuwa kabla yao, kama vile ‘Ād na Thamūd, Na watu wa Makkah hawakufikia ushuri wa kile tulichowapa ummah waliopita cha nguvu, wingi wa mali, umri mrefu na neema nyinginezo, na tukawaangamiza. Basi angalia, ewe Mtume! Ni namna gani yalivyokuwa makemeo yangu na adhabu yangu kwao?"
+    },
+    {
+      "number": 53,
+      "page": 1059,
+      "arabic": "وَقَدْ كَفَرُوا بِهِ مِن قَبْلُ ۖ وَيَقْذِفُونَ بِالْغَيْبِ مِن مَّكَانٍ بَعِيدٍ",
+      "translation": "Sema, ewe Mtume, uwaambie hawa wakanushaji washindani, «Mimi ninawapa ushauri mmoja: msimame kumtii Allah Mtukufu wawili wawili na mmoja mmoja, kisha mfikirie kuhusu hali ya mwenzenu, Mtume wa Allah Mtukufu, (rehema za Allah Mtukufu na amani zimshukie), na kile alichonasibishwa nacho. Yeye hana wazimu. Hakuwa Yeye isipokuwa ni mwenye kuwaonya na adhabu ya Jahanamu kabla joto lake halijawasumbua»."
+    },
+    {
+      "number": 54,
+      "page": 1060,
+      "arabic": "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا فِي شَكٍّ مُّرِيبٍ",
+      "translation": "Sema, ewe Mtume, uwaambie wakanushaji, «Malipo niliyowaomba kwa wema huu niliowaletеa ni yenu nyinyi. Malipo yangu mimi ninayoyangojea hayapo isipokuwa kwa Allah Mtukufu Mwenye kuyaona matendo yangu na matendo yenu. Hakuna chochote kinachofichika Kwake. Yeye Anawalipa wote: kila mmoja kwa anachostahiki»."
+    }
+  ]
+}
