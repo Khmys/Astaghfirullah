@@ -1,0 +1,396 @@
+{
+  "type": "sura",
+  "surah_number": 24,
+  "name": "An-Nur",
+  "arabic_name": "سُورَةُ النُّورِ",
+  "revelation": "Madinah",
+  "ayah_count": 64,
+  "juz": 18,
+  "intro": "Sura hii inaitwa Al-Nūr (Nuru) kwa kuwa inataja mfano wa Nuru ya Allah. Inaeleza sheria za adabu na maadili, kama vile adhabu ya uzinifu, kuhifadhi heshima, na adabu za kuingia nyumbani.",
+  "content": [
+    {
+      "number": 1,
+      "page": 846,
+      "arabic": "سُورَةٌ أَنزَلْنَاهَا وَفَرَضْنَاهَا وَأَنزَلْنَا فِيهَا آيَاتٍ بَيِّنَاتٍ لَّعَلَّكُمْ تَذَكَّرُونَ",
+      "translation": "Hii ni sura kubwa miongoni mwa sura za Qur’ani, tumeiteremsha na tumelazimisha kuzifanyia kazi hukumu zake, na tumeteremsha ndani yake hoja nyingi zilizo waziwazi ili mpate kujikumbusha, enyi Waumini, kwa aya hizi zilizo waziwazi na mzifanyie kazi."
+    },
+    {
+      "number": 2,
+      "page": 846,
+      "arabic": "الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا كُلَّ وَاحِدٍ مِّنْهُمَا مِائَةَ جَلْدَةٍ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌ فِي دِينِ اللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَائِفَةٌ مِّنَ الْمُؤْمِنِينَ",
+      "translation": "Mzinifu mwanamume na mzinifu mwanamke ambao hawajawahi kuoa au kuolewa, adabu ya kila mmoja kati yao ni kupigwa mboko mia moja. Na imethibiti katika Sunnah (mapokezi kutoka kwa Mtume) kwamba pamoja na mboko hizi, ahamishwe kwa kipindi cha mwaka mmoja. Wala kusiwa fanye nyinyi kule kuwa hurumia kuacha kuwatia adabu hiyo au kuipunguza, iwapo mnamuamini Allah Mtukufu na Siku ya Mwisho na mnazifuata kivitendo hukumu za Kiislamu. Na waihudhurie adabu hiyo kikundi cha Waumini kwa kuwaumbua na iwe ni onyo, mawaidha na mazingatio."
+    },
+    {
+      "number": 3,
+      "page": 846,
+      "arabic": "الزَّانِي لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةً وَالزَّانِيَةُ لَا يَنكِحُهَا إِلَّا زَانٍ أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى الْمُؤْمِنِينَ",
+      "translation": "Mwanamume mzinifu haridhiki isipokuwa kumuoа mwanamke mzinifu au mwanamke mshirikina asiye kukubali uharamu wa uhalifu wa uzinifu, na mwanamke mzinifu haridhiki isipokuwa kuolewa na mwanamume mzinifu au mwanaume mshirikina asiyekubali uharamu wa uzinifu. Ama wanaume na wanawake wanaojizuia na uzinifu, wao hawаridhiki na hilo, na ndoa hiyo imeharamishwa kwa Waumini. Na huu ni ushahidi wazi wa uharamu wa kumuoа mwanamke mzinifu mpaka atubie, vilevile uharamu wa kumuoza mwanamume mzinifu mpaka atubie."
+    },
+    {
+      "number": 4,
+      "page": 847,
+      "arabic": "وَالَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ ثُمَّ لَمْ يَأْتُوا بِأَرْبَعَةِ شُهَدَاءَ فَاجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً وَلَا تَقْبَلُوا لَهُمْ شَهَادَةً أَبَدًا ۚ وَأُولَٰئِكَ هُمُ الْفَاسِقُونَ",
+      "translation": "Na wale wanaowatuhumu watu waliojihifadhi, miongoni mwa wanaume na wanawake, kwa uchafu wa uzinifu pasi na kushuhudia pamoja na wao mashahidi wanne waadilifu, basi wapigeni mboko themanini na msiwakubalie ushahidi mwingine wowote kabisa, na hao ndio waliotoka nje ya utiifu wa Allah Mtukufu."
+    },
+    {
+      "number": 5,
+      "page": 847,
+      "arabic": "إِلَّا الَّذِينَ تَابُوا مِن بَعْدِ ذَٰلِكَ وَأَصْلَحُوا فَإِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+      "translation": "Lakini mwenye kutubia, akajuta, akarudi nyuma katika tuhuma yake na akatengeneza matendo yake, kwa kweli Allah Mtukufu Atamsamehe dhambi zake, Atamuonea huruma na Ataikubali toba yake."
+    },
+    {
+      "number": 6,
+      "page": 847,
+      "arabic": "وَالَّذِينَ يَرْمُونَ أَزْوَاجَهُمْ وَلَمْ يَكُن لَّهُمْ شُهَدَاءُ إِلَّا أَنفُسُهُمْ فَشَهَادَةُ أَحَدِهِمْ أَرْبَعُ شَهَادَاتٍ بِاللَّهِ إِنَّهُ لَمِنَ الصَّادِقِينَ",
+      "translation": "Na wale wanaowatuhumu wake zao kwa uzinifu, na wakawa hawana mashahidi wa kutilia nguvu tuhuma yao isipokuwa wao wenyewe, basi ni juu ya mmoja wao hao wenye kutuhumu, atoe ushahidi mbele ya kadhi mara nne kwa kusema, «Ninashuhudia kwa jina la Allah Mtukufu kwamba mimi ni mkweli katika lile la uzinifu ambalo nimemtuhumu mke wangu kwalo»."
+    },
+    {
+      "number": 7,
+      "page": 847,
+      "arabic": "وَالْخَامِسَةُ أَنَّ لَعْنَتَ اللَّهِ عَلَيْهِ إِن كَانَ مِنَ الْكَاذِبِينَ",
+      "translation": "Na aongeze kwenye ushahidi wa tano kujiapiza nafsi yake kuwa inastahili kupata laana ya Allah Mtukufu iwapo yeye ni mrongo katika maneno yake hayo."
+    },
+    {
+      "number": 8,
+      "page": 848,
+      "arabic": "وَيَدْرَأُ عَنْهَا الْعَذَابَ أَن تَشْهَدَ أَرْبَعَ شَهَادَاتٍ بِاللَّهِ إِنَّهُ لَمِنَ الْكَاذِبِينَ",
+      "translation": "Na kwa ushahidi wake huu, itapasa kwa yule mke aliyetuhumiwa kutiwa adabu ya uzinifu, nayo ni kupigwa mawe mpaka kufa. Na haitamuepukia adabu hii mpaka atoe ushahidi wa kupinga ule ushahidi wa mumewe, mara nne kwa jina la Allah Mtukufu kwamba mumewe ni mrongo katika madai yake kuwa yeye amezini."
+    },
+    {
+      "number": 9,
+      "page": 848,
+      "arabic": "وَالْخَامِسَةَ أَنَّ غَضَبَ اللَّهِ عَلَيْهَا إِن كَانَ مِنَ الصَّادِقِينَ",
+      "translation": "Na aongeze katika ushahidi wake wa mara ya tano kwa kujiapiza kuwa anapaswa kushukiwa na hasira za Allah Mtukufu iwapo mumewe ni mkweli katika madai yake kuwa yeye amezini. Na katika hali hii watatenganishwa baina ya wao wawili."
+    },
+    {
+      "number": 10,
+      "page": 848,
+      "arabic": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ وَأَنَّ اللَّهَ تَوَّابٌ حَكِيمٌ",
+      "translation": "Na lau kama si wema wa Allah Mtukufu juu yenu na rehema Zake kwenu, enyi Waumini, kwa mapitisho haya ya kisheria kwa waume na wake, na kwamba Allah Mtukufu ni Mwenye kuitikia toba kwa aliyetubia miongoni mwa waja wake ni Mwingi wa hekima katika sheria Zake na maongоzi Yake, basi yangempata mmoja wa wale wawili wanaolaaniana yale aliyojiapiza."
+    },
+    {
+      "number": 11,
+      "page": 848,
+      "arabic": "إِنَّ الَّذِينَ جَاءُوا بِالْإِفْكِ عُصْبَةٌ مِّنكُمْ ۚ لَا تَحْسَبُوهُ شَرًّا لَّكُمْ ۖ بَلْ هُوَ خَيْرٌ لَّكُمْ ۚ لِكُلِّ امْرِئٍ مِّنْهُم مَّا اكْتَسَبَ مِنَ الْإِثْمِ ۚ وَالَّذِي تَوَلَّىٰ كِبْرَهُ مِنْهُمْ لَهُ عَذَابٌ عَظِيمٌ",
+      "translation": "Kwa hakika, wale waliokuja na urongo mbaya kabisa, nao ni kumsingizia Mama wa Waumini ‘Āishah, radhi za Allah Mtukufu zimshukie, kuwa amefanya kitendo kichafu, ni kikundi cha watu wanaohusiana na nyinyi, enyi kongamano la Waislamu. Msidhanie maneno yao ni shari kwenu, ilivyo ni kuwa maneno yao ni kheri kwenu, kwa kuwa maneno hayo yalisababisha kutakaswa Mama wa Waumini na uchafu, kusafika kwake na kuukuza utajo wake, kuzipandisha daraja, kuyafuta maovu na kuwasafisha Waumini. Kila mmoja aliyeuzungumza urongo huo atapata malipo ya kitendo chake cha dhambi. Na yule aliyebeba jukumu kubwa zaidi katika uzushi huo, naye ni ‘Abdullah bin Ubayy bin Salūl, kiongozi wa wanafiki, Allah Mtukufu Amlaani, atakuwa na adhabu kubwa huko Akhera, nayo ni kukaa milele motoni."
+    },
+    {
+      "number": 12,
+      "page": 849,
+      "arabic": "لَّوْلَا إِذْ سَمِعْتُمُوهُ ظَنَّ الْمُؤْمِنُونَ وَالْمُؤْمِنَاتُ بِأَنفُسِهِمْ خَيْرًا وَقَالُوا هَٰذَا إِفْكٌ مُّبِينٌ",
+      "translation": "Si ingekua bora kwa Waumini wanaume na wanawake wadhaniane kheri wao kwa wao pindi waliposikia uzushi huo, kuwa yale waliyosingiziwa hawanayo, na waseme, «Huu ni urongo ulio wazi» juu ya ‘Aisha, radhi za Allah Mtukufu zimfikie."
+    },
+    {
+      "number": 13,
+      "page": 849,
+      "arabic": "لَّوْلَا جَاءُوا عَلَيْهِ بِأَرْبَعَةِ شُهَدَاءَ ۚ فَإِذْ لَمْ يَأْتُوا بِالشُّهَدَاءِ فَأُولَٰئِكَ عِندَ اللَّهِ هُمُ الْكَاذِبُونَ",
+      "translation": "Si ingekua walete mashahidi waadilifu wanne kuthibitisha maneno yao waliyoyasema. Na kwa kuwa hawakulifanya hilo, basi wao ni warongo mbele ya Allah Mtukufu."
+    },
+    {
+      "number": 14,
+      "page": 849,
+      "arabic": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ فِي الدُّنْيَا وَالْآخِرَةِ لَمَسَّكُمْ فِي مَا أَفَضْتُمْ فِيهِ عَذَابٌ عَظِيمٌ",
+      "translation": "Na lau kama si wema wa Allah Mtukufu kwenu na rehema Zake, kwa kuwa wema Wake umewakusanya nyinyi katika Dini yenu na Akhera yenu, Asifanye haraka kuwaadhibu na aikubali toba ya mwenye kutubia miongoni mwenu, basi ingewapata adhabu kali kwa sababu ya maneno ya uvumi mliyoji husisha nayo."
+    },
+    {
+      "number": 15,
+      "page": 850,
+      "arabic": "إِذْ تَلَقَّوْنَهُ بِأَلْسِنَتِكُمْ وَتَقُولُونَ بِأَفْوَاهِكُم مَّا لَيْسَ لَكُم بِهِ عِلْمٌ وَتَحْسَبُونَهُ هَيِّنًا وَهُوَ عِندَ اللَّهِ عَظِيمٌ",
+      "translation": "Kipindi mlichokuwa mnaupokea uzushi na m naueneza kwa midomo yenu, nao ni yale maneno ya urongo na ambayo hamna ujuzi nayo. Na mnadhani kuwa hilo ni jambo dogo, nalo ni kubwa mbele ya Allah Mtukufu. Katika haya pana makemeo bayana juu ya kupuuza makatazo ya uenezaji ubatilifu."
+    },
+    {
+      "number": 16,
+      "page": 850,
+      "arabic": "وَلَوْلَا إِذْ سَمِعْتُمُوهُ قُلْتُم مَّا يَكُونُ لَنَا أَن نَّتَكَلَّمَ بِهَٰذَا ۖ سُبْحَانَكَ هَٰذَا بُهْتَانٌ عَظِيمٌ",
+      "translation": "Mbona hamkusema mlipousikia uzushi huo, «Haifai kwetu kuusema urongo huu. Kutakasika ni kwako, ewe Mola, kuyasema hayo juu ya mke wa Mtume wako Muhammad, (rehema za Allah Mtukufu na amani zimshukie). Huu ni urongo uliobeba mzigo mkubwa wa madhambi»."
+    },
+    {
+      "number": 17,
+      "page": 850,
+      "arabic": "يَعِظُكُمُ اللَّهُ أَن تَعُودُوا لِمِثْلِهِ أَبَدًا إِن كُنتُم مُّؤْمِنِينَ",
+      "translation": "Allah Mtukufu Anawakumbusha na Anawakataza msirudie kitendo hiki cha kusingizia urongo, iwapo nyinyi ni wenye kumuamini Yeye."
+    },
+    {
+      "number": 18,
+      "page": 850,
+      "arabic": "وَيُبَيِّنُ اللَّهُ لَكُمُ الْآيَاتِ ۚ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+      "translation": "Na Anawafafanulia nyinyi aya zinazokusanya hukumu za kisheria na mawaidha. Na Allah Mtukufu Anayajua sana matendo yenu, ni Mwenye hekima katika sheria Zake na uendeshaji Wake."
+    },
+    {
+      "number": 19,
+      "page": 850,
+      "arabic": "إِنَّ الَّذِينَ يُحِبُّونَ أَن تَشِيعَ الْفَاحِشَةُ فِي الَّذِينَ آمَنُوا لَهُمْ عَذَابٌ أَلِيمٌ فِي الدُّنْيَا وَالْآخِرَةِ ۚ وَاللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+      "translation": "Kwa hakika,wale wanaopenda kuenea machafu kwa Waislamu, ya tuhuma za uzinifu au jambo lolote baya, watapata adhabu kali ulimwenguni, kwa kupigwa mboko, na mengineyo miongoni mwa mitihani ya kilimwengu, na watapata adhabu ya Motoni huko Akhera wakiwa hawakutubia. Na Allah Mtukufu, peke Yake, Ndiye Anayejua urongo wao na Ndiye Anayeyajua maslahi ya waja wake na mwisho wa mambo, na nyinyi hamyajui hayo."
+    },
+    {
+      "number": 20,
+      "page": 851,
+      "arabic": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ وَأَنَّ اللَّهَ رَءُوفٌ رَّحِيمٌ",
+      "translation": "Na lau kama si wema wa Allah Mtukufu juu ya wale waliohusika kwenye tukio la uzushi na rehema zake kwao na kwamba Allah Mtukufu Anawahurumia waja Wake Waumini huruma kunjufu katika yale wanaokuwa na pupa nayo (ya ulimwengu) na yale wanayoyasubiri (ya Akhera), asingefunua wazi hukumu hizi na mawaidha na angefanya haraka kumuadhibu yule aendaye kinyume na amri Yake."
+    },
+    {
+      "number": 21,
+      "page": 851,
+      "arabic": "۞ يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ ۚ وَمَن يَتَّبِعْ خُطُوَاتِ الشَّيْطَانِ فَإِنَّهُ يَأْمُرُ بِالْفَحْشَاءِ وَالْمُنكَرِ ۚ وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ اللَّهَ يُزَكِّي مَن يَشَاءُ ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
+      "translation": "Enyi mliomuamini Allah Mtukufu na Mtume Wake na mkazitekeleza sheria Zake, msifuate njia za Shetani. Na yoyote anayefuata njia za Shetani, basi (huyo Shetani) anamuamrisha vitendo viovu na vichafu. Na lau si wema wa Allah Mtukufu kwa Waumini na rehema zake kwao, asingetakasika yoyote katika wao na uchafu wa madhambi yake. Lakini Allah Mtukufu, kwa wema wake, Anamtakasa Anayemtaka. Na Allah Mtukufu ni Mwenye kuyasikia maneno yenu, ni Mjuzi wa nia zenu na matendo yenu."
+    },
+    {
+      "number": 22,
+      "page": 851,
+      "arabic": "وَلَا يَأْتَلِ أُولُو الْفَضْلِ مِنكُمْ وَالسَّعَةِ أَن يُؤْتُوا أُولِي الْقُرْبَىٰ وَالْمَسَاكِينَ وَالْمُهَاجِرِينَ فِي سَبِيلِ اللَّهِ ۖ وَلْيَعْفُوا وَلْيَصْفَحُوا ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ اللَّهُ لَكُمْ ۗ وَاللَّهُ غَفُورٌ رَّحِيمٌ",
+      "translation": "Wala wasiape watu wema katika Dini na wakunjufu wa mali, kuacha kuwaunga watu wao wa karibu wasiokuwa na kitu, na wahitaji, na wageni waliohama makwao, na kuwanуima matumizi kwa sababu kuna kosa walilifanya. Basi na wayasamehe maovu yao wala wasiwatese. Kwani nyinyi hampendi Allah Mtukufu Awasamehe? Basi wasameheni. Allah Mtukufu ni Mwenye kuwasamehe waja Wake, ni Mwenye huruma kwao. Katika haya pana mahimizo juu ya kusamehe na kusahau kabisa, hata kama mtu atatendewa uovu."
+    },
+    {
+      "number": 23,
+      "page": 852,
+      "arabic": "إِنَّ الَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ الْغَافِلَاتِ الْمُؤْمِنَاتِ لُعِنُوا فِي الدُّنْيَا وَالْآخِرَةِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "translation": "Kwa kweli wale wanaowasingizia kitendo cha uzinifu wanawake wenye kujihifadhi, wasiofikiria machafu na walio Waumini ambao halijawapitia jambo hilo kwenye nyoyo zao, hao ni wenye kufukuzwa kwenye rehema za Allah Mtukufu, duniani na Akhera, na watapata adhabu kubwa kwenye moto wa Jahanamu. Kwenye aya hii kuna ushahidi juu ya ukafiri wa mwenye kumtukana au kumtuhumu mke yoyote kati ya wake za Mtume, rehema za Allah Mtukufu na amani zimshukie, kwa jambo ovu lolote."
+    },
+    {
+      "number": 24,
+      "page": 852,
+      "arabic": "يَوْمَ تَشْهَدُ عَلَيْهِمْ أَلْسِنَتُهُمْ وَأَيْدِيهِمْ وَأَرْجُلُهُم بِمَا كَانُوا يَعْمَلُونَ",
+      "translation": "Hiyo ndiyo adhabu ya Siku ya Kiyama, siku ambayo ndimi zao zitatоа ushahidi kinyume na wao kwa yale ambayo hizo ndimi zimeyatamka, na itazungumza mikono yao na miguu yao kuhusu yale ambayo hiyo mikono na miguu iliyatenda."
+    },
+    {
+      "number": 25,
+      "page": 852,
+      "arabic": "يَوْمَئِذٍ يُوَفِّيهِمُ اللَّهُ دِينَهُمُ الْحَقَّ وَيَعْلَمُونَ أَنَّ اللَّهَ هُوَ الْحَقُّ الْمُبِينُ",
+      "translation": "Katika siku hiyo, Allah Mtukufu Atawalipa malipo yao kamili juu ya matendo yao kwa usawa, na watajua kwenye mkusanyiko huo mkubwa wa kisimamo kwamba Allah Mtukufu Ndiye Ukweli ulio wazi, Ambaye Yeye ni kweli, ahadi yake ni ya kweli, makemeo yake ni kweli, na kila kitu kitakacho kwake ni kweli, Ambaye hamdhulumu yoyote chochote hata kama ni kadiri ya uzani wa mduduchungu."
+    },
+    {
+      "number": 26,
+      "page": 853,
+      "arabic": "الْخَبِيثَاتُ لِلْخَبِيثِينَ وَالْخَبِيثُونَ لِلْخَبِيثَاتِ ۖ وَالطَّيِّبَاتُ لِلطَّيِّبِينَ وَالطَّيِّبُونَ لِلطَّيِّبَاتِ ۚ أُولَٰئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ ۖ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "translation": "Kila kiovu miongoni mwa wanaume na wanawake, na maneno na vitendo, kinalingana na kiovu na kinaoana nacho. Na kila kizuri miongoni mwa wanaume na wanawake, maneno na vitendo, kinalingana na kizuri na kinaoana nacho. Na wanaume wazuri na wanawake wazuri ni wenye kutakaswa na uovu wanaowasingizia nao wale waovu. Watapata kutoka kwa Allah Mtukufu msamaha utakayoyafunika madhambi yote na riziki njema Peponi."
+    },
+    {
+      "number": 27,
+      "page": 853,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَدْخُلُوا بُيُوتًا غَيْرَ بُيُوتِكُمْ حَتَّىٰ تَسْتَأْنِسُوا وَتُسَلِّمُوا عَلَىٰ أَهْلِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "translation": "Enyi mliomuamini Allah Mtukufu na Mtume Wake na mkazitumia sheria Zake, msiingie kwenye nyumba zisizokuwa zenu, mpaka muwatake ruhusa wenyewe ya kuingia na muwaamkie. Na matamshi ya maamkizi hayo yatakayo kwenye Sunnah ni, «Assalāmu ‘alaikum. Je, niingie?» Kutaka ruhusa huko ni bora kwenu nyinyi. Huenda mkazikumbuka, kwa kufanya kwenu hivyo, amri za Allah Mtukufu na mkаpata kumtii."
+    },
+    {
+      "number": 28,
+      "page": 853,
+      "arabic": "فَإِن لَّمْ تَجِدُوا فِيهَا أَحَدًا فَلَا تَدْخُلُوهَا حَتَّىٰ يُؤْذَنَ لَكُمْ ۖ وَإِن قِيلَ لَكُمُ ارْجِعُوا فَارْجِعُوا ۖ هُوَ أَزْكَىٰ لَكُمْ ۗ وَاللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
+      "translation": "Na iwapo hamtampata mtu kwenye nyumba za watu wengine, basi msizingie mpaka aweko mwenye kuwaruhusu. Asiporuhusu na akasema, «rudini,» basi rudini, wala msisisitize kutaka kuruhusiwa, kwani kurudi wakati huo ni jambo zuri zaidi kwenu, kwani mwanadamu ana nyakati na hali ambazo hapendi kwenye hali hizo kuonekana na mtu mwingine. Na Allah Mtukufu kwa mnayoyatenda ni Mjuzi na Atamlipa kila mtendaji kitendo chake."
+    },
+    {
+      "number": 29,
+      "page": 854,
+      "arabic": "لَّيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَدْخُلُوا بُيُوتًا غَيْرَ مَسْكُونَةٍ فِيهَا مَتَاعٌ لَّكُمْ ۚ وَاللَّهُ يَعْلَمُ مَا تُبْدُونَ وَمَا تَكْتُمُونَ",
+      "translation": "Lakini hapana ubaya kwenu kuingia, bila ya kubisha hodi, nyumba ambazo hazikuwekwa kuwa ni makazi ya watu maalumu wajulikanao isipokuwa ziwe ni maliwazo kwa wenye kuzihitajia, kama nyumba zilizowekwa kuwa ni sadaka kwa mpita njia kwenye njia ya wasafiri, na zisokuwa hizo katika huduma. Basi ndani ya nyumba hizo muna manufaa na mahitaji ya wenye kuyaingia, kwani kubisha kwenye hali hiyo ni usumbufu. Na Allah Mtukufu Anazijua hali zenu zilizo waziwazi na za zilizofichika."
+    },
+    {
+      "number": 30,
+      "page": 854,
+      "arabic": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ اللَّهَ خَبِيرٌ بِمَا يَصْنَعُونَ",
+      "translation": "Sema, ewe Nabii, uwaambie Waumini wanaume wayainamishe macho yao kutoangalia vitu visivyohalali kwao miongoni mwa wanawake na tupu, na wazilinde tupu zao na vile Alivyovifanya haramu Allah Mtukufu miongoni mwa uzinifu, ulawiti, kufunua tupu na mfano wa hayo. Kufanya hivyo ni usafi zaidi kwao. Kwa hakika, Allah Mtukufu ni Mtambuzi wa wanayoyafanya katika yale Anayowaamrisha na kuwakataza."
+    },
+    {
+      "number": 31,
+      "page": 854,
+      "arabic": "وَقُل لِّلْمُؤْمِنَاتِ يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ آبَائِهِنَّ أَوْ آبَاءِ بُعُولَتِهِنَّ أَوْ أَبْنَائِهِنَّ أَوْ أَبْنَاءِ بُعُولَتِهِنَّ أَوْ إِخْوَانِهِنَّ أَوْ بَنِي إِخْوَانِهِنَّ أَوْ بَنِي أَخَوَاتِهِنَّ أَوْ نِسَائِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَانُهُنَّ أَوِ التَّابِعِينَ غَيْرِ أُولِي الْإِرْبَةِ مِنَ الرِّجَالِ أَوِ الطِّفْلِ الَّذِينَ لَمْ يَظْهَرُوا عَلَىٰ عَوْرَاتِ النِّسَاءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَ الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "translation": "Na useme kuwaambia Waumini wanawake wayainamishe macho yao kuto yangalia yasiokuwa halali kwao miongoni mwa tupu, na wazilinde tupu zao na yale Aliyoyaharamisha Allah Mtukufu, wala wasionyeshe waziwazi pambo lao kwa wanaume, bali wajipinde kulificha pambo lao isipokuwa nguo za juu ambazo imezeoleka kuzivaa, iwapo hakuna kwenye nguo hizo kivutio cha kupelekea kufitinika nao, na wavi ngushe vifiniko vya vichwa vyao kwenye uwazi wa sehemu za juu za nguo zao kwenye sehemu za vifua vyao huku wamezifunika nyuso zao ili sitara yao itimie. Na wasiuonyeshe urembo uliofichika isipokuwa kwa waume zao, kwani wao wanaona kutoka kwao wasiyoyaona wengine. Na sehemu ya urembo huo, kama uso, shingo, mikono miwili na sehemu za begani za mikono, zinafaa kuonekana na baba zao au baba za waume zao au watoto wao au watoto wa waume zao au ndugu zao au watoto wa ndugu zao wa kiume, au watoto wa dada zao au wanawake wenzao, walio Waislamu na sio makafiri, au watumwa waliowatawala au wafuasi kati ya wanaume ambao hawana malengo wala haja ya wanawake, kama vile mapite wanaowafuata watu kwa sababu ya kula au kunywa tu, au watoto wadogo ambao hawana ujuzi wowote wa mambo yanayohusiana na tupu za wanawake na ambao bado hawana matamanio. Na wasipige miguu yao, hao wanawake, wanapotembea ili kuwаsikilizisha watu mapambo yao yaliyofichika, kama vikuku (vinavyovaliwa kama pambo) na mfano wake. Na rudini, enyi Waumini, kwenye kumtii Allah Mtukufu katika yale Aliyowaamrisha kwayo kati ya sifa hizi nzuri na tabia njema, na yaacheni yale ambayo walikuwa nayo watu wa zama za ujinga ya tabia na sifa mbovu kwa matarajio mfaulu kuzipata kheri mbili: ya ulimwenguni na ya Akhera."
+    },
+    {
+      "number": 32,
+      "page": 856,
+      "arabic": "وَأَنكِحُوا الْأَيَامَىٰ مِنكُمْ وَالصَّالِحِينَ مِنْ عِبَادِكُمْ وَإِمَائِكُمْ ۚ إِن يَكُونُوا فُقَرَاءَ يُغْنِهِمُ اللَّهُ مِن فَضْلِهِ ۗ وَاللَّهُ وَاسِعٌ عَلِيمٌ",
+      "translation": "Na ozeni, enyi Waumini, wanaume wasiokuwa na wake na wanawake wasiokuwa na waume, miongoni mwa waungwana na walio wema kati ya watumwa wenu na wajakazi wenu. Iwapo anayetaka kuoa kwa kujihifadhi ni masikini mwenye uhitaji, Allah Mtukufu Atamtosheleza kutokana na ukunjufu wa riziki Yake. Na Allah Mtukufu ni Mkunjufu, ni Mwingi wa kheri, ni Mkuu wa fadhila na ni Mjuzi mno wa nyenendo za waja Wake."
+    },
+    {
+      "number": 33,
+      "page": 856,
+      "arabic": "وَلْيَسْتَعْفِفِ الَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ اللَّهُ مِن فَضْلِهِ ۗ وَالَّذِينَ يَبْتَغُونَ الْكِتَابَ مِمَّا مَلَكَتْ أَيْمَانُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَآتُوهُم مِّن مَّالِ اللَّهِ الَّذِي آتَاكُمْ ۚ وَلَا تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا عَرَضَ الْحَيَاةِ الدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ اللَّهَ مِن بَعْدِ إِكْرَاهِهِنَّ غَفُورٌ رَّحِيمٌ",
+      "translation": "Na wale wasiokuwa na uwezo wa kuoa kwa ufukara wao au kwa jambo lingine, basi na wajizoеze uvumilivu wa kutoyafanya Aliyoyakataza Allah Mtukufu, mpaka Allah Mtukufu Awatosheleze kwa wema Wake na Awasahilishie kuoa. Na wale wanaotaka kujikomb oa na utumwa na ujakazi kwa kufanya mkataba na mabwana zao kwa kutoa kiasi maalumu cha pesa wawapatie, basi ni juu ya hao wamiliki wao waandikiane mаpatаno na wao kwa hilo, iwapo watajua kuwa kuna wema ndani yao ya uongofu, uwezo wa kujitafutia pesa na wema wa Dini. Na ni juu yao, hao wamiliki, wawape pesa, hao watumwa wao, au wawasamehe sehemu ya pesa walioandikiana. Na haifai kwenu kuwalazimisha wajakazi wenu kufanya uzinifu kwa lengo la kutaka kupata pesa. Na vipi litapatikana kwenu hilo na huku wao wenyewe wanataka kujilinda na uchafu huo, na nyinyi mnawakatalia hilo? Katika haya, pana kuonesha ubaya wa kitendo kiovu walichokifanya. Na yoyote mwenye kuwalazimisha wao kufanya uzinifu, basi Allah Mtukufu Aliyetukuka, baada ya kuwalazimisha wao, ni mwenye kuwasamehe (hao waliolazimishwa) na kuwaonea huruma, na dhambi ni kwa yule Aliyewalazimisha."
+    },
+    {
+      "number": 34,
+      "page": 857,
+      "arabic": "وَلَقَدْ أَنزَلْنَا إِلَيْكُمْ آيَاتٍ مُّبَيِّنَاتٍ وَمَثَلًا مِّنَ الَّذِينَ خَلَوْا مِن قَبْلِكُمْ وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "translation": "Na kwa hakika tumewateremshia, enyi watu, aya za Qur’ani zikiwa ni dalili za wazi za kuonesha haki, na ni mfano wa matukio ya ummah uliopita wa Waumini kati yao na makafiri, na yaliyowapitia ya kuwafaa na kuwadhuru ambayo ni mfano na mazingatio kwenu, na ni mawaidha ya kuwaidhika mwenye kumcha Allah Mtukufu na kujihadhari na adhabu Yake."
+    },
+    {
+      "number": 35,
+      "page": 857,
+      "arabic": "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ ۚ مَثَلُ نُورِهِ كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ ۖ الْمِصْبَاحُ فِي زُجَاجَةٍ ۖ الزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَارَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِيءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِي اللَّهُ لِنُورِهِ مَن يَشَاءُ ۚ وَيَضْرِبُ اللَّهُ الْأَمْثَالَ لِلنَّاسِ ۗ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "translation": "Allah Mtukufu ni Nuru ya mbinguni na ardhini, Anaendesha mambo humo na Anawaongoza watu wake. Kwa hivyo, Yeye, kutakasika na sifa za upungufu ni Kwake, ni Nuru, na pazia Yake ni Nuru. Kwayo zimeng’ara mbingu na ardhi na vilivyomo ndani. Na kitabu cha Allah Mtukufu na uongofu wake ni nuru kutoka Kwake, kutakasika na sifa za upungufu ni Kwake. Na lau si nuru Yake yeye Aliyetukuka, lingeshikamana giza na kupandana, hili juu ya lingine. Mfano wa nuru Yake ambayo inaongoza kupeleka Kwake, nayo ni Imani na Qur’ani ndani ya moyo wa mwenye kuamini, ni kama kishubaki, nacho ni kidirisha ukutani kisichoonyesha upande wa pili, kwenye kidirisha kuna taa, ambapo hapo kidirisha kinakusanya nuru ya ile taa, zote zikawa mwangaza wake ni mmoja. Na taa hiyo iko kwenye kioo, kana kwamba kioo hicho kwa usafi wake ni nyota ing’arayo kama duri. Taa hiyo inawashwa kwa mafuta ya mti uliobarikiwa, nao ni mzaituni, si wa upande wa mashariki tu usiopatwa na jua mwisho wa mchana, wala si wa magharibi tu usiopatwa na jua mwanzo wa mchana, isipokuwa uko katikati kwenye sehemu ya ardhi, haukuelekea Mashariki wala Magharibi. Yanakaribia mafuta yake kwa usafi wake kuwaka yenyewe bila ya kuguswa na moto, na pindi yakiguswa na moto hung’ara mn’garo mkali mno, nuru juu ya nuru. Hiyo ni nuru kutokana na mwangaza utokao kwenye mafuta, ulioko juu ya nuru itokanayo na kuwasha moto. Basi huo ndio mfano wa uongofu, huwa unang’ara ndani ya moyo wa mwenye Imani. Na Allah Mtukufu Anamuongoza na kumuelekeza kuifuata Qur’ani Amtakaye, na Anawapigia watu mifano ili wapate kuifahamu mifano yake na hekima zake. Na Allah Mtukufu kwa kila kitu ni Mjuzi mno na hakuna chochote kinachofichamana Kwake."
+    },
+    {
+      "number": 36,
+      "page": 858,
+      "arabic": "فِي بُيُوتٍ أَذِنَ اللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا اسْمُهُ يُسَبِّحُ لَهُ فِيهَا بِالْغُدُوِّ وَالْآصَالِ",
+      "translation": "Nuru hii inang’ara kwenye misikiti ambayo Allah Mtukufu Ameamrisha itukuzwe, ijengwe na jina Lake litajwe humo kwa kusoma Kitabu Chake na kuleta tasbihi (subḥān Allāh) na kuleta tahlili (Allāh Akbar) na yasiyokuwa hayo katika aina mbalimbali za kumtaja. Wanaswali kwenye misikiti hiyo kwa ajili ya Allah Mtukufu asubuhi na jioni."
+    },
+    {
+      "number": 37,
+      "page": 859,
+      "arabic": "رِجَالٌ لَّا تُلْهِيهِمْ تِجَارَةٌ وَلَا بَيْعٌ عَن ذِكْرِ اللَّهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ الْقُلُوبُ وَالْأَبْصَارُ",
+      "translation": "Wanaume ambao hawapumbazwi na ununuzi wala uuzaji na jambo la kumtaja Allah Mtukufu, kusimamisha Swala na kutoa Zaka kwa anayestahiki kupewa; wanaiogopa Siku ya Kiyama ambayo nyoyo zitageuka geuka baina ya matumaini ya kuokoka na hofu ya kuangamia, na macho yatakuwa yanageuka geuka yanatazama ni mwisho gani yataishiа?"
+    },
+    {
+      "number": 38,
+      "page": 859,
+      "arabic": "لِيَجْزِيَهُمُ اللَّهُ أَحْسَنَ مَا عَمِلُوا وَيَزِيدَهُم مِّن فَضْلِهِ ۗ وَاللَّهُ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ",
+      "translation": "Ili Allah Mtukufu Awape malipo mema ya matendo yao mazuri zaidi na Awaongezee kutokana na wema Wake. Na Allah Mtukufu Anamruzuku Anayemtaka bila kumhesabia, bali Anampa malipo ambayo matendo yake mema hayakuyafikia, na pasi na hesabu wala kipimo."
+    },
+    {
+      "number": 39,
+      "page": 859,
+      "arabic": "وَالَّذِينَ كَفَرُوا أَعْمَالُهُمْ كَسَرَابٍ بِقِيعَةٍ يَحْسَبُهُ الظَّمْآنُ مَاءً حَتَّىٰ إِذَا جَاءَهُ لَمْ يَجِدْهُ شَيْئًا وَوَجَدَ اللَّهَ عِندَهُ فَوَفَّاهُ حِسَابَهُ ۗ وَاللَّهُ سَرِيعُ الْحِسَابِ",
+      "translation": "Na wale waliomkanusha Mola wao na wakawafanya warongo Mitume Wake, matendo yao waliyoyategemea kuwa yatawafaa huko Akhera, kama kuungа udugu, kuwaacha huru mateka na yasiyokuwa hayo, yatakuwa ni kama mangati, nayo ni yale yanayoonekana kama maji juu ya ardhi tambarare kipindi cha mchana cha jua kali, mwenye kiu akiyaona anadhani ni maji, na akiyajia hakuti kuwa ni maji. Basi kafiri anadhani kwamba matendo yake yatamfaa, na ifikapo Siku ya Kiyama atakuta kuwa hayana malipo mema, na hapo atamkuta Allah Mtukufu, Aliyetakasika na kutukuka, Anamngojea Ampe malipo ya matendo yake kikamilifu. Na Allah Mtukufu ni mwepesi wa kuhesabu. Basi wajinga wasione kwamba ahadi ya Allah Mtukufu imekawia kuwa, kwani hiyo hapana budi kuja kwake."
+    },
+    {
+      "number": 40,
+      "page": 860,
+      "arabic": "أَوْ كَظُلُمَاتٍ فِي بَحْرٍ لُّجِّيٍّ يَغْشَاهُ مَوْجٌ مِّن فَوْقِهِ مَوْجٌ مِّن فَوْقِهِ سَحَابٌ ۚ ظُلُمَاتٌ بَعْضُهَا فَوْقَ بَعْضٍ إِذَا أَخْرَجَ يَدَهُ لَمْ يَكَدْ يَرَاهَا ۗ وَمَن لَّمْ يَجْعَلِ اللَّهُ لَهُ نُورًا فَمَا لَهُ مِن نُّورٍ",
+      "translation": "Au matendo yao yawe mfano wa giza ndani ya bahari yenye kina, juu yake kuna mawimbi, na juu ya mawimbi kuna mawimbi mengine, na juu ya mawimbi hayo kuna mawingu mazito. Hilo ni giza kubwa sana, giza juu ya giza, pindi atowapo mkono wake mtazamaji, kamwe hakaribii kuuona kwa ukubwa wa giza. Limerundikana kwa makafiri giza la ushirikina, upotevu na uharibifu wa matendo. Na yule ambaye Allah Mtukufu Hakumpatia nuru itokanayo na Kitabu Chake na mwendo wa Mtume Wake, basi huyo hana wa kumuongoza."
+    },
+    {
+      "number": 41,
+      "page": 860,
+      "arabic": "أَلَمْ تَرَ أَنَّ اللَّهَ يُسَبِّحُ لَهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ وَالطَّيْرُ صَافَّاتٍ ۖ كُلٌّ قَدْ عَلِمَ صَلَاتَهُ وَتَسْبِيحَهُ ۗ وَاللَّهُ عَلِيمٌ بِمَا يَفْعَلُونَ",
+      "translation": "Kwani hukujua, ewe Mtume, kwamba Allah Mtukufu vinamtakasa Yeye viumbe vilivyoko mbinguni na ardhini. Na ndege wamezikunjua mbawa zao huko juu angani wanamtakasa Mola wao? Kila kiumbe, Allah Mtukufu Amemfundisha namna ya kumswalia na ya kumtakasa. Na Yeye, kutakasika na sifa za upungufu ni Kwake, Anayaona anayoyafanya kila mwenye kuabudu na kutakasa, hakuna chochote kinachofichika Kwake kuhusu hayo, na Atawalipa kwa hayo."
+    },
+    {
+      "number": 42,
+      "page": 861,
+      "arabic": "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ۖ وَإِلَى اللَّهِ الْمَصِيرُ",
+      "translation": "Ni wa Allah Mtukufu, Peke Yake, ufalme wa mbinguni na ardhini. Ndiye Mwenye utawala wa hizo zote. Na Kwake ndio marejeo Siku ya Kiyama."
+    },
+    {
+      "number": 43,
+      "page": 861,
+      "arabic": "أَلَمْ تَرَ أَنَّ اللَّهَ يُزْجِي سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُ ثُمَّ يَجْعَلُهُ رُكَامًا فَتَرَى الْوَدْقَ يَخْرُجُ مِنْ خِلَالِهِ وَيُنَزِّلُ مِنَ السَّمَاءِ مِن جِبَالٍ فِيهَا مِن بَرَدٍ فَيُصِيبُ بِهِ مَن يَشَاءُ وَيَصْرِفُهُ عَن مَّن يَشَاءُ ۖ يَكَادُ سَنَا بَرْقِهِ يَذْهَبُ بِالْأَبْصَارِ",
+      "translation": "Kwani hukuona kwamba Allah Mtukufu, aliyetakasika na kutukuka, Anayapeleka mawingu pale Anapopataka, kisha Anayakusanya baada ya kuwa mbalimbali, kisha anayafanya yapandane na yarundikane, kisha Anaiteremsha mvua kutoka kwenye mrundiko huo? Na Anateremsha, kutoka kwenye mawingu yanayofanana na milima ya mawe kwa ukubwa wake, mvua ya barafu, Akipeleka kwa amtakaye kati ya waja Wake na akaiondosha kwa Amtakaye kati yao kuambatana na hekima Yake na mpango Wake. Unakaribia mwangaza wa umeme huo umulikao huko mawinguni, kwa ukali wake, kuyapofua macho ya wenye kuutazama."
+    },
+    {
+      "number": 44,
+      "page": 861,
+      "arabic": "يُقَلِّبُ اللَّهُ اللَّيْلَ وَالنَّهَارَ ۚ إِنَّ فِي ذَٰلِكَ لَعِبْرَةً لِّأُولِي الْأَبْصَارِ",
+      "translation": "Na miongoni mwa ushahidi wa kutolea dalili uwezo wa Allah Mtukufu, kutakasika na sifa za upungufu ni Kwake na kutukuka ni Kwake, kwamba Yeye Anaugeuza usiku na mchana kwa kuja mmoja wapo baada ya mwingine na kutafautiana kwao kwa urefu na upesi. Katika hilo pana ushahidi wa uwezo wa Allah kwa mtu mwenye busara na kuzingatia."
+    },
+    {
+      "number": 45,
+      "page": 861,
+      "arabic": "وَاللَّهُ خَلَقَ كُلَّ دَابَّةٍ مِّن مَّاءٍ ۖ فَمِنْهُم مَّن يَمْشِي عَلَىٰ بَطْنِهِ وَمِنْهُم مَّن يَمْشِي عَلَىٰ رِجْلَيْنِ وَمِنْهُم مَّن يَمْشِي عَلَىٰ أَرْبَعٍ ۚ يَخْلُقُ اللَّهُ مَا يَشَاءُ ۚ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "translation": "Na Allah Mtukufu Aliyetukuka Ameiumba kila kitambaacho ardhini kutokana na maji, kwani maji ndio asili ya kuumbwa kwake. Na miongoni mwa vitambaavyo kuna anayetembea kwa matumbo yake kama vile nyoka na mfano wake, na katika hao kuna anayetembea kwa miguu miwili kama binadamu, na miongoni mwao kuna anayetembea kwa miguu minne kama wanyama na mfano wake. Na Allah Mtukufu, kutakasika na sifa za upungufu ni Kwake na kutukuka ni Kwake, Anaumba anachotaka, na Yeye ni Muweza wa kila kitu."
+    },
+    {
+      "number": 46,
+      "page": 862,
+      "arabic": "لَّقَدْ أَنزَلْنَا آيَاتٍ مُّبَيِّنَاتٍ ۚ وَاللَّهُ يَهْدِي مَن يَشَاءُ إِلَىٰ صِرَاطٍ مُّسْتَقِيمٍ",
+      "translation": "Na kwa hakika tumeteremsha katika Qur’ani vitambulisho vilivyo waziwazi vyenye kuongoza kwenye haki. Na Allah Mtukufu Anamuongoza na kumuelekeza Anayemtaka katika waja wake kwenye njia iliyolingana sawa, nayo ni Uislamu."
+    },
+    {
+      "number": 47,
+      "page": 862,
+      "arabic": "وَيَقُولُونَ آمَنَّا بِاللَّهِ وَبِالرَّسُولِ وَأَطَعْنَا ثُمَّ يَتَوَلَّىٰ فَرِيقٌ مِّنْهُم مِّن بَعْدِ ذَٰلِكَ ۚ وَمَا أُولَٰئِكَ بِالْمُؤْمِنِينَ",
+      "translation": "Na wanafiki wanasema, «Tumemuamini Allah Mtukufu na yale ambayo amekuja nayo Mtume na tumezitii amri zao.» Kisha vinatoka vikundi kati yao, baada ya hapo, vikayapa mgongo hayo, visikubali uamuzi wa Mtume. Basi hao hawakuwa ni Waumini."
+    },
+    {
+      "number": 48,
+      "page": 862,
+      "arabic": "وَإِذَا دُعُوا إِلَى اللَّهِ وَرَسُولِهِ لِيَحْكُمَ بَيْنَهُمْ إِذَا فَرِيقٌ مِّنْهُم مُّعْرِضُونَ",
+      "translation": "Na wanapoitwa, wanapokuwa kwenye ugomvi baina yao, kwenye hukumu iliyo ndani ya Kitabu cha Allah Mtukufu na waje kwa Mtume ili afanye uamuzi kati yao, ghafla hujitokeza vikundi kati yao kikajiepusha na kikawa hakikubali hukumu ya Allah Mtukufu na Mtume Wake, pamoja na kuwa hiyo ndiyo haki isiyo na shaka."
+    },
+    {
+      "number": 49,
+      "page": 863,
+      "arabic": "وَإِن يَكُن لَّهُمُ الْحَقُّ يَأْتُوا إِلَيْهِ مُذْعِنِينَ",
+      "translation": "Na iwapo haki iko upande wao, basi wao wanakuja kwa Nabii, (rehema na amani zimshukie), wakiwa watiifu na kuwa tayari kuifuata hukumu yake, kwa kutambua kwao kwamba yeye atatoa uamuzi wa haki."
+    },
+    {
+      "number": 50,
+      "page": 863,
+      "arabic": "أَفِي قُلُوبِهِم مَّرَضٌ أَمِ ارْتَابُوا أَمْ يَخَافُونَ أَن يَحِيفَ اللَّهُ عَلَيْهِمْ وَرَسُولُهُ ۚ بَلْ أُولَٰئِكَ هُمُ الظَّالِمُونَ",
+      "translation": "Je, sababu ya kupa mgongo kwao ni ule ugonjwa wa unafiki ulio ndani ya nyoyo zao au wanashuku unabii wa Muhammad, (rehema za Allah Mtukufu na amani zimshukie)? Au sababu ni kuchelea kwao isije ikawa hukumu ya Allah Mtukufu na Mtume Wake ni ya maonevu? Ukweli ni kwamba wao hawaogopei maonevu, isipokuwa kiini hasa ni kwamba wao wenyewe ndio madhalimu walio waovu."
+    },
+    {
+      "number": 51,
+      "page": 863,
+      "arabic": "إِنَّمَا كَانَ قَوْلَ الْمُؤْمِنِينَ إِذَا دُعُوا إِلَى اللَّهِ وَرَسُولِهِ لِيَحْكُمَ بَيْنَهُمْ أَن يَقُولُوا سَمِعْنَا وَأَطَعْنَا ۚ وَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+      "translation": "Ama Waumini wa kweli, msimamo wao ni kwamba wanapoitwa kwenda kuhukumiwa, katika ugomvi ulio kati yao, na Kitabu cha Allah Mtukufu na hukumu ya Mtume Wake, wanakubali uamuzi unaotolewa na wanasema, «Tumesikia tulioambiwa na tumemtii aliyetuita kwenye hilo.» Na hao ndio waliofaulu wenye kufuzu kupata matakwa yao kwenye mabustani ya Pepo yenye neema."
+    },
+    {
+      "number": 52,
+      "page": 863,
+      "arabic": "وَمَن يُطِعِ اللَّهَ وَرَسُولَهُ وَيَخْشَ اللَّهَ وَيَتَّقْهِ فَأُولَٰئِكَ هُمُ الْفَائِزُونَ",
+      "translation": "Na mwenye kumtii Allah Mtukufu na Mtume Wake katika kufuata maamrisho, na kujiepusha na makatazo, na akaogopa mwisho mbaya wa uasi, na akajihadhari na adhabu ya Allah Mtukufu, basi hao ndio wenye kufuzu kupata neema Peponi."
+    },
+    {
+      "number": 53,
+      "page": 864,
+      "arabic": "۞ وَأَقْسَمُوا بِاللَّهِ جَهْدَ أَيْمَانِهِمْ لَئِنْ أَمَرْتَهُمْ لَيَخْرُجُنَّ ۖ قُل لَّا تُقْسِمُوا ۖ طَاعَةٌ مَّعْرُوفَةٌ ۚ إِنَّ اللَّهَ خَبِيرٌ بِمَا تَعْمَلُونَ",
+      "translation": "Na wanafiki waliapa kwa Allah Mtukufu Aliyetukuka, kwa upeo wa juhudi yao, viapo vizito, «Ukituamrisha, ewe Mtume, kutoka kwenda kwenye jihadi pamoja na wewe, tutatoka tena tutatoka» Sema uwaambie, «Msiape viapo vya urongo, kwani utiifu wenu unajulikana kuwa ni wa ulimini tu. Kwa kweli Allah Mtukufu Anayatambua mnayoyafanya, na Atawapa malipo yake»."
+    },
+    {
+      "number": 54,
+      "page": 864,
+      "arabic": "قُلْ أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ ۖ فَإِن تَوَلَّوْا فَإِنَّمَا عَلَيْهِ مَا حُمِّلَ وَعَلَيْكُم مَّا حُمِّلْتُمْ ۖ وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+      "translation": "Na useme, ewe Mtume, kuwaambia watu, «Mtiini Allah Mtukufu na mtiini Mtume.» Na wakipa mgongo, basi jukumu la Mtume ni kufanya aliyoamrishwa ya kuufikisha ujumbe, na ni jukumu la watu wote kuyafanya waliyoamrishwa ya kufuata. Na mkimtii yeye mtaongoka. Na jukumu la Mtume ni kuufikisha ujumbe wa Mola wake mafikisho yaliyo wazi."
+    },
+    {
+      "number": 55,
+      "page": 864,
+      "arabic": "وَعَدَ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَعَمِلُوا الصَّالِحَاتِ لَيَسْتَخْلِفَنَّهُمْ فِي الْأَرْضِ كَمَا اسْتَخْلَفَ الَّذِينَ مِن قَبْلِهِمْ وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ الَّذِي ارْتَضَىٰ لَهُمْ وَلَيُبَدِّلَنَّهُم مِّن بَعْدِ خَوْفِهِمْ أَمْنًا ۚ يَعْبُدُونَنِي لَا يُشْرِكُونَ بِي شَيْئًا ۚ وَمَن كَفَرَ بَعْدَ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الْفَاسِقُونَ",
+      "translation": "Allah Mtukufu Amewaahidi walioamini miongoni mwenu na wakafanya matendo mema kwamba atawarithisha ardhi ya washirikina na atawafanya ni wasimamizi wa hiyo ardhi, kama alivyofanya kwa waliokuja kabla yao kati ya wale waliomuamini Allah Mtukufu na Mitume Wake, na Aifanye Dini yao ambayo Ameridhika nayo na Akawachagulia, nayo ni Uislamu, ni Dini yenye ushindi na uthabiti, na Azigeuze hali zao kwa kuwaondolea hofu na kuwaletea amani, iwapo watamuabudu Allah Mtukufu, Peke Yake, na watasimama imara kwa kumtii, na wasimshirikishe na kitu chochote. Na Mwenye kukanusha baada ya hilo la kupewa usimamizi, amani, uthabiti na utawala kamili, na akakanusha neema za Allah Mtukufu, basi hao ndio waliotoka nje ya utiifu kwa Allah Mtukufu."
+    },
+    {
+      "number": 56,
+      "page": 865,
+      "arabic": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَطِيعُوا الرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "translation": "Na isimamisheni Swala kwa kuitimiza, na toeni Zaka kuwapa wanaostahiki kupewa na mtiini Mtume, (rehema za Allah Mtukufu na amani zimshukie), kwa kutarajia Allah Mtukufu Awarehemu."
+    },
+    {
+      "number": 57,
+      "page": 865,
+      "arabic": "لَا تَحْسَبَنَّ الَّذِينَ كَفَرُوا مُعْجِزِينَ فِي الْأَرْضِ ۚ وَمَأْوَاهُمُ النَّارُ ۖ وَلَبِئْسَ الْمَصِيرُ",
+      "translation": "Msidhani tena msidhani kwamba wale waliokufuru wanamshinda Allah Mtukufu katika ardhi, kwani Yeye ni Muweza wa kuwaangamiza, na marejeo yao, huko Akhera ni Motoni. Na ni mabaya sana marejeo haya na mwisho huu. Maneno haya ni maelekezo kwa ummah wote, ingawa anayeambиwa hapa ni Mtume, (rehema za Allah Mtukufu na amani zimshukie)."
+    },
+    {
+      "number": 58,
+      "page": 865,
+      "arabic": "يَا أَيُّهَا الَّذِينَ آمَنُوا لِيَسْتَأْذِنكُمُ الَّذِينَ مَلَكَتْ أَيْمَانُكُمْ وَالَّذِينَ لَمْ يَبْلُغُوا الْحُلُمَ مِنكُمْ ثَلَاثَ مَرَّاتٍ ۚ مِن قَبْلِ صَلَاةِ الْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ الظَّهِيرَةِ وَمِن بَعْدِ صَلَاةِ الْعِشَاءِ ۚ ثَلَاثُ عَوْرَاتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌ بَعْدَهُنَّ ۚ طَوَّافُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۗ كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمُ الْآيَاتِ ۗ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+      "translation": "Enyi ambao mmemuamini Allah Mtukufu na Mtume Wake na mkazifanyia kazi sheria Zake! Waamrisheni watumwa wenu, wajakazi wenu na watoto waungwana ambao umri wao haujafikia wa kubalehe waombe ruhusa wakitaka kuingia kwenu katika nyakati za mapumziko yenu na kuvua nguo zenu: kabla ya Swala ya Alfajiri, kwa kuwa huo ni wakati wa kuvua nguo za kulalia na kuvaa nguo za baada ya kuamka, na wakati wa kuvua nguo kwa mapumziko ya kipindi cha mchana wakati wa jua kali, na baada ya Swala ya Isha, kwa kuwa huo ni wakati wa kulala. Nyakati tatu hizi ni za kujifunua na kujiacha wazi na kunapungua kujisitiri. Lakini katika nyakati zisizokuwa hizo, si makosa wakiingia bila ya idhini, kwa kuwa wao wanahitaji kuingia kwenu, wao ni wa kuingia na kutoka mara kwa mara kwa kutumwa, na kwa kuwa dasturi iliyozoeleka ni kuwa nyinyi mnatembeleana nyakati hizi kwa kutimiza haja zenu zenye maslahi kwenu. Na kama Alivyowafafanulia Allah Mtukufu hukumu za kutaka ruhusa (ya kuingia majumbani), Anawafafanulia aya Zake, hukumu Zake, hoja Zake na Sheria za Dini Yake. Na Allah Mtukufu Anayajua sana yanayowаfaa viumbe Wake, ni Mwingi wa hekima katika upelekeshaji Wake mambo yao."
+    },
+    {
+      "number": 59,
+      "page": 866,
+      "arabic": "وَإِذَا بَلَغَ الْأَطْفَالُ مِنكُمُ الْحُلُمَ فَلْيَسْتَأْذِنُوا كَمَا اسْتَأْذَنَ الَّذِينَ مِن قَبْلِهِمْ ۚ كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ ۗ وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+      "translation": "Na pindi watoto wanapofikia miaka ya kubalehe na kukalifishwa hukumu za kisheria, ni juu yao watake ruhusa wakitaka kuingia nyakati zote kama wanavyotaka ruhusa watu wazima. Na kama Allah Mtukufu Anavyowafafanulia adabu za kutaka ruhusa (kuingia majumbani), vilevile Anawafafanulia Allah Mtukufu, Aliyetukuka, aya Zake. Na Allah Mtukufu Anayajua sana yanayowаfaa waja Wake, ni Mwingi wa hekima katika sheria Zake."
+    },
+    {
+      "number": 60,
+      "page": 866,
+      "arabic": "وَالْقَوَاعِدُ مِنَ النِّسَاءِ اللَّاتِي لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَاتٍ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ",
+      "translation": "Na wanawake wakongwe ambao wamejikalia hawajistareheshi na hawana matamanio kwa sababu ya uzee wao, hawana hamu ya kuolewa na wanaume wala wanaume hawana hamu nao. Wanawake hawa hawana makosa kujitanda sehemu ya nguo zao kama vile shuka, bila kuonesha pambo wala kujirembesha. Na kuvaa kwao nguo hizi, kwa kujisitiri na kujihifadhi, ni uzuri kwao. Na Allah Mtukufu ni Msikizi wa maneno yenu, ni Mjuzi wa nia zenu na matendo yenu."
+    },
+    {
+      "number": 61,
+      "page": 867,
+      "arabic": "لَّيْسَ عَلَى الْأَعْمَىٰ حَرَجٌ وَلَا عَلَى الْأَعْرَجِ حَرَجٌ وَلَا عَلَى الْمَرِيضِ حَرَجٌ وَلَا عَلَىٰ أَنفُسِكُمْ أَن تَأْكُلُوا مِن بُيُوتِكُمْ أَوْ بُيُوتِ آبَائِكُمْ أَوْ بُيُوتِ أُمَّهَاتِكُمْ أَوْ بُيُوتِ إِخْوَانِكُمْ أَوْ بُيُوتِ أَخَوَاتِكُمْ أَوْ بُيُوتِ أَعْمَامِكُمْ أَوْ بُيُوتِ عَمَّاتِكُمْ أَوْ بُيُوتِ أَخْوَالِكُمْ أَوْ بُيُوتِ خَالَاتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا عَلَىٰ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ اللَّهِ مُبَارَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ اللَّهُ لَكُمُ الْآيَاتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "translation": "Hawana dhambi watu wenye nyudhuru miongoni mwa vipofu, vilema na wagonjwa, kuyaacha mambo ya lazima ambayo hawawezi kuyatekeleza, kama kupigana jihadi na mfano wake katika vitu ambavyo vinahitajia kwa kipofu awe anaona, na kilema awe mzima, na mgonjwa awe na afya nzuri. Na nyinyi, enyi Waumini, hamna makosa kula kwenye majumba ambayo ndani yake kuna wake zenu na watoto wenu, na hapa yanaingia majumba ya watoto, au majumba ya baba zenu, au mama zenu, au ndugu zenu wa kiume, au dada zenu, au ami zenu, au mashangazi zenu, au wajomba zenu, au mama zenu wadogo, au kwenye nyumba ambazo mliwakilishwa kuzisimamia wakati wenyewe hawapo, kwa ruhusa yao, au kwenye nyumba za marafiki. Hakuna makosa yoyote kwenu kula mkiwa pamoja au mbalimbali. Na muingiapo kwenye nyumba zinazokaliwa au zisizokaliwa, amkianeni nyinyi kwa nyinyi kwa maamkizi ya Kiislamu, nayo ni «As-salāmu ‘alaikum wa rahmatullāhi wa barakātuh, au As-salāmu ‘alainā wa ‘alā ‘ibādillāhi-s-sāliḥīn, iwapo hakuna yoyote. Maamkizi haya Allah Mtukufu Ameyawеka, nayo yana baraka, yanakuza kusafishana nia na kupendana, ni mazuri yanayopendeza kwa mwenye kuyasikia. Na kwa mfano wa ufafanuzi huu anawafafanulia Allah Mtukufu alama za Dini Yake na aya Zake, ili mzifahamu na mzitumie."
+    },
+    {
+      "number": 62,
+      "page": 868,
+      "arabic": "إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ آمَنُوا بِاللَّهِ وَرَسُولِهِ وَإِذَا كَانُوا مَعَهُ عَلَىٰ أَمْرٍ جَامِعٍ لَّمْ يَذْهَبُوا حَتَّىٰ يَسْتَأْذِنُوهُ ۚ إِنَّ الَّذِينَ يَسْتَأْذِنُونَكَ أُولَٰئِكَ الَّذِينَ يُؤْمِنُونَ بِاللَّهِ وَرَسُولِهِ ۚ فَإِذَا اسْتَأْذَنُوكَ لِبَعْضِ شَأْنِهِمْ فَأْذَن لِّمَن شِئْتَ مِنْهُمْ وَاسْتَغْفِرْ لَهُمُ اللَّهَ ۚ إِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ",
+      "translation": "Kwa hakika Waumini kikwelikweli ni wale ambao Wamemuamini Allah Mtukufu na Mtume Wake na wakazifanyia kazi sheria Zake, na wakiwa wapo pamoja na Nabii, (rehema za Allah Mtukufu na amani zimshukie), katika jambo ambalo amewakusanya kwalo la maslahi ya Waislamu, hawaondoki mpaka wamuombe ruhusa. Kwa hakika wale wanaokuomba ruhusa, ewe Nabii, ndio wanaomuamini Allah Mtukufu na Mtume Wake kikweli. Basi wakikuomba ruhusa kwa baadhi ya haja zao, mruhusu unayemtaka miongoni mwa wale waliokuomba ruhusa kuondoka kwa udhuru, na uwaombee msamaha kwa Allah Mtukufu, kwani Allah Mtukufu ni Mwingi wa kusamehe dhambi za waja Wake wenye kutubia, ni mwingi wa huruma kwao."
+    },
+    {
+      "number": 63,
+      "page": 868,
+      "arabic": "لَّا تَجْعَلُوا دُعَاءَ الرَّسُولِ بَيْنَكُمْ كَدُعَاءِ بَعْضِكُم بَعْضًا ۚ قَدْ يَعْلَمُ اللَّهُ الَّذِينَ يَتَسَلَّلُونَ مِنكُمْ لِوَاذًا ۚ فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ أَوْ يُصِيبَهُمْ عَذَابٌ أَلِيمٌ",
+      "translation": "Msiseme, enyi Waumini, mnapomuita Mtume wa Allah Mtukufu, «Ewe Muhammad!» wala «Ewe Muhammad bin Abdillāh!» kama wanavyosema hivyo baadhi yenu kuwaambia wengine. Lakini mtukuzеni na mseme, «Ewe Nabii wa Allah Mtukufu! Ewe Mtume wa Allah Mtukufu!» Kwa kweli Allah Mtukufu Anawajua wale wanaondoka kutoka kwenye kikao cha Mtume, (rehema za Allah Mtukufu na amani zimshukie), kwa siri, bila ya ruhusa yake, wakisaidiana kujificha. Basi na wajihadhari wanaoenda kinyume na amri Yake wasije wakashukiwa na janga na shari au adhabu yenye uchungu iumizayo."
+    },
+    {
+      "number": 64,
+      "page": 869,
+      "arabic": "أَلَا إِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ۖ قَدْ يَعْلَمُ مَا أَنتُمْ عَلَيْهِ وَيَوْمَ يُرْجَعُونَ إِلَيْهِ فَيُنَبِّئُهُم بِمَا عَمِلُوا ۗ وَاللَّهُ بِكُلِّ شَيْءٍ عَلِيمٌ",
+      "translation": "Jueni mtanabahi kwamba ni vya Allah Mtukufu vilivyoko mbinguni na ardhini, kwa kuiumba, kuvimiliki, kuvifanya vimdhalilikie. Ujuzi Wake umevizunguka vyote ambavyo muko navyo. Na Siku ya Akhera, ambayo waja watarejea Kwake, Atawapa habari ya matendo yao, na Atawalipa kwayo. Na Allah Mtukufu ni Mjuzi wa kila kitu, hayajifichi Kwake matendo yao na hali zao."
+    }
+  ]
+}
