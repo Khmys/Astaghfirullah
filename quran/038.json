@@ -6,301 +6,43 @@
   "revelation": "Makkah",
   "ayah_count": 88,
   "juz": 23,
-  "intro": "Sura ya Sad inaitwa hivyo kwa herufi ya mwanzo. Inathibitisha utume wa Muhammad na kukanusha makafiri, inasimulia hadithi ya Daud, Suleiman, Ayyub, Ibrahim, na inaeleza malipo ya wachamungu Peponi na adhabu ya makafiri Motoni.",
+  "intro": "Sura ya Ṣād ni Sura ya 38 katika Qur'ani Tukufu, imeteremka Makkah, ina aya 88, na iko katika Juzu ya 23. Imeitwa Ṣād kwa sababu ya herufi ya mwanzo Ṣād ( ص ) ambayo Allah Mtukufu Ameifungulia nayo Sura.\n\nMada kuu ya Sura hii:\n1.  Kuthibitisha utume wa Muhammad (Swalla Allahu 'alayhi wa sallam) na kukanusha kauli za washirikina wa Makkah waliomkana na kusema ni mchawi muongo.\n2.  Kutaja hadithi za Mitume na waja wema kama Dāwûd, Suleymān, Ayyūb, Ibrāhīm, Isḥāq, Ya'qūb, Ismā'īl, Ilyasa' na Dhulkifl, ili kuwa faraja kwa Mtume na funzo kwa umma.\n3.  Kueleza neema alizopewa Dāwûd na Suleymān, na mtihani wa Ayyūb na subira yake.\n4.  Kueleza malipo ya wachamungu - Pepo za 'Adn zenye milango iliyofunguliwa, starehe na wanawake wa macho ya chini - na malipo ya makafiri wenye kupita mipaka - Moto wa Jahanamu, maji moto na usaha.\n5.  Kusimulia kisa cha uumbaji wa Ādam na kiburi cha Iblisi kukataa kusujudu, na laana yake mpaka Siku ya Malipo.\n6.  Kuhitimisha kuwa Qur'ani hii si uzushi, bali ni ukumbusho kwa viumbe vyote, na habari yake ya ukweli itajulikana baada ya muda pindi Uislamu utakaposhinda.",
   "content": [
     {
-      "number": 1,
-      "page": 1111,
-      "arabic": "ص ۚ وَالْقُرْآنِ ذِي الذِّكْرِ",
-      "translation": "Tafsiri ya aya 1 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 2,
-      "page": 1111,
-      "arabic": "بَلِ الَّذِينَ كَفَرُوا فِي عِزَّةٍ وَشِقَاقٍ",
-      "translation": "Tafsiri ya aya 2 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 3,
-      "page": 1111,
-      "arabic": "كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ فَنَادَوا وَّلَاتَ حِينَ مَنَاصٍ",
-      "translation": "Tafsiri ya aya 3 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 4,
-      "page": 1111,
-      "arabic": "وَعَجِبُوا أَن جَاءَهُم مُّنذِرٌ مِّنْهُمْ ۖ وَقَالَ الْكَافِرُونَ هَٰذَا سَاحِرٌ كَذَّابٌ",
-      "translation": "Tafsiri ya aya 4 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 5,
-      "page": 1111,
-      "arabic": "أَجَعَلَ الْآلِهَةَ إِلَٰهًا وَاحِدًا ۖ إِنَّ هَٰذَا لَشَيْءٌ عُجَابٌ",
-      "translation": "Tafsiri ya aya 5 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 6,
-      "page": 1111,
-      "arabic": "وَانطَلَقَ الْمَلَأُ مِنْهُمْ أَنِ امْشُوا وَاصْبِرُوا عَلَىٰ آلِهَتِكُمْ ۖ إِنَّ هَٰذَا لَشَيْءٌ يُرَادُ",
-      "translation": "Tafsiri ya aya 6 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 7,
-      "page": 1111,
-      "arabic": "مَا سَمِعْنَا بِهَٰذَا فِي الْمِلَّةِ الْآخِرَةِ إِنْ هَٰذَا إِلَّا اخْتِلَاقٌ",
-      "translation": "Tafsiri ya aya 7 - kutoka ukurasa 1111 Juzu 23"
-    },
-    {
-      "number": 8,
-      "page": 1111,
-      "arabic": "أَأُنزِلَ عَلَيْهِ الذِّكْرُ مِن بَيْنِنَا ۚ بَلْ هُمْ فِي شَكٍّ مِّن ذِكْرِي ۖ بَل لَّمَّا يَذُوقُوا عَذَابِ",
-      "translation": "Tafsiri ya aya 8 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 9,
-      "page": 1111,
-      "arabic": "أَمْ عِندَهُمْ خَزَائِنُ رَحْمَةِ رَبِّكَ الْعَزِيزِ الْوَهَّابِ",
-      "translation": "Tafsiri ya aya 9 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 10,
-      "page": 1111,
-      "arabic": "أَمْ لَهُم مُّلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا ۖ فَلْيَرْتَقُوا فِي الْأَسْبَابِ",
-      "translation": "Tafsiri ya aya 10 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 11,
-      "page": 1112,
-      "arabic": "جُندٌ مَّا هُنَالِكَ مَهْزُومٌ مِّنَ الْأَحْزَابِ",
-      "translation": "Tafsiri ya aya 11 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 12,
-      "page": 1112,
-      "arabic": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَعَادٌ وَفِرْعَوْنُ ذُو الْأَوْتَادِ",
-      "translation": "Tafsiri ya aya 12 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 13,
-      "page": 1112,
-      "arabic": "وَثَمُودُ وَقَوْمُ لُوطٍ وَأَصْحَابُ الْأَيْكَةِ ۚ أُولَٰئِكَ الْأَحْزَابُ",
-      "translation": "Tafsiri ya aya 13 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 14,
-      "page": 1112,
-      "arabic": "إِن كُلٌّ إِلَّا كَذَّبَ الرُّسُلَ فَحَقَّ عِقَابِ",
-      "translation": "Tafsiri ya aya 14 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 15,
-      "page": 1112,
-      "arabic": "وَمَا يَنظُرُ هَٰؤُلَاءِ إِلَّا صَيْحَةً وَاحِدَةً مَّا لَهَا مِن فَوَاقٍ",
-      "translation": "Tafsiri ya aya 15 - kutoka ukurasa 1112 Juzu 23"
-    },
-    {
-      "number": 16,
-      "page": 1112,
-      "arabic": "وَقَالُوا رَبَّنَا عَجِّل لَّنَا قِطَّنَا قَبْلَ يَوْمِ الْحِسَابِ",
-      "translation": "Tafsiri ya aya 16 - kutoka ukurasa 1113 Juzu 23"
-    },
-    {
-      "number": 17,
-      "page": 1112,
-      "arabic": "اصْبِرْ عَلَىٰ مَا يَقُولُونَ وَاذْكُرْ عَبْدَنَا دَاوُودَ ذَا الْأَيْدِ ۖ إِنَّهُ أَوَّابٌ",
-      "translation": "Tafsiri ya aya 17 - kutoka ukurasa 1113 Juzu 23"
-    },
-    {
-      "number": 18,
-      "page": 1112,
-      "arabic": "إِنَّا سَخَّرْنَا الْجِبَالَ مَعَهُ يُسَبِّحْنَ بِالْعَشِيِّ وَالْإِشْرَاقِ",
-      "translation": "Tafsiri ya aya 18 - kutoka ukurasa 1113 Juzu 23"
-    },
-    {
       "number": 19,
-      "page": 1112,
-      "arabic": "وَالطَّيْرَ مَحْشُورَةً ۖ كُلٌّ لَّهُ أَوَّابٌ",
-      "translation": "Tafsiri ya aya 19 - kutoka ukurasa 1113 Juzu 23"
+      "page": 1114,
+      "arabic": "وَالطَّيْرَ مَحْشُورَةً كُلٌّ لَّهُ أَوَّابٌ",
+      "translation": "Na tukawadhalilisha ndege pamoja naye, kwa mkusanyiko wao, wakawa wanasabbih kwa kusabbih yeye na kuwa watiifu kwake."
     },
     {
       "number": 20,
-      "page": 1112,
+      "page": 1114,
       "arabic": "وَشَدَدْنَا مُلْكَهُ وَآتَيْنَاهُ الْحِكْمَةَ وَفَصْلَ الْخِطَابِ",
-      "translation": "Tafsiri ya aya 20 - kutoka ukurasa 1113 Juzu 23"
+      "translation": "Tukamtilia nguvu ufalme wake kwa haiba, uwezo na ushindi, na tukampa unabii na upambanuzi wa maneno na utoaji hukumu."
     },
     {
       "number": 21,
-      "page": 1113,
+      "page": 1114,
       "arabic": "وَهَلْ أَتَاكَ نَبَأُ الْخَصْمِ إِذْ تَسَوَّرُوا الْمِحْرَابَ",
-      "translation": "Tafsiri ya aya 21 - kutoka ukurasa 1113 Juzu 23"
+      "translation": "Na je, ilikujia, ewe Mtume, habari ya wagomvi wawili waliovuka ukuta wakamuingilia Dāwûd mahali pake pa kuabudu?"
     },
     {
       "number": 22,
-      "page": 1113,
+      "page": 1114,
       "arabic": "إِذْ دَخَلُوا عَلَىٰ دَاوُودَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَاحْكُم بَيْنَنَا بِالْحَقِّ وَلَا تُشْطِطْ وَاهْدِنَا إِلَىٰ سَوَاءِ الصِّرَاطِ",
-      "translation": "Tafsiri ya aya 22 - kutoka ukurasa 1113 Juzu 23"
+      "translation": "Na Dāwûd akashutuka kwa wao kumuingilia? Walimwambia, «Usiogope! Sisi ni wagomvi, mmoja wetu amemdhulumu mwenzake. Basi hukumu baina yetu kwa uadilifu, wala usitoe hukumu ya maonevu juu yetu, na utuongoze kwenye njia ya sawa»."
     },
     {
       "number": 23,
-      "page": 1113,
+      "page": 1114,
       "arabic": "إِنَّ هَٰذَا أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِيَ نَعْجَةٌ وَاحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِي فِي الْخِطَابِ",
-      "translation": "Tafsiri ya aya 23 - kutoka ukurasa 1113 Juzu 23"
+      "translation": "Mmoja wa wale wawili alisema, «Huyu ni ndugu yangu; ana kondoo tisini na tisa na mimi sina isipokuwa kondoo mmoja, akafanya tamaa kumtaka na akasema, ‘Nipe mimi!’ Na akanishinda kwa hoja»."
     },
     {
       "number": 24,
-      "page": 1113,
+      "page": 1114,
       "arabic": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِ ۖ وَإِنَّ كَثِيرًا مِّنَ الْخُلَطَاءِ لَيَبْغِي بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُودُ أَنَّمَا فَتَنَّاهُ فَاسْتَغْفَرَ رَبَّهُ وَخَرَّ رَاكِعًا وَأَنَابَ",
-      "translation": "Tafsiri ya aya 24 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 25,
-      "page": 1113,
-      "arabic": "فَغَفَرْنَا لَهُ ذَٰلِكَ ۖ وَإِنَّ لَهُ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَآبٍ",
-      "translation": "Tafsiri ya aya 25 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 26,
-      "page": 1113,
-      "arabic": "يَا دَاوُودُ إِنَّا جَعَلْنَاكَ خَلِيفَةً فِي الْأَرْضِ فَاحْكُم بَيْنَ النَّاسِ بِالْحَقِّ وَلَا تَتَّبِعِ الْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ اللَّهِ ۚ إِنَّ الَّذِينَ يَضِلُّونَ عَن سَبِيلِ اللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ بِمَا نَسُوا يَوْمَ الْحِسَابِ",
-      "translation": "Tafsiri ya aya 26 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 27,
-      "page": 1113,
-      "arabic": "وَمَا خَلَقْنَا السَّمَاءَ وَالْأَرْضَ وَمَا بَيْنَهُمَا بَاطِلًا ۚ ذَٰلِكَ ظَنُّ الَّذِينَ كَفَرُوا ۚ فَوَيْلٌ لِّلَّذِينَ كَفَرُوا مِنَ النَّارِ",
-      "translation": "Tafsiri ya aya 27 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 28,
-      "page": 1113,
-      "arabic": "أَمْ نَجْعَلُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَالْمُفْسِدِينَ فِي الْأَرْضِ أَمْ نَجْعَلُ الْمُتَّقِينَ كَالْفُجَّارِ",
-      "translation": "Tafsiri ya aya 28 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 29,
-      "page": 1114,
-      "arabic": "كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ مُبَارَكٌ لِّيَدَّبَّرُوا آيَاتِهِ وَلِيَتَذَكَّرَ أُولُو الْأَلْبَابِ",
-      "translation": "Tafsiri ya aya 29 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 30,
-      "page": 1114,
-      "arabic": "وَوَهَبْنَا لِدَاوُودَ سُلَيْمَانَ ۚ نِعْمَ الْعَبْدُ ۖ إِنَّهُ أَوَّابٌ",
-      "translation": "Tafsiri ya aya 30 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 31,
-      "page": 1114,
-      "arabic": "إِذْ عُرِضَ عَلَيْهِ بِالْعَشِيِّ الصَّافِنَاتُ الْجِيَادُ",
-      "translation": "Tafsiri ya aya 31 - kutoka ukurasa 1114 Juzu 23"
-    },
-    {
-      "number": 32,
-      "page": 1114,
-      "arabic": "فَقَالَ إِنِّي أَحْبَبْتُ حُبَّ الْخَيْرِ عَن ذِكْرِ رَبِّي حَتَّىٰ تَوَارَتْ بِالْحِجَابِ",
-      "translation": "Tafsiri ya aya 32 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 33,
-      "page": 1114,
-      "arabic": "رُدُّوهَا عَلَيَّ ۖ فَطَفِقَ مَسْحًا بِالسُّوقِ وَالْأَعْنَاقِ",
-      "translation": "Tafsiri ya aya 33 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 34,
-      "page": 1114,
-      "arabic": "وَلَقَدْ فَتَنَّا سُلَيْمَانَ وَأَلْقَيْنَا عَلَىٰ كُرْسِيِّهِ جَسَدًا ثُمَّ أَنَابَ",
-      "translation": "Tafsiri ya aya 34 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 35,
-      "page": 1114,
-      "arabic": "قَالَ رَبِّ اغْفِرْ لِي وَهَبْ لِي مُلْكًا لَّا يَنبَغِي لِأَحَدٍ مِّن بَعْدِي ۖ إِنَّكَ أَنتَ الْوَهَّابُ",
-      "translation": "Tafsiri ya aya 35 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 36,
-      "page": 1114,
-      "arabic": "فَسَخَّرْنَا لَهُ الرِّيحَ تَجْرِي بِأَمْرِهِ رُخَاءً حَيْثُ أَصَابَ",
-      "translation": "Tafsiri ya aya 36 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 37,
-      "page": 1114,
-      "arabic": "وَالشَّيَاطِينَ كُلَّ بَنَّاءٍ وَغَوَّاصٍ",
-      "translation": "Tafsiri ya aya 37 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 38,
-      "page": 1114,
-      "arabic": "وَآخَرِينَ مُقَرَّنِينَ فِي الْأَصْفَادِ",
-      "translation": "Tafsiri ya aya 38 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 39,
-      "page": 1114,
-      "arabic": "هَٰذَا عَطَاؤُنَا فَامْنُنْ أَوْ أَمْسِكْ بِغَيْرِ حِسَابٍ",
-      "translation": "Tafsiri ya aya 39 - kutoka ukurasa 1115 Juzu 23"
-    },
-    {
-      "number": 40,
-      "page": 1114,
-      "arabic": "وَإِنَّ لَهُ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَآبٍ",
-      "translation": "Tafsiri ya aya 40 - kutoka ukurasa 1116 Juzu 23"
-    },
-    {
-      "number": 41,
-      "page": 1114,
-      "arabic": "وَاذْكُرْ عَبْدَنَا أَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي مَسَّنِيَ الشَّيْطَانُ بِنُصْبٍ وَعَذَابٍ",
-      "translation": "Tafsiri ya aya 41 - kutoka ukurasa 1116 Juzu 23"
-    },
-    {
-      "number": 42,
-      "page": 1114,
-      "arabic": "ارْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌ بَارِدٌ وَشَرَابٌ",
-      "translation": "Tafsiri ya aya 42 - kutoka ukurasa 1116 Juzu 23"
-    },
-    {
-      "number": 43,
-      "page": 1114,
-      "arabic": "وَوَهَبْنَا لَهُ أَهْلَهُ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنَّا وَذِكْرَىٰ لِأُولِي الْأَلْبَابِ",
-      "translation": "Tafsiri ya aya 43 - kutoka ukurasa 1116 Juzu 23"
-    },
-    {
-      "number": 44,
-      "page": 1114,
-      "arabic": "وَخُذْ بِيَدِكَ ضِغْثًا فَاضْرِب بِّهِ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَاهُ صَابِرًا ۚ نِّعْمَ الْعَبْدُ ۖ إِنَّهُ أَوَّابٌ",
-      "translation": "Tafsiri ya aya 44 - kutoka ukurasa 1116 Juzu 23"
-    },
-    {
-      "number": 45,
-      "page": 1119,
-      "arabic": "وَاذْكُرْ عِبَادَنَا إِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ أُولِي الْأَيْدِي وَالْأَبْصَارِ",
-      "translation": "Wakumbuke, ewe Mtume, waja wetu na Manabii wetu: Ibrāhīm, Isḥāq na Ya'qūb. Hakika wao ni watu wenye nguvu katika kumtii Allah Mtukufu na ujuzi katika Dini Yake."
-    },
-    {
-      "number": 46,
-      "page": 1119,
-      "arabic": "إِنَّا أَخْلَصْنَاهُم بِخَالِصَةٍ ذِكْرَى الدَّارِ",
-      "translation": "Sisi tumewahusisha wao kwa jambo kubwa ambalo ni mahsusi kwao, kwa kuwa tumejaalia ukumbusho wa Nyumba ya Akhera uko ndani ya nyoyo zao, na kwa hivyo wakaifanyia kazi kwa kututii sisi na wakawalingania watu kwenye jambo hilo na kuwakumbusha."
-    },
-    {
-      "number": 47,
-      "page": 1119,
-      "arabic": "وَإِنَّهُمْ عِندَنَا لَمِنَ الْمُصْطَفَيْنَ الْأَخْيَارِ",
-      "translation": "Na kwa hakika wao kwetu sisi ni miongoni mwa wale tuliowachagua ili watutii na tuliowateua kubeba ujumbe wetu."
-    },
-    {
-      "number": 48,
-      "page": 1119,
-      "arabic": "وَاذْكُرْ إِسْمَاعِيلَ وَالْيَسَعَ وَذَا الْكِفْلِ ۖ وَكُلٌّ مِّنَ الْأَخْيَارِ",
-      "translation": "Wakumbuke ewe Mtume waja wetu: Ismā'īl, Ilyasa' na Dhulkifl kwa kumbu kumbu mzuri sana. Na kila mmoja miongoni mwao ni katika watu wema ambao Allah Mtukufu Aliwachagua miongoni mwa viumbe, na Akawachagulia hali na sifa kamilifu kabisa."
-    },
-    {
-      "number": 49,
-      "page": 1119,
-      "arabic": "هَٰذَا ذِكْرٌ ۚ وَإِنَّ لِلْمُتَّقِينَ لَحُسْنَ مَآبٍ",
-      "translation": "Hii Qur'ani ni utajo na utukufu kwako, ewe Mtume, na kwa watu wako. Na wale watu wa uchaji Allah Mtukufu na utiifu Kwake watakuwa na mwisho mwema kwetu sisi."
+      "translation": "Dāwûd akasema, «Kwa hakika ndugu yako amekudhulumu kwa kutaka kwake kumchukua kondoo wako awe pamoja na kondoo wake. Na kwa hakika, wengi wa washirika, baadhi yao wanadhulumu wengine: wanawadhulumu kwa kuchukua haki zao na kukosa kuwa waadilifu wa nafsi zao. Isipokuwa watu wema walioamini, kwani"
     },
     {
       "number": 50,
